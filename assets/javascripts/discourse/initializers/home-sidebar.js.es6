@@ -1,13 +1,7 @@
-//export default {
-//  name: 'home-sidebar',
-//  initialize(){
-//
-//  }
-//}
-import { withPluginApi } from 'discourse/lib/plugin-api';
-import RawHtml from 'discourse/widgets/raw-html';
+ import { withPluginApi } from 'discourse/lib/plugin-api';
+  import RawHtml from 'discourse/widgets/raw-html';
 
-function attachSignature(api) {
+  function attachSignature(api) {
   api.includePostAttributes('reply_to_post_number');
   api.decorateWidget('post-contents:before', dec => {
 
@@ -19,9 +13,7 @@ function attachSignature(api) {
   });
   }
   
-  
- 
-export default {
+  export default {
   name: 'home-sidebar',
   initialize(container) {
       withPluginApi('0.1', attachSignature);
