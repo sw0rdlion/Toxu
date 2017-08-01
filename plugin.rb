@@ -1,17 +1,10 @@
-# name: discourse-sidebar-blocks
-# about: add a sidebar to topic lists (discovery) with several blocks available: category,  category, personal data
+# name: Toxu
+# about: add a detals site
 # version: 0.1
 # authors:  Evg
-# url: https://github.com/Toxu-ru/discourse-home-sidebar
+# url: https://github.com/Toxu-ru/Toxu
 
 register_asset "stylesheets/sidebar.scss"
-enabled_site_setting :mitt_newpage_enabled
-
-Discourse::Application.routes.append do
-  get '/stats' => 'discourse_stats/stats#my_page'
-end
-
-load File.expand_path('../lib/stats/engine.rb', __FILE__)
 
 after_initialize do
 
