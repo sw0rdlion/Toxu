@@ -40,8 +40,8 @@ $.ajax({
     } 
 } 
            
-          contents.push(  new RawHtml({ html: `<div><br><a href="http://toxu.ru/my/preferences/categories" class="cat">Настройки подписки</a> <br>
- <a href="http://toxu.ru/c/toxu/regulations" class="cat-t">Оф. правила</a></div></div>`}));           
+          contents.push(  new RawHtml({ html: `<div><br><a href="http://toxu.ru/my/preferences/categories" class="cat">Настройки подписки</a> 
+   <br><a href="https://discord.gg/9DUfZyt" class="cat">Discord чат</a><br><a href="http://toxu.ru/c/toxu/regulations" class="cat-t">Оф. правила</a></div></div>`}));           
            
 }
 });
