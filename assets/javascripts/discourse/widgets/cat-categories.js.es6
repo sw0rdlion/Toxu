@@ -34,7 +34,7 @@ export default createWidget('cat-categories', {
 
   html(attrs) {
     const href = Discourse.getURL('/categories');
-    const result = [h('li.heading',
+    const result = [h('h3.sidebar-heading',
                       h('a.d-link.categories-link', { attributes: { href } }, I18n.t('filters.categories.title'))
                     )];
 
