@@ -1,52 +1,44 @@
-import { createWidget } from 'discourse/widgets/widget';
-import RawHtml from 'discourse/widgets/raw-html';
+import { createWidget, applyDecorators } from 'discourse/widgets/widget';
+import { h } from 'virtual-dom';
+import DiscourseURL from 'discourse/lib/url';
 import { ajax } from 'discourse/lib/ajax';
-import { popupAjaxError } from 'discourse/lib/ajax-error';
- 
+
+
+const flatten = array => [].concat.apply([], array);
 
 export default createWidget('sidebar-cat', {
-  tagName: 'div.cat',
-  buildKey: (attrs) => 'sidebar-cat',
+  tagName: 'div.cat-panel',
 
-  html(attrs, state) {
+  listCategories() {
+    const hideUncategorized = !this.siteSettings.allow_uncategorized_topics;
+    const isStaff = Discourse.User.currentProp('staff');
+
+    const categories = Discourse.Category.list().reject((c) => {
+      if (c.get('parentCategory.show_subcategory_list')) { return true; }
+      if (hideUncategorized && c.get('isUncategorizedCategory') && !isStaff) { return true; }
+      return false;
+    });
+
+    return this.attach('cat-categories', { categories });
+
+  },
+
+
+  panelContents() {
     const { currentUser } = this;
-    let contents = []
-    if (currentUser) {
-      const username = currentUser.get('username');
-      const name = currentUser.get('name');
-   
-$.ajax({
-          url: "/categories.json",
-          dataType: 'json',
-          async: false,
-          success: function(data) {
+    const results = [];
 
-          contents.push(  new RawHtml({ html: `<h3 class="sidebar-heading">Подписан</h3>`}));
-           
-          for (var i = 0 ; i < data.category_list.categories.length ; i++) {
-          var name;
-          var slug;
-          var notification_level;              
+    results.push(this.listCategories());
+    
+    return results;
+  },
 
 
-       name = data.category_list.categories[i].name;
-       slug = data.category_list.categories[i].slug;
-       notification_level = data.category_list.categories[i].notification_level;
+  html() {
+    return this.attach('cat-panel', { contents: () => this.panelContents() });
+  },
 
-    if (notification_level > 1)  {
-
-          contents.push(  new RawHtml({ html: `<div class="${slug}"> <a href="http://toxu.ru/c/${slug}" class="cat">${name}</a></div>`}));
-
-    } 
-} 
-           
-          contents.push(  new RawHtml({ html: `<div><br><a href="http://toxu.ru/my/preferences/categories" class="cat">Настройки подписки</a> 
-   <br><a href="https://discord.gg/9DUfZyt" class="cat">Discord чат</a><br><a href="http://toxu.ru/c/toxu/regulations" class="cat-t">Оф. правила</a></div></div>`}));           
-           
-}
-});
-
-} 
-return contents;
-}
+  clickOutside() {
+    this.sendWidgetAction('toggleHamburger');
+  }
 });
