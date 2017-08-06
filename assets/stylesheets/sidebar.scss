@@ -280,7 +280,6 @@ div.staff a.cat {
   h3.sidebar-heading {
    color: #888;
    padding-bottom: 4px;
-   padding-top: 13px;
    font-size: 13px;
    font-weight: normal;
    text-transform: uppercase;
@@ -292,7 +291,10 @@ div.staff a.cat {
 .cat-link.category-toxu  .badge-wrapper.bullet span.badge-category {
     color: #e45735 !important;
    }
-     
+.cat-link .badge-wrapper {
+    font-weight: normal;
+} 
+ margin-bottom: 4px;    
 body[class*="category-test"] .sidebar {display: none;visibility: hidden;}
 body[class*="category-test"] .list-container.has-sidebar {float: none;width: 100%;}
 body[class*="category-staff"] .sidebar {display: none;visibility: hidden;}
