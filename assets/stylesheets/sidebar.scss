@@ -263,11 +263,13 @@ div.test a.cat {
 div.staff a.cat {
     color: #08e !important;
 }
-    
+.cat-link .badge-notification[href] {
+    float: right;
+}    
  @media(min-width:980px) {
   
   .has-sidebar + .sidebar {
-    width: 13%;
+    width: 14%;
     float: left;
     min-height: 100px;
    }
