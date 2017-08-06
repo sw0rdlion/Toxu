@@ -277,14 +277,6 @@ div.staff a.cat {
     float: right;
    }
    
-.cat-link .badge-notification {  
-float: right; 
-background-color: #fff;
-color:#888;
-}
-.cat-link .badge-wrapper {
-    font-weight: normal;
-}   
   h3.sidebar-heading {
    color: #888;
    padding-bottom: 4px;
@@ -293,29 +285,14 @@ color:#888;
    font-weight: normal;
    text-transform: uppercase;
    }
-
-  a.cat {
-  margin-top: 3px;
-  display: inline-block; 
-  font-size: 13px;
-  font-weight: normal;
-  color: #666 !important; 
-   }
-
-  a.cat:hover {
-    color: #999 !important;
+     
+.badge-wrapper.bullet span.badge-category:hover {
+    color: #e45735 !important;
+}
+.cat-link.category-toxu  .badge-wrapper.bullet span.badge-category {
+    color: #e45735 !important;
    }
      
-  a.cat-t {
-  margin-top: 5px;
-  display: inline-block; 
-  font-size: 13px;
-  font-weight: normal;
-  color: #e45735 !important; 
-   }  
-   a.cat-t:hover {
-   color: #ed5b38 !important;
-   }
 body[class*="category-test"] .sidebar {display: none;visibility: hidden;}
 body[class*="category-test"] .list-container.has-sidebar {float: none;width: 100%;}
 body[class*="category-staff"] .sidebar {display: none;visibility: hidden;}
