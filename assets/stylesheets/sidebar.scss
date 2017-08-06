@@ -294,7 +294,15 @@ div.staff a.cat {
 .cat-link .badge-wrapper {
     font-weight: normal;
 } 
- margin-bottom: 4px;    
+.cat-link {
+    margin-bottom: 4px;
+}  
+.cat-link.category-toxu {
+    margin-top: 14px;
+}     
+.category-chat .badge-wrapper.bullet span.badge-category, .category-other .badge-wrapper.bullet span.badge-category {
+    color: #179cee !important;
+}  
 body[class*="category-test"] .sidebar {display: none;visibility: hidden;}
 body[class*="category-test"] .list-container.has-sidebar {float: none;width: 100%;}
 body[class*="category-staff"] .sidebar {display: none;visibility: hidden;}
