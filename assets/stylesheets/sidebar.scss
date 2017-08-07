@@ -1,4 +1,15 @@
 /*head*/
+
+.category-chat .d-header.clearfix .wrap .contents, .category-other .d-header.clearfix .wrap .contents  {
+    background-color: #179cee;
+}
+.title-t {
+    white-space: nowrap; /* Отменяем перенос текста */
+    overflow: hidden; /* Обрезаем содержимое */
+    text-overflow: ellipsis; /* Многоточие */
+    max-width:720px;
+}
+
 .user-signature {
     position: relative;
     margin-bottom: 2px;
