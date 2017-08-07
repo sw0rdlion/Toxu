@@ -11,6 +11,14 @@
 .category-toxu .cat-link.category-toxu, .category-test .cat-link.category-test, .category-cryptocurrency .cat-link.category-cryptocurrency,
 .category-chat .d-header.clearfix .wrap .contents, .category-other .d-header.clearfix .wrap .contents  {background-color: #eee;}
 
+.cat-link .topics-count  {
+    float: right;
+    font-weight: normal;
+    font-size: 12px;
+    color: #888;
+    margin-top: 2px;
+}
+
 .title-t {
     white-space: nowrap; /* Отменяем перенос текста */
     overflow: hidden; /* Обрезаем содержимое */
