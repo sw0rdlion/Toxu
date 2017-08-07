@@ -1,8 +1,16 @@
 /*head*/
+.category-chat .cat-link.category-chat, .category-other .cat-link.category-other,
+.category-psychology .cat-link.category-psychology, .category-internet .cat-link.category-internet,
+.category-occultism .cat-link.category-occultism, .category-health .cat-link.category-health,
+.category-society .cat-link.category-society, .category-culture .cat-link.category-culture,
+.category-history .cat-link.category-history, .category-business .cat-link.category-business,
+.category-work .cat-link.category-work, .category-travel .cat-link.category-travel,
+.category-science .cat-link.category-science, .category-education .cat-link.category-education,
+.category-animals-plants .cat-link.category-animals-plants, .category-house .cat-link.category-house,
+.category-sport .cat-link.category-sport, .category-Interesting .cat-link.category-Interesting,
+.category-toxu .cat-link.category-toxu, .category-test .cat-link.category-test, .category-cryptocurrency .cat-link.category-cryptocurrency,
+.category-chat .d-header.clearfix .wrap .contents, .category-other .d-header.clearfix .wrap .contents  {background-color: #179cee;}
 
-.category-chat .d-header.clearfix .wrap .contents, .category-other .d-header.clearfix .wrap .contents  {
-    background-color: #179cee;
-}
 .title-t {
     white-space: nowrap; /* Отменяем перенос текста */
     overflow: hidden; /* Обрезаем содержимое */
