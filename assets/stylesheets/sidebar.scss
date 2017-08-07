@@ -8,8 +8,10 @@
 .category-science .cat-link.category-science, .category-education .cat-link.category-education,
 .category-animals-plants .cat-link.category-animals-plants, .category-house .cat-link.category-house,
 .category-sport .cat-link.category-sport, .category-Interesting .cat-link.category-Interesting,
-.category-toxu .cat-link.category-toxu, .category-test .cat-link.category-test, .category-cryptocurrency .cat-link.category-cryptocurrency,
-.category-chat .d-header.clearfix .wrap .contents, .category-other .d-header.clearfix .wrap .contents  {background-color: #eee;}
+.category-toxu .cat-link.category-toxu, .category-test .cat-link.category-test, 
+.category-cryptocurrency .cat-link.category-cryptocurrency {background-color: #eee;}
+
+.category-chat .d-header.clearfix .wrap .contents, .category-other .d-header.clearfix .wrap .contents  {background-color: #179cee;}
 
 .cat-link .topics-count  {
     float: right;
