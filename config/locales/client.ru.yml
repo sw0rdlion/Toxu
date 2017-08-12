@@ -8,11 +8,8 @@ ru:
       acc: "Настройки"
       time-you: "Время чтения"
       mail-you: "Моя почта"
-      d0-you: "Посетитель"
-      d1-you: "Новичок"
-      d2-you: "Участник"
-      d3-you: "Постоялец"
-      d4-you: "Лидер"
-    search:
-      context:
-        category: "Search this category"
+      d0-you: "посетитель"
+      d1-you: "новичок"
+      d2-you: "участник"
+      d3-you: "постоялец"
+      d4-you: "лидер"
