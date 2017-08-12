@@ -13,3 +13,6 @@ ru:
       d2-you: "Участник"
       d3-you: "Постоялец"
       d4-you: "Лидер"
+    search:
+      context:
+        category: "Search this category"
