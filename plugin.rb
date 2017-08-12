@@ -3,7 +3,7 @@
 # version: 0.1
 # authors:  Evg
 # url: https://github.com/Toxu-ru/Toxu
-
+enabled_site_setting :override_extra_info
 register_asset "stylesheets/sidebar.scss"
 
 after_initialize do
