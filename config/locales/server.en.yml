@@ -7,4 +7,3 @@ en:
     sidebar_enable_second_col: "Show a second sidebar column."
     sidebar_block_order_second_col: "Include blocks in the second sidebar column."
     mitt_newpage_enabled: "Включить dev stats."
-    override_extra_info: "Show the search box in the header instead of the topic title when scrolling on a topic."
