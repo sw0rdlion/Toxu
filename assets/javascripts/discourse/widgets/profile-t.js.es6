@@ -16,11 +16,11 @@ export default createWidget('profile-t', {
       const name = currentUser.get('name');
       const trust_level = currentUser.get('trust_level');
       
-      if (trust_level === 0) { var doverie = "0"; var coll = 'col0';}
-      if (trust_level === 1) { var doverie = "1"; var coll = 'col1';}
-      if (trust_level === 2) { var doverie = "2"; var coll = 'col2';}
-      if (trust_level === 3) { var doverie = "3"; var coll = 'col3';}
-      if (trust_level === 4) { var doverie = "4"; var coll = 'col4';}
+      if (trust_level === 0) { var doverie = I18n.t("main.d0-you"); var coll = 'col0';}
+      if (trust_level === 1) { var doverie = I18n.t("main.d1-you"); var coll = 'col1';}
+      if (trust_level === 2) { var doverie = I18n.t("main.d2-you"); var coll = 'col2';}
+      if (trust_level === 3) { var doverie = I18n.t("main.d3-you"); var coll = 'col3';}
+      if (trust_level === 4) { var doverie = I18n.t("main.d4-you"); var coll = 'col4';}
    
 contents.push(
 new RawHtml({ html: `<div>
