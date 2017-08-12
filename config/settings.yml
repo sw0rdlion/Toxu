@@ -16,4 +16,6 @@ plugins:
   mitt_newpage_enabled:
     default: true
     client: true
-
+  override_extra_info:
+    default: false
+    client: true
