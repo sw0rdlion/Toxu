@@ -3,6 +3,7 @@ ru:
     sidebar_blocks: 
       recent_replies: "Последние ответы"
     main:
+      my-d: "Уровень доверия"
       bookmark-you: "Мои закладки"
       qa-you: "Мои вопросы"
       acc: "Настройки"
