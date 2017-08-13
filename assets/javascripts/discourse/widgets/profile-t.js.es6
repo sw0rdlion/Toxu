@@ -28,7 +28,7 @@ contents.push(
 new RawHtml({ html: `<div>
 
 <a class="dov-prof ${coll}" href="http://toxu.ru/t/uroven-doveriya-na-sajte-toxu-ru/61">${doverie}</a> 
-<a class="menu-profile" href="http://toxu.ru/u/${username}">@${username}</a> <sup>${profile_view}</sup>
+<a class="menu-profile" href="http://toxu.ru/u/${username}">@${username}</a> <sup class="pr-views">просмотров - ${profile_view}</sup>
 <ul class="menu">
 <li class="menu"><a class="menu-prof menu" href="http://toxu.ru/posted">${I18n.t('main.qa-you')}</a></li>
 <li class="menu"><a class="menu-prof menu" href="http://toxu.ru/bookmarks">${I18n.t('main.bookmark-you')}</a></li>
