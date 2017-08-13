@@ -15,6 +15,8 @@ export default createWidget('profile-t', {
       const username = currentUser.get('username');
       const name = currentUser.get('name');
       const trust_level = currentUser.get('trust_level');
+      const profile_view = currentUser.get('profile_view_count');
+      
       
       if (trust_level === 0) { var doverie = I18n.t("main.d0-you"); var coll = 'col0';}
       if (trust_level === 1) { var doverie = I18n.t("main.d1-you"); var coll = 'col1';}
@@ -26,7 +28,7 @@ contents.push(
 new RawHtml({ html: `<div>
 
 <a class="dov-prof ${coll}" href="http://toxu.ru/t/uroven-doveriya-na-sajte-toxu-ru/61">${doverie}</a> 
-<a class="menu-profile" href="http://toxu.ru/u/${username}">@${username}</a> 
+<a class="menu-profile" href="http://toxu.ru/u/${username}">@${username}</a> <sup>${profile_view}</sup>
 <ul class="menu">
 <li class="menu"><a class="menu-prof menu" href="http://toxu.ru/posted">${I18n.t('main.qa-you')}</a></li>
 <li class="menu"><a class="menu-prof menu" href="http://toxu.ru/bookmarks">${I18n.t('main.bookmark-you')}</a></li>
