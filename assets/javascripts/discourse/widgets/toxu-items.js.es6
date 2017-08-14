@@ -24,7 +24,7 @@ new RawHtml({ html: `<div>
  </div>
       </div>
 
-<hr></div>`})
+`})
  
    );
    
