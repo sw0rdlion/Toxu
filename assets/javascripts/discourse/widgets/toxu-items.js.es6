@@ -2,8 +2,7 @@ import { createWidget } from 'discourse/widgets/widget';
 import RawHtml from 'discourse/widgets/raw-html';
 
 export default createWidget('toxu-items', {
-  tagName: 'div.user-profile.widget-container',
-  buildKey: (attrs) => 'user-profile',
+  buildKey: (attrs) => 'home-toxu',
 
   html(attrs, state) {
     const { currentUser } = this;
@@ -13,8 +12,8 @@ export default createWidget('toxu-items', {
 contents.push(
 new RawHtml({ html: `<div>
 
-<div id="banner">
-<div id="banner-content"><h1>Вопросы и ответы</h1>
+<div id="hbanner">
+<div id="hbanner-content"><h1>Вопросы и ответы</h1>
           <p><strong>Миссия Toxu</strong> — делиться знаниями. Мы стремимся к достижению этой цели, путём создания этого сайта <strong>вопросов и ответов</strong>.</p>
 <p><strong>Toxu</strong> позиционирует себя как экспертные ответы, где можно получить ответ профессионала на любой вопрос.</p>
 <p>Сейчас сайт находится в стадии активного <em>alfa-</em> тестирования.<br>
