@@ -21,7 +21,7 @@ new RawHtml({ html: `<div>
 <p>Задавайте вопросы, отвечайте, делитесь знаниями, <a href="//toxu.ru/badges">получайте награды.</a>  <img src="//toxu.ru/images/emoji/twitter/trophy.png?v=5" title=":trophy:" class="emoji" alt=":trophy:"> </p>
 <p>Помогайте другим и присоединяйтесь! <img src="//toxu.ru/images/emoji/twitter/dizzy.png?v=5" title=":dizzy:" class="emoji" alt=":dizzy:"></p>
  </div>
-      </div>
+      </div><br>
 
 `})
  
