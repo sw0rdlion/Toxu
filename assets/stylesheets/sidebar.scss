@@ -1,17 +1,28 @@
 /*head*/
-.category-chat .cat-link.category-chat, .category-other .cat-link.category-other,
-.category-psychology .cat-link.category-psychology, .category-internet .cat-link.category-internet,
-.category-occultism .cat-link.category-occultism, .category-health .cat-link.category-health,
-.category-society .cat-link.category-society, .category-culture .cat-link.category-culture,
-.category-history .cat-link.category-history, .category-business .cat-link.category-business,
-.category-work .cat-link.category-work, .category-travel .cat-link.category-travel,
-.category-science .cat-link.category-science, .category-education .cat-link.category-education,
-.category-animals-plants .cat-link.category-animals-plants, .category-house .cat-link.category-house,
-.category-sport .cat-link.category-sport, .category-Interesting .cat-link.category-Interesting,
-.category-toxu .cat-link.category-toxu, .category-test .cat-link.category-test, 
-.category-cryptocurrency .cat-link.category-cryptocurrency {background-color: #eee;}
+.category-other .cat-link.category-other {background-color: #eee;}
+.category-other .d-header.clearfix .wrap .contents  {background-color: #179cee;}
 
-.category-chat .d-header.clearfix .wrap .contents, .category-other .d-header.clearfix .wrap .contents  {background-color: #179cee;}
+.badge-notification.new-posts, .badge-notification.unread-posts {background-color: #e45735;}
+.badge-notification.new-topic {color: #e45735;}
+.topic-post.comment img.avatar { width: 24px; height: 24px;}
+.topic-post.comment .topic-avatar { width: 35px;}
+.topic-post.comment { margin-left: 53px;}
+.topic-post.comment .topic-body .regular {margin-top: 1px;}
+.topic-post.comment .topic-body .contents .cooked {
+    font-size: 13px;
+    border-left: 3px solid #e9e9e9;
+    padding-left: 13px;
+}
+.topic-post.comment .topic-body .contents .cooked p {margin-bottom: 1px;}
+.private_message  .topic-post.comment .row .topic-body.clearfix  { max-width: 747px;}
+.topic-post.comment .topic-body { max-width: 747px;}
+.topic-post.comment .user-signature, .topic-post.comment .avatar-flair, .topic-post.comment button.share, .topic-post.comment .bookmarked, .topic-post.comment .unaccepted, .topic-post.comment .bookmark { display: none;}
+
+
+a.topic-featured-link {
+    color: #339900;
+}
+
 
 .cat-link .topics-count  {
     float: right;
@@ -34,7 +45,7 @@
     color: #777;
     font-size: 0.929em;
 }
-.category-chat img#site-logo.logo-big, .category-other img#site-logo.logo-big
+.category-other img#site-logo.logo-big
 {
   display: block;
   -moz-box-sizing: border-box;
@@ -46,7 +57,7 @@
   padding-left: 150px; /* Equal to width of new image */    
 }
 
-.category-chat img#site-logo.logo-small, .category-other img#site-logo.logo-small {
+.category-other img#site-logo.logo-small {
     display: block;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -57,7 +68,6 @@
     height: 40px;
     padding-left: 40px;
 }
-
 
 .user-messages-page img#site-logo.logo-big
 {
@@ -71,7 +81,7 @@
   padding-left: 150px;   
 }
 
-.category-chat .d-header, .category-other .d-header{    background-color : #179cee;}
+.category-chat .d-header{    background-color : #179cee;}
 
 .archetype-private_message img#site-logo.logo-big
 {
