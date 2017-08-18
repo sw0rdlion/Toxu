@@ -9,6 +9,9 @@ background-repeat: no-repeat;     height: 255px;padding-left: 520px; box-shadow:
 }
 @media(max-width:550px) {#banner {display: none;}}
 
+.category-other .extra-info-wrapper .topic-link {color: #fff;}
+.category-other .extra-info-wrapper .discourse-tag {color: #fff !important;}
+.category-other .d-header .icons .icon {color: #fff;}
 
 .category-other .cat-link.category-other {background-color: #eee;}
 .category-other .d-header.clearfix .wrap .contents  {background-color: #179cee;}
