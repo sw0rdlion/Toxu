@@ -35,6 +35,7 @@ new RawHtml({ html: `<div>
 <li class="menu"><a class="menu-prof menu" href="http://toxu.ru/bookmarks">${I18n.t('main.bookmark-you')}</a></li>
 <li class="menu"><a class="menu-prof menu" href="http://toxu.ru/u/${username}/messages">${I18n.t('main.mail-you')}</a></li>
 <li class="menu"><a class="menu-prof menu" href="http://toxu.ru/u/${username}/preferences/account">${I18n.t('main.acc')}</a></li>
+<li class="menu ots"><a class="menu-prof menu" href="http://toxu.ru/latest?max_posts=1">${I18n.t('main.no-otv')}</a></li>
 </ul>
 <hr></div>`})
  
