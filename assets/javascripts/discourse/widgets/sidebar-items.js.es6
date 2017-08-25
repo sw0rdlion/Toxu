@@ -28,8 +28,11 @@ export default createWidget('sidebar-items', {
         result.push(self.attach('sidebar-cat'));
       
       
-result.push( new RawHtml({ html: `<div> 
+result.push( new RawHtml({ html: `<div class="soc"> 
 <br><br>
+<a class="vk" href="http://toxu.ru/groups">Группы</a>
+<a class="vk" rel="nofollow" href="http://toxu.ru/badges">Награды</a>
+<br>
 <a class="facebook" rel="nofollow" href="https://www.facebook.com/toxu.ru"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 <a class="twitter" rel="nofollow" href="https://twitter.com/toxu_russian"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 <a class="vk" rel="nofollow" href="https://vk.com/toxu_ru"><i class="fa fa-vk" aria-hidden="true"></i></a>
