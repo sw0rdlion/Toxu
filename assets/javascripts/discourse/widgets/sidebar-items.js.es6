@@ -1,4 +1,5 @@
 import { createWidget } from 'discourse/widgets/widget';
+import RawHtml from 'discourse/widgets/raw-html';
 import { h } from 'virtual-dom';
 
 export default createWidget('sidebar-items', {
@@ -25,6 +26,15 @@ export default createWidget('sidebar-items', {
       
     } else if (item == 'cat') {
         result.push(self.attach('sidebar-cat'));
+      
+      
+result.push( new RawHtml({ html: `<div> 
+<br><br>
+<a class="facebook" href="http://toxu.ru/posted"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+<a class="twitter" href="http://toxu.ru/posted"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+<a class="vk" href="http://toxu.ru/posted"><i class="fa fa-vk" aria-hidden="true"></i></a>
+</div>`}));
+      
       
     }
 
