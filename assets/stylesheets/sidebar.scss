@@ -167,8 +167,6 @@ span.badge-category-bg {
 li.extra-nav-item-outlet.votes {display: none;}
 
 @media(min-width: 1120px) { 
-.categories-and-latest.ember-view .ember-view .category-list {width: 32%; }
-.categories-and-latest .category-list, .categories-and-latest .topic-list-latest {width: 63%;}    
 .topic-body {width: 790px;padding: 12px 11px 1px 11px;}
 .wrap {max-width: 1200px;} 
 .timeline-container {margin-left: 1000px;}
