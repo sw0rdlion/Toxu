@@ -1,8 +1,5 @@
 import { createWidget } from 'discourse/widgets/widget';
 import RawHtml from 'discourse/widgets/raw-html';
-import { ajax } from 'discourse/lib/ajax';
-import { popupAjaxError } from 'discourse/lib/ajax-error';
-
 
 export default createWidget('profile-t', {
   tagName: 'div.user-profile.widget-container',
