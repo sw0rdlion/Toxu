@@ -15,8 +15,6 @@ export default createWidget('profile-t', {
       const username = currentUser.get('username');
       const name = currentUser.get('name');
       const trust_level = currentUser.get('trust_level');
-      const id = currentUser.get('id');
-      
       
       if (trust_level === 0) { var doverie = I18n.t("main.d0-you"); var coll = 'col0';}
       if (trust_level === 1) { var doverie = I18n.t("main.d1-you"); var coll = 'col1';}
@@ -27,8 +25,8 @@ export default createWidget('profile-t', {
 contents.push(
 new RawHtml({ html: `<div>
 
-<div class="id"><a alt="${I18n.t('main.acc')}" href="http://toxu.ru/u/${username}/preferences/account"><i class="fa fa-cog" aria-hidden="true"></i></a></div>
-<a class="menu-profile" href="http://toxu.ru/u/${username}">@${username}  - <small class="id">id:${id}</small></a> <sup class="pr-views">${I18n.t('main.my-d')} - 
+<div class="id"><a class="nastr" alt="${I18n.t('main.acc')}" href="http://toxu.ru/u/${username}/preferences/account"><i class="fa fa-cog" aria-hidden="true"></i></a></div>
+<a class="menu-profile" href="http://toxu.ru/u/${username}">@${username}</a> <sup class="pr-views">${I18n.t('main.my-d')} - 
 <a class="${coll}" href="http://toxu.ru/t/uroven-doveriya-na-sajte-toxu-ru/61">${doverie}</a></sup>
 <ul class="menu">
 <li class="menu"><a class="menu-prof menu" href="http://toxu.ru/posted">${I18n.t('main.qa-you')}</a></li>
