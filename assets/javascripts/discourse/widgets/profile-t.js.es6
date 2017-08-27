@@ -27,14 +27,13 @@ export default createWidget('profile-t', {
 contents.push(
 new RawHtml({ html: `<div>
 
-<div class="id">id:${id}</div>
-<a class="menu-profile" href="http://toxu.ru/u/${username}">@${username}</a> <sup class="pr-views">${I18n.t('main.my-d')} - 
+<div class="id"><a alt="${I18n.t('main.acc')}" href="http://toxu.ru/u/${username}/preferences/account"><i class="fa fa-cog" aria-hidden="true"></i></a></div>
+<a class="menu-profile" href="http://toxu.ru/u/${username}">@${username}  - <small class="id">id:${id}</small></a> <sup class="pr-views">${I18n.t('main.my-d')} - 
 <a class="${coll}" href="http://toxu.ru/t/uroven-doveriya-na-sajte-toxu-ru/61">${doverie}</a></sup>
 <ul class="menu">
 <li class="menu"><a class="menu-prof menu" href="http://toxu.ru/posted">${I18n.t('main.qa-you')}</a></li>
 <li class="menu"><a class="menu-prof menu" href="http://toxu.ru/bookmarks">${I18n.t('main.bookmark-you')}</a></li>
 <li class="menu"><a class="menu-prof menu" href="http://toxu.ru/u/${username}/messages">${I18n.t('main.mail-you')}</a></li>
-<li class="menu"><a class="menu-prof menu" href="http://toxu.ru/u/${username}/preferences/account">${I18n.t('main.acc')}</a></li>
 <li class="menu ots"><a class="menu-prof menu" href="http://toxu.ru/latest?max_posts=1">${I18n.t('main.no-otv')}</a></li>
 </ul>
 <hr></div>`})
