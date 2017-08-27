@@ -243,12 +243,15 @@ sup.pr-views {color:#7a98a9;}
 li.menu { margin-left: -9px;color: #808281; } 
 li.menu.ots { margin-top: 5px; } 
 ul.menu { margin-top: 5px; } 
-.id {
+a.nastr {
  float:right;
  display:block;
  font-size:13px; 
  margin-top: 1px;
  color: #7a98a9;
+}
+a.nastr:hover {
+ color: #e45735;
 }
 a.menu-prof.menu {
   margin-top: 3px;
