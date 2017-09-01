@@ -30,8 +30,8 @@ export default createWidget('sidebar-items', {
       
 result.push( new RawHtml({ html: `<div class="soc"> 
 <br><br>
-<a class="vk" href="http://toxu.ru/groups">Группы</a>
-<a class="vk" rel="nofollow" href="http://toxu.ru/badges">Награды</a>
+<a class="vk" href="https://toxu.ru/groups">Группы</a>
+<a class="vk" rel="nofollow" href="https://toxu.ru/badges">Награды</a>
 <br>
 <a class="discord" rel="nofollow" href="https://discord.gg/8P3TNjP"><i class="fa fa-comment" aria-hidden="true"></i></a>
 <a class="facebook" rel="nofollow" href="https://www.facebook.com/toxu.ru"><i class="fa fa-facebook" aria-hidden="true"></i></a>
