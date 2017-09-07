@@ -2,8 +2,14 @@
 #create-topic {background: transparent;color: #e45735;}
 #create-topic:hover, #create-topic:active {color: #fff;background-color: #e45735;}
 img.avatar:hover, .d-header #site-logo:hover {opacity: 0.8;}
-
 .cat-link.category-other2 {display: none;}
+
+/* tags */
+td .discourse-tag.box {background-color: #f7fdff;color: #566e76;border: 1px solid #e1ecf4;}
+td .discourse-tag.box:hover {color: #3af;}
+.extra-info-wrapper .discourse-tag.box {background-color: #f7fdff;color: #566e76 !important;border: 1px solid #e1ecf4;}
+.extra-info-wrapper .discourse-tag.box:hover {color: #3af !important;}
+
 
 .groups-d {
     max-width: 800px;
@@ -123,8 +129,6 @@ a.topic-featured-link {
   height: 40px; 
   padding-left: 150px;   
 }
-
-.category-chat .d-header{    background-color : #179cee;}
 
 .archetype-private_message img#site-logo.logo-big
 {
