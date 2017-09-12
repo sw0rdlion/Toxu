@@ -12,15 +12,14 @@ export default createWidget('toxu-items', {
 contents.push(
 new RawHtml({ html: `<div>
 
-<div id="banner">
-<div id="banner-content"><h1>Toxu — место для обмена знаниями</h1>
-<p> Это место и для лучшего понимания мира. Мы стремимся к достижению этой цели, путём создания этого сайта <strong>вопросов и ответов</strong>.</p>
-<p><strong>Toxu</strong> позиционирует себя как экспертные ответы, где можно получить ответ профессионала на любой вопрос.</p>
-<p>Сейчас сайт находится в стадии активного <em>beta-</em> тестирования.<br>
-Мы быстро развиваемся и у нас есть уже <a href="//toxu.ru/t/vozmozhnosti-toxu-ru/611">огромные возможности</a>.</p>
-<p>Задавайте вопросы, отвечайте, делитесь знаниями, <a href="//toxu.ru/badges">получайте награды.</a>  <img src="//toxu.ru/images/emoji/twitter/trophy.png?v=5" title=":trophy:" class="emoji" alt=":trophy:"> </p>
-<p>Помогайте другим и присоединяйтесь! <img src="//toxu.ru/images/emoji/twitter/dizzy.png?v=5" title=":dizzy:" class="emoji" alt=":dizzy:"></p>
- </div>
+<div id="banner-content">
+<p><img src="https://toxu.ru/uploads/default/original/2X/f/fcd2d5da65e0ecb37465724bfe40855872ea0788.jpg" alt="Талисман Toxu.ru" width="75" height="75"></p>
+<h1>Вопросы и Ответы</h1>
+<p>Toxu — место для обмена знаниями. Это место и для лучшего понимания мира. Мы стремимся к достижению этой цели, путём создания этого сайта вопросов и ответов. Задавайте вопросы, отвечайте, делитесь знаниями. Помогайте другим и присоединяйтесь! </p>
+<p><a href="https://toxu.ru/badges"> Награды</a> 
+<a href="https://toxu.ru/t/vozmozhnosti-toxu-ru-green-book/611"> Возможности</a> 
+<a href="https://toxu.ru/t/kakova-missiya-toxu/1251">Миссия</a></p>
+</div>
       </div>
 
 `})
