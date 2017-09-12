@@ -1,3 +1,56 @@
+/* баннер */
+#banner-content {
+    padding: 10px;
+    text-align: center;
+    background-image: url(https://toxu.ru/uploads/default/original/2X/4/4aa0a23ad7a8cfe8fdc49c0d250b360ada960396.png), url(https://toxu.ru/uploads/default/original/2X/2/215fafb31e22479d89900401aa0e00485f9a7c73.png);
+    background-position: left center, right center;
+    background-size: auto 60%;
+    background-repeat: no-repeat; max-width: 1200px;
+}
+
+
+#banner-content h1 {
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #e45735;
+    font-size: 34px;
+    width: 50%;
+    margin: 10px auto;
+    line-height: 45px;
+}
+
+#banner-content p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666;   
+    width: 70%;
+    margin: 10px auto;
+  
+
+}
+
+#banner-content a {
+    margin-top: 15px;
+    margin-right: 15px;
+    display: inline-block;
+    border: solid 1px #1b95d2;
+    padding: 6px 11px;
+    border-radius: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 1.42857;
+    color: #1b95d2
+}
+
+#banner-content a:hover {
+	background: rgba(0,0,0,0);
+	border: solid 1px #e45735;
+	color: #e45735;
+}
+
+
 /* добавить, вкладка,лого и подсветка авы */
 #create-topic {background: transparent;color: #e45735;}
 #create-topic:hover, #create-topic:active {color: #fff;background-color: #e45735;}
@@ -26,19 +79,8 @@ a.facebook:hover, a.vk:hover, a.twitter:hover, a.discord:hover { color: #e45735}
     content: "\f09e" !important;
 }
 
-
 .nav-pills>li.active>a, .nav-pills>li>a.active {color: #999;font-weight: 500;background-color: #fff;border-bottom: 3px solid #e45735;}
 .nav-pills > li > a:hover{color: #999;  background-color: #fff;  border-bottom: 3px solid #e45735;} 
-
-@media(min-width:1150px) {
-#banner {background-color: #e0f5ff;background-image: url(https://toxu.ru/uploads/default/original/2X/5/5f2d5f2b3989e4a225e982cef3738dd2f32abf31.gif);
-background-repeat: no-repeat;     height: 255px;padding-left: 520px; box-shadow: 0 1px 2px #fff;
-}
-}
-@media(min-width:1150px) {
-#banner {background-color: #e0f5ff;background-repeat: no-repeat;padding-left: 520px; box-shadow: 0 1px 2px #fff;}
-}
-@media(max-width:550px) {#banner {display: none;}}
 
 .category-other .extra-info-wrapper .topic-link {color: #fff;}
 .category-other .extra-info-wrapper .discourse-tag {color: #fff !important;}
