@@ -4,6 +4,7 @@ import { createWidget, applyDecorators } from 'discourse/widgets/widget';
 import { iconNode } from 'discourse-common/lib/icon-library';
 import { transformBasicPost } from 'discourse/lib/transform-post';
 import { h } from 'virtual-dom';
+import RawHtml from 'discourse/widgets/raw-html';
 import DiscourseURL from 'discourse/lib/url';
 import { dateNode } from 'discourse/helpers/node';
 import { translateSize, avatarUrl } from 'discourse/lib/utilities';
@@ -322,6 +323,19 @@ createWidget('post-body', {
 
     result.push(this.attach('actions-summary', attrs));
     result.push(this.attach('post-links', attrs));
+    
+   if (attrs.showTopicMap) {
+   result.push(
+   new RawHtml({ html: `<div class="share2">
+<script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+<script src="//yastatic.net/share2/share.js"></script>
+<div class="ya-share2" data-services="collections,vkontakte,facebook,odnoklassniki,moimir,gplus"></div>
+   </div>`}));
+
+   }
+    
+    
+    
     if (attrs.showTopicMap) {
       result.push(this.attach('topic-map', attrs));
     }
