@@ -322,8 +322,6 @@ createWidget('post-body', {
     const result = [this.attach('post-meta-data', attrs), postContents];
 
     result.push(this.attach('actions-summary', attrs));
-    result.push(this.attach('post-links', attrs));
-    
 
  if (attrs.showTopicMap) {
  const link = window.location.href;
@@ -342,7 +340,8 @@ createWidget('post-body', {
    </div>`}));
 
    }
-    
+   
+    result.push(this.attach('post-links', attrs));
     
     if (attrs.showTopicMap) {
       result.push(this.attach('topic-map', attrs));
