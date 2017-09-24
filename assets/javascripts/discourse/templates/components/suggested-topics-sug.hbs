@@ -1,0 +1,7 @@
+<div class="topics-sugs"><h3>Вопросы</h3>
+  {{#if topic.isPrivateMessage}}
+
+  {{else}}
+    {{basic-topic-list-sug topics=topic.details.suggested_topics}}
+  {{/if}}
+</div>
