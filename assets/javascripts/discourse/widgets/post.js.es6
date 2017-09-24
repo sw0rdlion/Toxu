@@ -324,16 +324,24 @@ createWidget('post-body', {
     result.push(this.attach('actions-summary', attrs));
     result.push(this.attach('post-links', attrs));
     
-   if (attrs.showTopicMap) {
-   result.push(
-   new RawHtml({ html: `<div class="share2">
-<script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
-<script src="//yastatic.net/share2/share.js"></script>
-<div class="ya-share2" data-services="collections,vkontakte,facebook,odnoklassniki,moimir,gplus"></div>
+
+ if (attrs.showTopicMap) {
+ const link = window.location.href;
+ const urlfb = "http://www.facebook.com/sharer.php?u=" + encodeURIComponent(link);
+ const urltw = "http://twitter.com/share?url=" + encodeURIComponent(link);
+ const urlok = "http://www.ok.ru/dk?st.cmd=addShare&st.s=1&st._surl=" + encodeURIComponent(link);
+ const urlvk = "https://vk.com/share.php?url=" + encodeURIComponent(link);
+
+ result.push(
+ new RawHtml({ html: `<div class="share2">
+<a class="facebook" href="${urlfb}" target="_blank"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a>
+<a class="twitter" href="${urltw}" target="_blank"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a>
+<a class="ok" href="${urlok}" target="_blank"><i class="fa fa-odnoklassniki-square fa-lg" aria-hidden="true"></i></a>
+<a class="vk" href="${urlvk}" target="_blank"><i class="fa fa-vk fa-lg" aria-hidden="true"></i></a>
+
    </div>`}));
 
    }
-    
     
     
     if (attrs.showTopicMap) {
