@@ -90,30 +90,29 @@
               convertToPublicTopic=(action "convertToPublicTopic")
               convertToPrivateMessage=(action "convertToPrivateMessage")}}
           {{/if}}
-
-          {{topic-timeline
-            topic=model
+          {{#topic-progress
             prevEvent=info.prevEvent
-            fullscreen=info.topicProgressExpanded
-            enteredIndex=enteredIndex
-            loading=model.postStream.loading
-            jumpToPost=(action "jumpToPost")
-            jumpTop=(action "jumpTop")
-            jumpBottom=(action "jumpBottom")
-            jumpToPostPrompt=(action "jumpToPostPrompt")
-            jumpToIndex=(action "jumpToIndex")
-            replyToPost=(action "replyToPost")
-            toggleMultiSelect=(action "toggleMultiSelect")
-            deleteTopic=(action "deleteTopic")
-            recoverTopic=(action "recoverTopic")
-            toggleClosed=(action "toggleClosed")
-            toggleArchived=(action "toggleArchived")
-            toggleVisibility=(action "toggleVisibility")
-            showTopicStatusUpdate=(action "topicRouteAction" "showTopicStatusUpdate")
-            showFeatureTopic=(action "topicRouteAction" "showFeatureTopic")
-            showChangeTimestamp=(action "topicRouteAction" "showChangeTimestamp")
-            convertToPublicTopic=(action "convertToPublicTopic")
-            convertToPrivateMessage=(action "convertToPrivateMessage")}}
+            topic=model
+            expanded=info.topicProgressExpanded
+            jumpToPost=(action "jumpToPost")}}
+            {{#if info.renderAdminMenuButton}}
+              {{topic-admin-menu-button
+                topic=model
+                openUpwards="true"
+                rightSide="true"
+                toggleMultiSelect=(action "toggleMultiSelect")
+                deleteTopic=(action "deleteTopic")
+                recoverTopic=(action "recoverTopic")
+                toggleClosed=(action "toggleClosed")
+                toggleArchived=(action "toggleArchived")
+                toggleVisibility=(action "toggleVisibility")
+                showTopicStatusUpdate=(action "topicRouteAction" "showTopicStatusUpdate")
+                showFeatureTopic=(action "topicRouteAction" "showFeatureTopic")
+                showChangeTimestamp=(action "topicRouteAction" "showChangeTimestamp")
+                convertToPublicTopic=(action "convertToPublicTopic")
+                convertToPrivateMessage=(action "convertToPrivateMessage")}}
+            {{/if}}
+          {{/topic-progress}}
         {{else}}
           {{#topic-progress
             prevEvent=info.prevEvent
