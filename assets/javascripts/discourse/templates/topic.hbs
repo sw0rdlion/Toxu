@@ -68,7 +68,11 @@
         {{partial "selected-posts"}}
       </div>
 
-
+     <div id="topic-sug">
+         {{#if model.details.suggested_topics.length}}
+            {{suggested-topics-sug topic=model}}
+         {{/if}}
+     </div>
 
       {{#topic-navigation topic=model jumpToIndex=(action "jumpToIndex") as |info|}}
         {{#if info.renderTimeline}}
@@ -143,15 +147,7 @@
 
           <div class="posts-wrapper">
           
-          
-          
-     <div id="topic-sug">
-         {{#if model.details.suggested_topics.length}}
-            {{suggested-topics-sug topic=model}}
-         {{/if}}
-     </div>
-          
-          
+         
             {{conditional-loading-spinner condition=model.postStream.loadingAbove}}
 
             {{plugin-outlet name="topic-above-posts" args=(hash model=model)}}
