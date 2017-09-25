@@ -68,11 +68,6 @@
         {{partial "selected-posts"}}
       </div>
 
-    <div id="topic-sug">
-         {{#if model.details.suggested_topics.length}}
-            {{suggested-topics-sug topic=model}}
-         {{/if}}
-     </div>
 
 
       {{#topic-navigation topic=model jumpToIndex=(action "jumpToIndex") as |info|}}
@@ -147,6 +142,16 @@
         <section class="topic-area" id="topic" data-topic-id="{{unbound model.id}}">
 
           <div class="posts-wrapper">
+          
+          
+          
+     <div id="topic-sug">
+         {{#if model.details.suggested_topics.length}}
+            {{suggested-topics-sug topic=model}}
+         {{/if}}
+     </div>
+          
+          
             {{conditional-loading-spinner condition=model.postStream.loadingAbove}}
 
             {{plugin-outlet name="topic-above-posts" args=(hash model=model)}}
