@@ -60,17 +60,20 @@
     {{/if}}
 
     <div class="container posts">
-    <div id="topic-sug">
-         {{#if model.details.suggested_topics.length}}
-            {{suggested-topics-sug topic=model}}
-         {{/if}}
-     </div>
+
     
     
     
       <div class='selected-posts {{unless multiSelect 'hidden'}}'>
         {{partial "selected-posts"}}
       </div>
+
+    <div id="topic-sug">
+         {{#if model.details.suggested_topics.length}}
+            {{suggested-topics-sug topic=model}}
+         {{/if}}
+     </div>
+
 
       {{#topic-navigation topic=model jumpToIndex=(action "jumpToIndex") as |info|}}
         {{#if info.renderTimeline}}
