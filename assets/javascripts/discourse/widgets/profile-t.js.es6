@@ -44,7 +44,7 @@ new RawHtml({ html: `<div>
 <a class="menu-profile" href="https://toxu.ru/u/${username}">@${username}</a> <sup class="pr-views">${I18n.t('main.my-d')} - 
 <a class="${coll}" href="https://toxu.ru/t/uroven-doveriya-na-sajte-toxu-ru/61">${doverie}</a></sup>
 <br>
-<sup class="pr-views">${I18n.t('main.time-you')}: ${time_read} <span class="like-numer"><i class="fa fa-heart"></i>${likes}</span></sup>
+<sup class="pr-views">${I18n.t('main.time-you')}: ${time_read} <span class="like-numer numer"><i class="fa fa-heart"></i>${likes}</span></sup>
 
 <ul class="menu">
 <li class="menu"><a class="menu-prof menu" href="https://toxu.ru/posted">${I18n.t('main.qa-you')}</a> <span class="numer">${topic_count}</span></li>
