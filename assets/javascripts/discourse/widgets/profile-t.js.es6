@@ -41,7 +41,7 @@ new RawHtml({ html: `<div>
 <div class="id"><a class="nastr" alt="${I18n.t('main.acc')}" href="https://toxu.ru/u/${username}/preferences/account"><i class="fa fa-cog" aria-hidden="true"></i></a></div>
 <a class="menu-profile" href="https://toxu.ru/u/${username}">@${username}</a> <sup class="pr-views">${I18n.t('main.my-d')} - 
 <a class="${coll}" href="https://toxu.ru/t/uroven-doveriya-na-sajte-toxu-ru/61">${doverie}</a></sup><br>
-<sup class="pr-views">${I18n.t('main.time-you')}: ${time_read} - лайков: ${likes}</sup>
+<sup class="pr-views">${I18n.t('main.time-you')}: <span class="vid">${time_read}</span> - лайков: <span class="vid">${likes}</span></sup>
 <ul class="menu">
 <li class="menu"><a class="menu-prof menu" href="https://toxu.ru/posted">${I18n.t('main.qa-you')}</a> <span class="numer">${topic_count}</span></li>
 <li class="menu"><a class="menu-prof menu" href="https://toxu.ru/bookmarks">${I18n.t('main.bookmark-you')}</a> <span class="numer">${bookmark_count}</span></li>
