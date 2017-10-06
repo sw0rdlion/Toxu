@@ -35,8 +35,21 @@ export default createWidget('profile-t', {
   }
   });
     
+        var view;
+  $.ajax({
+  url: "/u/"+ username +".json" ,
+  dataType: 'json',
+  async: false,
+  success: function(data) {
+    
+  return view = data.user.profile_view_count;
+
+  }
+  });
+      
+      
 contents.push(
-new RawHtml({ html: `<div>
+new RawHtml({ html: `<div> ${view}
 
 <div class="id"><a class="nastr" alt="${I18n.t('main.acc')}" href="https://toxu.ru/u/${username}/preferences/account"><i class="fa fa-cog" aria-hidden="true"></i></a></div>
 <a class="menu-profile" href="https://toxu.ru/u/${username}">@${username}</a> <sup class="pr-views">${I18n.t('main.my-d')} - 
