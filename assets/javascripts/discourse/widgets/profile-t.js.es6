@@ -47,6 +47,16 @@ export default createWidget('profile-t', {
   }
   });
       
+      $.ajax({
+  url: "/u/"+ username +"/notifications.json" ,
+  dataType: 'json',
+  async: false,
+  success: function(data) {
+    
+  }
+  });  
+      
+      
       
 contents.push(
 new RawHtml({ html: `<div> ${view}
