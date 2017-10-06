@@ -19,42 +19,19 @@ export default createWidget('profile-t', {
       if (trust_level === 3) { var doverie = I18n.t("main.d3-you"); var coll = 'col3';}
       if (trust_level === 4) { var doverie = I18n.t("main.d4-you"); var coll = 'col4';}
   
-    var likes;
-    var topic_count;
-    var time_read;
-    var bookmark_count;    
-  $.ajax({
-  url: "/users/"+ username +"/summary.json" ,
-  dataType: 'json',
-  async: false,
-  success: function(data) {
-    likes = data.user_summary.likes_received;	
-    topic_count = data.user_summary.topic_count;	
-    time_read  = data.user_summary.time_read;
-    bookmark_count  = data.user_summary.bookmark_count;
-  }
-  });
-    
-        var view;
+  var badge_count;
+  var view;
+  var post_count;
   $.ajax({
   url: "/u/"+ username +".json" ,
   dataType: 'json',
   async: false,
   success: function(data) {
-    
-  return view = data.user.profile_view_count;
-
+  badge_count = data.user.badge_count;  
+  view = data.user.profile_view_count;
+  post_count = data.user.post_count;
   }
   });
-      
-      $.ajax({
-  url: "/u/"+ username +"/notifications.json" ,
-  dataType: 'json',
-  async: false,
-  success: function(data) {
-    
-  }
-  });  
       
       
       
@@ -64,10 +41,10 @@ new RawHtml({ html: `<div> ${view}
 <div class="id"><a class="nastr" alt="${I18n.t('main.acc')}" href="https://toxu.ru/u/${username}/preferences/account"><i class="fa fa-cog" aria-hidden="true"></i></a></div>
 <a class="menu-profile" href="https://toxu.ru/u/${username}">@${username}</a> <sup class="pr-views">${I18n.t('main.my-d')} - 
 <a class="${coll}" href="https://toxu.ru/t/uroven-doveriya-na-sajte-toxu-ru/61">${doverie}</a></sup><br>
-<sup class="pr-views">${I18n.t('main.time-you')}: <span class="vid">${time_read}</span> - лайков: <span class="vid">${likes}</span></sup>
+<sup class="pr-views"> <i class="fa fa-eye" aria-hidden="true"></i> <span class="vid">${view}</span> &nbsp; &nbsp; <i class="fa fa-trophy" aria-hidden="true"></i> <span class="vid">${badge_count}</span> </sup>
 <ul class="menu">
-<li class="menu"><a class="menu-prof menu" href="https://toxu.ru/posted">${I18n.t('main.qa-you')}</a> <span class="numer">${topic_count}</span></li>
-<li class="menu"><a class="menu-prof menu" href="https://toxu.ru/bookmarks">${I18n.t('main.bookmark-you')}</a> <span class="numer">${bookmark_count}</span></li>
+<li class="menu"><a class="menu-prof menu" href="https://toxu.ru/posted">${I18n.t('main.qa-you')}</a> <span class="numer"></span></li>
+<li class="menu"><a class="menu-prof menu" href="https://toxu.ru/bookmarks">${I18n.t('main.bookmark-you')}</a> <span class="numer"></span></li>
 <li class="menu"><a class="menu-prof menu" href="https://toxu.ru/u/${username}/messages">${I18n.t('main.mail-you')}</a></li>
 <li class="menu ots"><a class="menu-prof menu" href="https://toxu.ru/latest?max_posts=1">${I18n.t('main.no-otv')}</a></li>
 </ul>
