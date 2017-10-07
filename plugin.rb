@@ -1,10 +1,16 @@
 # name: Toxu
-# about: add a detals site
-# version: 0.1
+# about: add a detals site and dev
+# version: 0.2
 # authors:  Evg
 # url: https://github.com/Toxu-ru/Toxu
 
 register_asset "stylesheets/sidebar.scss"
+
+Discourse::Application.routes.append do
+  get '/dev' => 'discourse_dev/dev#my_page'
+end
+
+load File.expand_path('../lib/dev/engine.rb', __FILE__)
 
 after_initialize do
 
