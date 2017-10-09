@@ -41,7 +41,7 @@ new RawHtml({ html: `<div>
 <div class="id"><a class="nastr" alt="${I18n.t('main.acc')}" href="https://toxu.ru/u/${username}/preferences/account"><i class="fa fa-cog" aria-hidden="true"></i></a></div>
 <a class="menu-profile" href="https://toxu.ru/u/${username}">@${username}</a> <sup class="pr-views">
 <i class="fa fa-eye" aria-hidden="true"></i> <span class="vid">${view}</span> &nbsp;  
-<i class="fa fa-trophy" aria-hidden="true"></i> <span class="vid">${badge_count}</span> &nbsp; &nbsp; 
+<i class="fa fa-trophy" aria-hidden="true"></i> <span class="vid">${badge_count}</span> &nbsp;  — &nbsp;
 
 <a class="${coll}" href="https://toxu.ru/t/uroven-doveriya-na-sajte-toxu-ru/61">${doverie}</a></sup><br>
 
