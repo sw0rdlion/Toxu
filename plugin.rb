@@ -8,6 +8,7 @@ register_asset "stylesheets/sidebar.scss"
 
 Discourse::Application.routes.append do
   get '/dev' => 'discourse_dev/dev#my_page'
+  get '/hots' => 'discourse_hots/hots#my_page'
 end
 
 load File.expand_path('../lib/dev/engine.rb', __FILE__)
