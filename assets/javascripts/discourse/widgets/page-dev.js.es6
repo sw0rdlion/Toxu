@@ -39,12 +39,12 @@ export default createWidget('page-dev', {
 
 
 <div class="title-t"><a href="/t/${slug}/${id}" class="title">${title}</a></div>
-<div class="topic-excerpt">${detal} <br>
+<div class="topic-excerpt"><font style="font-size: 80%;"> ${detal} <br>
 <i class="fa fa-heart-o d-icon d-icon-heart" aria-hidden="true"></i> ${like_count} &nbsp; &nbsp; 
 <i class="fa fa-eye" aria-hidden="true"></i> ${views} &nbsp; &nbsp; 
 <i class="fa fa-comments-o d-icon d-icon-reply" aria-hidden="true"></i> ${posts_count}
 
-<br><br>
+<br><br></font>
 </div>
 </div></div> `})
  
