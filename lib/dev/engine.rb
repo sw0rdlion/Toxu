@@ -21,3 +21,15 @@ module DiscourseHots
     end
   end
 end
+
+module DiscourseToxu
+  class Engine < ::Rails::Engine
+    isolate_namespace DiscourseToxu
+
+    config.after_initialize do
+		Discourse::Application.routes.append do
+			mount ::DiscourseToxu::Engine, at: "/"
+		end
+    end
+  end
+end
