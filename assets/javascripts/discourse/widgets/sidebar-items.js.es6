@@ -34,7 +34,7 @@ result.push( new RawHtml({ html: `<div class="soc">
 <a class="vk" rel="nofollow" href="https://toxu.ru/badges">Награды</a> <a class="vk" href="https://toxu.ru/dev"><font color="red">D</font>ev</a>
 <br>
 <a class="discord" rel="nofollow" title="Discord" href="https://discord.gg/8P3TNjP"><i class="fa fa-comment" aria-hidden="true"></i></a>
-<a class="telegram" rel="nofollow" title="Discord" href="https://telegram.me/toxuru"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+<a class="telegram" rel="nofollow" title="Telegram" href="https://telegram.me/toxuru"><i class="fa fa-telegram" aria-hidden="true"></i></a>
 <a class="livejournal" title="Livejournal" rel="nofollow" href="https://toxu.livejournal.com"><i class="fa fa-pencil" aria-hidden="true"></i></a>
 <a class="facebook" title="Facebook" rel="nofollow" href="https://www.facebook.com/toxu.ru"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 <a class="twitter" title="Twitter" rel="nofollow" href="https://twitter.com/toxu_russian"><i class="fa fa-twitter" aria-hidden="true"></i></a>
