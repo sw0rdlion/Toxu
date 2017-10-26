@@ -1,6 +1,6 @@
 # name: Toxu
 # about: add a detals site and dev
-# version: 0.2
+# version: 0.3
 # authors:  Evg
 # url: https://github.com/Toxu-ru/Toxu
 
@@ -23,7 +23,7 @@ after_initialize do
       accepted_id = object.custom_fields["accepted_answer_post_id"].to_i
       if accepted_id > 0
         cooked = Post.where(id: accepted_id).pluck('cooked')
-        PrettyText.excerpt(cooked[0], 150, {})
+        PrettyText.excerpt(cooked[0], 100, {})
       else
         object.excerpt
       end
