@@ -45,7 +45,7 @@ new RawHtml({ html: `<div>
 
 <a class="${coll}" href="https://toxu.ru/t/uroven-doveriya-na-sajte-toxu-ru/61">${doverie}</a></sup><br>
 
-Мои:<br>
+<font style="font-size:12px;color:#888;">Мои:</font><br>
 <a class="menu-prof menu" href="https://toxu.ru/posted">${I18n.t('main.qa-you')}</a> - 
 <a class="menu-prof menu" href="https://toxu.ru/bookmarks">${I18n.t('main.bookmark-you')}</a> - 
 <a class="menu-prof menu" href="https://toxu.ru/u/${username}/messages">${I18n.t('main.mail-you')}</a>
