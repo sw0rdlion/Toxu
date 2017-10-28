@@ -45,13 +45,11 @@ new RawHtml({ html: `<div>
 
 <a class="${coll}" href="https://toxu.ru/t/uroven-doveriya-na-sajte-toxu-ru/61">${doverie}</a></sup><br>
 
+Мои:<br>
+<a class="menu-prof menu" href="https://toxu.ru/posted">${I18n.t('main.qa-you')}</a> - 
+<a class="menu-prof menu" href="https://toxu.ru/bookmarks">${I18n.t('main.bookmark-you')}</a> - 
+<a class="menu-prof menu" href="https://toxu.ru/u/${username}/messages">${I18n.t('main.mail-you')}</a>
 
-<ul class="menu">
-<li class="menu"><a class="menu-prof menu" href="https://toxu.ru/posted">${I18n.t('main.qa-you')}</a> <span class="numer"></span></li>
-<li class="menu"><a class="menu-prof menu" href="https://toxu.ru/bookmarks">${I18n.t('main.bookmark-you')}</a> <span class="numer"></span></li>
-<li class="menu"><a class="menu-prof menu" href="https://toxu.ru/u/${username}/messages">${I18n.t('main.mail-you')}</a></li>
-<li class="menu ots"><a class="menu-prof menu" href="https://toxu.ru/latest?max_posts=1">${I18n.t('main.no-otv')}</a></li>
-</ul>
 <hr></div>`})
  
    );
