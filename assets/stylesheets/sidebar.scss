@@ -71,6 +71,10 @@ a.facebook:hover, a.vk:hover, a.twitter:hover, a.telegram:hover, a.discord:hover
     content: "\f09e" !important;
 }
 
+/* tags */
+.discourse-tag.bullet::before {content: "\f02b";font-size: 0.9em;color: #bdbdbd;top: 0.1em;margin-right: 4px;}
+a.discourse-tag.bullet::before:hover {color: #e45735; }
+a.discourse-tag.bullet:hover {color: #e45735;}
 
 .category-other .extra-info-wrapper .topic-link {color: #fff;}
 .category-other .extra-info-wrapper .discourse-tag {color: #fff !important;}
@@ -80,7 +84,7 @@ a.facebook:hover, a.vk:hover, a.twitter:hover, a.telegram:hover, a.discord:hover
 .category-other .d-header.clearfix .wrap .contents  {background-color: #179cee;}
 
 .sidebar .badge-wrapper.bullet .badge-category-bg {display: none;}
-.sidebar .badge-wrapper.bullet span.badge-category {color: #7a98a9;font-size: 14px;}
+.sidebar .badge-wrapper.bullet span.badge-category {color: #7a98a9;font-size: 13px;}
 .sidebar .badge-wrapper.bullet span.badge-category:hover {color: #e45735 !important;}
 
 .topic-list > tbody > tr:first-of-type {
