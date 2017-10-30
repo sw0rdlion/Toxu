@@ -123,12 +123,6 @@ a.topic-featured-link {
     margin-top: 2px;
 }
 
-.title-t {
-    white-space: nowrap; /* Отменяем перенос текста */
-    overflow: hidden; /* Обрезаем содержимое */
-    text-overflow: ellipsis; /* Многоточие */
-    max-width:720px;
-}
 
 .user-signature {
     position: relative;
@@ -417,7 +411,6 @@ div.staff a.cat {
    
   h3.sidebar-heading {
    color: #888;
-   padding-bottom: 4px;
    font-size: 13px;
    font-weight: normal;
    text-transform: uppercase;
