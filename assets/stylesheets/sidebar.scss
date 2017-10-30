@@ -87,11 +87,9 @@ a.facebook:hover, a.vk:hover, a.twitter:hover, a.telegram:hover, a.discord:hover
 .category-other .cat-link.category-other {background-color: #eee;}
 .category-other .d-header.clearfix .wrap .contents  {background-color: #179cee;}
 
-.sidebar .category-events .badge-wrapper.bullet .badge-category-bg,
-.sidebar .category-test .badge-wrapper.bullet .badge-category-bg,
-.sidebar .category-moder .badge-wrapper.bullet .badge-category-bg,
-.sidebar .category-adult .badge-wrapper.bullet .badge-category-bg,
-.sidebar .category-staff .badge-wrapper.bullet .badge-category-bg {display:none}
+.sidebar .badge-wrapper.bullet .badge-category-bg {display: none;}
+.sidebar .badge-wrapper.bullet span.badge-category {color: #7a98a9;font-size: 14px;}
+.sidebar .badge-wrapper.bullet span.badge-category:hover {color: #e45735 !important;}
 
 .topic-list > tbody > tr:first-of-type {
     border-top: 1px solid #eee;
@@ -429,9 +427,6 @@ div.staff a.cat {
    text-transform: uppercase;
    }
      
-.sidebar .badge-wrapper.bullet span.badge-category:hover {
-    color: #e45735 !important;
-}
 .cat-link.category-toxu  .badge-wrapper.bullet span.badge-category {
     color: #e45735 !important;
    }
