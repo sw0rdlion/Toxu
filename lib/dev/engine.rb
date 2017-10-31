@@ -33,3 +33,15 @@ module DiscourseToxu
     end
   end
 end
+
+module DiscourseHelp
+  class Engine < ::Rails::Engine
+    isolate_namespace DiscourseHelp
+
+    config.after_initialize do
+		Discourse::Application.routes.append do
+			mount ::DiscourseHelp::Engine, at: "/"
+		end
+    end
+  end
+end
