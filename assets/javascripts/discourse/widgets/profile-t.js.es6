@@ -30,13 +30,20 @@ export default createWidget('profile-t', {
   badge_count = data.user.badge_count;  
   view = data.user.profile_view_count;
   post_count = data.user.post_count;
+
+    var topics = data.user.groups;  
+    for (var t = 0; t < groups.length; t++) {
+    var gid = groups[t].id;
+    if (gidl === 57) { var groupsid = "я в группе";}      
+    }
+      
   }
   });
       
       
       
 contents.push(
-new RawHtml({ html: `<div> 
+new RawHtml({ html: `<div>  
 
 <div class="id"><a class="nastr" alt="${I18n.t('main.acc')}" href="https://toxu.ru/u/${username}/preferences/account"><i class="fa fa-cog" aria-hidden="true"></i></a></div>
 <a class="menu-profile" href="https://toxu.ru/u/${username}">@${username}</a> <sup class="pr-views">
@@ -51,6 +58,7 @@ new RawHtml({ html: `<div>
 <a class="menu-prof menu" href="https://toxu.ru/posted">${I18n.t('main.qa-you')}</a> &nbsp; &#183; &nbsp; 
 <a class="menu-prof menu" href="https://toxu.ru/bookmarks">${I18n.t('main.bookmark-you')}</a>  
 
+${groupsid}
 
 <hr></div>`})
  
