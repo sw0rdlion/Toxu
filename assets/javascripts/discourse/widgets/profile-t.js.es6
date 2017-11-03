@@ -36,7 +36,7 @@ export default createWidget('profile-t', {
  var groups = data.user.groups;  
  for (var t = 0; t < groups.length; t++) { 
  g_id = groups[t].id;
- if (g_id === 56) { my_gr_ob = ' ';  }   else     
+ if (g_id === 57) { my_gr_ob = ' ';  }   else     
  { my_gr_ob = '<hr> <a class="discourse-tag box" href="https://toxu.ru/groups/Comm">Группа</a> - общение';  } 
  }
       
