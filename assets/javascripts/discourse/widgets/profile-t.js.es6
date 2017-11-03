@@ -22,6 +22,8 @@ export default createWidget('profile-t', {
   var badge_count;
   var view;
   var post_count;
+  var g_id;
+  var my_gr_ob;    
   $.ajax({
   url: "/u/"+ username +".json" ,
   dataType: 'json',
@@ -31,11 +33,12 @@ export default createWidget('profile-t', {
   view = data.user.profile_view_count;
   post_count = data.user.post_count;
 
-    var topics = data.user.groups;  
-    for (var t = 0; t < groups.length; t++) {
-    var gid = groups[t].id;
-    if (gidl === 57) { var groupsid = "я в группе";}      
-    }
+ var groups = data.user.groups;  
+ for (var t = 0; t < groups.length; t++) { 
+ g_id = groups[t].id;
+ if (g_id === 56) { my_gr_ob = ' ';  }   else     
+ { my_gr_ob = '<hr> <a class="discourse-tag box" href="https://toxu.ru/groups/Comm">Группа</a> - общение';  } 
+ }
       
   }
   });
@@ -58,7 +61,7 @@ new RawHtml({ html: `<div>
 <a class="menu-prof menu" href="https://toxu.ru/posted">${I18n.t('main.qa-you')}</a> &nbsp; &#183; &nbsp; 
 <a class="menu-prof menu" href="https://toxu.ru/bookmarks">${I18n.t('main.bookmark-you')}</a>  
 
-${groupsid}
+${my_gr_ob}
 
 <hr></div>`})
  
