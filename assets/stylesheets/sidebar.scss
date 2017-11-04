@@ -12,7 +12,7 @@ p.obyav {width: 67%;}
 #banner-content h1 {
     font-weight: 700;
     letter-spacing: 0;
-    color: #e45735;
+    color: #f56400;
     font-size: 34px;
     width: 60%;
     margin: 10px auto;
@@ -46,14 +46,14 @@ p.obyav {width: 67%;}
 
 #banner-content a.kn:hover {
 	background: rgba(0,0,0,0);
-	border: solid 1px #e45735;
-	color: #e45735;
+	border: solid 1px #f56400;
+	color: #f56400;
 }
 
 
 /* добавить, вкладка,лого и подсветка авы */
-#create-topic {background: transparent;color: #e45735;}
-#create-topic:hover, #create-topic:active {color: #fff;background-color: #e45735;}
+#create-topic {background: transparent;color: #f56400;}
+#create-topic:hover, #create-topic:active {color: #fff;background-color: #f56400;}
 img.avatar:hover, .d-header #site-logo:hover {opacity: 0.8;}
 
 .groups-d {
@@ -61,7 +61,7 @@ img.avatar:hover, .d-header #site-logo:hover {opacity: 0.8;}
     margin-bottom: 25px;
 }
 a.facebook, a.vk, a.twitter, a.discord, a.telegram, a.livejournal, a.ok  { color: #777;margin-right: 15px;}
-a.facebook:hover, a.vk:hover, a.twitter:hover, a.telegram:hover, a.discord:hover, a.livejournal:hover, a.ok:hover { color: #e45735}
+a.facebook:hover, a.vk:hover, a.twitter:hover, a.telegram:hover, a.discord:hover, a.livejournal:hover, a.ok:hover { color: #f56400}
 .soc{font-size: 12px;}
 
 .fa-flag:before {
@@ -73,8 +73,8 @@ a.facebook:hover, a.vk:hover, a.twitter:hover, a.telegram:hover, a.discord:hover
 
 /* tags */
 .discourse-tag.bullet::before {content: "\f02b";font-size: 0.9em;color: #bdbdbd;top: 0.1em;margin-right: 4px;}
-a.discourse-tag.bullet::before:hover {color: #e45735; }
-a.discourse-tag.bullet:hover {color: #e45735;}
+a.discourse-tag.bullet::before:hover {color: #f56400; }
+a.discourse-tag.bullet:hover {color: #f56400;}
 
 .category-other .extra-info-wrapper .topic-link {color: #fff;}
 .category-other .extra-info-wrapper .discourse-tag {color: #fff !important;}
@@ -85,17 +85,17 @@ a.discourse-tag.bullet:hover {color: #e45735;}
 
 .sidebar .badge-wrapper.bullet .badge-category-bg, .cat-link.category-other2 {display: none;}
 .sidebar .badge-wrapper.bullet span.badge-category {color: #7a98a9;font-size: 13px;}
-.sidebar .badge-wrapper.bullet span.badge-category:hover {color: #e45735 !important;}
+.sidebar .badge-wrapper.bullet span.badge-category:hover {color: #f56400 !important;}
 
 .topic-list > tbody > tr:first-of-type {
     border-top: 1px solid #eee;
 }
-.nav-pills>li.active>a, .nav-pills>li>a.active {color: #999;font-weight: 500;background-color: #fff;border-bottom: 3px solid #e45735;}
-.nav-pills > li > a:hover{color: #999;  background-color: #fff;  border-bottom: 3px solid #e45735;} 
+.nav-pills>li.active>a, .nav-pills>li>a.active {color: #999;font-weight: 500;background-color: #fff;border-bottom: 3px solid #f56400;}
+.nav-pills > li > a:hover{color: #999;  background-color: #fff;  border-bottom: 3px solid #f56400;} 
 
 
-.badge-notification.new-posts, .badge-notification.unread-posts {background-color: #e45735;}
-.badge-notification.new-topic {color: #e45735;}
+.badge-notification.new-posts, .badge-notification.unread-posts {background-color: #f56400;}
+.badge-notification.new-topic {color: #f56400;}
 .topic-post.comment img.avatar { width: 20px; height: 20px;}
 .topic-post.comment .topic-avatar { width: 35px;}
 .topic-post.comment { margin-left: 53px;}
