@@ -1,3 +1,24 @@
+.category-toxu-blog .topic-list .views {width: 105px;display: block;}
+.category-toxu-blog .topic-list .posts.sortable.num, .category-toxu-blog .topic-list .num.posts-map.posts, .zadal {display: none;}
+.category-toxu-blog #suggested-topics {display: none;}
+.category-toxu-blog .names span a { font-size: 15px;color: #f56400;} 
+.category-toxu-blog .names {text-align:center;display:block;float: none;}
+.category-toxu-blog .post-info, .category-toxu-blog .footer-message.ember-view  {display: none;}
+.category-toxu-blog .topic-avatar {display: none;}
+.category-toxu-blog .lightbox-wrapper {text-align:center;display:block;}
+.category-toxu-blog .timeline-container, .category-toxu-blog .user-signature {display: none;}
+.category-toxu-blog .cooked img {display:block; margin:0 auto;}
+.category-toxu-events .topic-timeline, .category-toxu-blog .topic-timeline {display: none;}
+.category-toxu-events #topic-title, .category-toxu-blog #topic-title {text-align: center; }
+.category-toxu-events #topic-title .title-wrapper .badge-wrapper, .category-toxu-blog #topic-title .title-wrapper .badge-wrapper {float: inherit;}
+.category-toxu-events #post_1 .regular.contents nav.post-controls button.toggle-like, 
+.category-toxu-events #post_1 .regular.contents nav.post-controls button.like-count {display: initial;}
+.category-toxu-blog #topic-title .title-wrapper {margin: 0 10% 0 10%;width: 80%;}
+@media(min-width: 1120px) { .category-toxu-events  .topic-body, .category-toxu-blog  .topic-body {margin: 0 10% 0 10%;width: 80%;}}
+.category-toxu-events .topic-body .contents .cooked, .category-toxu-blog .topic-body .contents .cooked {font-family: Roboto,Arial,sans-serif;
+font-size: 19px;line-height: 30px;}
+
+
 /* баннер */
 #banner-content {
     padding-bottom: 10px;
