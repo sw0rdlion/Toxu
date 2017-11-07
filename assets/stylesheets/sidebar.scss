@@ -290,13 +290,13 @@ html:not(.mobile-view) {
  padding:13px 2px 0 0
 }
 .footer-copyright {
- float:left
+ float:left;
 }
 .footer_social_nav ul li a {
- color:#888
+ color:#888;
 }
 .footer_social_nav ul li a:hover {
- color:#e45735
+ color:#f56400;
 }
   
 /*польз. меню*/
@@ -320,7 +320,7 @@ a.nastr {
  opacity:0.25;
 }
 a.nastr:hover {
- color: #e45735;
+ color: #f56400;
  opacity:1;
 }
 a.menu-prof.menu {
@@ -329,11 +329,11 @@ a.menu-prof.menu {
   color: #7a98a9 !important;
 }
 a.menu-prof.menu:hover {
-  color: #e45735 !important;
+  color: #f56400 !important;
 }
 
 a.menu-profile:hover {
-  color: #e45735 !important;
+  color: #f56400 !important;
 }
 a.menu-profile { 
 display: block; 
@@ -341,7 +341,7 @@ color: #222;
 margin: 6px 1px 7px 0;
 }
 a.menu-profile:first-letter {
-color: #fa6c8d; 
+color: #f56400; 
 }
 
 .user-profile.widget-container {
@@ -417,7 +417,7 @@ div.staff a.cat {
    }
      
 .cat-link.category-toxu  .badge-wrapper.bullet span.badge-category {
-    color: #e45735 !important;
+    color: #f56400 !important;
    }
 .cat-link .badge-wrapper {
     font-weight: normal;
