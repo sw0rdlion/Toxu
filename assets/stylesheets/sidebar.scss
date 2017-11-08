@@ -148,7 +148,7 @@ a.discourse-tag.bullet:hover {color: #f56400;}
 .category-other .d-header.clearfix .wrap .contents  {background-color: #179cee;}
 
 .sidebar .badge-wrapper.bullet .badge-category-bg, .cat-link.category-other2 {display: none;}
-.sidebar .badge-wrapper.bullet span.badge-category {color: #7a98a9;font-size: 1.13em;}
+.sidebar .badge-wrapper.bullet span.badge-category {color: #7a98a9;font-size: 1.12em;}
 .sidebar .badge-wrapper.bullet span.badge-category:hover {color: #f56400 !important;}
 
 .topic-list > tbody > tr:first-of-type {
@@ -328,8 +328,7 @@ nav.post-controls button.edit.create {color: green !important;}
 body[class*="navigation-categories"] .sidebar {display: none;visibility: hidden;}
 body[class*="navigation-categories"] .list-container.has-sidebar {float: none;width: 100%;}
 
-html:not(.mobile-view) {
-  
+html:not(.mobile-view) {	
     
 .footer_social_nav ul {
  list-style:none;
@@ -470,6 +469,7 @@ div.staff a.cat {
   h3.sidebar-heading {
    color: #888;
    font-size: 13px;
+   margin-bottom: 12px;
    font-weight: normal;
    text-transform: uppercase;
    }
