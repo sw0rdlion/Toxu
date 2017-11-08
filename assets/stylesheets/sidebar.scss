@@ -15,6 +15,10 @@
 .category-toxu-events #post_1 .regular.contents nav.post-controls button.toggle-like, 
 .category-toxu-events #post_1 .regular.contents nav.post-controls button.like-count {display: initial;}
 .category-toxu-blog #topic-title .title-wrapper {margin: 0 10% 0 10%;width: 80%;}
+
+.cat-link.category-toxu a.badge-wrapper.bullet span.badge-category.clear-badge {display: inline-block;}
+.cat-link.category-toxu a.badge-wrapper.bullet span.badge-category.clear-badge:first-letter {color:#f56400;}
+
 @media(min-width: 1120px) { .category-toxu-events  .topic-body, .category-toxu-blog  .topic-body {margin: 0 10% 0 10%;width: 80%;}}
 .category-toxu-events .topic-body .contents .cooked, .category-toxu-blog .topic-body .contents .cooked {font-family: Roboto,Arial,sans-serif;
 font-size: 19px;line-height: 30px;}
@@ -144,7 +148,7 @@ a.discourse-tag.bullet:hover {color: #f56400;}
 .category-other .d-header.clearfix .wrap .contents  {background-color: #179cee;}
 
 .sidebar .badge-wrapper.bullet .badge-category-bg, .cat-link.category-other2 {display: none;}
-.sidebar .badge-wrapper.bullet span.badge-category {color: #7a98a9;font-size: 1.1em;}
+.sidebar .badge-wrapper.bullet span.badge-category {color: #7a98a9;font-size: 1.13em;}
 .sidebar .badge-wrapper.bullet span.badge-category:hover {color: #f56400 !important;}
 
 .topic-list > tbody > tr:first-of-type {
@@ -470,9 +474,6 @@ div.staff a.cat {
    text-transform: uppercase;
    }
      
-.cat-link.category-toxu  .badge-wrapper.bullet span.badge-category {
-    color: #f56400 !important;
-   }
 .cat-link .badge-wrapper {
     font-weight: normal;
 } 
