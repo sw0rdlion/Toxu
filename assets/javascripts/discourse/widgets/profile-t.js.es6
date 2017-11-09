@@ -57,7 +57,7 @@ new RawHtml({ html: `<div>
 
 <a class="nastr sm" href="https://toxu.ru/u/${username}/messages"><i class="fa fa-envelope-open" aria-hidden="true"></i></a>
 
-<a class="menu-prof menu" href="https://toxu.ru/posted">${I18n.t('main.qa-you')}</a> &nbsp; - &nbsp; 
+<a class="menu-prof menu" href="https://toxu.ru/posted">${I18n.t('main.qa-you')}</a> <font style="color:#7a98a9;font-size: 75%;">&nbsp; - &nbsp;</font> 
 <a class="menu-prof menu" href="https://toxu.ru/bookmarks">${I18n.t('main.bookmark-you')}</a>  
 
 ${my_gr_ob}
