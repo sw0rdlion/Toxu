@@ -20,13 +20,13 @@ after_initialize do
   require 'listable_topic_serializer'
   class ::ListableTopicSerializer
 
-    def excerpt
+    def excerpt_toxu
       accepted_id = object.custom_fields["accepted_answer_post_id"].to_i
       if accepted_id > 0
         cooked = Post.where(id: accepted_id).pluck('cooked')
-        PrettyText.excerpt(cooked[0], 100, {})
+        PrettyText.excerpt_toxu(cooked[0], 100, {})
       else
-        object.excerpt
+        object.excerpt_toxu
       end
     end
 
