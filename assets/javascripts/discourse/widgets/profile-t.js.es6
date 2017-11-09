@@ -37,7 +37,7 @@ export default createWidget('profile-t', {
  for (var t = 0; t < groups.length; t++) { 
  g_id = groups[t].id;
  if (g_id === 57) { my_gr_ob = ' ';  }   else     
- { my_gr_ob = '<hr> <a class="discourse-tag box" href="https://toxu.ru/groups/Comm">Группа</a> - общение';  } 
+ { my_gr_ob = '<hr> <a class="discourse-tag box bar" href="https://toxu.ru/groups/Comm">Группа</a> - общение';  } 
  }
       
   }
