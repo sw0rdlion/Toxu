@@ -148,7 +148,7 @@ a.discourse-tag.bullet:hover {color: #f56400;}
 .category-other .d-header.clearfix .wrap .contents  {background-color: #179cee;}
 
 .sidebar .badge-wrapper.bullet .badge-category-bg, .cat-link.category-other2 {display: none;}
-.sidebar .badge-wrapper.bullet span.badge-category {color: #7a98a9;font-size: 1.12em;}
+.sidebar .badge-wrapper.bullet span.badge-category {color: #333;font-size: 1.12em;}
 .sidebar .badge-wrapper.bullet span.badge-category:hover {color: #f56400 !important;}
 
 .topic-list > tbody > tr:first-of-type {
@@ -459,13 +459,13 @@ div.staff a.cat {
  @media(min-width:980px) {
   
   .has-sidebar + .sidebar {
-    width: 16%;
+    width: 17%;
     float: left;
     min-height: 100px;
    }
 
   .list-container.has-sidebar {
-    width: 82%;
+    width: 81%;
     float: right;
    }
    
