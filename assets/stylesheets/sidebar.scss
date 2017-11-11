@@ -1,3 +1,7 @@
+/*скрыть админа*/
+section.about.admins {display: none;}
+section.about.about.moderators{padding-top: 10px;}
+
 .category-toxu-blog .topic-list .views, .category-toxu-events .topic-list .views {width: 105px;display: block;}
 .category-toxu-blog .topic-list .posts.sortable.num, .category-toxu-blog .topic-list .num.posts-map.posts, .zadal, 
 .category-toxu-events .topic-list .posts.sortable.num, .category-toxu-events .topic-list .num.posts-map.posts {display: none;}
