@@ -56,7 +56,7 @@ a.icon{width: 48px;}
  margin-right: 4px;
 color: #f56400;
 }
-body.navigation-topics ol.category-breadcrumb, .otvet a.pren {display: none; }
+body.navigation-topics ol.category-breadcrumb {display: none; }
 html:not(.mobile-view) a.nastr.sm{font-size:11px;}
 body[class*="navigation-categories"] #main-outlet .container.list-container.has-sidebar {
     width: 100%;
