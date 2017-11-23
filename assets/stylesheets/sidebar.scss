@@ -134,16 +134,16 @@ p.obyav {width: 67%;}
 	border: solid 1px #f56400;
 	color: #f56400;
 }
-@media screen and (max-width : 950px) { 
- #banner-content h1 {font-size: 24px;}   
-}
-@media screen and (max-width : 1020px) { 
-    #banner-content p {font-size: 14px;}
-}  
 @media screen and (max-width : 1100px) { 
  #banner-content h1 {font-size: 30px;}   
  #banner-content p {font-size: 15px;}
 } 
+@media screen and (max-width : 1020px) { 
+    #banner-content p {font-size: 14px;}
+} 
+@media screen and (max-width : 950px) { 
+ #banner-content h1 {font-size: 24px;}   
+}
 @media screen and (max-width : 680px) {  #banner-content {display: none;}}
 
 /* добавить, вкладка,лого и подсветка авы */
