@@ -94,17 +94,17 @@ body[class*="navigation-categories"] #main-outlet .container.list-container.has-
     border: 1px solid rgba(27,31,35,0.075);
 }
 
-@media only screen and (max-width : 1100px) { 
+@media screen and (max-width : 1100px) { 
  #banner-content h1 {font-size: 30px;}   
  #banner-content p {font-size: 15px;}
 } 
-@media only screen and (max-width : 1020px) { 
+@media screen and (max-width : 1020px) { 
     #banner-content p {font-size: 14px;}
 }     
-@media only screen and (max-width : 950px) { 
+@media screen and (max-width : 950px) { 
  #banner-content h1 {font-size: 24px;}   
 }
-@media only screen and (max-width : 680px) {  #banner-content {display: none;}}
+@media screen and (max-width : 680px) {  #banner-content {display: none;}}
 p.obyav {width: 67%;}
 
 #banner-content h1 {
