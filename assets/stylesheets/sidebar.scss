@@ -97,6 +97,8 @@ body[class*="navigation-categories"] #main-outlet .container.list-container.has-
 }
 
 /* баннер */
+html:not(.mobile-view) {
+
 #banner-content {
     background: url(https://toxu.ru/uploads/default/original/2X/4/40a369bb0fbe0b72d259b0dbb0ffcc525c283ad7.jpg);
     background-position-x: 0%;
@@ -161,7 +163,8 @@ p.obyav {width: 67%;}
  #banner-content h1 {font-size: 24px;}   
 }
 @media screen and (max-width : 680px) {  #banner-content {display: none;}}
-
+}
+	
 /* добавить, вкладка,лого и подсветка авы */
 #create-topic {background: transparent;color: #f56400;}
 #create-topic:hover, #create-topic:active {color: #fff;background-color: #f56400;}
