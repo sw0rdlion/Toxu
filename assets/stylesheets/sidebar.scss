@@ -12,6 +12,12 @@ a.mention, a.mention-group {
     background: #E1ECF4;
     font-weight: normal;
 } 
+.discourse-tag.box.bar:hover {
+    background-color: #eee;
+}
+.user-profile.widget-container {
+    color: #888;
+}
 
 body.category-other2 #create-topic, .cat-link.category-other2, .category-link.category-other2 {display: none;} 
 .user-activity-bottom-outlet i.glyph {display: none;} 
