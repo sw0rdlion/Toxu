@@ -104,7 +104,7 @@ body[class*="navigation-categories"] #main-outlet .container.list-container.has-
 @media only screen and (max-width : 950px) { 
  #banner-content h1 {font-size: 24px;}   
 }
-
+@media only screen and (max-width : 680px) {  #banner-content {display: none;}}
 p.obyav {width: 67%;}
 
 #banner-content h1 {
