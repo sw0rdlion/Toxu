@@ -294,13 +294,6 @@ body .text-label #ember1140.ember-text-field.ember-view{width: 430px;}
 .topic-list a.title {font-size: 16px;}   
 .topic-list a.title.visited:not(.badge-notification){font-size: 16px;}  
 
-	
-}
-
-@media(max-width:620px){ 
-.avahome {display: none;} 
-#list-area .discourse-tag.box, #list-area .discourse-tag, #suggested-topics .topic-excerpt  {display: none;}
-.share2, .topic-meta-data span.user-title, .topic-meta-data .user-signature {display: none;}
 }
 
 summary:first-of-type {color: #08c;}
