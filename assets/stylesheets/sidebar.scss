@@ -138,9 +138,11 @@ a.facebook:hover, a.vk:hover, a.twitter:hover, a.telegram:hover, a.discord:hover
 .discourse-tag.bullet::before {content: "\f02b";font-size: 0.9em;color: #bdbdbd;top: 0.1em;margin-right: 4px;}
 a.discourse-tag.bullet::before:hover {color: #f56400; }
 a.discourse-tag.bullet:hover {color: #f56400;}
+a.discourse-tag.bullet {color: #bdbdbd;}
 
 .category-other .extra-info-wrapper .topic-link {color: #fff;}
 .category-other .extra-info-wrapper .discourse-tag {color: #fff !important;}
+
 .category-other .d-header .icons .icon {color: #fff;}
 .category-other .d-header.clearfix .wrap .contents  {background-color: #179cee;}
 
@@ -157,7 +159,8 @@ a.discourse-tag.bullet:hover {color: #f56400;}
 
 .badge-notification.new-posts, .badge-notification.unread-posts {background-color: #f56400;}
 .badge-notification.new-topic {color: #f56400;}
-.topic-post.comment img.avatar { width: 20px; height: 20px;}
+.topic-post.comment img.avatar { width: 30px; height: 30px;}
+.topic-post.comment a.reply-to-tab img.avatar {display: none;}
 .topic-post.comment .topic-avatar { width: 35px;}
 .topic-post.comment { margin-left: 53px;}
 .topic-post.comment .topic-body .regular {margin-top: 1px;}
