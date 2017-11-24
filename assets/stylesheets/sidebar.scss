@@ -1,5 +1,18 @@
 .cooked p img, .lightbox-wrapper img {border: 1px solid #e9e9e9;}
 .cooked p img.emoji{border: none;}
+.topic-body .contents .cooked {
+    font-size: 16px; font-family: 'PT Sans', Verdana, Arial, "Liberation Sans", sans-serif;
+    line-height: 1.6;
+}
+/*comment*/
+.regular.contents a[rel~="nofollow"]::after {
+    display: inline-block;
+    content: ' \f08e ';
+    font-family: FontAwesome;
+    color: #999;
+    font-size: 11px;
+    margin-left: 3px;
+}
 /* WIKI */
 .widget-button.edit.create {color: #339900;}
 .topic-list th {
