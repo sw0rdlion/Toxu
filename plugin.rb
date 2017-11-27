@@ -1,6 +1,6 @@
 # name: Toxu
-# about: add a detals site and dev
-# version: 0.3
+# about: add a detals site and dev, stats
+# version: 0.5
 # authors:  Evg
 # url: https://github.com/Toxu-ru/Toxu
 
@@ -11,6 +11,7 @@ Discourse::Application.routes.append do
   get '/hots' => 'discourse_hots/hots#my_page'
   get '/toxu' => 'discourse_toxu/toxu#my_page'
   get '/help' => 'discourse_help/help#my_page'
+  get '/stats' => 'discourse_stats/stats#my_page'
 end
 
 load File.expand_path('../lib/dev/engine.rb', __FILE__)
