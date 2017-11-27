@@ -2,7 +2,7 @@ import { createWidget } from 'discourse/widgets/widget';
 import RawHtml from 'discourse/widgets/raw-html';
 
 export default createWidget('page-stats', {
-  tagName: 'div.user-profile.widget-container',
+  tagName: 'div.stats',
   buildKey: (attrs) => 'user-profile',
 
   html(attrs, state) {
@@ -33,7 +33,7 @@ export default createWidget('page-stats', {
  if (g_id === 57) { my_gr_ob = ' ';  }   
 
  else     
- { my_gr_ob = '<hr> <a class="discourse-tag box bar" href="https://toxu.ru/groups/Comm">Группа</a> - общение';  } 
+ { my_gr_ob = '<hr> <a class="discourse-tag box bar" href="https://toxu.ru/groups/Comm">Группа</a> - общение. Вступайте!';  } 
    
   }
       
@@ -44,15 +44,21 @@ export default createWidget('page-stats', {
 contents.push(
 new RawHtml({ html: `
 <div class="id">
+<h1 style="font-size: 2.0em;">${username} - <span class="${coll}"> ${doverie}</span></h1>
+<div class="topic-list"> 
+<div class="main-link clearfix"> 
+<br><br>
+<i>В стадии разработки...</i>
+ ${my_gr_ob}
 
-Работает - 
-
-${my_gr_ob}
-<hr></div>`})
- 
-   );
+</div></div>`}));
    
-} 
+} else { 
+
+    contents.push(
+    new RawHtml({ html: `<div class="id"><br><br><center>Cтраница доступна только после авторизации</center><br><br></div>`}));
+
+        }
 
 return contents;
 
