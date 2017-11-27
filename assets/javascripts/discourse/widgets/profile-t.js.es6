@@ -22,9 +22,9 @@ contents.push(
 new RawHtml({ html: `<div>  
 <div class="id"><a class="nastr ${coll}" alt="${I18n.t('main.acc')}" href="https://toxu.ru/stats">${doverie}</a></div>
 <a class="menu-profile" href="https://toxu.ru/u/${username}">@${username}</a> 
-<a class="menu-prof menu" href="https://toxu.ru/posted"><i class="fa fa-commenting d-icon d-icon-dot-circle-o" aria-hidden="true"></i></a> &nbsp; &nbsp; 
-<a class="menu-prof menu" href="https://toxu.ru/bookmarks"><i class="fa fa-bookmark d-icon d-icon-bookmark" aria-hidden="true"></i></a> &nbsp; &nbsp; 
-<a class="menu-prof menu" href="https://toxu.ru/u/${username}/messages"><i class="fa fa-envelope d-icon d-icon-envelope" aria-hidden="true"></i></a>
+<a class="menu-prof menu" href="https://toxu.ru/posted">${I18n.t('main.qa-you')}</a> -  
+<a class="menu-prof menu" href="https://toxu.ru/bookmarks">${I18n.t('main.bookmark-you')}</a> - 
+<a class="menu-prof menu" href="https://toxu.ru/u/${username}/messages">${I18n.t('main.mail-you')}</a>
 <hr></div>`})
  
    );
