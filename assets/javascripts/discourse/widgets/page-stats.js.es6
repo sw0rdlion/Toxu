@@ -1,7 +1,7 @@
 import { createWidget } from 'discourse/widgets/widget';
 import RawHtml from 'discourse/widgets/raw-html';
 
-export default createWidget('profile-t', {
+export default createWidget('page-stats', {
   tagName: 'div.user-profile.widget-container',
   buildKey: (attrs) => 'user-profile',
 
