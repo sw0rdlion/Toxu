@@ -13,7 +13,12 @@ export default createWidget('page-stats', {
       const name = currentUser.get('name');
       const trust_level = currentUser.get('trust_level');
       
-      if (trust_level === 0) { var doverie = I18n.t("main.d0-you"); var coll = 'col0'; var dov = 'Вы пожете писать только в категории: Песочница и в категории Групп'; }
+      if (trust_level === 0) { var doverie = I18n.t("main.d0-you"); 
+                              var coll = 'col0'; 
+                              var dov = 'Вы пожете писать только в категории: Песочница и в категориях, при вступление в Группы.';
+                             
+                             
+                             }
       if (trust_level === 1) { var doverie = I18n.t("main.d1-you"); var coll = 'col1'; var dov = ''; }
       if (trust_level === 2) { var doverie = I18n.t("main.d2-you"); var coll = 'col2'; var dov = ''; }
       if (trust_level === 3) { var doverie = I18n.t("main.d3-you"); var coll = 'col3'; var dov = ''; }
@@ -47,8 +52,10 @@ new RawHtml({ html: `
 <h1 style="font-size: 2.0em;">${username} - <span class="${coll}"> ${doverie}</span></h1>
 <div class="topic-list"> 
 <div class="main-link clearfix"> 
-<br><br>${dov}<br><a href="https://toxu.ru/t/uroven-doveriya-na-sajte-toxu-ru/61">Ознакомтись</a> более подробно, что такое <b>Уровень доверие</b> на сайте.<br><br
-<i>В стадии разработки...</i>
+<br><br>${dov}<br>
+<i>В стадии разработки...</i><br><br>
+<a href="https://toxu.ru/t/uroven-doveriya-na-sajte-toxu-ru/61">Ознакомьтесь</a> более подробно, что такое <b>Уровень доверие</b> на сайте.<br><br
+<br>
  ${my_gr_ob}
 
 </div></div>`}));
