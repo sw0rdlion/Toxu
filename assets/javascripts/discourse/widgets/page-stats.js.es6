@@ -47,7 +47,7 @@ new RawHtml({ html: `
 <h1 style="font-size: 2.0em;">${username} - <span class="${coll}"> ${doverie}</span></h1>
 <div class="topic-list"> 
 <div class="main-link clearfix"> 
-<br><br>${dov}<br><br>
+<br><br>${dov}<br><a href="https://toxu.ru/t/uroven-doveriya-na-sajte-toxu-ru/61">Ознакомтись</a> более подробно, что такое <b>Уровень доверие</b> на сайте.<br><br
 <i>В стадии разработки...</i>
  ${my_gr_ob}
 
