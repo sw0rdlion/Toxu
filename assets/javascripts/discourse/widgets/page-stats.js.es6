@@ -15,7 +15,7 @@ export default createWidget('page-stats', {
       
       if (trust_level === 0) { var doverie = I18n.t("main.d0-you"); 
                               var coll = 'col0'; 
-                              var dov = 'Вы пожете писать только в категории: Песочница и в категориях, при вступление в Группы.';
+                              var dov = 'Вы пожете писать только в категории: Песочница и в других категориях, при вступление в Группы.';
                              
                              
                              }
@@ -52,10 +52,10 @@ new RawHtml({ html: `
 <h1 style="font-size: 2.0em;">${username} - <span class="${coll}"> ${doverie}</span></h1>
 <div class="topic-list"> 
 <div class="main-link clearfix"> 
-<br><br>${dov}<br>
-<i>В стадии разработки...</i><br><br>
+<br><br>${dov}<br><br>
+
 <a href="https://toxu.ru/t/uroven-doveriya-na-sajte-toxu-ru/61">Ознакомьтесь</a> более подробно, что такое <b>Уровень доверие</b> на сайте.<br><br
-<br>
+<br><br><i>В стадии разработки...</i><br><br>
  ${my_gr_ob}
 
 </div></div>`}));
