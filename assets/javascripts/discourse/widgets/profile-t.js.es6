@@ -20,7 +20,7 @@ export default createWidget('profile-t', {
       
 contents.push(
 new RawHtml({ html: `<div>  
-<div class="id"><a class="nastr ${coll}" alt="${I18n.t('main.acc')}" href="https://toxu.ru/stats">${doverie}</a></div>
+<div class="id"><a class="nastr ${coll}" title="Посмотрите вашу статистику"  href="https://toxu.ru/stats">${doverie}</a></div>
 <a class="menu-profile" href="https://toxu.ru/u/${username}">@${username}</a> 
 <a class="menu-prof menu" href="https://toxu.ru/posted">${I18n.t('main.qa-you')}</a> -  
 <a class="menu-prof menu" href="https://toxu.ru/bookmarks">${I18n.t('main.bookmark-you')}</a> - 
