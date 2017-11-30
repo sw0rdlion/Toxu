@@ -13,16 +13,25 @@ export default createWidget('page-stats', {
       const name = currentUser.get('name');
       const trust_level = currentUser.get('trust_level');
       
-      if (trust_level === 0) { var doverie = I18n.t("main.d0-you"); 
-                              var coll = 'col0'; 
-                              var dov = 'Вы пожете писать только в категории: Песочница и в других категориях, при вступление в Группы.';
-                             
-                             
-                             }
-      if (trust_level === 1) { var doverie = I18n.t("main.d1-you"); var coll = 'col1'; var dov = ''; }
-      if (trust_level === 2) { var doverie = I18n.t("main.d2-you"); var coll = 'col2'; var dov = ''; }
-      if (trust_level === 3) { var doverie = I18n.t("main.d3-you"); var coll = 'col3'; var dov = ''; }
-      if (trust_level === 4) { var doverie = I18n.t("main.d4-you"); var coll = 'col4'; var dov = ''; }
+      if (trust_level === 0) { var doverie = I18n.t("main.d0-you"); var coll = 'col0'; 
+      var dov = 'Поздравляем, ваш уровень: <b>Посетитель</b>!<br><br>Вы пожете писать только в категории: <b>Песочница</b> и в дополнительных категориях, при условии вступления в <a target="_blank" href="https://toxu.ru/groups">Группы</a>. Вступайте в них!';
+      var dov_2 = '<a href="https://toxu.ru/t/uroven-doveriya-na-sajte-toxu-ru/61">Ознакомьтесь</a> более подробно, что такое <a target="_blank" href="https://toxu.ru/t/uroven-doveriya-na-sajte-toxu-ru/61">Уровень доверие</a> на сайте, и с главным нашим документом: <a target="_blank" href="https://toxu.ru/t/poleznye-i-bespoleznye-otvety/202">Политикой полезности.</a><br><br>Вы можете:<br><br><ul><il>- Настроить дизайн для себя. У нас несколько вариантов дизайна.</il><br><il>- Выбрать свою центральную страницу.</il><br><il>- Полностью заполнить свой профиль.</il></ul>';}
+      
+      if (trust_level === 1) { var doverie = I18n.t("main.d1-you"); var coll = 'col1'; 
+      var dov = 'Поздравляем, ваш уровень: <b>Новичок</b>!<br><br>Теперь Вы можете писать во все категории, а при условии вступления в <a target="_blank" href="https://toxu.ru/groups">Группы</a>, и в дополнительные категории!';
+      var dov_2 = '<a href="https://toxu.ru/t/uroven-doveriya-na-sajte-toxu-ru/61">Ознакомьтесь</a> более подробно, что такое <a target="_blank" href="https://toxu.ru/t/uroven-doveriya-na-sajte-toxu-ru/61">Уровень доверие</a> на сайте, и с главным нашим документом: <a target="_blank" href="https://toxu.ru/t/poleznye-i-bespoleznye-otvety/202">Политикой полезности.</a><br><br>Вы можете:<br><br><ul><il>- Настроить дизайн для себя. У нас несколько вариантов дизайна.</il><br><il>- Выбрать свою центральную страницу.</il><br><il>- Полностью заполнить свой профиль.</il></ul>';}
+      
+      if (trust_level === 2) { var doverie = I18n.t("main.d2-you"); var coll = 'col2'; 
+      var dov = 'Поздравляем, ваш уровень: <b>Участник</b>!<br><br>Теперь Вы можете писать во все категории, а при условии вступления в <a target="_blank" href="https://toxu.ru/groups">Группы</a>, и в дополнительные категории!';
+      var dov_2 = 'Вам стали доступны личные сообщения, инвайт система и множество других функций.';}
+      
+      if (trust_level === 3) { var doverie = I18n.t("main.d3-you"); var coll = 'col3'; 
+      var dov = 'Поздравляем, ваш уровень: <b>Постоялец</b>!<br><br>Теперь Вы можете писать во все категории, а при условии вступления в <a target="_blank" href="https://toxu.ru/groups">Группы</a>, и в дополнительные категории!';
+      var dov_2 = 'Теперь вам доступны практически все возможности системы и вы можете принимать активное участие в развитие сайта.';}
+      
+      if (trust_level === 4) { var doverie = I18n.t("main.d4-you");
+      var dov = 'Поздравляем, ваш уровень: <b>Лидер</b>!<br><br>Теперь Вы можете писать во все категории, а при условии вступления в <a target="_blank" href="https://toxu.ru/groups">Группы</a>, и в дополнительные категории!';
+      var dov_2 = 'Теперь вам доступны практически все возможности системы и вы можете принимать активное участие в развитие сайта.';}
   
   var g_id;
   var my_gr_ob;    
@@ -52,12 +61,10 @@ new RawHtml({ html: `
 <h1 style="font-size: 2.0em;">${username} - <span class="${coll}"> ${doverie}</span></h1>
 <div class="topic-list"> 
 <div class="main-link clearfix"> 
-<br><br>${dov}<br><br>
+<br>${dov}<br><br>
+${dov_2}
 
-<a href="https://toxu.ru/t/uroven-doveriya-na-sajte-toxu-ru/61">Ознакомьтесь</a> более подробно, что такое <b>Уровень доверие</b> на сайте.<br><br
-<br><br><i>В стадии разработки...</i><br><br>
- ${my_gr_ob}
-
+${my_gr_ob}
 </div></div>`}));
    
 } else { 
