@@ -44,6 +44,14 @@ a.blogt {
     right: 0; bottom: 0; 
 }
 
+.category-heading p {
+    font-size: 1.2em;
+color: #444;
+background-color: #eff5fa;
+border-color: transparent;
+padding: .2em .3em;
+}
+
 body.category-other2 #create-topic, .cat-link.category-other2, .category-link.category-other2 {display: none;} 
 .user-activity-bottom-outlet i.glyph {display: none;} 
 
@@ -140,11 +148,11 @@ a.discourse-tag.bullet::before:hover {color: #f56400; }
 a.discourse-tag.bullet:hover {color: #f56400;}
 a.discourse-tag.bullet {color: #bdbdbd;}
 
-.category-other .extra-info-wrapper .topic-link {color: #fff;}
-.category-other .extra-info-wrapper .discourse-tag {color: #fff !important;}
+.category-communication .extra-info-wrapper .topic-link {color: #fff;}
+.category-communication .extra-info-wrapper .discourse-tag {color: #fff !important;}
 
-.category-other .d-header .icons .icon {color: #fff;}
-.category-other .d-header.clearfix .wrap .contents  {background-color: #179cee;}
+.category-communication .d-header .icons .icon {color: #fff;}
+.category-communication .d-header.clearfix .wrap .contents  {background-color: #179cee;}
 
 .sidebar .badge-wrapper.bullet .badge-category-bg, .cat-link.category-other2 {display: none;}
 .sidebar .badge-wrapper.bullet span.badge-category {color: #333;font-size: 1.12em;}
@@ -178,7 +186,7 @@ a.discourse-tag.bullet {color: #bdbdbd;}
 a.topic-featured-link {
     color: #339900;
 }
-.category-other .d-header.clearfix { background-color: #179cee;}
+.category-communication .d-header.clearfix { background-color: #179cee;}
 .cat-link .topics-count  {
     float: right;
     font-weight: normal;
@@ -194,7 +202,7 @@ a.topic-featured-link {
     color: #777;
     font-size: 0.929em;
 }
-.category-other img#site-logo.logo-big
+.category-communication img#site-logo.logo-big
 {
   display: block;
   -moz-box-sizing: border-box;
@@ -206,7 +214,7 @@ a.topic-featured-link {
   padding-left: 150px; /* Equal to width of new image */    
 }
 
-.category-other img#site-logo.logo-small {
+.category-communication img#site-logo.logo-small {
     display: block;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -254,16 +262,16 @@ a.topic-featured-link {
     padding-left: 40px;
 }
 
-.cat-link .category-other .wrap .contents.clearfix {
+.cat-link .category-communication .wrap .contents.clearfix {
  background-color: #179cee; }
 
 span.badge-category-bg {
     border: 1px solid white;
 }
 
-.category-other .wrap {background: none;}
+.category-communication .wrap {background: none;}
 
-.category-other .extra-info-wrapper .badge-wrapper.bullet span.badge-category
+.category-communication .extra-info-wrapper .badge-wrapper.bullet span.badge-category
 {
     color : #fff !important;
 }
