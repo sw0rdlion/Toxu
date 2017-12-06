@@ -155,7 +155,7 @@ a.discourse-tag.bullet {color: #bdbdbd;}
 .category-communication .d-header.clearfix .wrap .contents  {background-color: #179cee;}
 
 .sidebar .badge-wrapper.bullet .badge-category-bg, .cat-link.category-other2 {display: none;}
-.sidebar .badge-wrapper.bullet span.badge-category {color: #333;font-size: 1.12em;}
+.sidebar .badge-wrapper.bullet span.badge-category {color: #333 !important;font-size: 1.12em;}
 .sidebar .badge-wrapper.bullet span.badge-category:hover {color: #f56400 !important;}
 
 .topic-list > tbody > tr:first-of-type {
@@ -164,6 +164,10 @@ a.discourse-tag.bullet {color: #bdbdbd;}
 .nav-pills>li.active>a, .nav-pills>li>a.active {color: #999;font-weight: 500;background-color: #fff;border-bottom: 3px solid #f56400;}
 .nav-pills > li > a:hover{color: #999;  background-color: #fff;  border-bottom: 3px solid #f56400;} 
 
+.sidebar .category-communication .badge-wrapper.bullet span.badge-category {
+    color: #339900 !important;
+}
+.sidebar .category-communication .badge-wrapper.bullet span.badge-category i.fa-lock {display: none;}
 
 .badge-notification.new-posts, .badge-notification.unread-posts {background-color: #f56400;}
 .badge-notification.new-topic {color: #f56400;}
