@@ -14,7 +14,7 @@ export default createWidget('page-stats', {
       const trust_level = currentUser.get('trust_level');
       
       if (trust_level === 0) { var doverie = I18n.t("main.d0-you"); var coll = 'col0'; 
-      var dov = 'Поздравляем, ваш уровень: <b>Посетитель</b>!<br><br>Вы пожете писать только в категории: <b>Песочница</b> и в дополнительных категориях, при условии вступления в <a target="_blank" href="https://toxu.ru/groups">Группы</a>. Вступайте в них!<br><br>Вам <a target="_blank" href="https://toxu.ru/u/conter/messages">пришло письмо</a> от нашего <b>ToxBot</b>-а, прочитайте его и получите награду после прохождения ознакомительной экскурсии. <img src="https://toxu.ru/images/emoji/twitter/trophy.png?v=5" class="emoji"><br>';
+      var dov = 'Поздравляем, ваш уровень: <b>Посетитель</b>!<br><br>Вы можете писать только в категории: <b>Песочница</b> и в дополнительных категориях, при условии вступления в <a target="_blank" href="https://toxu.ru/groups">Группы</a>. Вступайте в них!<br><br>Вам <a target="_blank" href="https://toxu.ru/u/conter/messages">пришло письмо</a> от нашего <b>ToxBot</b>-а, <img src="https://toxu.ru/images/emoji/twitter/trophy.png?v=5" class="emoji"> - это поможет вам приблизится к следующему уровню доверия и откроет новые возможности на сайте.<br>';
       var dov_2 = '<a target="_blank" href="https://toxu.ru/t/uroven-doveriya-na-sajte-toxu-ru/61">Ознакомьтесь</a> более подробно, что такое <a target="_blank" href="https://toxu.ru/t/uroven-doveriya-na-sajte-toxu-ru/61">Уровень доверие</a> на сайте, и с главным нашим документом: <a target="_blank" href="https://toxu.ru/t/poleznye-i-bespoleznye-otvety/202">Политикой полезности.</a><br><br>Вы можете:<br><br><ul><il>- Настроить дизайн для себя. У нас несколько вариантов дизайна.</il><br><il>- Выбрать свою центральную страницу.</il><br><il>- Полностью заполнить свой профиль.</il></ul>';}
       
       if (trust_level === 1) { var doverie = I18n.t("main.d1-you"); var coll = 'col1'; 
@@ -47,7 +47,7 @@ export default createWidget('page-stats', {
  if (g_id === 57) { my_gr_ob = ' ';  }   
 
  else     
- { my_gr_ob = '<hr> <a class="discourse-tag box bar" href="https://toxu.ru/groups/Comm">Группа</a> - общение. Вступайте!';  } 
+ { my_gr_ob = '<hr> <a target="_blank" class="discourse-tag box bar" href="https://toxu.ru/groups/Comm">Группа «Общение»</a>. <a target="_blank" href="https://toxu.ru/groups/Comm">Вступайте!</a>';  } 
    
   }
       
