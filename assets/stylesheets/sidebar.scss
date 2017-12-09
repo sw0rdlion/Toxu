@@ -4,6 +4,12 @@
     font-size: 15px; font-family: 'PT Sans', Verdana, Arial, "Liberation Sans", sans-serif;
     line-height: 1.6;
 }
+.spinner {
+    height: 35px;
+    width: 35px;
+    border: none;
+    box-shadow: inset 0 1px 1px #f56400;
+}
 /*comment and */
 .regular.contents a[rel~="nofollow"]::after {
     display: inline-block;
