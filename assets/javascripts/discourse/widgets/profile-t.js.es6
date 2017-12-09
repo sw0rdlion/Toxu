@@ -12,7 +12,7 @@ export default createWidget('profile-t', {
       const username = currentUser.get('username');
       const trust_level = currentUser.get('trust_level');
       
-      if (trust_level === 0) { var doverie = I18n.t("main.d0-you"); var coll = 'col0'; var dopp = '<a href="https://toxu.ru/stats"><span style="color:#f56400">Прочтите</span></a> - рекомендации<br>';}
+      if (trust_level === 0) { var doverie = I18n.t("main.d0-you"); var coll = 'col0'; var dopp = '<a href="https://toxu.ru/stats"><span style="color:#f56400">Прочтите</span></a> - рекомендации<br><hr><br>';}
       if (trust_level === 1) { var doverie = I18n.t("main.d1-you"); var coll = 'col1'; var dopp = '';}
       if (trust_level === 2) { var doverie = I18n.t("main.d2-you"); var coll = 'col2'; var dopp = '';}
       if (trust_level === 3) { var doverie = I18n.t("main.d3-you"); var coll = 'col3'; var dopp = '';}
