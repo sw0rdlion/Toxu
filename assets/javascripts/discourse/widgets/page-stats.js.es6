@@ -47,7 +47,7 @@ export default createWidget('page-stats', {
  if (g_id === 57) { my_gr_ob = ' ';  }   
 
  else     
- { my_gr_ob = '<hr> <a target="_blank" class="discourse-tag box bar" href="https://toxu.ru/groups/Comm">Группа «Общение»</a> <a target="_blank" href="https://toxu.ru/groups/Comm">- вступайте!</a>';  } 
+ { my_gr_ob = '<hr> <a target="_blank" class="discourse-tag box bar" href="https://toxu.ru/groups/Comm">Группа «Общение»</a> <a target="_blank" href="https://toxu.ru/groups/Comm">- вступайте!</a> Это позволит вам ближе познакомиться с пользователями сайта в неформальной уютной обстановке.';  } 
    
   }
       
