@@ -39,10 +39,7 @@ export default createWidget('page-stats', {
    if (trust_level === 0) { var graff =  '';}
    if (trust_level === 1) { var graff =  '';}   
    if (trust_level === 2) { 
- var graff =  'Во всплывающем окне: пожаловаться, появилась возможность обращаться к пользователю напрямую, минуя администрацию. <br>Для уточнения вопроса/ответа или продолжение личной беседы в почтовом разделе.<br><br><img style="border: 1px solid #e9e9e9;" src="https://toxu.ru/uploads/default/optimized/2X/b/be1d524e3ebb32339bb14781c34a5c6eb1679bef_1_690x224.gif" alt="Личные-сообщения" width="590" height="200"><br><br>До уровня: <b>Постоялец (3)</b> <div class="wrapper-stats"><div class="progress-bar"><span class="progress-bar-fill" style="width:' + days_visited + '%"></span></div>';}
-
- 
- 
+   var graff =  'Во всплывающем окне: пожаловаться, появилась возможность обращаться к пользователю напрямую, минуя администрацию. <br>Для уточнения вопроса/ответа или продолжение личной беседы в почтовом разделе.<br><br><img style="border: 1px solid #e9e9e9;" src="https://toxu.ru/uploads/default/optimized/2X/b/be1d524e3ebb32339bb14781c34a5c6eb1679bef_1_690x224.gif" alt="Личные-сообщения" width="590" height="200"><br><br>До уровня: <b>Постоялец (3)</b> <div class="wrapper-stats"><div class="progress-bar"><span class="progress-bar-fill" style="width:' + days_visited + '%"></span></div>';}
    if (trust_level === 3) { var graff =  '';}
    if (trust_level === 4) { var graff =  '';}   
       
@@ -56,7 +53,7 @@ export default createWidget('page-stats', {
      
       if (trust_level === 2) { var doverie = I18n.t("main.d2-you"); var coll = 'col2'; 
       var dov = 'Поздравляем, ваш уровень: <b>Участник</b>!<br><br>Теперь Вы можете писать во все разделы, а при условии вступления в <a target="_blank" href="https://toxu.ru/groups">Группы</a>, и в дополнительные!';
-      var dov_2 = 'Вам стали доступны <a target="_blank" href="https://toxu.ru/u/'+ username +'/messages">личные сообщения</a>, <a target="_blank" href="https://toxu.ru/u/'+ username +'/invited/pending">инвайт система</a>, приглашение пользователей в вопросы и некоторые другие возможности.<br><br>';}
+      var dov_2 = 'Вам стали доступны групповые и <a target="_blank" href="https://toxu.ru/u/'+ username +'/messages">личные сообщения</a>, <a target="_blank" href="https://toxu.ru/u/'+ username +'/invited/pending">инвайт система</a>, приглашение пользователей в вопросы и некоторые другие возможности.<br><br>';}
     
       if (trust_level === 3) { var doverie = I18n.t("main.d3-you"); var coll = 'col3'; 
       var dov = 'Поздравляем, ваш уровень: <b>Постоялец</b>!<br><br>Теперь Вы можете писать во все разделы, а при условии вступления в <a target="_blank" href="https://toxu.ru/groups">Группы</a>, и в дополнительные!';
