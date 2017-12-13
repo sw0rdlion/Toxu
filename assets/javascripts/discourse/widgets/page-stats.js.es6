@@ -39,7 +39,7 @@ export default createWidget('page-stats', {
    if (trust_level === 0) { var graff =  '';}
    if (trust_level === 1) { var graff =  '';}   
    if (trust_level === 2) { 
- var graff =  'Дней до уровня:<br><div class="wrapper"><div class="progress-bar"><span class="progress-bar-fill" style="width:' + days_visited + '%"></span></div>';}
+ var graff =  'До уровня: <b>Постоялец (3)</b> <div class="wrapper"><div class="progress-bar"><span class="progress-bar-fill" style="width:' + days_visited + '%"></span></div>';}
 
  
  
