@@ -39,7 +39,7 @@ export default createWidget('page-stats', {
    if (trust_level === 0) { var graff =  '';}
    if (trust_level === 1) { var graff =  '';}   
    if (trust_level === 2) { 
- var graff =  'До уровня: <b>Постоялец (3)</b> <div class="wrapper-stats"><div class="progress-bar"><span class="progress-bar-fill" style="width:' + days_visited + '%"></span></div>';}
+ var graff =  'Во всплывающем окне: пожаловаться, появилась возможность обращаться к пользователю напрямую, минуя администрацию. Для уточнения вопроса/ответа или продолжение личной беседы в почтовом разделе.<br><img src="https://toxu.ru/uploads/default/optimized/2X/f/f68fffba27e4c8291ebbe6ed6d2788e989f78945_1_639x500.gif" alt="Личные-сообщения" width="639" height="500"><br>До уровня: <b>Постоялец (3)</b> <div class="wrapper-stats"><div class="progress-bar"><span class="progress-bar-fill" style="width:' + days_visited + '%"></span></div>';}
 
  
  
