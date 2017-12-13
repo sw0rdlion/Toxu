@@ -38,7 +38,7 @@ export default createWidget('page-stats', {
       
    if (trust_level === 0) { var graff =  '';}
    if (trust_level === 1) { var graff =  '';}   
-   if (trust_level === 2) { var graff =  'Дней до уровня: '  + days_visited + '/100';}
+   if (trust_level === 2) { var graff =  '<br>Дней до уровня: '  + days_visited + '/100<br>';}
    if (trust_level === 3) { var graff =  '';}
    if (trust_level === 4) { var graff =  '';}   
       
