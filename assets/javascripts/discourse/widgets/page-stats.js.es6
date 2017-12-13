@@ -56,7 +56,7 @@ export default createWidget('page-stats', {
      
       if (trust_level === 2) { var doverie = I18n.t("main.d2-you"); var coll = 'col2'; 
       var dov = 'Поздравляем, ваш уровень: <b>Участник</b>!<br><br>Теперь Вы можете писать во все разделы, а при условии вступления в <a target="_blank" href="https://toxu.ru/groups">Группы</a>, и в дополнительные!';
-      var dov_2 = 'Вам стали доступны <a target="_blank" href="https://toxu.ru/u/'+ username +'/messages">личные сообщения</a>, <a target="_blank" href="https://toxu.ru/u/'+ username +'/invited/pending">инвайт система</a> и множество других функций.<br><br>';}
+      var dov_2 = 'Вам стали доступны <a target="_blank" href="https://toxu.ru/u/'+ username +'/messages">личные сообщения</a>, <a target="_blank" href="https://toxu.ru/u/'+ username +'/invited/pending">инвайт система</a>, приглашение пользователей в вопросы и некоторые другие возможности.<br><br>';}
     
       if (trust_level === 3) { var doverie = I18n.t("main.d3-you"); var coll = 'col3'; 
       var dov = 'Поздравляем, ваш уровень: <b>Постоялец</b>!<br><br>Теперь Вы можете писать во все разделы, а при условии вступления в <a target="_blank" href="https://toxu.ru/groups">Группы</a>, и в дополнительные!';
