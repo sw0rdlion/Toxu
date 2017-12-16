@@ -314,11 +314,12 @@ span.badge-category-bg {
 
 /* PM и комментировать */
 
-
-.archetype-private_message .topic-post button.create:after  {content: "Комментировать приватно";}
+nav.post-controls button.reply.create:after {   content: " Комментировать";}
+nav.post-controls button.reply.create span.d-button-label {display: none;}
+.archetype-private_message .topic-post button.reply.create:after  {content: "Комментировать приватно";}
 .archetype-private_message .private-message-map h3:after { content: " (приватно)";} 
-.archetype-private_message button.create span.d-button-label {display: none;}
-.archetype-private_message button.create:after { content: " Ответить приватно";} 
+.archetype-private_message button.reply.create span.d-button-label {display: none;}
+.archetype-private_message button.reply.create:after { content: " Ответить приватно";} 
 .archetype-private_message #topic-footer-buttons button.create,
 .archetype-private_message #reply-control .btn-primary {color: white; background-color: #306f30}
 .archetype-private_message .topic-body {
