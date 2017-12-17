@@ -319,6 +319,7 @@ span.badge-category-bg {
 /* PM и комментировать */
 
 nav.post-controls button.reply.create:after {   content: " Комментировать";}
+.topic-post.comment nav.post-controls button.reply.create:after {   content: " комм";}
 nav.post-controls button.reply.create span.d-button-label {display: none;}
 .archetype-private_message .topic-post button.reply.create:after  {content: "Комментировать приватно";}
 .archetype-private_message .private-message-map h3:after { content: " (приватно)";} 
