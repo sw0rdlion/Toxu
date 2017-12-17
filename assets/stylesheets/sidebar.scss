@@ -202,21 +202,7 @@ a.discourse-tag.bullet {color: #bdbdbd;}
 
 .badge-notification.new-posts, .badge-notification.unread-posts {background-color: #f56400;}
 .badge-notification.new-topic {color: #f56400;}
-.topic-post.comment img.avatar { width: 20px; height: 20px;}
-.topic-post.comment a.reply-to-tab img.avatar {display: none;}
-.topic-post.comment .topic-avatar { padding-top: 10px;}
-.topic-post.comment .topic-avatar { width: 20px;}
-.topic-post.comment { margin-left: 63px;}
-.topic-post.comment .topic-body .regular {margin-top: 1px;margin-left: -40px;}
-.topic-post.comment .topic-body .contents .cooked {
-    font-size: 13px;
-    border-left: 3px solid #e9e9e9;
-    padding-left: 13px;
-}
-.topic-post.comment .topic-body .contents .cooked p {margin-bottom: 1px;}
-.private_message  .topic-post.comment .row .topic-body.clearfix  { max-width: 747px;}
-.topic-post.comment .topic-body { max-width: 747px;}
-.topic-post.comment .user-signature, .topic-post.comment .avatar-flair, .topic-post.comment button.share, .topic-post.comment .bookmarked, .topic-post.comment .unaccepted, .topic-post.comment .bookmark { display: none;}
+
 
 
 a.topic-featured-link {
