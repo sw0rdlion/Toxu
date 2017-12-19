@@ -317,7 +317,11 @@ span.badge-category-bg {
 /*end*/
 
 /* PM и комментировать */
-
+.topic-post.post-hidden img.avatar { width: 30px; height: 30px;}
+.topic-post.post-hidden .names span.full-name {display: none;}
+.topic-post.post-hidden .topic-body .contents .cooked {font-size: 13px;}
+.post-hidden nav.post-controls button {font-size: 0.9em;}
+.topic-post.post-hidden nav.post-controls button.reply.create:after {   content: "";}
 nav.post-controls button.reply.create:after {   content: " Комментировать";}
 .topic-post.comment nav.post-controls button.reply.create:after {   content: " комм";}
 nav.post-controls button.reply.create span.d-button-label {display: none;}
