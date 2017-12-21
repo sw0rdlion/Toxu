@@ -47,6 +47,9 @@
 button.reply .fa-mail-reply:before, button.reply .fa-reply:before {
    content: "\f075" !important;
 }
+.regular.contents .share2 a[rel~="nofollow"]::after {
+    display: none;
+}
 /* WIKI */
 .widget-button.edit.create {color: #339900;}
 .topic-list th {
