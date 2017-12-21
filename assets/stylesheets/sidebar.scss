@@ -322,6 +322,8 @@ span.badge-category-bg {
 /* PM и комментировать */
 .topic-post.post-hidden img.avatar { width: 30px; height: 30px;}
 .topic-post.post-hidden .names span.full-name {display: none;}
+.archetype-private_message .share2,  .user-messages-page .no-no {display: none;}
+
 .topic-post.post-hidden .topic-body .contents .cooked {font-size: 13px;}
 .post-hidden nav.post-controls button {font-size: 0.9em;}
 .topic-post.post-hidden nav.post-controls button.reply.create:after {   content: "";}
