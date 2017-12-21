@@ -18,12 +18,12 @@ if (attrs.post_number != 1) { return; }
  const urlvk = "https://vk.com/share.php?url=" + encodeURIComponent(link);
 
  return new RawHtml({html: `<div class='share2'>
-   
- <a class="facebook" href="${urlfb}" target="_blank"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a>
-<a class="twitter" href="${urltw}" target="_blank"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a>
-<a class="ok" href="${urlok}" target="_blank"><i class="fa fa-odnoklassniki-square fa-lg" aria-hidden="true"></i></a>
-<a class="vk" href="${urlvk}" target="_blank"><i class="fa fa-vk fa-lg" aria-hidden="true"></i></a>
-   
+<noindex>
+<a rel="nofollow" class="facebook" href="${urlfb}" target="_blank"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a>
+<a rel="nofollow" class="twitter" href="${urltw}" target="_blank"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a>
+<a rel="nofollow" class="ok" href="${urlok}" target="_blank"><i class="fa fa-odnoklassniki-square fa-lg" aria-hidden="true"></i></a>
+<a rel="nofollow" class="vk" href="${urlvk}" target="_blank"><i class="fa fa-vk fa-lg" aria-hidden="true"></i></a>
+</noindex>
    </div> `});
   
 });   
