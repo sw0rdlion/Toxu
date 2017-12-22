@@ -1,9 +1,7 @@
 .stats .id{font-family: 'PT Sans', Verdana, Arial, "Liberation Sans", sans-serif;font-size: 13px;} 
  .cooked p img, .lightbox-wrapper img {border: 1px solid #e9e9e9;}
 .cooked p img.emoji{border: none;}
-.topic-status-info, .small-action {
-    max-width: 851px;
-}
+
 .topic-body .contents .cooked {
 font-family: -apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;
 font-size: 16px;  line-height: 1.6;
@@ -357,13 +355,6 @@ nav.post-controls button.reply.create span.d-button-label {display: none;}
 
 li.extra-nav-item-outlet.votes {display: none;}
 
-@media(min-width: 1120px) { 
-.topic-body {width: 790px;padding: 12px 11px 1px 11px;}
-.wrap {max-width: 1200px;} 
-.timeline-container {margin-left: 1000px;}
-}
-
-body .text-label #ember1140.ember-text-field.ember-view{width: 430px;}
 
 @media(max-width:900px) {
 .sidebar{display: none;}
