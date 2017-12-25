@@ -1,3 +1,12 @@
+html { font: 300 100% "Exo 2",Arial,Helvetica,sans-serif;}
+.topic-list .activity {text-align: center;}
+.topic-body .contents .cooked {line-height: 1.46;font-size: 17px;}
+.badge-wrapper.bullet span.badge-category, .topic-post.comment .topic-body .contents .cooked {font-size: 14px;}
+.main-link.clearfix .telohome .title-t a.title {font-weight: 400;}
+.badge-wrapper {font-weight: normal;}
+nav.post-controls .actions {font-size: 14px;}
+.names span.first {font-weight: normal;}
+
 .cooked p img, .lightbox-wrapper img {border: 1px solid #e9e9e9;}
 .cooked p img.emoji{border: none;}
 
@@ -13,7 +22,11 @@
     font-family: FontAwesome;
 }
 
-
+.topic-list th.likes:before {
+    display: inline-block;
+    content: '\f08a';
+    font-family: FontAwesome;
+}
 .topic-list th.views:before {
     display: inline-block;
     content: '\f06e';
