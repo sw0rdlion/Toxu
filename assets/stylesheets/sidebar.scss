@@ -57,7 +57,7 @@ button.reply .fa-mail-reply:before, button.reply .fa-reply:before {
 .topic-list th {
     border-bottom: 1px solid #eee;
     padding: 6px 0px;
-    font-size: 12px;
+    font-size: 14px;
 }
 a.mention, a.mention-group {
     color: #39739d;
@@ -192,7 +192,7 @@ a.discourse-tag.bullet {color: #bdbdbd;}
 .category-communication .d-header.clearfix .wrap .contents  {background-color: #179cee;}
 
 .sidebar .badge-wrapper.bullet .badge-category-bg, .cat-link.category-other2 {display: none;}
-.sidebar .badge-wrapper.bullet span.badge-category {color: #333 !important;font-size: 1.12em;}
+.sidebar .badge-wrapper.bullet span.badge-category {font-size: 1.1em;}
 .sidebar .badge-wrapper.bullet span.badge-category:hover {color: #f56400 !important;}
 
 .topic-list > tbody > tr:first-of-type {
