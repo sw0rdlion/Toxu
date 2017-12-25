@@ -31,7 +31,7 @@ export default createWidget('sidebar-items', {
 result.push( new RawHtml({ html: `<div class="soc"> 
 <br><br>
 <a target="_blank" class="pom" href="https://toxu.ru/help"><font style="color:#f56400;">П</font>омощь по сайту</a>
-<br>
+<br><br>
 <a target="_blank" class="discord" rel="nofollow" title="Discord" href="https://discord.gg/8P3TNjP"><i class="fa fa-comment" aria-hidden="true"></i></a>
 <a target="_blank" class="telegram" rel="nofollow" title="Telegram" href="https://telegram.me/toxuru"><i class="fa fa-telegram" aria-hidden="true"></i></a>
 <a target="_blank" class="livejournal" title="Livejournal" rel="nofollow" href="https://toxu.livejournal.com"><i class="fa fa-pencil" aria-hidden="true"></i></a>
