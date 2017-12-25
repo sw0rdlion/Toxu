@@ -170,7 +170,9 @@ img.avatar:hover, .d-header #site-logo:hover {opacity: 0.8;}
 a.facebook, a.vk, a.twitter, a.discord, a.telegram, a.livejournal, a.ok  { color: #bdbdbd;margin-right: 15px;}
 a.facebook:hover, a.vk:hover, a.twitter:hover, a.telegram:hover, a.discord:hover, a.livejournal:hover, a.ok:hover { color: #f56400}
 .soc{font-size: 12px;}
-
+.soc a.pom {
+    font-size: 15px;
+}
 .fa-flag:before {
     content: "\f071" !important;
 }
