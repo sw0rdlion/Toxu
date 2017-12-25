@@ -1,6 +1,26 @@
 .cooked p img, .lightbox-wrapper img {border: 1px solid #e9e9e9;}
 .cooked p img.emoji{border: none;}
 
+.topic-list th.activity:before {
+    display: inline-block;
+    content: '\f017';
+    font-family: FontAwesome;
+}
+
+.topic-list th.posts:before {
+    display: inline-block;
+    content: '\f27b';
+    font-family: FontAwesome;
+}
+
+
+.topic-list th.views:before {
+    display: inline-block;
+    content: '\f06e';
+    font-family: FontAwesome;
+}
+
+
 .topic-body {padding: 12px 11px 1px 11px;}
 .comment .cooked img:not(.thumbnail) {
     max-width: 650px;
