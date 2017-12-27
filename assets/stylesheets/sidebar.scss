@@ -10,8 +10,8 @@ html { font: 300 100% "Exo 2",Arial,Helvetica,sans-serif;}
 .main-link.clearfix .telohome .title-t a.title, .badge-wrapper, .names span.first, b, strong, h1, h2, h3, h4, h5, h6,
 .form-vertical .control-label, .user-navigation .nav-stacked a.active {font-weight: 500;}
 
-nav.post-controls .actions {font-size: 14px;}
-.topic-map {font-size: 15px;}
+nav.post-controls .actions, .topic-map, .topic-meta-data {font-size: 14px;}
+
 .cooked p img, .lightbox-wrapper img {border: 1px solid #e9e9e9;}
 .cooked p img.emoji{border: none;}
 
@@ -279,9 +279,8 @@ a.topic-featured-link {
 
 .user-signature {
     position: relative;
-    margin-bottom: 2px;
+    margin-top: 8px;
     color: #777;
-    font-size: 0.929em;
 }
 .category-communication img#site-logo.logo-big
 {
