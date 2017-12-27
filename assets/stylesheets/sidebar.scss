@@ -8,7 +8,7 @@ html { font: 300 100% "Exo 2",Arial,Helvetica,sans-serif;}
     color: #444;
 }
 .main-link.clearfix .telohome .title-t a.title, .badge-wrapper, .names span.first, b, strong, h1, h2, h3, h4, h5, h6,
-.form-vertical .control-label, .user-navigation .nav-stacked a.active {font-weight: 500;}
+.form-vertical .control-label, .user-navigation .nav-stacked a.active, .small-action .small-action-desc.timegap {font-weight: 500;}
 
 nav.post-controls .actions, .topic-map, .topic-meta-data {font-size: 14px;}
 
@@ -279,8 +279,9 @@ a.topic-featured-link {
 
 .user-signature {
     position: relative;
-    margin-top: 8px;
+    margin-top: 6px;
     color: #777;
+    font-size: 0.929em;
 }
 .category-communication img#site-logo.logo-big
 {
