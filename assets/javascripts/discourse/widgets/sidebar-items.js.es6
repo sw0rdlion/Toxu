@@ -38,7 +38,7 @@ result.push( new RawHtml({ html: `<div class="soc">
 <a target="_blank" class="facebook" title="Facebook" rel="nofollow" href="https://www.facebook.com/toxu.ru"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 <a target="_blank" class="twitter" title="Twitter" rel="nofollow" href="https://twitter.com/toxu_russian"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 <a target="_blank" class="vk" title="ВКонтакте" rel="nofollow" href="https://vk.com/toxu_ru"><i class="fa fa-vk" aria-hidden="true"></i></a>
-<br><br><br><center><a target="_blank" href="https://toxu.ru/toxu"><img src="https://toxu.ru/uploads/default/original/2X/b/bc8df48a608f48de2e2a7f810ddd812b1c157b84.jpg"></a><br><font style="Color:#888;">:)</font></center>
+<br><br><br><center><a target="_blank" title="Что означает Toxu?" href="https://toxu.ru/toxu"><img src="https://toxu.ru/uploads/default/original/2X/b/bc8df48a608f48de2e2a7f810ddd812b1c157b84.jpg"></a><br><font style="Color:#888;">:)</font></center>
 
 </div>`}));
       
