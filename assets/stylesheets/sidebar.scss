@@ -285,7 +285,9 @@ a.discourse-tag.bullet {color: #bdbdbd;}
 }
 .topic-post.comment .topic-body .contents .cooked p {margin-bottom: 1px;}
 .private_message  .topic-post.comment .row .topic-body.clearfix  { max-width: 647px;}
-.topic-post.comment .topic-body { max-width: 647px;font-size: 0.8em;}
+.topic-post.comment .topic-body { max-width: 647px;font-size: 0.9em;}
+.topic-post.comment nav.post-controls button {font-size: 1em;}
+
 .topic-post.comment .user-signature, .topic-post.comment .avatar-flair, .topic-post.comment button.share, .topic-post.comment .bookmarked, .topic-post.comment .unaccepted, .topic-post.comment .bookmark { display: none;}
 .topic-post.comment .names span.full-name {display: none;}
 
