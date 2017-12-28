@@ -16,6 +16,12 @@
 .badge-wrapper.bullet span.badge-category {color: #666 !important;font-weight: 300;}
 .badge-wrapper.bullet span.badge-category:hover {color: #999 !important;}
 .sidebar .badge-wrapper.bullet span.badge-category {font-size: 14px;}
+.topic-list>tbody>tr.category-test i.fa-lock {
+    color: #fe7a15 !important;
+}
+.topic-list>tbody>tr.category-communication i.fa-lock {
+  display: none;
+}
 
 .topic-body .contents .cooked {
     font-family: "Exo 2",Arial,Helvetica,sans-serif;
