@@ -8,7 +8,8 @@
     font-size: 1.15em;
     font-weight: 300; line-height: 24px;
 }
-.topic-body .contents .cooked b, .topic-body .contents .cooked strong {
+.topic-body .contents .cooked b, .topic-body .contents .cooked strong, .topic-body .contents .cooked h1, 
+.topic-body .contents .cooked h2, .topic-body .contents .cooked h3, .topic-body .contents .cooked h4 {
     font-weight: 500;
 }
 .topic-list .activity {text-align: center;}
