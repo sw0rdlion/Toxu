@@ -31,14 +31,14 @@ export default createWidget('sidebar-items', {
 result.push( new RawHtml({ html: `<div class="soc"> 
 <br><br>
 <a target="_blank" class="pom" href="https://toxu.ru/help"><font style="color:#f56400;">П</font>омощь по сайту</a>
-<br><br>
+<br>
 <a target="_blank" class="discord" rel="nofollow" title="Discord" href="https://discord.gg/8P3TNjP"><i class="fa fa-comment" aria-hidden="true"></i></a>
 <a target="_blank" class="telegram" rel="nofollow" title="Telegram" href="https://telegram.me/toxuru"><i class="fa fa-telegram" aria-hidden="true"></i></a>
 <a target="_blank" class="livejournal" title="Livejournal" rel="nofollow" href="https://toxu.livejournal.com"><i class="fa fa-pencil" aria-hidden="true"></i></a>
 <a target="_blank" class="facebook" title="Facebook" rel="nofollow" href="https://www.facebook.com/toxu.ru"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 <a target="_blank" class="twitter" title="Twitter" rel="nofollow" href="https://twitter.com/toxu_russian"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 <a target="_blank" class="vk" title="ВКонтакте" rel="nofollow" href="https://vk.com/toxu_ru"><i class="fa fa-vk" aria-hidden="true"></i></a>
-<br><br><center><img src="https://toxu.ru/uploads/default/original/2X/7/7e716110376ab44533dc0daef5e0788aff0b5a33.jpg"><br><font style="Color:#888;">С наступающим Новым Годом!</font></center>
+<br><br><center><img src="https://toxu.ru/uploads/default/original/2X/7/7e716110376ab44533dc0daef5e0788aff0b5a33.jpg"><br><font style="Color:#888;">С наступающими праздниками!</font></center>
 
 </div>`}));
       
