@@ -1,6 +1,42 @@
 .cooked p img, .lightbox-wrapper img {border: 1px solid #e9e9e9;}
 .cooked p img.emoji{border: none;}
 
+
+/* задать вопрос */
+.add-kn{float: right;margin-right: 145px;}
+a.addqa {color: #f56400;margin-top:5px;position: absolute;padding: 6px 10px;font-weight: 500;}
+a.addqa:hover {color: #fff;background: #f56400;padding: 6px 10px;font-weight: 500;}
+.add-qa{float: right;font-size: 1.143em;}
+@media screen and (max-width : 800px) {.add-qa, .add-kn  {display: none;}}
+
+/*Для общения*/
+.cat-link.category-communication a i.fa {display: none;}
+.sidebar .cat-link.category-communication .badge-wrapper.bullet span.badge-category {color: #339900 !important;}
+.category-communication img#site-logo.logo-big
+{
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(https://toxu.ru/uploads/default/original/2X/5/5ab80d2976b2262f6deb55a25b70f32d2791ea4f.png) no-repeat;
+  background-size: 150px 40px;
+  width: 150px; /* Width of new image */
+  height: 40px; /* Height of new image */
+  padding-left: 150px; /* Equal to width of new image */    
+}
+
+.category-communication img#site-logo.logo-small {
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: 8px;
+    background: url(https://toxu.ru/uploads/default/original/2X/7/74e72aed8c7d38b563a49e00aa83e0820cb3bbcb.png) no-repeat;
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+    padding-left: 40px;
+}
+
+
 /*похожии*/
 #suggested-topics .topic-excerpt, 
 #suggested-topics .discourse-tag {display: none;}
@@ -40,8 +76,6 @@
 #topic-title h1 a {font-size: 1.213em;font-family: "Exo 2",Arial,Helvetica,sans-serif;}
 
 .topic-post.comment .topic-body {font-size: 0.96em;}
-
-
 
 .topic-list th.activity:before {
     display: inline-block;
