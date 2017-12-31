@@ -21,7 +21,8 @@ new RawHtml({ html: `<div>
 <a class="kn"href="https://toxu.ru/t/vozmozhnosti-toxu-ru-green-book/611"> Возможности</a> 
 <a class="kn"href="https://toxu.ru/badges"> Награды</a>  </p>
 </div>
-<div class="add-qa"><a href="https://toxu.ru/login" class="addqa" title="Задать вопрос"> <i class="fa fa-plus d-icon d-icon-plus"></i> <span class="d-button-label">Задать вопрос</span></a></div>
+<div class="add-kn"><div class="add-qa"><a href="https://toxu.ru/login" class="addqa" title="Задать вопрос"> 
+<i class="fa fa-plus d-icon d-icon-plus"></i> <span class="d-button-label">Задать вопрос</span></a></div></div>
 </div>
 
 `})
