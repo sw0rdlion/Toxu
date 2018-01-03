@@ -1,6 +1,6 @@
 # name: Toxu
 # about: add a detals site and dev, stats
-# version: 0.5
+# version: 0.6
 # authors:  Evg
 # url: https://github.com/Toxu-ru/Toxu
 
@@ -8,7 +8,6 @@ register_asset "stylesheets/sidebar.scss"
 
 Discourse::Application.routes.append do
   get '/dev' => 'discourse_dev/dev#my_page'
-  get '/hots' => 'discourse_hots/hots#my_page'
   get '/toxu' => 'discourse_toxu/toxu#my_page'
   get '/help' => 'discourse_help/help#my_page'
   get '/stats' => 'discourse_stats/stats#my_page'
