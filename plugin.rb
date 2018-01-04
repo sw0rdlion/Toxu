@@ -9,6 +9,7 @@ register_asset "stylesheets/sidebar.scss"
 Discourse::Application.routes.append do
   get '/dev' => 'discourse_dev/dev#my_page'
   get '/toxu' => 'discourse_toxu/toxu#my_page'
+  get '/features' => 'discourse_features/features#my_page'
   get '/help' => 'discourse_help/help#my_page'
   get '/stats' => 'discourse_stats/stats#my_page'
 end
