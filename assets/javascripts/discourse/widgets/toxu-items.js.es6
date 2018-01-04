@@ -18,7 +18,7 @@ new RawHtml({ html: `<div>
 <p class="obyav">Это место для лучшего понимания мира. Мы стремимся к достижению этой цели путём создания лучшего сайта вопросов и ответов. 
 Задавайте вопросы, отвечайте, делитесь знаниями, опытом.<br> Присоединяйтесь сами и вместе с нами помогайте другим! </p>
 <p><a class="kn" href="https://toxu.ru/t/kakova-missiya-toxu/1251">Миссия</a> 
-<a class="kn"href="https://toxu.ru/t/vozmozhnosti-toxu-ru-green-book/611"> Возможности</a> 
+<a class="kn"href="https://toxu.ru/features"> Возможности</a> 
 <a class="kn"href="https://toxu.ru/badges"> Награды</a>  </p>
 </div>
 <div class="add-kn"><div class="add-qa"><a href="https://toxu.ru/login" class="addqa" title="Задать вопрос"> 
