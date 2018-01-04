@@ -22,6 +22,18 @@ module DiscourseToxu
   end
 end
 
+module DiscourseFeatures
+  class Engine < ::Rails::Engine
+    isolate_namespace DiscourseFeatures
+
+    config.after_initialize do
+		Discourse::Application.routes.append do
+			mount ::DiscourseFeatures::Engine, at: "/"
+		end
+    end
+  end
+end
+
 module DiscourseHelp
   class Engine < ::Rails::Engine
     isolate_namespace DiscourseHelp
