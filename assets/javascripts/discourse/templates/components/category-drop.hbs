@@ -1,0 +1,18 @@
+{{#if category}}
+
+{{#if subCategory}}
+<span class='navg'><i class="fa fa-angle-right"></i></span>
+{{else}}
+<a class='home-toxu' href="https://toxu.ru"><i class="fa fa-home" aria-hidden="true"></i></a> <span class='navg'><i class="fa fa-angle-right"></i></span> 
+{{/if}}
+
+  <a href={{category.url}} {{action "expand"}} class="dropdown-header" style={{badgeStyle}} aria-label={{i18n 'categories.category_list'}} aria-expanded={{expanded}}>
+    {{#if category.read_restricted}}
+      {{d-icon "lock"}} 
+    {{/if}}
+    <span class='d-label'>{{category.name}}</span>
+  </a>
+
+{{else}}
+ 
+{{/if}}
