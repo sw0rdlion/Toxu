@@ -2,7 +2,7 @@ import { createWidget } from 'discourse/widgets/widget';
 import RawHtml from 'discourse/widgets/raw-html';
 
 export default createWidget('page-stats', {
-  tagName: 'div.stats',
+  tagName: 'div.toxu',
   buildKey: (attrs) => 'user-profile',
 
   html(attrs, state) {
