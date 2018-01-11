@@ -1,3 +1,11 @@
+<div class="sidebar-top">
+     {{#if model.suggestedTopics.length}}
+     {{suggested-topics-sug topic=model}}
+     {{/if}}
+</div>
+
+
+
 {{#discourse-topic multiSelect=multiSelect enteredAt=enteredAt topic=model hasScrolled=hasScrolled}}
   {{#if model}}
     {{add-category-class category=model.category}}
@@ -9,11 +17,7 @@
   {{plugin-outlet name="topic-above-post-stream" args=(hash model=model)}}
 
 
-<div class="sidebar-top">
-     {{#if model.suggestedTopics.length}}
-     {{suggested-topics-sug topic=model}}
-     {{/if}}
-</div>
+
 
 
   {{#if model.postStream.loaded}}
