@@ -11,9 +11,5 @@
     {{/if}}
   </span>
 
-  {{discourse-tags topic mode="list"}}
-  {{#if expandPinned}}
-    {{raw "list/topic-excerpt" topic=topic}}
-  {{/if}}
-  {{raw "list/action-list" topic=topic postNumbers=topic.liked_post_numbers className="likes" icon="heart"}}
+
 </span>
