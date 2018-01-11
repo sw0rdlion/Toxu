@@ -1,4 +1,10 @@
-<span class='sug-topic'><span class='link-top-line'>
+<div class='sug-topic'>
+
+<div class='num-sug'>
+{{#if topic.replyCount}}<span class='num-sug-nunull'>{{topic.replyCount}}</span>{{else}}<span class='num-sug-null'>0</span>{{/if}}
+ </div>
+
+<div class='link-top-line'>
     {{raw-plugin-outlet name="topic-list-before-status"}}
     {{raw "topic-status" topic=topic}}
     {{topic-link topic class="raw-link raw-topic-link"}}
@@ -9,7 +15,5 @@
     {{#if showTopicPostBadges}}
       {{raw "topic-post-badges" unread=topic.unread newPosts=topic.displayNewPosts unseen=topic.unseen url=topic.lastUnreadUrl}}
     {{/if}}
-  </span><span class='num-sug'>
-{{#if topic.replyCount}}<span class='num-sug-nunull'>{{topic.replyCount}}</span>{{else}}<span class='num-sug-null'>0</span>{{/if}}
- </span>
-</span>
+  </div>
+</div>
