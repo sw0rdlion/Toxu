@@ -4,8 +4,6 @@
      {{/if}}
 </div>
 
-
-
 {{#discourse-topic multiSelect=multiSelect enteredAt=enteredAt topic=model hasScrolled=hasScrolled}}
   {{#if model}}
     {{add-category-class category=model.category}}
@@ -15,10 +13,6 @@
   {{/if}}
 
   {{plugin-outlet name="topic-above-post-stream" args=(hash model=model)}}
-
-
-
-
 
   {{#if model.postStream.loaded}}
     {{#if model.postStream.firstPostPresent}}
@@ -78,21 +72,54 @@
       {{/topic-title}}
     {{/if}}
 
-
-
-
     <div class="container posts">
       <div class='selected-posts {{unless multiSelect 'hidden'}}'>
         {{partial "selected-posts"}}
       </div>
 
-
-
-
       {{#topic-navigation topic=model jumpToIndex=(action "jumpToIndex") as |info|}}
         {{#if info.renderTimeline}}
-        
+          {{#if info.renderAdminMenuButton}}
+            {{topic-admin-menu-button
+              topic=model
+              fixed="true"
+              toggleMultiSelect=(action "toggleMultiSelect")
+              deleteTopic=(action "deleteTopic")
+              recoverTopic=(action "recoverTopic")
+              toggleClosed=(action "toggleClosed")
+              toggleArchived=(action "toggleArchived")
+              toggleVisibility=(action "toggleVisibility")
+              showTopicStatusUpdate=(action "topicRouteAction" "showTopicStatusUpdate")
+              showFeatureTopic=(action "topicRouteAction" "showFeatureTopic")
+              showChangeTimestamp=(action "topicRouteAction" "showChangeTimestamp")
+              convertToPublicTopic=(action "convertToPublicTopic")
+              convertToPrivateMessage=(action "convertToPrivateMessage")}}
+          {{/if}}
 
+          {{topic-timeline
+            topic=model
+            notificationLevel=model.details.notification_level
+            prevEvent=info.prevEvent
+            fullscreen=info.topicProgressExpanded
+            enteredIndex=enteredIndex
+            loading=model.postStream.loading
+            jumpToPost=(action "jumpToPost")
+            jumpTop=(action "jumpTop")
+            jumpBottom=(action "jumpBottom")
+            jumpToPostPrompt=(action "jumpToPostPrompt")
+            jumpToIndex=(action "jumpToIndex")
+            replyToPost=(action "replyToPost")
+            toggleMultiSelect=(action "toggleMultiSelect")
+            deleteTopic=(action "deleteTopic")
+            recoverTopic=(action "recoverTopic")
+            toggleClosed=(action "toggleClosed")
+            toggleArchived=(action "toggleArchived")
+            toggleVisibility=(action "toggleVisibility")
+            showTopicStatusUpdate=(action "topicRouteAction" "showTopicStatusUpdate")
+            showFeatureTopic=(action "topicRouteAction" "showFeatureTopic")
+            showChangeTimestamp=(action "topicRouteAction" "showChangeTimestamp")
+            convertToPublicTopic=(action "convertToPublicTopic")
+            convertToPrivateMessage=(action "convertToPrivateMessage")}}
         {{else}}
           {{#topic-progress
             prevEvent=info.prevEvent
@@ -240,17 +267,12 @@
                 </div>
               {{/if}}
 
-            
-
               {{plugin-outlet name="topic-above-suggested" args=(hash model=model)}}
 
               {{#if model.suggestedTopics.length}}
-              {{suggested-topics topic=model}}
+                {{suggested-topics topic=model}}
               {{/if}}
- 
             {{/if}}
-
-
           {{/conditional-loading-spinner}}
 
         </section>
