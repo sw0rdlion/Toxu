@@ -64,7 +64,7 @@ module DiscourseChess
 
     config.after_initialize do
 		Discourse::Application.routes.append do
-			mount ::DiscourseStats::Engine, at: "/"
+			mount ::DiscourseChess::Engine, at: "/"
 		end
     end
   end
