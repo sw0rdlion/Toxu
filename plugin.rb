@@ -12,6 +12,7 @@ Discourse::Application.routes.append do
   get '/features' => 'discourse_features/features#my_page'
   get '/help' => 'discourse_help/help#my_page'
   get '/stats' => 'discourse_stats/stats#my_page'
+  get '/chess' => 'discourse_chess/chess#my_page'
 end
 
 load File.expand_path('../lib/dev/engine.rb', __FILE__)
