@@ -281,7 +281,7 @@ a.facebook:hover, a.vk:hover, a.twitter:hover, a.telegram:hover, a.discord:hover
 /* tags */
 .discourse-tag.bullet::before {content: "\f02b";font-size: 0.9em;color: #bdbdbd;top: 0.1em;margin-right: 4px;}
 a.discourse-tag.bullet::before:hover, a.discourse-tag.bullet:hover {color: #f56400; }
-a.discourse-tag.bullet {color: #bdbdbd;}
+a.discourse-tag.bullet:hover {color: #bdbdbd;}
 
 .sidebar .badge-wrapper.bullet .badge-category-bg, .cat-link.category-other2 {display: none;}
 .sidebar .badge-wrapper.bullet span.badge-category:hover {color: #f56400 !important;}
