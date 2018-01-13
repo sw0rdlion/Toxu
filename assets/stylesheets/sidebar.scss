@@ -426,7 +426,9 @@ body[class*="navigation-categories"] .sidebar {display: none;visibility: hidden;
 body[class*="navigation-categories"] .list-container.has-sidebar {float: none;width: 100%;}
 
 html:not(.mobile-view) {	
-    
+  
+  
+  
 .footer_social_nav ul {
  list-style:none;
  padding:0;
@@ -468,9 +470,9 @@ html:not(.mobile-view) {
 .col4 {color:#d768c4;} 
 a.col5 {color: #7a98a9;}   
 .vid {color: #666;}
-a.nastr {float:right;display:block;font-size:13px;margin-top: 4px;color: #666;opacity:0.5;}
+a.nastr {float:right;display:block;font-size:13px;margin-top:4px;color: #7a98a9;opacity:0.5;}
 a.nastr:hover {color: #f56400; opacity:1;}
-a.menu-prof.menu {  color: #7a98a9 !important;}
+a.menu-prof.menu {color: #7a98a9 !important;}
 a.menu-prof.menu:hover, a.menu-profile:hover, .discourse-tag.box.bar:hover, a.col5:hover, a.menu-profile:first-letter {color: #f56400 !important;}
 a.menu-profile {display: inline-block;color: #222;margin: 3px 1px 7px 0;}
 
