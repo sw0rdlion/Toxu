@@ -2,6 +2,14 @@
 .cooked p img.emoji{border: none;}
 span.excerpt{background-color: #ffffca;display: inline-block;padding: 8px;}
 
+i.fa.fa-check-square-o.d-icon.d-icon-check-square-o {  color: #339900;}
+/*пункты li, ul, ol*/
+.cooked ul li, .d-editor-preview ul li { background-image: url(https://toxu.ru/uploads/default/original/2X/7/747400ddaf4843f169c2d5f5cc35bb0134f89480.png);
+background-repeat: no-repeat;background-position: 0px 10px;padding-left: 15px;}
+.cooked ul, .d-editor-preview ul {margin-left: -21px;padding-left: 40px;list-style-type: none;}
+.cooked ol li::-moz-list-number {font-weight: 500;}
+
+
 /* Задать вопрос без авторизации */
 .add-kn{float: right;margin-right: 145px;}
 a.addqa {color: #f56400;margin-top:5px;position: absolute;padding: 6px 10px;font-weight: 500;}
