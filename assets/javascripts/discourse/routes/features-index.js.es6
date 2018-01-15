@@ -4,6 +4,10 @@ export default Discourse.Route.extend({
   	return ajax("/features");
   },
 
+      titleToken() {
+    return "Возможности сайта";
+},
+  
   setupController(controller, model) {
     controller.setProperties({ model });
   }
