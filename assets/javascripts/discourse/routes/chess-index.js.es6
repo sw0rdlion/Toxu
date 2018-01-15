@@ -4,6 +4,10 @@ export default Discourse.Route.extend({
   	return ajax("/chess");
   },
 
+  titleToken() {
+    return "Шахматы на сайте";
+},
+  
   setupController(controller, model) {
     controller.setProperties({ model });
   }
