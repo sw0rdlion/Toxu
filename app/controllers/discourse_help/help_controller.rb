@@ -10,5 +10,3 @@ module DiscourseHelp
 
 	end
 end
-
-@description_meta = "qqq"
