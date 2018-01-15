@@ -12,4 +12,4 @@ module DiscourseChess
 end
 
 
-SiteSetting.site_description = "Шахматы на сайта Toxu. Шахматы, это увлекательно и полезно!"
+
