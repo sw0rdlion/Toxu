@@ -4,6 +4,10 @@ export default Discourse.Route.extend({
   	return ajax("/toxu");
   },
 
+titleToken() {
+    return "Почему сайт называется Tоха";
+},
+  
   setupController(controller, model) {
     controller.setProperties({ model });
   }
