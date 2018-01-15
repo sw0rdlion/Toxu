@@ -4,6 +4,10 @@ export default Discourse.Route.extend({
   	return ajax("/help");
   },
 
+    titleToken() {
+    return "Помощь по сайту, часто задаваемые вопросы";
+},
+  
   setupController(controller, model) {
     controller.setProperties({ model });
   }
