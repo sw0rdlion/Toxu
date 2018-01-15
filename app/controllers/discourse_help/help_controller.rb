@@ -10,3 +10,5 @@ module DiscourseHelp
 
 	end
 end
+
+SiteSetting.site_description = "Помощь по сайту, часто задаваемые вопросы. Информация для разработчиков. Возможности Toxu. Почему сайт назван Toxu... и многое другое."
