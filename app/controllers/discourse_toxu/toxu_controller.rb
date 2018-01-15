@@ -10,3 +10,6 @@ module DiscourseToxu
 
 	end
 end
+
+
+SiteSetting.site_description = "Почему сайт назван Toxu? Toxu» (Тоха) - это кличка энергичной и умной совы, которая живет в нашем офисе."
