@@ -4,6 +4,10 @@ export default Discourse.Route.extend({
   	return ajax("/dev");
   },
 
+      titleToken() {
+    return "Для разработчиков";
+},
+  
   setupController(controller, model) {
     controller.setProperties({ model });
   }
