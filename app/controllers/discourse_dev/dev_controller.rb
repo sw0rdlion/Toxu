@@ -12,4 +12,4 @@ module DiscourseDev
 end
 
 
-SiteSetting.site_description = "Для разработчиков. Полезные инструменты по API, ссылки, материалы..."
+
