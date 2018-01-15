@@ -10,3 +10,6 @@ module DiscourseStats
 
 	end
 end
+
+
+SiteSetting.site_description = "Ваши возможности на сайте Toxu. Персональная страница."
