@@ -4,6 +4,10 @@ export default Discourse.Route.extend({
   	return ajax("/stats");
   },
 
+  titleToken() {
+    return "Персональная страница";
+},
+  
   setupController(controller, model) {
     controller.setProperties({ model });
   }
