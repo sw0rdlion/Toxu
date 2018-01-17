@@ -2,6 +2,11 @@
 .cooked p img.emoji{border: none;}
 span.excerpt{background-color: #ffffca;display: inline-block;padding: 8px;}
 
+.topic-body .contents .cooked {font-family: Verdana,Geneva,sans-serif;}
+.cooked h3, .d-editor-preview h3, .cooked h2, .d-editor-preview h2 {font-weight: 500;}
+/*ЛО*/
+.top-section.stats-section i.fa.fa-check-square, .user-menu .notifications .fa-check-square:before,
+.user-stream .item.notification.large-notification .fa-check-square::before {color: #339900 !important;}
 blockquote {padding: 2px 12px;}
 
 /*пункты li, ul, ol*/
@@ -98,7 +103,7 @@ a.addqa:hover {color: #fff;background: #f56400;padding: 6px 10px;font-weight: 50
 .badge-wrapper.bullet span.badge-category:hover {color: #999 !important;}
 .sidebar .badge-wrapper.bullet span.badge-category {font-size: 14px;}
 .topic-list>tbody>tr.category-test i.fa-lock {color: #fe7a15 !important;}
-.topic-body .contents .cooked {font-size: 1.1em;font-weight: 300; line-height: 24px;}
+.topic-body .contents .cooked {font-size: 1.1em;font-weight: 300; line-height: 1.46;}
 
 .topic-list .activity {text-align: center;}
 .topic-meta-data {font-size: 14px;}
