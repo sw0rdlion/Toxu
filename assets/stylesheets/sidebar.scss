@@ -7,7 +7,7 @@ span.excerpt{background-color: #ffffca;display: inline-block;padding: 8px;}
 /*ЛО*/
 .top-section.stats-section i.fa.fa-check-square, .user-menu .notifications .fa-check-square:before,
 .user-stream .item.notification.large-notification .fa-check-square::before {color: #339900 !important;}
-blockquote {padding: 2px 12px;}
+blockquote, aside.quote .title {padding: 2px 12px;font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;}
 
 /*пункты li, ul, ol*/
 .cooked ul li, .d-editor-preview ul li { background-image: url(https://toxu.ru/uploads/default/original/2X/7/747400ddaf4843f169c2d5f5cc35bb0134f89480.png);
