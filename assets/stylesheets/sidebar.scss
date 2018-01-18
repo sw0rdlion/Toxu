@@ -17,7 +17,15 @@ span.excerpt{background-color: #ffffca;display: inline-block;padding: 8px;}
   	width: 30px;
     height: 30px;
 }
-
+.social-link {
+    display: inline-block;
+    border-radius: 3px;
+    background: #00f;
+    color: #fff;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
 
 
 .topic-body .contents .cooked {font-family: Verdana,Geneva,sans-serif;}
