@@ -6,29 +6,7 @@ function attachComm(api) {
  return attrs.reply_to_post_number ? ["comment"] : ["answer"];
 });
        
-api.decorateWidget('post-menu:before', dec => {
-
-const attrs = dec.attrs;
-if (attrs.post_number != 1) { return; }
-
- const link = window.location.href;
- const urlfb = "http://www.facebook.com/sharer.php?u=" + encodeURIComponent(link);
- const urltw = "http://twitter.com/share?url=" + encodeURIComponent(link);
- const urlok = "http://www.ok.ru/dk?st.cmd=addShare&st.s=1&st._surl=" + encodeURIComponent(link);
- const urlvk = "https://vk.com/share.php?url=" + encodeURIComponent(link);
-
- return new RawHtml({html: `<div class='share2'>
-<noindex>
-<a rel="nofollow" class="facebook" href="${urlfb}" target="_blank"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a>
-<a rel="nofollow" class="twitter" href="${urltw}" target="_blank"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a>
-<a rel="nofollow" class="ok" href="${urlok}" target="_blank"><i class="fa fa-odnoklassniki-square fa-lg" aria-hidden="true"></i></a>
-<a rel="nofollow" class="vk" href="${urlvk}" target="_blank"><i class="fa fa-vk fa-lg" aria-hidden="true"></i></a>
-</noindex>
-   </div> `});
-  
-});   
-       
-  }
+}
   
 export default {
   name: 'alert',
