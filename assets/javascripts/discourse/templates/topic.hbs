@@ -1,8 +1,22 @@
+<noindex>
 <div class="sidebar-top">
+<div class='share2'>
+
+<a rel="nofollow" class="facebook" href="http://www.facebook.com/sharer.php?u=https://toxu.ru{{unbound model.url}}" target="_blank">
+<i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a>
+<a rel="nofollow" class="twitter" href="http://twitter.com/share?url=https://toxu.ru{{unbound model.url}}" target="_blank">
+<i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a>
+<a rel="nofollow" class="ok" href="http://www.ok.ru/dk?st.cmd=addShare&st.s=1&st._surl=https://toxu.ru{{unbound model.url}}" target="_blank">
+<i class="fa fa-odnoklassniki-square fa-lg" aria-hidden="true"></i></a>
+<a rel="nofollow" class="vk" href="https://vk.com/share.php?url=https://toxu.ru{{unbound model.url}}" target="_blank">
+<i class="fa fa-vk fa-lg" aria-hidden="true"></i></a>
+</div>
+
      {{#if model.suggestedTopics.length}}
      {{suggested-topics-sug topic=model}}
      {{/if}}
-</div>
+
+</div></noindex>
 
 {{#discourse-topic multiSelect=multiSelect enteredAt=enteredAt topic=model hasScrolled=hasScrolled}}
   {{#if model}}
