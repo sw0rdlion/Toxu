@@ -47,7 +47,8 @@ a.social-link:hover,a.social-link:visited {color: #fff;}
 
 
 
-
+a.hashtag, summary:first-of-type, .post-links-container ul li a[href] {color: #08c;}
+a.hashtag, summary:first-of-type, .post-links-container ul li a[href]:hover {color: #06c;}
 .topic-body .contents .cooked {font-family: Verdana,Geneva,sans-serif;}
 .cooked h3, .d-editor-preview h3, .cooked h2, .d-editor-preview h2 {font-weight: 500;}
 /*ЛО*/
