@@ -143,12 +143,11 @@ a.addqa:hover {color: #fff;background: #f56400;padding: 6px 10px;font-weight: 50
 
 /*Категории*/
 .topic-list a.badge-wrapper.bullet .badge-category-parent-bg {display: none;}
-.categ {display: inline-block;font-size: 14px;color: #666;}
-.categ:hover {color: #999;}
+.categ {display: inline-block;font-size: 14px;color: #667d99;}
 .badge-wrapper.bullet {margin-right: 1px;margin-left: 1px;}
-.badge-wrapper.bullet span.badge-category {color: #666 !important;font-weight: 300;font-size: 13px;}
+.badge-wrapper.bullet span.badge-category {color: #667d99 !important;font-weight: 300;font-size: 13px;}
 .badge-wrapper.bullet span.badge-category:hover {color: #999 !important;}
-.sidebar .badge-wrapper.bullet span.badge-category {font-size: 14px;}
+.sidebar .badge-wrapper.bullet span.badge-category, .categ:hover {font-size: 14px;}
 .topic-list>tbody>tr.category-test i.fa-lock {color: #fe7a15 !important;}
 .topic-body .contents .cooked {font-size: 1.1em;font-weight: 300; line-height: 1.46;}
 
@@ -526,11 +525,10 @@ html:not(.mobile-view) {
 .col3 {color:#f38844;}
 .col4 {color:#d768c4;} 
 a.col5 {color: #7a98a9;}   
-.vid {color: #666;}
 .socv {color: #919191;}
 a.nastr {float:right;display:block;font-size:13px;margin-top:4px;color: #7a98a9;opacity:0.5;}
 a.nastr:hover {color: #f56400; opacity:1;}
-a.menu-prof.menu {color: #7a98a9 !important;}
+a.menu-prof.menu, .vid {color: #667d99 !important;}
 a.menu-prof.menu:hover, a.menu-profile:hover, .discourse-tag.box.bar:hover, a.col5:hover, a.menu-profile:first-letter {color: #f56400 !important;}
 a.menu-profile {display: inline-block;color: #222;margin: 3px 1px 7px 0;}
 
