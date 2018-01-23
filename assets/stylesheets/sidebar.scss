@@ -153,7 +153,7 @@ a.addqa:hover {color: #fff;background: #f56400;padding: 6px 10px;font-weight: 50
 .topic-body .contents .cooked {font-size: 1.1em;font-weight: 300; line-height: 1.46;}
 
 .topic-list .activity {text-align: center;}
-.topic-meta-data {font-size: 14px;}
+span.relative-date, .user-title {font-size: 13px;color: #667d99;}
 
 /*Вопросы*/
 #suggested-topics .main-link.clearfix .telohome .title-t a.title { color: #09C;}
@@ -383,8 +383,8 @@ a.topic-featured-link {
 .user-signature {
     position: relative;
     margin-top: 2px;
-    color: #777;
-    font-size: 0.929em;
+    color: #667d99;
+    font-size: 13px;
 }
 
 
