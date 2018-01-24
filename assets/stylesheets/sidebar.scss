@@ -254,10 +254,15 @@ button.reply .fa-mail-reply:before, button.reply .fa-reply:before {
     padding: 6px 0px;
 }
 a.mention, a.mention-group {
-    color: #39739d;
+    color: #07C;
     background: #E1ECF4;
     font-weight: normal;
 } 
+a.mention:hover, a.:hover {
+    color: #09C;
+} 
+
+
 .discourse-tag.box.bar:hover {
     background-color: #eee;
 }
