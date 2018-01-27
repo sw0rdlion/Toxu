@@ -2,7 +2,7 @@
 .cooked p img.emoji{border: none;}
 span.excerpt{background-color: #ffffca;display: inline-block;padding: 8px;}
 
-#topic-footer-buttons p, .nav-pills>li>a, h3.suggested-topics-message, .who-liked, .small-action .small-action-desc, .zadals,
+#topic-footer-buttons p, .nav-pills>li>a, h3.suggested-topics-message, .who-liked, .small-action .small-action-desc, .zadals, .footer-message.ember-view h3, 
 .timeline-container .topic-timeline .now-date, .topic-body .reply-to-tab,  .topic-map h4, nav.post-controls .highlight-action,  nav.post-controls button.create, 
 .timeline-container .topic-timeline .timeline-ago, .timeline-container .topic-timeline .start-date, .discourse-tag, .discourse-tag:visited,  .topic-list th  {
     color: #667d99;
@@ -113,9 +113,14 @@ a.addqa:hover {color: #fff;background: #f56400;padding: 6px 10px;font-weight: 50
 .home-toxu {font-size: 17px;padding-right: 1px;}
 .list-controls .category-breadcrumb li.bullet > .dropdown-header {background: #fff; padding: 5px 1px;color: #08c;}
 .list-controls .category-breadcrumb li.bullet > .dropdown-header:hover, .home-toxu:hover {color: #f56400;}
-.cat-nav {padding-top: 5.3px;color: #f56400;display: inline-block;padding-right: 20px;font-size: 16px;}
+.cat-nav {padding-top: 1px;color: #f56400;display: inline-block;padding-right: 20px;font-size: 16px;}
 .cat-nav .d-label {color: #222;}
-.category-boxes .category-box, .category-boxes-with-topics .category-box {border-left-width: 2px;border-color: #e5e5e5 !important;}
+.category-navigation ol { margin-top: 3px;}
+
+
+.category-adult .cat-link.category-adult a,
+.category-dev .cat-link.category-dev a,
+.category-goods .cat-link.category-goods a, 
 .category-other .cat-link.category-other a, 
 .category-psychology .cat-link.category-psychology a, 
 .category-internet .cat-link.category-internet a, 
