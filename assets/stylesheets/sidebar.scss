@@ -79,6 +79,9 @@ background-repeat: no-repeat;background-position: 0px 9px;padding-left: 15px;}
 a.addqa {color: #f56400;margin-top:5px;position: absolute;padding: 6px 10px;font-weight: 500;}
 a.addqa:hover {color: #fff;background: #f56400;padding: 6px 10px;font-weight: 500;}
 .add-qa{float: right;font-size: 1.143em;}
+.docked.navigation-topics a.addqa {margin-top:5px;}
+.docked a.addqa{margin-top: 15px;}
+
 @media screen and (max-width : 800px) {.add-qa, .add-kn  {display: none;}}
 
 /*Для общения*/
