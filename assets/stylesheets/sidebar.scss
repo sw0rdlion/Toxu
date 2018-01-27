@@ -143,7 +143,7 @@ a.addqa:hover {color: #fff;background: #f56400;padding: 6px 10px;font-weight: 50
 .category-occultism-christianity .cat-link.category-occultism a,
 .category-toxu .cat-link.category-toxu a, 
 .category-toxu-regulations .cat-link.category-toxu a, 
-.category-toxu-blog .cat-link.category-toxu  a {&::before {content: "┃"; color:#f56400;margin-left: -5px;}}
+.category-toxu-blog .cat-link.category-toxu  a {&::before {content: "┃"; color:#f56400;margin-left: -5px;padding-right: 5px;}}
 
 
 
