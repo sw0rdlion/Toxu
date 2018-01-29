@@ -7,8 +7,7 @@ span.excerpt{background-color: #ffffca;display: inline-block;padding: 8px;}
 .post-actions {margin-bottom: 1px;}
 
 #topic-footer-buttons p, .nav-pills>li>a, h3.suggested-topics-message, .who-liked, .small-action .small-action-desc, .zadals, .footer-message.ember-view h3, 
-.timeline-container .topic-timeline .now-date, .topic-body .reply-to-tab,  .topic-map h4, nav.post-controls 
-.highlight-action,  nav.post-controls button.create, 
+.timeline-container .topic-timeline .now-date, .topic-body .reply-to-tab,  .topic-map h4, nav.post-controls .highlight-action,  nav.post-controls button.create, 
 .timeline-container .topic-timeline .timeline-ago, .timeline-container .topic-timeline .start-date, .discourse-tag, 
 .discourse-tag:visited,  .topic-list th  {
     color: #667d99;
@@ -64,7 +63,7 @@ font-size: 15px;}
 .sidebar-top {  max-width: 250px;  float: right;margin-top: 36px;}
 .container.posts {max-width: 830px;}
 #suggested-topics .topics, #suggested-topics h3, .sug-topic .badge-notification.new-topic::before, 
-.archetype-private_message .sidebar-top, .timeline-container, .link-top-line img {display: none;}
+.archetype-private_message .sidebar-top, .link-top-line img {display: none;}
 .link-top-line a.title {font-size: 13px;}
 .num-sug{opacity: 0.4;margin-top: 2px;display: block;text-align: left;float: left;width: 20px;height: 20px;font-size: 12px;}
 .link-top-line{margin-left: 34px;}
