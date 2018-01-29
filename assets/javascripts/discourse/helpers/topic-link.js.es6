@@ -8,7 +8,7 @@ registerUnbound('topic-link', (topic, args) => {
 
   const classes = ['title'];
   const trags = [''];
-  const rels = [''];
+  const rels = ['noopener'];
   if (args.class) {
     args.class.split(" ").forEach(c => classes.push(c));
   }
@@ -21,6 +21,6 @@ registerUnbound('topic-link', (topic, args) => {
     args.rel.split(" ").forEach(c => rels.push(c));
   }
   
-  const result = `<a href='${url}' rel='${rels.join('')}' target='${trags.join('')}' class='${classes.join(' ')}'>${title}</a>`;
+  const result = `<a href='${url}' rel='${rels.join(' ')}' target='${trags.join('')}' class='${classes.join(' ')}'>${title}</a>`;
   return new Handlebars.SafeString(result);
 });
