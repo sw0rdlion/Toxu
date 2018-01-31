@@ -172,7 +172,7 @@ a.addqa:hover {color: #fff;background: #f56400;padding: 6px 10px;font-weight: 50
 .category-internet-programming .cat-link.category-internet, .category-internet-discourse .cat-link.category-internet, 
 .category-science-history .cat-link.category-science, .category-occultism-christianity .cat-link.category-occultism,
 .category-toxu .cat-link.category-toxu, .category-toxu-regulations .cat-link.category-toxu, 
-.category-toxu-blog .cat-link.category-toxu a.badge-wrapper {&::before {content: "┃"; color:#f56400;margin-left: -7px;}}
+.category-blog .cat-link.category-blog a.badge-wrapper {&::before {content: "┃"; color:#f56400;margin-left: -7px;}}
 
 /*Похожии темы*/
 #suggested-topics .topic-excerpt, #suggested-topics .discourse-tag, 
