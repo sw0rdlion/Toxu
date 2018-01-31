@@ -12,8 +12,8 @@ export default createWidget('profile-t', {
       const username = currentUser.get('username');
       const trust_level = currentUser.get('trust_level');
       
-      if (trust_level === 0) { var doverie = I18n.t("main.d0-you"); var coll = 'col0'; var dopp = '<hr><a href="https://toxu.ru/stats"><span style="font-size: 14px;color:red;"><b>Прочтите</b> - рекомендации!</span></a><br><br>';}
-      if (trust_level === 1) { var doverie = I18n.t("main.d1-you"); var coll = 'col1'; var dopp = '<hr><a href="https://toxu.ru/stats"><span style="font-size: 14px;color:red;">У вас <b>новый уровень доверия</b>, прочтите рекомендации!</span></a><br><br>';}
+      if (trust_level === 0) { var doverie = I18n.t("main.d0-you"); var coll = 'col0'; var dopp = '<hr>У вас добавились <span style="font-size: 14px;color:red;">новые возможности!</span> Обязательно прочитайте про них <a href="https://toxu.ru/stats">нажам на эту ссылку</a>.<hr>';}
+      if (trust_level === 1) { var doverie = I18n.t("main.d1-you"); var coll = 'col1'; var dopp = '<hr>У вас <span style="font-size: 14px;color:red;">новый уровень доверия!</span> Почтите новые возможности <a href="https://toxu.ru/stats">нажав на эту ссылку</a>.<hr>';}
       if (trust_level === 2) { var doverie = I18n.t("main.d2-you"); var coll = 'col2'; var dopp = '';}
       if (trust_level === 3) { var doverie = I18n.t("main.d3-you"); var coll = 'col3'; var dopp = '';}
       if (trust_level === 4) { var doverie = I18n.t("main.d4-you"); var coll = 'col4'; var dopp = '';}
