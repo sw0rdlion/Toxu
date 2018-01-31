@@ -485,7 +485,7 @@ font-size: 15px;}
 .sidebar-top {  max-width: 250px;  float: right;margin-top: 36px;}
 .container.posts {max-width: 830px;}
 #suggested-topics .topics, #suggested-topics h3, .sug-topic .badge-notification.new-topic::before, 
-.archetype-private_message .sidebar-top, .link-top-line img {display: none;}
+.archetype-private_message .sidebar-top, .link-top-line img, .timeline-container {display: none;}
 .link-top-line a.title {font-size: 13px;}
 .num-sug{opacity: 0.4;margin-top: 2px;display: block;text-align: left;float: left;width: 20px;height: 20px;font-size: 12px;}
 .link-top-line{margin-left: 34px;}
@@ -497,9 +497,7 @@ font-size: 15px;}
 h3.suggested-topics-message, .footer-message.ember-view h3 {display: block !important;font-weight: 500;}
 h3.suggested-topics-message a, .footer-message.ember-view h3 a {background: #ffffca;padding: 5px;}
 .archetype-private_message .timeline-container {display: block;}	
-	
-	
-	
+		
 /*поиск*/
 .d-header .title a {
   display: inline-block;
