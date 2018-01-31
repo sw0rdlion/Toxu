@@ -316,8 +316,8 @@ body.category-other2 #create-topic, .cat-link.category-other2, .category-link.ca
 
 section.about.about.moderators{padding-top: 10px;}
 
-.cat-link.category-toxu a.badge-wrapper.bullet span.badge-category.clear-badge {display: inline-block;}
-.cat-link.category-toxu a.badge-wrapper.bullet span.badge-category.clear-badge:first-letter {color:#f56400;}
+.cat-link.category-toxu a.badge-wrapper.bullet span.badge-category.clear-badge:first-letter, 
+.cat-link.category-blog a.badge-wrapper.bullet span.badge-category.clear-badge:first-letter {color:#f56400;}
 
 .category-toxu-blog .topic-list .views {width: 105px;display: block;}
 .category-toxu-blog .topic-list .posts.sortable.num, .category-toxu-blog .topic-list .num.posts-map.posts, .zadal, 
