@@ -178,7 +178,7 @@ span.relative-date, .user-title, a.user-group {font-size: 13px !important; color
 span.full-name a {color: #333;}
 
 /*Вопросы*/
-#topic-title h1 a {font-size: 1.143em;font-weight:500;}
+#topic-title h1 a {font-weight:500;}
 .main-link.clearfix .telohome .title-t a.title { color: #09C;font-size: 1.143em; 
    &:visited {color: #07C;}
    &:hover {color: #3af;}
@@ -492,7 +492,7 @@ font-size: 15px;}
 .num-sug-nunull{background: #ddd;padding: 5px;color: #000;}
 .num-sug-null{color: #FFF;background-color: #339900;padding: 5px;}
 .post-menu-area {    margin-bottom: 1px;    margin-top: 2px;}
-.regular.ember-view { float: left; }
+.regular.ember-view { float: left;   max-width: 790px; }
 .sug-topic .badge-notification.new-topic {margin-top: -3px;}
 h3.suggested-topics-message, .footer-message.ember-view h3 {display: block !important;font-weight: 500;}
 h3.suggested-topics-message a, .footer-message.ember-view h3 a {background: #ffffca;padding: 5px;}
