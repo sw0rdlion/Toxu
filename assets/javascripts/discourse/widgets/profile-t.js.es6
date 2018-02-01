@@ -22,7 +22,7 @@ contents.push(
 new RawHtml({ html: `<div>  
 <div class="id"><a class="nastr" title="Настройка профиля"  href="https://toxu.ru/u/${username}/preferences/account"><i class="fa fa-gear d-icon d-icon-gear" aria-hidden="true"></i></a></div>
 <a class="menu-profile" href="https://toxu.ru/u/${username}">@${username}</a> - 
-<a class="nound" title="Посмотрите вашу статистику"  href="https://toxu.ru/stats">${doverie}</a><br>
+<a class="nound" title="Посмотрить мои возможности"  href="https://toxu.ru/stats">${doverie}</a><br>
 ${dopp}
 <a class="nound" title="Мои вопросы и ответы" href="https://toxu.ru/posted">${I18n.t('main.qa-you')}</a> -  
 <a class="nound" title="Мои закладки" href="https://toxu.ru/bookmarks">${I18n.t('main.bookmark-you')}</a> - 
