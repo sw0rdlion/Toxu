@@ -24,9 +24,9 @@ new RawHtml({ html: `<div>
 <a class="menu-profile" href="https://toxu.ru/u/${username}">@${username}</a> - 
 <a class="nound" title="Посмотрите вашу статистику"  href="https://toxu.ru/stats">${doverie}</a><br>
 ${dopp}
-<a class="nound" href="https://toxu.ru/posted">${I18n.t('main.qa-you')}</a> -  
-<a class="nound" href="https://toxu.ru/bookmarks">${I18n.t('main.bookmark-you')}</a> - 
-<a class="nound" href="https://toxu.ru/u/${username}/messages">${I18n.t('main.mail-you')}</a>
+<a class="nound" title="Мои вопросы и ответы" href="https://toxu.ru/posted">${I18n.t('main.qa-you')}</a> -  
+<a class="nound" title="Мои закладки" href="https://toxu.ru/bookmarks">${I18n.t('main.bookmark-you')}</a> - 
+<a class="nound" title="Моя почта" href="https://toxu.ru/u/${username}/messages">${I18n.t('main.mail-you')}</a>
 <hr></div>`})
  
    );
