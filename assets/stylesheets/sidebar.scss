@@ -2,6 +2,14 @@
 .cooked p img.emoji{border: none;}
 span.excerpt{background-color: #ffffca;display: inline-block;padding: 8px;}
 
+.werng {
+    padding: 10px 10px 10px 10px;
+    border: solid 1px #f56400;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+}
+
 .cooked table thead, .d-editor-preview table thead {border-bottom: 2px solid #bbb !important;background-color: #d3d3d3;}
 .cooked table tr, .d-editor-preview table tr {border-bottom: 1px solid #bbb;}
 .post-actions {margin-bottom: 1px;}
