@@ -15,6 +15,8 @@ a.und {color: #09C;text-decoration: underline;}
 a.nound, .cooked a, .post-links-container ul li a[href] {color: #09C;border-bottom: 1px solid #e7edf3;}
 a.und:hover, a.nound:hover {color: #f56400; text-decoration: underline;border-bottom: 1px solid #f56400;}
 a.cvet {color: #f56400; text-decoration: underline;}
+a.und2, .link-top-line a.title {color: #09C;}
+a.und2:hover, .link-top-line a.title  {color: #f56400;}
 
 a.hashtag, summary:first-of-type, .cat-link.category-toxu a.badge-wrapper.bullet span.badge-category.clear-badge:first-letter, 
 .cat-link.category-blog a.badge-wrapper.bullet span.badge-category.clear-badge:first-letter, 
