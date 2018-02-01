@@ -18,14 +18,14 @@ a.cvet {color: #f56400; text-decoration: underline;}
 a.und2 {color: #09C;}
 .cooked a {color: #07C;border-bottom: 1px solid #e7edf3;}
 .cooked a:hover {color: #09C;border-bottom: 1px solid #09C;}
-a.nound2, .topic-meta-data .post-info a.post-date:hover {color: #667d99;border-bottom: 1px solid #e7edf3;}
+a.nound2, .topic-meta-data .post-info a.post-date {color: #667d99;border-bottom: 1px solid #e7edf3;}
 
 
 a.hashtag, summary:first-of-type, .cat-link.category-toxu a.badge-wrapper.bullet span.badge-category.clear-badge:first-letter, 
 .cat-link.category-blog a.badge-wrapper.bullet span.badge-category.clear-badge:first-letter, 
 .soc a.pom:hover, a.discourse-tag.bullet::before:hover, a.discourse-tag.bullet:hover, .badge-notification.new-topic,
-.footer_social_nav ul li a:hover, a.und2:hover, .timeline-container .topic-timeline a.widget-link.start-date:hover, .timeline-container .topic-timeline a.widget-link.now-date:hover, 
-.link-top-line a.title:hover, .post-links-container .expand-links {color: #f56400 !important;}
+.footer_social_nav ul li a:hover, a.und2:hover, .topic-meta-data .post-info a.post-date:hover, 
+.link-top-line a.title.raw-link:hover, .post-links-container .expand-links {color: #f56400 !important;}
 
 .cooked table thead, .d-editor-preview table thead {border-bottom: 2px solid #bbb !important;background-color: #d3d3d3;}
 .cooked table tr, .d-editor-preview table tr {border-bottom: 1px solid #bbb;}
@@ -195,7 +195,7 @@ a.addqa:hover {color: #fff;background: #f56400;padding: 6px 10px;font-weight: 50
 .topic-meta-data .post-info, .user-menu .notifications .fa.fa-certificate, div.pren:first-letter, .names span.username a:first-letter  
 {color: #f56400;}
 span.relative-date, .user-title, a.user-group {font-size: 13px !important; color: #667d99 !important;}
-span.full-name a {color: #333;}
+span.full-name a, .names span a {color: #333;border-bottom: 1px solid #e7edf3;}
 
 /*Вопросы*/
 #topic-title h1 a {font-weight:500;}
