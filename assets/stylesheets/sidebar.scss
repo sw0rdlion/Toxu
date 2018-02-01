@@ -33,9 +33,8 @@ a.pmenu {color: #667d99}
 #topic-footer-buttons p, .nav-pills>li>a, h3.suggested-topics-message, .who-liked, .small-action .small-action-desc, .zadals, .footer-message.ember-view h3, 
 .timeline-container .topic-timeline .now-date, .topic-body .reply-to-tab,  .topic-map h4, nav.post-controls .highlight-action,  nav.post-controls button.create, 
 .timeline-container .topic-timeline .timeline-ago, .timeline-container .topic-timeline .start-date, .discourse-tag, 
-.discourse-tag:visited,  .topic-list th  {
-    color: #667d99;
-}
+.discourse-tag:visited { color: #667d99;}
+
 .f-copyright img {float:left;margin-top:2px;margin-right:8px;}
 /*Social*/
 .share2{margin-bottom: 30px;text-align: center;border: 1px dashed #ddd;padding: 10px;}
