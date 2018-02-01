@@ -12,20 +12,11 @@ span.excerpt{background-color: #ffffca;display: inline-block;padding: 8px;}
 }
 .werng i.fa {color: #f56400; font-size: 1.3em;}
 a.und {color: #07C;border-bottom: 1px solid #09C;}
-a.nound, .post-links-container ul li a[href], a.topic-link.track-link {color: #07C;border-bottom: 1px solid #e7edf3;}
-a.und:hover, a.nound:hover,  a.nound2:hover, .post-links-container ul li a[href]:hover, a.topic-link.track-link:hover {color: #f56400; border-bottom: 1px solid #f56400;}
-a.cvet {color: #f56400; text-decoration: underline;}
-a.und2 {color: #09C;}
+a.pmenu {color: #667d99;border-bottom: 1px solid #e7edf3;}
+a.pmenu:hover, a.und:hover {color: #f56400; border-bottom: 1px solid #f56400;}
+
 .cooked a {color: #07C;border-bottom: 1px solid #e7edf3;}
 .cooked a:hover {color: #09C;border-bottom: 1px solid #09C;}
-a.nound2, .topic-meta-data .post-info a.post-date {color: #667d99;border-bottom: 1px solid #e7edf3;}
-
-
-a.hashtag, summary:first-of-type, .cat-link.category-toxu a.badge-wrapper.bullet span.badge-category.clear-badge:first-letter, 
-.cat-link.category-blog a.badge-wrapper.bullet span.badge-category.clear-badge:first-letter, 
-.soc a.pom:hover, a.discourse-tag.bullet::before:hover, a.discourse-tag.bullet:hover, .badge-notification.new-topic,
-.footer_social_nav ul li a:hover, a.und2:hover, .topic-meta-data .post-info a.post-date:hover, 
-.link-top-line a.title.raw-link:hover, .post-links-container .expand-links {color: #f56400 !important;}
 
 .cooked table thead, .d-editor-preview table thead {border-bottom: 2px solid #bbb !important;background-color: #d3d3d3;}
 .cooked table tr, .d-editor-preview table tr {border-bottom: 1px solid #bbb;}
