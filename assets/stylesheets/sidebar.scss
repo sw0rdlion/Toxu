@@ -12,9 +12,14 @@ span.excerpt{background-color: #ffffca;display: inline-block;padding: 8px;}
 }
 .werng i.fa {color: #f56400; font-size: 1.3em;}
 a.und {color: #09C;text-decoration: underline;}
-a.nound {color: #09C;border-bottom: 1px solid #e7edf3;}
+a.nound, .cooked a, .post-links-container ul li a[href] {color: #09C;border-bottom: 1px solid #e7edf3;}
 a.und:hover, a.nound:hover {color: #f56400; text-decoration: underline;border-bottom: 1px solid #f56400;}
 a.cvet {color: #f56400; text-decoration: underline;}
+
+a.hashtag, summary:first-of-type, .cat-link.category-toxu a.badge-wrapper.bullet span.badge-category.clear-badge:first-letter, 
+.cat-link.category-blog a.badge-wrapper.bullet span.badge-category.clear-badge:first-letter, 
+.soc a.pom:hover, a.discourse-tag.bullet::before:hover, a.discourse-tag.bullet:hover, .badge-notification.new-topic,
+.footer_social_nav ul li a:hover {color: #f56400;}
 
 .cooked table thead, .d-editor-preview table thead {border-bottom: 2px solid #bbb !important;background-color: #d3d3d3;}
 .cooked table tr, .d-editor-preview table tr {border-bottom: 1px solid #bbb;}
@@ -79,11 +84,6 @@ a.soc-link:hover,a.soc-link:visited {color: #fff;}
 .btn-primary {background: #0095ff;}
 .btn-primary:hover, .btn-primary:active {background: #1b95d2;color: #fff;}
 
-
-
-
-a.hashtag, summary:first-of-type, .post-links-container ul li a[href] {color: #07c;}
-a.hashtag, summary:first-of-type, .post-links-container ul li a[href]:hover {color: #09c;}
 .topic-body .contents .cooked {font-family: Verdana,Geneva,sans-serif;}
 .cooked h3, .d-editor-preview h3, .cooked h2, .d-editor-preview h2 {font-weight: 500;}
 /*ЛО*/
@@ -309,9 +309,6 @@ body.category-other2 #create-topic, .cat-link.category-other2, .category-link.ca
 
 section.about.about.moderators{padding-top: 10px;}
 
-.cat-link.category-toxu a.badge-wrapper.bullet span.badge-category.clear-badge:first-letter, 
-.cat-link.category-blog a.badge-wrapper.bullet span.badge-category.clear-badge:first-letter {color:#f56400;}
-
 .category-toxu-blog .topic-list .views {width: 105px;display: block;}
 .category-toxu-blog .topic-list .posts.sortable.num, .category-toxu-blog .topic-list .num.posts-map.posts, .zadal, 
 .category-toxu-blog #suggested-topics, .category-toxu-blog .topic-avatar, .category-toxu-blog .topic-timeline, 
@@ -344,13 +341,11 @@ a.facebook, a.vk, a.twitter, a.discord, a.telegram, a.livejournal, a.ok  { color
 a.facebook:hover, a.vk:hover, a.twitter:hover, a.telegram:hover, a.discord:hover, a.livejournal:hover, a.ok:hover { color: #f56400}
 .soc{font-size: 12px;}
 .soc a.pom { color: #bdbdbd;font-size: 15px;}
-.soc a.pom:hover {color: #f56400}
 .fa-flag:before { content: "\f071" !important;}
 .actions .fa-link:before, .share .fa-link:before {content: "\f09e" !important;}
 
 /* tags */
 .discourse-tag.bullet::before {content: "\f02b";font-size: 0.9em;color: #667d99;top: 0.1em;margin-right: 4px;}
-a.discourse-tag.bullet::before:hover, a.discourse-tag.bullet:hover {color: #f56400; }
 a.discourse-tag.bullet:hover {color: #bdbdbd;}
 
 .sidebar .badge-wrapper.bullet .badge-category-bg, .cat-link.category-other2 {display: none;}
@@ -363,7 +358,7 @@ a.discourse-tag.bullet:hover {color: #bdbdbd;}
 .nav-pills > li > a:hover{color: #999;  background-color: #fff;  border-bottom: 3px solid #f56400;} 
 
 .badge-notification.new-posts, .badge-notification.unread-posts {background-color: #f56400;}
-.badge-notification.new-topic {color: #f56400;}
+
 
 .topic-post.comment img.avatar { width: 20px; height: 20px;}
 .topic-post.comment a.reply-to-tab img.avatar {display: none;}
@@ -755,9 +750,7 @@ a.social-link:hover,a.social-link:visited {color: #fff;}
 .footer_social_nav ul li a {
  color:#888;
 }
-.footer_social_nav ul li a:hover {
- color:#f56400;
-}
+
   
 /*польз. меню*/
 .cat-link .badge-notification[href] {
