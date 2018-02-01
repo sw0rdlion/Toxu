@@ -12,8 +12,8 @@ span.excerpt{background-color: #ffffca;display: inline-block;padding: 8px;}
 }
 .werng i.fa {color: #f56400; font-size: 1.3em;}
 a.und {color: #09C;text-decoration: underline;}
-a.nound {color: #09C;}
-a.und:hover, a.nound:hover {color: #f56400; text-decoration: underline;}
+a.nound {color: #09C;border-bottom: 1px solid #e7edf3;}
+a.und:hover, a.nound:hover {color: #f56400; text-decoration: underline;border-bottom: 1px solid #f56400;}
 a.cvet {color: #f56400; text-decoration: underline;}
 
 .cooked table thead, .d-editor-preview table thead {border-bottom: 2px solid #bbb !important;background-color: #d3d3d3;}
