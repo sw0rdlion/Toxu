@@ -11,7 +11,7 @@ span.excerpt{background-color: #ffffca;display: inline-block;padding: 8px;}
     color: #667d99;
 }
 .werng i.fa {color: #f56400; font-size: 1.3em;}
-a.und {color: #09C;text-decoration: underline;}
+a.und {color: #09C;border-bottom: 1px solid #09C;}
 a.nound, .cooked a, .post-links-container ul li a[href] {color: #09C;border-bottom: 1px solid #e7edf3;}
 a.und:hover, a.nound:hover, .cooked a, .post-links-container ul li a[href] {color: #f56400; border-bottom: 1px solid #f56400;}
 a.cvet {color: #f56400; text-decoration: underline;}
