@@ -11,13 +11,13 @@ span.excerpt{background-color: #ffffca;display: inline-block;padding: 8px;}
     color: #667d99;
 }
 .werng i.fa {color: #f56400; font-size: 1.3em;}
-a.und {color: #09C;border-bottom: 1px solid #09C;}
-a.nound, .post-links-container ul li a[href] {color: #09C;border-bottom: 1px solid #e7edf3;}
-a.und:hover, a.nound:hover, .post-links-container ul li a[href] {color: #f56400; border-bottom: 1px solid #f56400;}
+a.und {color: #07C;border-bottom: 1px solid #09C;}
+a.nound, .post-links-container ul li a[href] {color: #07C;border-bottom: 1px solid #e7edf3;}
+a.und:hover, a.nound:hover, .post-links-container ul li a[href]:hover {color: #f56400; border-bottom: 1px solid #f56400;}
 a.cvet {color: #f56400; text-decoration: underline;}
 a.und2, .link-top-line a.title {color: #09C;}
-a.und2:hover, .link-top-line a.title  {color: #f56400;}
-.cooked a {color: #09C;border-bottom: 1px solid #e7edf3;}
+a.und2:hover, .link-top-line a.title:hover  {color: #f56400;}
+.cooked a {color: #07C;border-bottom: 1px solid #e7edf3;}
 .cooked a:hover {color: #09C;border-bottom: 1px solid #09C;}
 
 a.hashtag, summary:first-of-type, .cat-link.category-toxu a.badge-wrapper.bullet span.badge-category.clear-badge:first-letter, 
