@@ -21,7 +21,7 @@ a.pmenu {color: #667d99}
 
 .names .user-title a.user-group:hover, .names span a:hover {color: #919191;}
 
-.topic-meta-data .post-info a:hover{border-bottom: 1px solid #e7edf3;}
+.topic-meta-data .post-info a:hover, .topic-body .reply-to-tab:hover {border-bottom: 1px solid #e7edf3;}
 
 .cooked a {color: #07C;border-bottom: 1px solid #e7edf3;}
 .cooked a:hover {color: #09C;border-bottom: 1px solid #09C;}
@@ -373,7 +373,10 @@ a.discourse-tag.bullet:hover {color: #bdbdbd;}
 .topic-post.comment nav.post-controls button {font-size: 1em;}
 .topic-post.comment .user-signature, .topic-post.comment .avatar-flair, .topic-post.comment button.share, .topic-post.comment .bookmarked, .topic-post.comment .unaccepted, .topic-post.comment .bookmark { display: none;}
 .topic-body .reply-to-tab{float: left;margin-top: 1px;}
-
+.topic-body .reply-to-tab .fa {display: none;}
+.topic-body .reply-to-tab::before {
+    content: "\f061"; margin-right: 6px;  font-family: FontAwesome;  color: #b1b0b0;
+}
 a.topic-featured-link {
     color: #339900;
 }
