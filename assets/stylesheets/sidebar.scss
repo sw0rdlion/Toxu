@@ -81,7 +81,6 @@ a.soc-link:hover,a.soc-link:visited {color: #fff;}
 
 
 /*new css*/
-.names {margin-top: 2px;}
 .btn {background: #e7edf3;}
 .btn-danger {color: #fff; background: #e45735;}
 .btn:hover, .btn:focus {background: #d7dfea;color: #222;}
@@ -372,8 +371,8 @@ a.discourse-tag.bullet:hover {color: #bdbdbd;}
 .private_message  .topic-post.comment .row .topic-body.clearfix  { max-width: 647px;}
 .topic-post.comment .topic-body { max-width: 647px;font-size: 0.93em;}
 .topic-post.comment nav.post-controls button {font-size: 1em;}
-
 .topic-post.comment .user-signature, .topic-post.comment .avatar-flair, .topic-post.comment button.share, .topic-post.comment .bookmarked, .topic-post.comment .unaccepted, .topic-post.comment .bookmark { display: none;}
+.topic-body .reply-to-tab{float: left;margin-top: 1px;}
 
 a.topic-featured-link {
     color: #339900;
