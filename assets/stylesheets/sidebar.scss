@@ -21,10 +21,8 @@ a.pmenu {color: #667d99}
 
 .names .user-title a.user-group:hover, .names span a:hover {color: #919191;}
 
-.topic-meta-data .post-info a:hover, .topic-body .reply-to-tab:hover {border-bottom: 1px solid #e7edf3;}
-
-.cooked a {color: #07C;border-bottom: 1px solid #e7edf3;}
-.cooked a:hover {color: #09C;border-bottom: 1px solid #09C;}
+.topic-meta-data .post-info a:hover, .topic-body .reply-to-tab:hover, .cooked a  {border-bottom: 1px solid #e7edf3;}
+.cooked a:hover {border-bottom: 1px solid #f56400;}
 
 .cooked table thead, .d-editor-preview table thead {border-bottom: 2px solid #bbb !important;background-color: #d3d3d3;}
 .cooked table tr, .d-editor-preview table tr {border-bottom: 1px solid #bbb;}
