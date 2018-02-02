@@ -34,6 +34,7 @@ a.pmenu {color: #667d99}
 .discourse-tag:visited { color: #667d99;}
 
 .f-copyright img {float:left;margin-top:2px;margin-right:8px;}
+.f-copyright a img:hover {opacity: 0.7;}
 /*Social*/
 .share2{margin-bottom: 30px;text-align: center;border: 1px dashed #ddd;padding: 10px;}
 .icon-svg {
@@ -370,7 +371,7 @@ a.discourse-tag.bullet:hover {color: #bdbdbd;}
 .topic-post.comment .topic-body { max-width: 647px;font-size: 0.93em;}
 .topic-post.comment nav.post-controls button {font-size: 1em;}
 .topic-post.comment .user-signature, .topic-post.comment .avatar-flair, .topic-post.comment button.share, .topic-post.comment .bookmarked, .topic-post.comment .unaccepted, .topic-post.comment .bookmark { display: none;}
-.topic-body .reply-to-tab{float: left;margin-top: 1px;}
+.topic-body .reply-to-tab{float: left;margin-top: 0;}
 .topic-body .reply-to-tab .fa {display: none;}
 .topic-body .reply-to-tab::before {
     content: "\f061"; margin-right: 6px;  font-family: FontAwesome;  color: #b1b0b0;
