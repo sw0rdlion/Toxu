@@ -443,10 +443,10 @@ span.badge-category-bg {
 .topic-post.post-hidden .topic-body .contents .cooked {font-size: 13px;}
 .post-hidden nav.post-controls button {font-size: 0.9em;}
 .topic-post.post-hidden nav.post-controls button.reply.create:after {   content: "";}
-nav.post-controls button.reply.create:after {   content: " комм";}
+nav.post-controls button.reply.create:after {   content: "комм";}
 .topic-post.comment nav.post-controls button.reply.create:after {   content: "комм";}
-.topic-post.comment nav.post-controls .create i.fa-reply {display: none;}
-
+.topic-post nav.post-controls .create i.fa-reply {display: none;}
+nav.post-controls .like-count { margin-right: -12px;}
 
 .archetype-private_message .topic-post button.reply.create:after  {content: "комм приватно";}
 .archetype-private_message .private-message-map h3:after { content: " (приватно)";} 
