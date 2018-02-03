@@ -28,8 +28,8 @@ a.pmenu {color: #667d99}
 .cooked table tr, .d-editor-preview table tr {border-bottom: 1px solid #bbb;}
 .post-actions {margin-bottom: 1px;}
 #topic-title .container {max-width: 750px;}
-#topic-footer-buttons p, .nav-pills>li>a, h3.suggested-topics-message, .who-liked, .small-action .small-action-desc, .zadals, .footer-message.ember-view h3, 
-.timeline-container .topic-timeline .now-date, .topic-map h4, nav.post-controls .highlight-action,   
+#topic-footer-buttons p, .nav-pills>li>a, h3.suggested-topics-message, .who-liked, .small-action .small-action-desc, 
+.zadals, .footer-message.ember-view h3, .timeline-container .topic-timeline .now-date, .topic-map h4,   
 .timeline-container .topic-timeline .timeline-ago, .timeline-container .topic-timeline .start-date, .discourse-tag, 
 .discourse-tag:visited { color: #667d99;}
 
@@ -263,9 +263,7 @@ a.addqa:hover {color: #fff;background: #f56400;padding: 6px 10px;font-weight: 50
     font-size: 11px;
     margin-left: 3px;
 }
-button.reply .fa-mail-reply:before, button.reply .fa-reply:before {
-   content: "\f075" !important;
-}
+
 
 /* WIKI */
 .widget-button.edit.create {color: #339900;}
