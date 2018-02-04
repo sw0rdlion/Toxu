@@ -1,6 +1,5 @@
 import { createWidget } from 'discourse/widgets/widget';
 import RawHtml from 'discourse/widgets/raw-html';
-import { h } from 'virtual-dom';
 
 export default createWidget('sidebar-items', {
   tagName: 'div.sidebar-items',
@@ -8,30 +7,24 @@ export default createWidget('sidebar-items', {
 
   html(attrs, state) {
   	if (!this.siteSettings.sidebar_enable || this.site.mobileView)
-  		return;
-
-    var sidebarBlocks = this.siteSettings.sidebar_block_order.split("|");
-
-    const result = [];
+  	return;
+	
+	const result = [];
     var self = this;
+     
+	const { currentUser } = this; 
+	if (currentUser) {
+	
+	result.push(self.attach('profile-t'));
+	result.push(self.attach('sidebar-cat'));
+	
+	
+	} else {
+	
+	result.push(self.attach('sidebar-cat'));
 
-    sidebarBlocks.map(function(item) {
-    
-    if (item == 'profile') {
-      result.push(self.attach('profile-t'));
-
-
-    } else if (item == 'custom_html') {
-        result.push(self.attach('sidebar-custom-content'));
-      
-    } else if (item == 'cat') {
-        result.push(self.attach('sidebar-cat'));
-      
-      
-result.push( new RawHtml({ html: `<div class="soc"><noindex>
-<br>
-<br><a rel="nofollow"  href="https://toxu.ru/tags" class="discourse-tag box bar">Теги</a> <span class="vid">- по темам</span>
-
+  result.push( new RawHtml({ html: `<div class="soc"><noindex>
+<br><br><a rel="nofollow"  href="https://toxu.ru/tags" class="discourse-tag box bar">Теги</a> <span class="vid">- по темам</span>
 <br><br><span class="socv ">Мы в социальных сетях</span><br>
 <a target="_blank" class="discord" rel="nofollow" title="Discord" href="https://discord.gg/8P3TNjP"><i class="fa fa-comment" aria-hidden="true"></i></a>
 <a target="_blank" class="telegram" rel="nofollow" title="Telegram" href="https://telegram.me/toxuru"><i class="fa fa-telegram" aria-hidden="true"></i></a>
@@ -39,14 +32,9 @@ result.push( new RawHtml({ html: `<div class="soc"><noindex>
 <a target="_blank" class="facebook" title="Facebook" rel="nofollow" href="https://www.facebook.com/toxu.ru"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 <a target="_blank" class="twitter" title="Twitter" rel="nofollow" href="https://twitter.com/toxu_russian"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 <a target="_blank" class="vk" title="ВКонтакте" rel="nofollow" href="https://vk.com/toxu_ru"><i class="fa fa-vk" aria-hidden="true"></i></a>
-<br>
-</noindex>
-</div>`}));
-      
-      
-    }
+<br></noindex></div>`}));
 
-    });
+	}
 
     return result;
   },
