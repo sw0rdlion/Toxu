@@ -10,12 +10,15 @@ export default createWidget('sidebar-items', {
   	return;
 	
 	const result = [];
-    var self = this;
+        var self = this;
      
 	const { currentUser } = this; 
 	if (currentUser) {
 	
-	result.push(self.attach('profile-t'));
+  const UserbarProfile = currentUser.custom_fields.userbar_profile;
+  if (UserbarProfile) {  } else { result.push(self.attach('profile-t')); }
+		
+		
 	result.push(self.attach('sidebar-cat'));
 	
 	
