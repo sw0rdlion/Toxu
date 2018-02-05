@@ -1,0 +1,22 @@
+{{#if siteSettings.userbar_enabled}}
+  <!--div class="control-group signatures">
+    <label class="control-label">Enable Signatures</label>
+    <div class="controls">
+      <label class='checkbox-label'>
+        {{input type="checkbox" checked=model.custom_fields.userbar_cat}}
+          See user signatures below posts
+      </label>
+    </div>
+  </div-->
+
+
+  <div class="control-group signatures">
+    <label class="control-label">Узербар</label>
+    <div class="controls">
+      <label class='checkbox-label'>
+        {{input type="checkbox" checked=model.custom_fields.userbar_profile}}
+        Убрать информацию о себе из бокового меню на главной странице.
+      </label>
+    </div>
+  </div>
+{{/if}}
