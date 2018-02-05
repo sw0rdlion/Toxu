@@ -16,12 +16,12 @@ export default createWidget('sidebar-items', {
 	if (currentUser) {
 	
   const UserbarProfile = currentUser.custom_fields.userbar_profile;
-  if (UserbarProfile) {  } else { result.push(self.attach('profile-t')); }
-		
-		
+  if (UserbarProfile) { result.push( new RawHtml({ html: `<div class="soc"> <br></div>`})); } 
+	else 
+	{ result.push(self.attach('profile-t')); }
+			
 	result.push(self.attach('sidebar-cat'));
-	
-	
+		
 	} else {
 	
 	result.push(self.attach('sidebar-cat'));
