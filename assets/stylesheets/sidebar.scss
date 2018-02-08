@@ -194,7 +194,9 @@ a.addqa:hover {color: #fff;background: #f56400;padding: 6px 10px;font-weight: 50
 .title-wrapper a.discourse-tag {margin-top: -2px;margin-left: 10px;}
 .topic-list .activity {text-align: center;}
 .sidebar .badge-wrapper.bullet span.badge-category, .title-wrapper a.discourse-tag {color: #667d99 !important;font-weight: 300;font-size: 14px;}
-
+a.pren {color: #919191;font-weight: 300;font-size: 13px;}
+.categ a.badge-wrapper.bullet span.badge-category {color: #919191;font-weight: 300;font-size: 13px;}
+.categ a.badge-wrapper.bullet span.badge-category:hover, a.pren:hover {color: #f56400;}
 
 
 /*Вопросы*/
