@@ -32,8 +32,7 @@ a.pmenu {color: #667d99}
 #topic-title .container {max-width: 750px;}
 #topic-footer-buttons p, .nav-pills>li>a, h3.suggested-topics-message, .who-liked, .small-action .small-action-desc, 
 .zadals, .footer-message.ember-view h3, .timeline-container .topic-timeline .now-date, .topic-map h4,   
-.timeline-container .topic-timeline .timeline-ago, .timeline-container .topic-timeline .start-date, .discourse-tag, 
-.discourse-tag:visited { color: #667d99;}
+.timeline-container .topic-timeline .timeline-ago, .timeline-container .topic-timeline .start-date { color: #667d99;}
 
 .quote-controls, .quote-controls .d-icon {color: #09e;}
 .quote-controls:hover, .quote-controls .d-icon:hover {color: #06e;}
@@ -349,7 +348,7 @@ a.facebook:hover, a.vk:hover, a.twitter:hover, a.telegram:hover, a.discord:hover
 
 
 /* tags */
-.discourse-tag.bullet::before {content: "\f02b";font-size: 0.9em;color: #667d99;top: 0.1em;margin-right: 4px;}
+.discourse-tag.bullet::before {content: "\f02b";font-size: 0.9em;top: 0.1em;margin-right: 4px;}
 a.discourse-tag.bullet:hover {color: #bdbdbd;}
 
 .sidebar .badge-wrapper.bullet .badge-category-bg, .cat-link.category-other2 {display: none;}
