@@ -171,10 +171,6 @@ a.addqa:hover {color: #fff;background: #f56400;padding: 6px 10px;font-weight: 50
 .category-toxu .cat-link.category-toxu, .category-toxu-regulations .cat-link.category-toxu, 
 .category-blog .cat-link.category-blog {&::before {content: "┃"; color:#f56400;margin-left: -7px;}}
 
-/*Похожии темы*/
-#suggested-topics .topic-excerpt, #suggested-topics .discourse-tag, 
-#suggested-topics .topic-list .votes, #suggested-topics .topic-list .views, 
-#suggested-topics .topic-list .likes, #suggested-topics .otvet{display: none;}
 
 /*Категории*/
 .topic-list a.badge-wrapper.bullet .badge-category-parent-bg {display: none;}
@@ -491,8 +487,6 @@ font-size: 15px;}
 .topic-list-item-sug {    margin-bottom: 15px;}
 .sidebar-top {  max-width: 250px;  float: right;margin-top: 26px;}
 .container.posts {max-width: 830px;}
-#suggested-topics .topics, #suggested-topics h3, .sug-topic .badge-notification.new-topic::before, 
-.archetype-private_message .sidebar-top, .link-top-line img, .timeline-container {display: none;}
 .link-top-line a.title {font-size: 13px;}
 .num-sug{opacity: 0.4;margin-top: 2px;display: block;text-align: left;float: left;width: 20px;height: 20px;font-size: 12px;}
 .link-top-line{margin-left: 34px;}
@@ -501,9 +495,7 @@ font-size: 15px;}
 .post-menu-area {    margin-bottom: 1px;    margin-top: 2px;}
 .regular.ember-view { float: left;   max-width: 790px; }
 .sug-topic .badge-notification.new-topic {margin-top: -3px;}
-h3.suggested-topics-message, .footer-message.ember-view h3 {display: block !important;font-weight: 500;}
-h3.suggested-topics-message a, .footer-message.ember-view h3 a {background: #ffffca;padding: 5px;}
-.archetype-private_message .timeline-container {display: block;}	
+	
 		
 /*поиск*/
 .d-header .title a {
