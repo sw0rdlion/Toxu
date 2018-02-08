@@ -35,6 +35,20 @@ a.pmenu {color: #667d99}
 .timeline-container .topic-timeline .timeline-ago, .timeline-container .topic-timeline .start-date, .discourse-tag, 
 .discourse-tag:visited { color: #667d99;}
 
+.quote-controls, .quote-controls .d-icon {color: #09e;}
+.quote-controls:hover, .quote-controls .d-icon:hover {color: #06e;}
+/*похожие*/
+html:not(.mobile-view) {
+#suggested-topics {
+.avahome, .topic-list .views, .topic-list .likes, .topic-list .creator {display: none; }
+a.title  {font-size: 1em;}
+}}
+#suggested-topics .topics, #suggested-topics h3, .sug-topic .badge-notification.new-topic::before, 
+.archetype-private_message .sidebar-top, .link-top-line img, .timeline-container {display: none;}
+h3.suggested-topics-message, .footer-message.ember-view h3 {display: block !important;font-weight: 500;}
+h3.suggested-topics-message a, .footer-message.ember-view h3 a {background: #ffffca;padding: 5px;}
+
+
 .f-copyright img {float:left;margin-top:2px;margin-right:8px;}
 .f-copyright a img:hover {opacity: 0.7;}
 /*Social*/
