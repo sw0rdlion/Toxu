@@ -481,7 +481,6 @@ body[class*="navigation-categories"] .sidebar {display: none;visibility: hidden;
 body[class*="navigation-categories"] .list-container.has-sidebar {float: none;width: 100%;}
 
 html:not(.mobile-view) {
-
 h3.sidebar-sug { font-weight: 500;margin-bottom: 20px;color: #667d99;border-bottom: 1px solid #e2e2e2;padding-bottom: 8px;
 font-size: 15px;}
 .topic-list-item-sug {    margin-bottom: 15px;}
@@ -511,7 +510,7 @@ font-size: 15px;}
 .d-header .title a, .d-header .title a:visited {
     color: #07c;
 }
-.header-search-enabled #search-button {
+.header-search-enabled #search-button, .timeline-container {
   display: none;
 }
 input[type="text"] { border: 1px solid #f7f7f7;}
