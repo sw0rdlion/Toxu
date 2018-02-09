@@ -4,6 +4,7 @@ import RawHtml from 'discourse/widgets/raw-html';
 function attachComm(api) {
  api.addPostClassesCallback((attrs) => {
  return attrs.reply_to_post_number ? ["comment"] : ["answer"];
+ return attrs.user_deleted ? ["nodeleted"] : ["deleted"]; 
 });
        
 }
