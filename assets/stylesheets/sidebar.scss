@@ -47,9 +47,10 @@ a.title  {font-size: 1em;}
 h3.suggested-topics-message, .footer-message.ember-view h3 {display: block !important;font-weight: 500;}
 h3.suggested-topics-message a, .footer-message.ember-view h3 a {background: #ffffca;padding: 5px;}
 
-/*сообщение удалено*/
-.topic-post.del .topic-avatar, .topic-post.del .user-signature, .topic-post.del .toggle-like, .topic-post.del .reply, .topic-post.del .bookmark{
-display: none;}
+/*сообщение удалено, приглушено*/
+.topic-post.del .topic-avatar, .topic-post.del .user-signature, .topic-post.del .toggle-like, .topic-post.del .reply, 
+.topic-post.del .bookmark, .topic-post.post-hidden .user-signature,  .topic-post.post-hidden .toggle-like, 
+.topic-post.post-hidden .like-count, .topic-post.post-hidden .bookmark   {display: none;}
 .topic-post.del .topic-body.clearfix{    margin-left: 45px; }
 .topic-post.del .contents .cooked { font-size: 13px; background: #f6f8fa;color: #888;}
 .topic-post.del .cooked > :first-child {    margin: 5px;}
