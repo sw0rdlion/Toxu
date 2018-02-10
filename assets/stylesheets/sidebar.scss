@@ -198,12 +198,14 @@ a.addqa:hover {color: #fff;background: #f56400;padding: 6px 10px;font-weight: 50
 .badge-wrapper.bullet {margin-right: 1px;margin-left: 1px;}
 .topic-body .contents .cooked {font-size: 1.1em;font-weight: 300; line-height: 1.46;}
 .topic-list .activity {text-align: center;}
-.sidebar .badge-wrapper.bullet span.badge-category, .title-wrapper a.discourse-tag, 
-title-wrapper .badge-wrapper.bullet span.badge-category {color: #667d99 !important;font-weight: 300;font-size: 13px;}
+
 a.pren {color: #919191;font-weight: 300;font-size: 13px;}
 .categ a.badge-wrapper.bullet span.badge-category {color: #919191;font-weight: 300;font-size: 13px; margin-right: 5px;}
 .categ a.badge-wrapper.bullet span.badge-category:hover, a.pren:hover {color: #f56400;}
 
+
+.sidebar .badge-wrapper.bullet span.badge-category, .title-wrapper a.discourse-tag, 
+.title-wrapper .badge-wrapper.bullet span.badge-category {color: #667d99 !important;font-weight: 300;font-size: 13px; margin-right: 5px;}
 
 /*Вопросы*/
 #topic-title h1 a {font-weight:500;}
