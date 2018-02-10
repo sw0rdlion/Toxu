@@ -14,7 +14,8 @@ span.excerpt{background-color: #ffffca;display: inline-block;padding: 8px;}
 .werng i.fa, #banner-nul i.fa {color: #f56400; font-size: 1.3em;}
 a.und {color: #07C;border-bottom: 1px solid #09C;}
 a.und:hover {color: #f56400;border-bottom: 1px solid #f56400;}
-a.pmenu {color: #667d99}
+a
+,  {color: #667d99}
 .post-links-container ul li a[href] {color: #07C;}
 
 .post-links-container ul li a[href]:hover, a.topic-link:hover, .link-top-line a.title:hover,.names span.username a:first-letter, 
@@ -773,7 +774,7 @@ a.nastr {float:right;display:block;font-size:13px;margin-top:7px;color: #667d99;
 a.nastr:hover {color: #f56400; opacity:1;}
 .vid, a.d-link.categories-link {color: #667d99 !important;}
 a.menu-profile:hover, .discourse-tag.box.bar:hover, a.menu-profile:first-letter, a.d-link.categories-link:hover {color: #f56400 !important;}
-a.menu-profile {display: inline-block;color: #222;margin: 3px 1px 7px 0;}
+a.menu-profile {display: inline-block;margin: 3px 1px 7px 0;}
 
 
 @media(min-width:980px) {
