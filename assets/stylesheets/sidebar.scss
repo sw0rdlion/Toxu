@@ -14,8 +14,6 @@ span.excerpt{background-color: #ffffca;display: inline-block;padding: 8px;}
 .werng i.fa, #banner-nul i.fa {color: #f56400; font-size: 1.3em;}
 a.und {color: #07C;border-bottom: 1px solid #09C;}
 a.und:hover {color: #f56400;border-bottom: 1px solid #f56400;}
-a
-,  {color: #667d99}
 .post-links-container ul li a[href] {color: #07C;}
 
 .post-links-container ul li a[href]:hover, a.topic-link:hover, .link-top-line a.title:hover,.names span.username a:first-letter, 
@@ -33,7 +31,7 @@ a
 #topic-title .container {max-width: 750px;}
 #topic-footer-buttons p, .nav-pills>li>a, h3.suggested-topics-message, .who-liked, .small-action .small-action-desc, 
 .footer-message.ember-view h3, .timeline-container .topic-timeline .now-date, .topic-map h4,   
-.timeline-container .topic-timeline .timeline-ago, .timeline-container .topic-timeline .start-date { color: #667d99;}
+.timeline-container .topic-timeline .timeline-ago, .timeline-container .topic-timeline .start-date, a.pmenu, pmenu { color: #667d99;}
 
 .quote-controls, .quote-controls .d-icon {color: #09e;}
 .quote-controls:hover, .quote-controls .d-icon:hover {color: #06e;}
