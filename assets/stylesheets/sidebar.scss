@@ -31,7 +31,7 @@ a.und:hover {color: #f56400;border-bottom: 1px solid #f56400;}
 #topic-title .container {max-width: 750px;}
 #topic-footer-buttons p, .nav-pills>li>a, h3.suggested-topics-message, .who-liked, .small-action .small-action-desc, 
 .footer-message.ember-view h3, .timeline-container .topic-timeline .now-date, .topic-map h4,   
-.timeline-container .topic-timeline .timeline-ago, .timeline-container .topic-timeline .start-date, a.pmenu, pmenu, .sidebar .badge-wrapper.bullet span.badge-category { color: #667d99;}
+.timeline-container .topic-timeline .timeline-ago, .timeline-container .topic-timeline .start-date, a.pmenu, pmenu { color: #667d99;}
 
 .quote-controls, .quote-controls .d-icon {color: #09e;}
 .quote-controls:hover, .quote-controls .d-icon:hover {color: #06e;}
@@ -360,6 +360,8 @@ a.discourse-tag.bullet:hover {color: #bdbdbd;}
 
 .sidebar .badge-wrapper.bullet .badge-category-bg, .cat-link.category-other2 {display: none;}
 .sidebar .badge-wrapper.bullet span.badge-category:hover {color: #f56400 !important;}
+.sidebar .badge-wrapper.bullet span.badge-category {color: #667d99; font-size: 14px;font-weight: 300;}
+
 
 .topic-list > tbody > tr:first-of-type {
     border-top: 1px solid #eee;
