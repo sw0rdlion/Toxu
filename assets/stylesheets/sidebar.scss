@@ -9,9 +9,9 @@ tr[data-topic-id="574"], tr[data-topic-id="332"], tr[data-topic-id="138"], tr[da
 tr[data-topic-id="178"], tr[data-topic-id="1640"], tr[data-topic-id="2514"], tr[data-topic-id="21"], tr[data-topic-id="1677"], tr[data-topic-id="1441"]
 {     
    .topic-excerpt{ padding: 5px; background-color: #f6f8fa;}
-    .creator, .avahome, .userz   { display: none; }
-    .title-t {    margin-top: 6px;} .title-t a.title { font-size: 1em !important; }
-    .topic-excerpt, .creator .topic-excerpt  {display: block;}
+    .creator, .avahome, .userz, .discourse-tag.bullet {display: none;}
+    .title-t {    margin-top: 6px;} .title-t a.title {font-size: 1em !important;}
+    .topic-excerpt, .creator .topic-excerpt {display: block !important;}
 }
 
 .werng, #banner-nul {
