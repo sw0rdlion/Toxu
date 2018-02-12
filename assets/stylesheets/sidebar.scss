@@ -3,7 +3,7 @@
 span.excerpt{background-color: #ffffca;display: inline-block;padding: 8px;}
 
 /*описания*/
-tr[data-topic-id="1170"], tr[data-topic-id="44"], tr[data-topic-id="979"], tr[data-topic-id="26"], tr[data-topic-id="64"], tr[data-topic-id="385"],
+tr[data-topic-id="1170"], tr[data-topic-id="2780"], tr[data-topic-id="44"], tr[data-topic-id="979"], tr[data-topic-id="26"], tr[data-topic-id="64"], tr[data-topic-id="385"],
 tr[data-topic-id="35"], tr[data-topic-id="88"], tr[data-topic-id="38"], tr[data-topic-id="280"], tr[data-topic-id="2177"], tr[data-topic-id="30"],
 tr[data-topic-id="574"], tr[data-topic-id="332"], tr[data-topic-id="138"], tr[data-topic-id="162"], tr[data-topic-id="1695"], tr[data-topic-id="960"],
 tr[data-topic-id="178"], tr[data-topic-id="1640"], tr[data-topic-id="2514"], tr[data-topic-id="21"], tr[data-topic-id="1677"], tr[data-topic-id="1441"]
@@ -186,8 +186,8 @@ a.addqa:hover {color: #fff;background: #f56400;padding: 6px 10px;font-weight: 50
 .category-navigation ol { margin-top: 3px;} 
 
 .category-moder .cat-link.category-moder, .category-test .cat-link.category-test,
-.category-adult .cat-link.category-adult, .category-other .cat-link.category-dev,
-.category-goods .cat-link.category-goods, .category-other .cat-link.category-other, 
+.category-adult .cat-link.category-adult, .category-other-dev .cat-link.category-other, 
+.category-other-communication .cat-link.category-other, .category-goods .cat-link.category-goods, .category-other .cat-link.category-other, 
 .category-psychology .cat-link.category-psychology, .category-internet .cat-link.category-internet, 
 .category-occultism .cat-link.category-occultism, .category-health .cat-link.category-health, 
 .category-society .cat-link.category-society, .category-education .cat-link.category-education, 
@@ -196,11 +196,11 @@ a.addqa:hover {color: #fff;background: #f56400;padding: 6px 10px;font-weight: 50
 .category-travel .cat-link.category-travel, .category-animals-plants .cat-link.category-animals-plants,
 .category-house .cat-link.category-house, .category-automobiles .cat-link.category-automobiles,
 .category-sport .cat-link.category-sport, .category-entertainment .cat-link.category-entertainment,
-.category-other .cat-link.category-communication, .category-internet-sites .cat-link.category-internet, .category-internet-computers .cat-link.category-internet, 
+.category-internet-sites .cat-link.category-internet, .category-internet-computers .cat-link.category-internet, 
 .category-internet-programming .cat-link.category-internet, .category-internet-discourse .cat-link.category-internet, 
 .category-science-history .cat-link.category-science, .category-occultism-christianity .cat-link.category-occultism,
 .category-toxu .cat-link.category-toxu, .category-toxu-regulations .cat-link.category-toxu, 
-.category-blog .cat-link.category-blog {&::before {content: "┃"; color:#f56400;margin-left: -7px;}}
+.category-blog .cat-link.category-blog, .category-other-community .cat-link.category-other {&::before {content: "┃"; color:#f56400;margin-left: -7px;}}
 
 
 /*Категории*/
