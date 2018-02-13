@@ -21,7 +21,7 @@ export default createWidget('toxu-items', {
     } else { 
  
 contents.push(
-new RawHtml({ html: `<div>
+new RawHtml({ html: `<div class="banner-toxu">
 
 <div id="banner-content">
 <!--p><a title="Что такое Toxu?" href="https://toxu.ru/toxu"><img border="0" src="https://toxu.ru/uploads/default/original/2X/f/f8927774785cc502811a9ce4b5cdca0dcf2472db.jpg" alt="Талисман Toxu.ru" width="75" height="75"></a></p-->
