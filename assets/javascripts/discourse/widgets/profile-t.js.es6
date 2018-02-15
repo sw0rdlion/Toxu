@@ -22,7 +22,7 @@ if (trust_level === 4) { var doverie = I18n.t("main.d4-you"); var dopp = '';}
       
 contents.push(
 new RawHtml({ html: `<div>  
-<div class="id"><a class="nastr" title="Настройка профиля"  href="https://toxu.ru/u/${username}/preferences/account"><i class="fa fa-gear d-icon d-icon-gear" aria-hidden="true"></i></a></div>
+<div class="id"><a class="nastr" title="Настройка профиля"  href="https://toxu.ru/u/${username}/preferences/profile"><i class="fa fa-gear d-icon d-icon-gear" aria-hidden="true"></i></a></div>
 
 <a class="menu-profile pmenu" href="https://toxu.ru/u/${username}/summary"><img width="25" src="${ava}" alt="${username}" class="avatar"> - 
 @${username}</a><br>
