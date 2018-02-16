@@ -54,7 +54,7 @@ export default createWidget('page-stats', {
 if (trust_level === 0) { 
 contents.push(
 new RawHtml({ html: `<div class="id">
-<h1 style="font-size: 2.0em;">${username}</h1>
+<h1 class="t1">${username}</h1>
 Поздравляем, ваш уровень: <span style="color: #45A163;"><b>Посетитель!</b></span><br><br>
 
 Вы можете публиковать материалы только в разделе: <b>Песочница</b> и в дополнительных категориях, при условии вступления в соответствующие <a target="_blank" href="https://toxu.ru/groups">Группы</a>. 
@@ -87,7 +87,7 @@ new RawHtml({ html: `<div class="id">
 if (trust_level === 1) { 
 contents.push(
 new RawHtml({ html: `<div class="id">
-<h1 style="font-size: 2.0em;">${username}</h1>
+<h1 class="t1">${username}</h1>
 Поздравляем, ваш уровень: <span style="color: #335599;"><b>Новичок!</b></span><br><br>
 Теперь Вы можете задавать вопросы и отвечать во всех разделах, а при условии вступления в <a target="_blank" href="https://toxu.ru/groups">Группы</a>, и в дополнительные!
 Ознакомьтесь более подробно с главным нашим документом: <a target="_blank" href="https://toxu.ru/t/poleznye-i-bespoleznye-otvety/202">Политикой полезности.</a> 
@@ -116,7 +116,7 @@ new RawHtml({ html: `<div class="id">
 if (trust_level === 2) { 
 contents.push(
 new RawHtml({ html: `<div class="id">
-<h1 style="font-size: 2.0em;">${username}</h1>
+<h1 class="t1">${username}</h1>
 Поздравляем, ваш уровень: <span style="color: #4dc1c0;"><b>Участник!</b></span><br><br>
 Теперь Вы можете писать во все разделы, а при условии вступления в <a target="_blank" href="https://toxu.ru/groups">Группы</a>, и в дополнительные!
 Вам стали доступны групповые и <a target="_blank" href="https://toxu.ru/u/${username}/messages">личные сообщения</a>, 
@@ -138,7 +138,7 @@ new RawHtml({ html: `<div class="id">
 if (trust_level === 3) { 
 contents.push(
 new RawHtml({ html: `<div class="id">
-<h1 style="font-size: 2.0em;">${username}</h1>
+<h1 class="t1">${username}</h1>
 Поздравляем, ваш уровень: <span style="color: #f38844;"><b>Постоялец!</b></span><br><br>
 Теперь Вы можете писать во все разделы, а при условии вступления в <a target="_blank" href="https://toxu.ru/groups">Группы</a>, и в дополнительные!
 Вам  стала доступна возможность <b>редактировать</b> вопросы, вносить и добавлять различные теги, менять категорию.<br>
@@ -159,7 +159,7 @@ new RawHtml({ html: `<div class="id">
 if (trust_level === 4) { 
 contents.push(
 new RawHtml({ html: `<div class="id">
-<h1 style="font-size: 2.0em;">${username}</h1>
+<h1 class="t1">${username}</h1>
 Поздравляем, ваш уровень: <span style="color: #f56400;"><b>Лидер!</b></span><br><br>
 Вам стал доступен раздел: <a target="_blank" href="https://toxu.ru/c/moder">Модераторский</a>. Ознакомьтесь с материалом в нем.
 Теперь вам доступны практически все возможности системы и вы можете принимать активное участие в развитии сайта.<br><br>
