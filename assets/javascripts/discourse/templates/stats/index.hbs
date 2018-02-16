@@ -1,15 +1,69 @@
 <style type="text/css">
+.toxo-owl {float:left;margin: 4px 20px 2px 0px;width:160px;border:1px solid #CCC;padding:6px;}
 .toxu {color: #333;font-weight: 300; font-size: 1.1em;line-height: 24px;font-family: Verdana,Geneva,sans-serif;}
+h1.t1 {color: #555;margin-top: 5px;margin-bottom: 15px;font-weight: 300;font-size: 1.9em;}
+h2.t2 {color: #555;margin-top: 15px;font-weight: 300;font-size: 1.6em;}
+h3.t3 {color: #555;margin-top: 15px;font-weight: 300;font-size: 1.3em;}
+.sidebar-menu {float:left;width:25%;position: relative;background: #f9f9f9;padding: 2px 3px 5px 7px}
+.telo {float:left;width:69%;margin-left: 30px;}
+.menu {margin-bottom:10px;font-size: 16px;display: block;}
+img {max-width: 95%;}
+.help-box {width: 99%;margin: 0 1% 1.5em 1%;}
+.help-g {margin: 2em auto;text-align: left; -moz-column-count: 3;column-count: 3;}
+.help-box-heading{text-align: center;}
+.help-box-inner{width: 100%;padding: 0;border-width: 1px;border-style: solid;border-color: #e5e5e5;}
+.help-box-heading i.fa {font-size: 22px;color: #444;text-align: center;margin-top: 0.4em;}
+.help-box h3 {font-size: 1.3em;margin-bottom: 0.5em;margin-top: 0.25em;line-height: 1.1em;text-align: center;color: #444;}
+.help-box-inner {text-align: center;}
+.help-description{padding: 3px;text-align: center;color: #919191;}
 img.img {border: 1px solid #e9e9e9;
 margin-top: 15px;
 margin-bottom: 15px;
 box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);}
+.toxu ul {list-style-type: none;}
+.toxu ul li {
+    background-image: url(https://toxu.ru/uploads/default/original/2X/7/747400ddaf4843f169c2d5f5cc35bb0134f89480.png);
+    background-repeat: no-repeat;
+    background-position: 0px 9px;
+    padding-left: 15px;
+}
+@media (max-width: 900px) { 
+  .bottom_footer, .sidebar-menu, .no-mob {display: none;} 
+  .telo {width:96%;margin-left:10px;} .toxu {font-size: 0.9em;}
+}
 body.docked {background: #fff;}
 </style>
+
+<div class="help">
+<div class="sidebar-menu"><br>
+<a class="menu" href="help">Помощь</a>
+<a class="menu" href="features">Возможности сайта</a>
+<a class="menu" href="toxu">Почему сайт назван Toxu?</a>
+<a class="menu" href="dev">Для разработчиков</a>
+{{mount-widget widget="page-my-menu"}}
+</div>
+<div class="telo toxu">
+
+
 {{mount-widget widget="page-stats"}}
 
-<hr>
-    <footer id='noscript-footer'>
-        <p><i>Это индивидуальная страница доступная только вам. Для других участников эта страница будет иметь другое содержание.</i> </p>
-      </footer>
-<br> 
+
+</div></div>
+
+
+<div class="bottom_footer wrap" style="clear:both;"><div class="f-copyright">
+<a title="Toxu сова" href="https://toxu.ru/toxu">
+<img border="0" alt="Сова Toxu" src="https://toxu.ru/uploads/default/original/2X/2/2151b0ee8e1a16da9e857e51de54fe4d42e0cd8a.jpg" width="30"></a>
+<p class="copyright">Copyright © 2018  <a title="обмен знаниями" href="https://toxu.ru">Toxu.ru — место для обмена знаниями и опытом</a> <br> 
+<small> <a href="https://toxu.ru/t/voprosy-k-administraczii-sajta/2016">Обратная связь</a> с администрацией сайта.</small>
+</p></div>
+<noindex><div class="footer_social_nav"><ul class="nav-social">
+<li class="fa"><a rel="nofollow" title="Discord" target="_blank" href="https://discord.gg/8P3TNjP"><i class="fa fa-comment" aria-hidden="true"></i></a></li>
+<li class="fa"><a rel="nofollow" title="Telegram" target="_blank" href="https://telegram.me/toxuru"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+<li class="fa"><a rel="nofollow" title="Facebook" target="_blank" href="https://www.facebook.com/toxu.ru"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+<li class="fa"><a rel="nofollow" title="Twitter" target="_blank" href="https://twitter.com/toxu_russian"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+<li class="fa"><a rel="nofollow" title="Vk" target="_blank" href="https://vk.com/toxu_ru"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+<li class="fa"><a rel="nofollow" title="rss" target="_blank" href="https://toxu.ru/latest.rss"><i class="fa fa-rss-square" aria-hidden="true"></i></a></li>
+</ul></div></noindex></div>
+
+
