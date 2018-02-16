@@ -17,7 +17,7 @@ export default createWidget('page-my-menu', {
 if (trust_level === 0) { }
 
 contents.push(
-new RawHtml({ html: `<div> <a href="stats">Мои возможности <sup><font color=red>new</font></sup></a></div>`})
+new RawHtml({ html: `<div> <a href="stats" class="menu">Мои возможности <sup><font color=red>new</font></sup></a></div>`})
  
    );
 } 
