@@ -552,7 +552,7 @@ input[type="text"]:header, input[type="text"]:focus, input[type="text"]:active {
   display: inline-block;
   vertical-align: top;
   width: 350px;
-  margin-left: 63px;
+  margin-left: 123px;
   padding-top: 5px;
   position: relative;
   white-space: nowrap;
@@ -739,7 +739,7 @@ a.social-link:hover,a.social-link:visited {color: #fff;}
     #banner-content p {font-size: 14px;} .sidebar-top {display: none;} .timeline-container {display: block;}
 } 
 @media screen and (max-width : 950px) { 
- #banner-content h1 {font-size: 24px;}   
+ #banner-content h1 {font-size: 24px;}   .search-header {display: none;}
 }
 @media screen and (max-width : 680px) {  #banner-content {display: none;}}    
     
