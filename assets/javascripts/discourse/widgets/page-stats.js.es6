@@ -78,7 +78,7 @@ new RawHtml({ html: `<div class="id">
 	  <br><ul><il>- Настроить дизайн под себя. У нас несколько вариантов дизайна.</il><br><il>- Выбрать собственную центральную страницу.</il><br>
 	  <il>- <a target="_blank" href="https://toxu.ru/u/${username}/preferences/profile">Полностью заполнить свой профиль.</a></il></ul>
 
-
+<br><br>
 
 </div>`}));
  }
@@ -108,7 +108,7 @@ new RawHtml({ html: `<div class="id">
 <img class="img" src="https://toxu.ru/uploads/default/optimized/2X/b/be1d524e3ebb32339bb14781c34a5c6eb1679bef_1_690x224.gif" alt="Личные-сообщения" width="590" height="200">
    
 
-
+<br><br>
 </div>`}));
  }
  
@@ -130,7 +130,7 @@ new RawHtml({ html: `<div class="id">
 <img class="img" src="https://toxu.ru/uploads/default/original/2X/e/ebaabc2e2a3092fd609c886b3b9beb221da11cb5.gif" alt="Пригласить" width="590" height="100">
 <br>До уровня: <b>Постоялец (3)</b> 
 <div class="wrapper-stats"><div class="progress-bar"><span class="progress-bar-fill" style="width: ${days_visited}%"></span></div>
-      
+   <br><br>   
 </div>`}));
  }
 
@@ -149,7 +149,7 @@ new RawHtml({ html: `<div class="id">
 Писать в раздел <a href="https://toxu.ru/c/toxu/blog" target="_blank">блог</a><br><b>Обязательно ознакомьтесь</b> со следующими материалами: 
 <br> - <a target="_blank" href="https://toxu.ru/t/vojna-pravok-na-toxu/1281">война правок</a> на сайте; 
 <br> - <a target="_blank" href="https://toxu.ru/t/kakovy-rekomendaczii-i-politika-dlya-redaktirovaniya-voprosa-na-toxu-ru/934">каковы рекомендации и политика для 
- редактирования вопроса</a>.
+ редактирования вопроса</a>.<br><br>
 
 </div>`}));
  }
@@ -170,7 +170,7 @@ new RawHtml({ html: `<div class="id">
 <a href="https://toxu.ru/t/mobilnyj-dizajn-i-vse-chto-s-nim-svyazano/1635" target="_blank">мобильный</a> и 
 <a href="https://toxu.ru/t/oshibki-v-dizajne-pk-publikuem-tut/1862" target="_blank">ПК</a>, 
 <a href="https://toxu.ru/t/kategorii-udobstvo-dostup/1090" target="_blank">категории/удобство/доступ</a> или юзабилити и т.д. <br> <br> 
-А еще, <a target="_blank"  href="https://toxu.ru/chess"><b>играйте в шахматы!</b></a><br>  
+А еще, <a target="_blank"  href="https://toxu.ru/chess"><b>играйте в шахматы!</b></a><br> <br> 
 
 </div>`}));
  }
