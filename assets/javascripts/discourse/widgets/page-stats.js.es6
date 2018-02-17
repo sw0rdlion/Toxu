@@ -94,9 +94,18 @@ new RawHtml({ html: `<div class="id">
 Это поможет вам приблизится к следующему уровню доверия и откроет новые возможности на сайте.
 <br><br>
 Вам доступны <a target="_blank" href="https://toxu.ru/u/'+ username +'/messages">личные сообщения</a>. 
-<br>Воспользуйтесь личными сообщениями и <b>получите грамоту</b> <img src="https://toxu.ru/images/emoji/twitter/trophy.png" class="emoji">, 
-отправив Боту письмо нажав на <a target="_blank"  href="http://toxu.ru/new-message?username=ToxBot&title=Привет%20Бот!&body=@ToxBot%20справка%20Привет,%20давай%20общаться?">
-<b>эту ссылку</b></a>.<br> <br>
+
+<br>Воспользуйтесь личными сообщениями и <b>получите грамоту</b>, отправив <i>Боту</i> письмо. 
+    <br><br><center>
+    <img src="https://toxu.ru/uploads/default/original/2X/5/51cdae2910fe5d42d632123ab373a5c20e876eee.jpg" alt="Грамота"><br>
+    <i>Пример: грамоты выданной аккаунту Toxu</i><br><br>
+
+
+
+<a target="_blank" href="http://toxu.ru/new-message?username=ToxBot&amp;title=Привет%20Бот!&amp;body=@ToxBot%20справка%20Привет,%20давай%20общаться?" 
+class="gramota">+ Получить грамоту</a></center><br> <br>
+
+
 
 <i>Еще Вы можете:</i> <a target="_blank" href="https://toxu.ru/u/${username}/preferences/interface">настроить дизайн</a> 
 и выбрать центральную страницу сайта для себя. И <a target="_blank" href="https://toxu.ru/t/sajt-toxu-ru-v-seti/2031">присоединиться</a> к любой группе в социальных сетях, 
