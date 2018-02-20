@@ -1,7 +1,6 @@
 import { createWidget } from 'discourse/widgets/widget';
 import { h } from 'virtual-dom';
 import { number } from 'discourse/lib/formatter';
-import favorites from 'discourse/plugins/discourse-favorites/lib/favorites';
 
 createWidget('cat-category', {
   tagName: 'div.cat-link',
