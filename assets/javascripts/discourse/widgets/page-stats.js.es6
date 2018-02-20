@@ -80,13 +80,7 @@ new RawHtml({ html: `<div class="id">
 
 <br>
 
-<h3 class="t3">Ссылка на мой профиль</h3>
-<span class="excerpt">&lt;a href="https://toxu.ru/u/${username}/summary" target="_blank"&gt;${username} — на Toxu.ru&lt;/a&gt;</span>
-<br><br>
-<i>Это будет выглядеть так: </i>
-<br>
-<a title="" href="https://toxu.ru/u/${username}/summary">${username} — на Toxu.ru</a>
-<br><br>
+
 
 </div>`}));
  }
@@ -124,13 +118,7 @@ class="gramota">+ Получить грамоту</a></center><br> <br>
 Для уточнения вопроса/ответа или продолжение личной беседы в почтовом разделе.<br>
 <img class="img" src="https://toxu.ru/uploads/default/optimized/2X/b/be1d524e3ebb32339bb14781c34a5c6eb1679bef_1_690x224.gif" alt="Личные-сообщения" width="590" height="200">
 <br>
-<h3 class="t3">Ссылка на мой профиль</h3>
-<span class="excerpt">&lt;a href="https://toxu.ru/u/${username}/summary" target="_blank"&gt;${username} — на Toxu.ru&lt;/a&gt;</span>
-<br><br>
-<i>Это будет выглядеть так: </i>
-<br>
-<a title="" href="https://toxu.ru/u/${username}/summary">${username} — на Toxu.ru</a>
-<br><br>
+
 </div>`}));
  }
  
@@ -154,13 +142,7 @@ new RawHtml({ html: `<div class="id">
 <div class="wrapper-stats"><div class="progress-bar"><span class="progress-bar-fill" style="width: ${days_visited}%"></span></div>
 <br>
 
-<h3 class="t3">Ссылка на мой профиль</h3>
-<span class="excerpt">&lt;a href="https://toxu.ru/u/${username}/summary" target="_blank"&gt;${username} — на Toxu.ru&lt;/a&gt;</span>
-<br><br>
-<i>Это будет выглядеть так: </i>
-<br>
-<a title="" href="https://toxu.ru/u/${username}/summary">${username} — на Toxu.ru</a>
-<br><br>
+
 
 
 </div>`}));
@@ -183,13 +165,7 @@ new RawHtml({ html: `<div class="id">
 <br> - <a target="_blank" href="https://toxu.ru/t/kakovy-rekomendaczii-i-politika-dlya-redaktirovaniya-voprosa-na-toxu-ru/934">каковы рекомендации и политика для 
  редактирования вопроса</a>.<br>
 
-<h3 class="t3">Ссылка на мой профиль</h3>
-<span class="excerpt">&lt;a href="https://toxu.ru/u/${username}/summary" target="_blank"&gt;${username} — на Toxu.ru&lt;/a&gt;</span>
-<br><br>
-<i>Это будет выглядеть так: </i>
-<br>
-<a title="" href="https://toxu.ru/u/${username}/summary">${username} — на Toxu.ru</a>
-<br><br>
+
 
 </div>`}));
  }
@@ -212,13 +188,7 @@ new RawHtml({ html: `<div class="id">
 <a href="https://toxu.ru/t/kategorii-udobstvo-dostup/1090" target="_blank">категории/удобство/доступ</a> или юзабилити и т.д. <br> <br> 
 А еще, <a target="_blank"  href="https://toxu.ru/chess"><b>играйте в шахматы!</b></a><br> 
 
-<h3 class="t3">Ссылка на мой профиль</h3>
-<span class="excerpt">&lt;a href="https://toxu.ru/u/${username}/summary" target="_blank"&gt;${username} — на Toxu.ru&lt;/a&gt;</span>
-<br><br>
-<i>Это будет выглядеть так: </i>
-<br>
-<a title="" href="https://toxu.ru/u/${username}/summary">${username} — на Toxu.ru</a>
-<br><br>
+
 
 
 </div>`}));
