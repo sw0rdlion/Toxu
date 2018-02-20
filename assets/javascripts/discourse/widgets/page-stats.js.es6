@@ -81,11 +81,11 @@ new RawHtml({ html: `<div class="id">
 <br>
 
 <h3 class="t3">Ссылка на мой профиль</h3>
-<span class="excerpt">&lt;a href="https://toxu.ru/u/${username}/summary" target="_blank"&gt;${name} (@${username}) — на Toxu.ru&lt;/a&gt;</span>
+<span class="excerpt"><small>&lt;a href="https://toxu.ru/u/${username}/summary" target="_blank"&gt;${name} (@${username}) — на Toxu.ru&lt;/a&gt;</small></span>
 <br><br>
 <i>Это будет выглядеть так:</i>
 <br>
-<a title="${name} (@${username}) — на Toxu.ru" href="https://toxu.ru/u/${username}/summary">${username} — на Toxu.ru</a>
+<a title="${name} (@${username}) — на Toxu.ru" href="https://toxu.ru/u/${username}/summary">${name} (@${username}) — на Toxu.ru</a>
 <br><br>
 
 </div>`}));
@@ -126,11 +126,11 @@ class="gramota">+ Получить грамоту</a></center><br> <br>
 <br>
 
 <h3 class="t3">Ссылка на мой профиль</h3>
-<span class="excerpt">&lt;a href="https://toxu.ru/u/${username}/summary" target="_blank"&gt;${name} (@${username}) — на Toxu.ru&lt;/a&gt;</span>
+<span class="excerpt"><small>&lt;a href="https://toxu.ru/u/${username}/summary" target="_blank"&gt;${name} (@${username}) — на Toxu.ru&lt;/a&gt;</small></span>
 <br><br>
 <i>Это будет выглядеть так:</i>
 <br>
-<a title="${name} (@${username}) — на Toxu.ru" href="https://toxu.ru/u/${username}/summary">${username} — на Toxu.ru</a>
+<a title="${name} (@${username}) — на Toxu.ru" href="https://toxu.ru/u/${username}/summary">${name} (@${username}) — на Toxu.ru</a>
 <br><br>
 
 </div>`}));
@@ -157,11 +157,11 @@ new RawHtml({ html: `<div class="id">
 <br>
 
 <h3 class="t3">Ссылка на мой профиль</h3>
-<span class="excerpt">&lt;a href="https://toxu.ru/u/${username}/summary" target="_blank"&gt;${name} (@${username}) — на Toxu.ru&lt;/a&gt;</span>
+<span class="excerpt"><small>&lt;a href="https://toxu.ru/u/${username}/summary" target="_blank"&gt;${name} (@${username}) — на Toxu.ru&lt;/a&gt;</small></span>
 <br><br>
 <i>Это будет выглядеть так:</i>
 <br>
-<a title="${name} (@${username}) — на Toxu.ru" href="https://toxu.ru/u/${username}/summary">${username} — на Toxu.ru</a>
+<a title="${name} (@${username}) — на Toxu.ru" href="https://toxu.ru/u/${username}/summary">${name} (@${username}) — на Toxu.ru</a>
 <br><br>
 
 
@@ -186,11 +186,11 @@ new RawHtml({ html: `<div class="id">
  редактирования вопроса</a>.<br>
 
 <h3 class="t3">Ссылка на мой профиль</h3>
-<span class="excerpt">&lt;a href="https://toxu.ru/u/${username}/summary" target="_blank"&gt;${name} (@${username}) — на Toxu.ru&lt;/a&gt;</span>
+<span class="excerpt"><small>&lt;a href="https://toxu.ru/u/${username}/summary" target="_blank"&gt;${name} (@${username}) — на Toxu.ru&lt;/a&gt;</small></span>
 <br><br>
 <i>Это будет выглядеть так:</i>
 <br>
-<a title="${name} (@${username}) — на Toxu.ru" href="https://toxu.ru/u/${username}/summary">${username} — на Toxu.ru</a>
+<a title="${name} (@${username}) — на Toxu.ru" href="https://toxu.ru/u/${username}/summary">${name} (@${username}) — на Toxu.ru</a>
 <br><br>
 
 
@@ -217,11 +217,11 @@ new RawHtml({ html: `<div class="id">
 
 
 <h3 class="t3">Ссылка на мой профиль</h3>
-<span class="excerpt">&lt;a href="https://toxu.ru/u/${username}/summary" target="_blank"&gt;${name} (@${username}) — на Toxu.ru&lt;/a&gt;</span>
+<span class="excerpt"><small>&lt;a href="https://toxu.ru/u/${username}/summary" target="_blank"&gt;${name} (@${username}) — на Toxu.ru&lt;/a&gt;</small></span>
 <br><br>
 <i>Это будет выглядеть так:</i>
 <br>
-<a title="${name} (@${username}) — на Toxu.ru" href="https://toxu.ru/u/${username}/summary">${username} — на Toxu.ru</a>
+<a title="${name} (@${username}) — на Toxu.ru" href="https://toxu.ru/u/${username}/summary">${name} (@${username}) — на Toxu.ru</a>
 <br><br>
 
 </div>`}));
