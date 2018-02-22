@@ -12,8 +12,17 @@ createWidget('cat-category', {
  
     this.tagName += '.category-' + Discourse.Category.slugFor(c, '-');
 
-    const results = [ this.attach('category-link', { category: c, allowUncategorized: true }) ];
+   // const results = [ this.attach('category-link', { category: c, allowUncategorized: true }) ];
 
+    for (var t = 0; t < c.notification_level; t++) { 
+    
+       const results = [ this.attach('category-link', { category: c, allowUncategorized: true }) ];
+ 
+    }   
+    
+    
+    
+    
     const unreadTotal = parseInt(c.get('unreadTopics'), 10) + parseInt(c.get('newTopics'), 10);
     if (unreadTotal) {
       results.push(h('a.badge.badge-notification', {
