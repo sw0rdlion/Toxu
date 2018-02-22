@@ -15,11 +15,21 @@ export default createWidget('sidebar-items', {
 	const { currentUser } = this; 
 	if (currentUser) {
 	
+  const username = currentUser.get('username');		
+		
   const UserbarProfile = currentUser.custom_fields.userbar_profile;
   if (UserbarProfile) { result.push( new RawHtml({ html: `<div class="soc"> <br></div>`})); } 
 	else 
 	{ result.push(self.attach('profile-t')); }
-			
+	
+		
+	 result.push( new RawHtml({ html: `<div> 
+ 
+<a class="nast-cat" title="Настройка категорий" href="https://toxu.ru/u/${username}/preferences/categories"><i class="fa fa-gear d-icon d-icon-gear" aria-hidden="true"></i></a>
+ 
+        </div>`}))   	
+		
+		
 	result.push(self.attach('sidebar-cat'));
 		
 	} else {
