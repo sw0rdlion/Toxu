@@ -348,9 +348,7 @@ section.about.about.moderators{padding-top: 10px;}
 
 @media(min-width: 1120px) { .category-toxu-blog  .topic-body {margin: 0 10% 0 10%;width: 80%;}}
 
-/*Стрелка вниз*/
-a.icon{width: 48px;}
-#current-user a.icon:before {content: "▽";float: right;font-weight: bold; margin-top: 8px; font-size:10px;}
+
 
 /*Выделение закрытых категорий*/
 html:not(.mobile-view) a.nastr.sm{font-size:11px;}
