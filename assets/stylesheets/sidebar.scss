@@ -791,7 +791,8 @@ font-size: 0.9em;
 } 
 .socv {color: #919191;}
 a.nastr {float:right;display:block;font-size:13px;margin-top:7px;opacity:0.6;}
-a.nastr:hover {color: #f56400; opacity:1;}
+a.nast-cat {float:right;display:block;font-size:13px;opacity:0.6;}
+a.nastr:hover, a.nast-cat:hover {color: #f56400; opacity:1;}
 a.menu-profile:hover, .discourse-tag.box.bar:hover, a.menu-profile:first-letter, a.d-link.categories-link:hover {color: #f56400 !important;}
 a.menu-profile {display: inline-block;margin: 3px 1px 7px 0;}
 
