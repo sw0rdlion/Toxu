@@ -5,7 +5,14 @@ import { number } from 'discourse/lib/formatter';
 createWidget('cat-category', {
   tagName: 'div.cat-link',
 
+  
+  
+  
   html(c) {
+    
+    var results=''; 
+    
+    
     if (c.parent_category_id) {
       this.tagName += '.subcategory';
     }
@@ -16,7 +23,7 @@ createWidget('cat-category', {
 
     for (var t = 0; t < c.notification_level; t++) { 
     
-       const results = [ this.attach('category-link', { category: c, allowUncategorized: true }) ];
+      results = [ this.attach('category-link', { category: c, allowUncategorized: true }) ];
  
     }   
     
