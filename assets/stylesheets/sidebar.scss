@@ -10,10 +10,11 @@ span#top-navbar-links {display:block !important;margin:23px 0 0 0;}
 div#top-navbar {max-width:none;width: auto;z-index: 1040;position:fixed;top:0;left: 30%;}
 @media (max-width:1300px) {#scroll-top.left {display: none !important;}}
 @media (max-width:800px) {#top-navbar{display: none;}}
-a.dow-menu {font-size: 14px;color:grey;    margin-right: 30px;}
+a.dow-menu {font-size: 14px;color:#999;margin-right: 30px;}
 a.dow-menu:hover {color:#f56400;}	
 .d-header-icons .d-icon {font-size: 1.5511em;}
 .d-header-icons > li {margin-left: 15px;}
+.archetype-regular #top-navbar, .archetype-private_message #top-navbar{display: none;}
 
 /*описания*/
 tr[data-topic-id="1170"], tr[data-topic-id="2780"], tr[data-topic-id="44"], tr[data-topic-id="979"], tr[data-topic-id="26"], tr[data-topic-id="64"], tr[data-topic-id="385"],
