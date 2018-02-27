@@ -224,7 +224,12 @@ a.addqa:hover {color: #fff;background: #f56400;padding: 6px 10px;font-weight: 50
 
 }
 
-
+.cat-private{
+    background-color: #eff5fa;
+    color: #667d99;
+    padding: 1px 0 15px 10px;
+    margin-bottom: 5px;
+}
 .navigation-categories.categories-list .category-logo, .category .category-logo, 
 .navigation-categories.categories-list tr[data-category-id="4"], 
 .navigation-categories.categories-list tr[data-category-id="32"] {display: none;}
