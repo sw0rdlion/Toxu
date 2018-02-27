@@ -225,6 +225,11 @@ a.addqa:hover {color: #fff;background: #f56400;padding: 6px 10px;font-weight: 50
 }
 
 
+.navigation-categories.categories-list .category-logo, .category .category-logo, 
+.navigation-categories.categories-list tr[data-category-id="4"], 
+.navigation-categories.categories-list tr[data-category-id="32"] {display: none;}
+
+
 /*Категории*/
 .topic-list a.badge-wrapper.bullet .badge-category-parent-bg {display: none;}
 .badge-wrapper.bullet {margin-right: 1px;margin-left: 1px;}
