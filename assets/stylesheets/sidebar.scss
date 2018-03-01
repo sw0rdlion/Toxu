@@ -4,7 +4,11 @@ span.excerpt{background-color: #ffffca;display: inline-block;padding: 8px;}
 .create-account .user-fields {display: none;}
 #scroll-top{position:fixed; bottom:50px;padding:5px;border-radius:5px;z-index:9999;right:30px;color:#888;font-size:25px;display:none;}
 #scroll-top:hover{opacity:0.7;color:#f56400;}
-
+h3.sidebar-heading {display: none;}
+.d-header #site-logo {
+    max-height: 35px;
+    margin-top: 2px;
+}
 /*Добавление ссылкок шапка*/
 span#top-navbar-links {display:block !important;margin:23px 0 0 0;}
 div#top-navbar {max-width:none;width: auto;z-index: 1040;position:fixed;top:0;left: 27%;}
