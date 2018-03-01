@@ -18,7 +18,19 @@ a.dow-menu {font-size: 14px;color:#999;margin-right: 30px;}
 a.dow-menu:hover {color:#f56400;}	
 .d-header-icons .d-icon {font-size: 1.5511em;}
 .d-header-icons > li {margin-left: 15px;}
-.archetype-regular #top-navbar, .archetype-private_message #top-navbar{display: none;}
+.archetype-regular #top-navbar, .archetype-private_message #top-navbar, .discourse-tag.bullet::before {display: none;}
+
+.discourse-tag.bullet {    
+    position: relative;
+    font-size: 13px;
+    padding: 4px 8px;
+    background: #f4f4fa;
+    font-weight: 500;
+    line-height: 1.2em;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
 
 /*описания*/
 tr[data-topic-id="1170"], tr[data-topic-id="2780"], tr[data-topic-id="44"], tr[data-topic-id="979"], tr[data-topic-id="26"], tr[data-topic-id="64"], tr[data-topic-id="385"],
@@ -400,10 +412,6 @@ a.facebook:hover, a.vk:hover, a.twitter:hover, a.telegram:hover, a.discord:hover
 .soc a.pom { color: #bdbdbd;font-size: 15px;}
 .fa-flag:before { content: "\f071" !important;}
 
-
-/* tags */
-.discourse-tag.bullet::before {content: "\f02b";font-size: 0.9em;top: 0.1em;margin-right: 4px;}
-a.discourse-tag.bullet:hover {color: #bdbdbd;}
 
 .sidebar .badge-wrapper.bullet .badge-category-bg, .cat-link.category-other2 {display: none;}
 .sidebar .badge-wrapper.bullet span.badge-category:hover {color: #f56400 !important;}
