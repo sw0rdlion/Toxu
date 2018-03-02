@@ -8,6 +8,13 @@ h3.sidebar-heading {display: none;}
     max-height: 35px;
     margin-top: 2px;
 }
+
+a.discourse-tag:hover, a.nastr:hover, a.nast-cat:hover, a.pmenu:hover, a.und:hover, a.dow-menu:hover, h3.suggested-topics-message a:hover, 
+.badge-wrapper .badge-category .category-name:hover, .sidebar .badge-wrapper.bullet span.badge-category:hover, 
+a.track-link:hover, a.title:hover, a.badge-notification:hover, .cat-cat a.category-title-link:hover { color: #f56400 !important;}
+
+
+
 /*Добавление ссылкок шапка*/
 span#top-navbar-links {display:block !important;margin:23px 0 0 0;}
 div#top-navbar {max-width:none;width: auto;z-index: 1040;position:fixed;top:0;left: 27%;}
@@ -61,9 +68,6 @@ a.und:hover {border-bottom: 1px solid #f56400;}
 .post-links-container ul li a[href] {color: #07C;}
 
 .names .user-title a.user-group:hover, .names span a:hover {color: #919191;}
-
-.topic-meta-data .post-info a:hover, .topic-body .reply-to-tab:hover, .cooked a  {border-bottom: 1px solid #e7edf3;}
-.cooked a:hover {border-bottom: 1px solid #f56400;}
 
 .cooked table thead, .d-editor-preview table thead {border-bottom: 2px solid #bbb !important;background-color: #d3d3d3;}
 .cooked table tr, .d-editor-preview table tr {border-bottom: 1px solid #bbb;}
@@ -232,10 +236,6 @@ a.addqa:hover {color: #fff;background: #f56400;padding: 6px 10px;font-weight: 50
 .category-blog .cat-link.category-blog, .category-other-community .cat-link.category-other
 
 {.badge-wrapper.bullet span.badge-category { color: #f56400 !important;}}
-
-a.discourse-tag:hover, a.nastr:hover, a.nast-cat:hover, a.pmenu:hover, a.und:hover, a.dow-menu:hover, h3.suggested-topics-message a:hover, 
-.badge-wrapper .badge-category .category-name:hover, .sidebar .badge-wrapper.bullet span.badge-category:hover, 
-a.track-link:hover, a.title:hover, a.badge-notification:hover { color: #f56400 !important;}
 
 .cat-private{
     background-color: #eff5fa;
