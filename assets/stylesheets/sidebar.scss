@@ -123,6 +123,7 @@ h3.suggested-topics-message a, .footer-message.ember-view h3 a {background: #fff
     cursor: pointer;
 }
 .soc-link.facebook-2 {background: #3a5a9a;}
+
 .soc-link.facebook-2:hover {background: #4c6cac;}
 .soc-link.twitter-2 {background: #40aeef;}
 .soc-link.twitter-2:hover {background: #54bbf7;}
@@ -228,13 +229,12 @@ a.addqa:hover {color: #fff;background: #f56400;padding: 6px 10px;font-weight: 50
 .category-internet-programming .cat-link.category-internet, .category-internet-discourse .cat-link.category-internet, 
 .category-science-history .cat-link.category-science, .category-occultism-christianity .cat-link.category-occultism,
 .category-toxu .cat-link.category-toxu, .category-toxu-regulations .cat-link.category-toxu, 
-.category-blog .cat-link.category-blog, .category-other-community .cat-link.category-other
+.category-blog .cat-link.category-blog, .category-other-community .cat-link.category-other,
+a.discourse-tag:hover, a.nastr:hover, a.nast-cat:hover, a.pmenu:hover, a.und:hover, a.dow-menu:hover, h3.suggested-topics-message a:hover, 
+.badge-wrapper .badge-category .category-name:hover, .sidebar .badge-wrapper.bullet span.badge-category:hover, 
+a.track-link:hover, a.title:hover
 
-{
-	
-.badge-wrapper.bullet span.badge-category { color: #f56400;}
-
-}
+{.badge-wrapper.bullet span.badge-category { color: #f56400 !important;}}
 
 .cat-private{
     background-color: #eff5fa;
@@ -256,13 +256,11 @@ a.addqa:hover {color: #fff;background: #f56400;padding: 6px 10px;font-weight: 50
 
 a.pren {color: #919191;font-weight: 300;font-size: 13px;}
 .categ a.badge-wrapper.bullet span.badge-category {color: #919191;font-weight: 300;font-size: 13px;}
-.categ a.badge-wrapper.bullet span.badge-category:hover, a.pren:hover {color: #f56400;}
 
 /*Вопросы*/
 #topic-title h1 a {font-weight:500;}
 .main-link.clearfix .telohome .title-t a.title { color: #09C;font-size: 1.143em; 
    &:visited {color: #07C;}
-   &:hover {color: #f56400;}
 }
 
 .topic-post.comment .topic-body {font-size: 0.96em;}
