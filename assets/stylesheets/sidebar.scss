@@ -9,11 +9,7 @@ h3.sidebar-heading {display: none;}
     margin-top: 2px;
 }
 
-a.discourse-tag:hover, a.nastr:hover, a.nast-cat:hover, a.pmenu:hover, a.und:hover, a.dow-menu:hover, h3.suggested-topics-message a:hover, 
-.badge-wrapper .badge-category .category-name:hover, .sidebar .badge-wrapper.bullet span.badge-category:hover, 
-a.track-link:hover, a.title:hover, a.badge-notification:hover, .cat-cat a.category-title-link:hover { color: #f56400 !important;}
-
-
+a:hover{ color: #f56400 !important;}
 
 /*Добавление ссылкок шапка*/
 span#top-navbar-links {display:block !important;margin:23px 0 0 0;}
