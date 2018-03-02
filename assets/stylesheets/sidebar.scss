@@ -70,7 +70,7 @@ a.dow-menu {font-size: 14px;color:#999;margin-right: 30px;}
     cursor: pointer;     margin-right: 5px;
 }
 .badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg {
-    border-radius: 10px;
+    border-radius: 10px;margin-bottom: 4px;
 }
 
 /*описания*/
@@ -285,7 +285,7 @@ a.addqa:hover {color: #fff;background: #f56400;padding: 6px 10px;font-weight: 50
 
 /*Категории*/
 .topic-list a.badge-wrapper.bullet .badge-category-parent-bg {display: none;}
-.badge-wrapper.bullet {margin-right: 5px;}
+.badge-wrapper.bullet {display: inline-block;}
 .topic-body .contents .cooked {font-size: 1.1em;font-weight: 300; line-height: 1.46;font-family: Verdana,Geneva,sans-serif;}
 .topic-list .activity {text-align: center;}
 
@@ -723,7 +723,7 @@ margin-top: 1px;
 background-color: #fff;
 font-size: 0.9em;
 } 
-.socv {color: #919191;}
+.socv {color: #919191;margin-bottom: 5px;margin-top: 15px;}
 a.nastr {float:right;display:block;font-size:13px;margin-top:7px;opacity:0.6;}
 a.nast-cat {float:right;display:block;font-size:13px;opacity:0.6;}
 a.nastr:hover, a.nast-cat:hover {opacity:1;}
