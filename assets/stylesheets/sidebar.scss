@@ -550,7 +550,7 @@ nav.post-controls button.reply.create:after {   content: "комм";}
 .archetype-private_message .topic-avatar {border-top: none;}
 
 @media(max-width:900px) {
-.sidebar, .topic-list .views, .topic-list .likes, .topic-list .votes, 
+.sidebar, .topic-list .views, .topic-list .likes, .topic-list .votes, .blog-container, 
 .cat{display: none;} .num.likes{display: none;} .topic-list .views {display: none;}
 .topic-list a.title, .topic-list a.title.visited:not(.badge-notification){font-size: 16px;}  
 }
