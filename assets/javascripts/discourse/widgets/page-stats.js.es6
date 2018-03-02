@@ -82,7 +82,7 @@ new RawHtml({ html: `<div class="id">
 <img src="https://toxu.ru/uploads/default/optimized/2X/2/2c1a9d268d50a3c02e9770b57e49a6ee0094d5bd_1_690x243.gif" alt="Category"><br>
 
 
-	  <il>- Это этого <a target="_blank" href="https://toxu.ru/u/${username}/preferences/profile">заполнить свой профиль.</a></il></ul>
+	  <il>Для этого настройте <a target="_blank" href="https://toxu.ru/u/${username}/preferences/interface">Главную страницу по умолчанию.</a></il></ul>
 
 <br>
 
