@@ -65,7 +65,7 @@ a.und:hover {color: #f56400;border-bottom: 1px solid #f56400;}
 .post-links-container ul li a[href]:hover, a.topic-link:hover, .link-top-line a.title:hover,.names span.username a:first-letter, 
 .post-links-container .expand-links:hover, a.widget-link.now-date:hover,a.widget-link.start-date:hover, a.pmenu:hover,  
 .footer_social_nav a i.fa:hover, h3.suggested-topics-message a span:hover, .badge-notification.new-topic, 
-.discourse-tag.bullet::before:hover, .badge-wrapper.bullet:hover {color: #f56400;}
+.discourse-tag.bullet::before:hover, .badge-wrapper.bullet:hover {color: #f56400 !important;}
 
 .names .user-title a.user-group:hover, .names span a:hover {color: #919191;}
 
