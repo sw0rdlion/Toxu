@@ -4,9 +4,32 @@ span.excerpt{background-color: #ffffca;display: inline-block;padding: 8px;}
 .create-account .user-fields {display: none;}
 #scroll-top{position:fixed; bottom:50px;padding:5px;border-radius:5px;z-index:9999;right:30px;color:#888;font-size:25px;display:none;}
 h3.sidebar-heading {display: none;}
-.d-header #site-logo {
-    max-height: 35px;
-    margin-top: 2px;
+.d-header #site-logo {max-height: 35px;    margin-top: 2px;}
+
+/*категория*/
+.category .category-logo {display: none;}
+.category-heading .category-logo{width:31px;}
+.categories-and-latest .discourse-tag {font-size: 1em;}
+.cat-cat  {width:100%; .category-description {max-width: 450px; font-size: 0.97rem;font-weight: 400;line-height: 1.2;color: #777;}  
+div[data-category-id="1"],div[data-category-id="4"],div[data-category-id="20"],div[data-category-id="32"], .avacat .badge-wrapper.bullet .badge-category-bg {display: none;}    
+.topic-excerpt {font-size: 14px;}    
+.subcategories {margin-top: 10px;}
+.has-description {margin-bottom: 30px;float: left;width: 70%;}
+ h1.t1{ text-transform: uppercase;color: #777;margin-left: 13px;font-size: 14px;font-weight: 400;line-height: 1.42857143; margin-bottom: 20px;}
+.category-logo {margin-top: 3px; margin-bottom: 0;   border-radius: 50%;    width: 46px;height: 46px;} 
+.title-t a.title {color: #333;font-size: 1em;}
+.title-t a.title:hover, .topic-list span.badge-category .category-name:hover, .badge-wrapper .badge-category .category-name:hover, .avacat a:hover {color: #f56400;}
+a.category-title-link {font-size: 1.443em;}
+.colon.cat-cat{  float: left;width: 66%;}
+.colon.post{width: 27%;float: right;margin-left: 30px;}
+.topic-cat {display: block; display: inline-block; width: 100%;padding: 0 0 0.7em 0;border-left: 4px solid #f6f8fa;}
+.avacat a  { font-size: 13px;color: #777;text-decoration: underline;}
+.avacat img {width: 24px;height: 24px;}
+.telohome {float:left;width: 90%;margin-left: 15px;}
+.badge-wrapper .badge-category .category-name {color: #09C;font-weight: 300;}
+.badge-wrapper .badge-category .d-icon {color: #339900;}
+.stats small {text-transform: uppercase;    color: #777;font-weight: 300;font-size: 12px;}
+.stats {float: right;font-size: 20px;text-align: center;margin-top: 7px;line-height: 22px;}
 }
 
 a.discourse-tag:hover, a.nastr:hover, a.nast-cat:hover, a.pmenu:hover, a.und:hover, a.dow-menu:hover, h3.suggested-topics-message a:hover, 
