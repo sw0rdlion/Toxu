@@ -186,9 +186,9 @@ a.addqa:hover {color: #fff;background: #f56400;padding: 6px 10px;font-weight: 50
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   background: url(https://toxu.ru/uploads/default/original/2X/5/5ab80d2976b2262f6deb55a25b70f32d2791ea4f.png) no-repeat;
-  background-size: 150px 40px;
+  background-size: 150px 35px;
   width: 150px; /* Width of new image */
-  height: 40px; /* Height of new image */
+  height: 35px; /* Height of new image */
   padding-left: 150px; /* Equal to width of new image */    
 }
 
@@ -198,10 +198,10 @@ a.addqa:hover {color: #fff;background: #f56400;padding: 6px 10px;font-weight: 50
     box-sizing: border-box;
     margin-right: 8px;
     background: url(https://toxu.ru/uploads/default/original/2X/7/74e72aed8c7d38b563a49e00aa83e0820cb3bbcb.png) no-repeat;
-    background-size: 40px 40px;
-    width: 40px;
-    height: 40px;
-    padding-left: 40px;
+    background-size: 35px 35px;
+    width: 35px;
+    height: 35px;
+    padding-left: 35px;
 }
 
 
@@ -229,12 +229,13 @@ a.addqa:hover {color: #fff;background: #f56400;padding: 6px 10px;font-weight: 50
 .category-internet-programming .cat-link.category-internet, .category-internet-discourse .cat-link.category-internet, 
 .category-science-history .cat-link.category-science, .category-occultism-christianity .cat-link.category-occultism,
 .category-toxu .cat-link.category-toxu, .category-toxu-regulations .cat-link.category-toxu, 
-.category-blog .cat-link.category-blog, .category-other-community .cat-link.category-other,
-a.discourse-tag:hover, a.nastr:hover, a.nast-cat:hover, a.pmenu:hover, a.und:hover, a.dow-menu:hover, h3.suggested-topics-message a:hover, 
-.badge-wrapper .badge-category .category-name:hover, .sidebar .badge-wrapper.bullet span.badge-category:hover, 
-a.track-link:hover, a.title:hover
+.category-blog .cat-link.category-blog, .category-other-community .cat-link.category-other
 
 {.badge-wrapper.bullet span.badge-category { color: #f56400 !important;}}
+
+a.discourse-tag:hover, a.nastr:hover, a.nast-cat:hover, a.pmenu:hover, a.und:hover, a.dow-menu:hover, h3.suggested-topics-message a:hover, 
+.badge-wrapper .badge-category .category-name:hover, .sidebar .badge-wrapper.bullet span.badge-category:hover, 
+a.track-link:hover, a.title:hover, a.badge-notification:hover { color: #f56400 !important;}
 
 .cat-private{
     background-color: #eff5fa;
