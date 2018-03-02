@@ -62,11 +62,6 @@ a.und {color: #07C;border-bottom: 1px solid #09C;}
 a.und:hover {color: #f56400;border-bottom: 1px solid #f56400;}
 .post-links-container ul li a[href] {color: #07C;}
 
-.post-links-container ul li a[href]:hover, a.topic-link:hover, .link-top-line a.title:hover,.names span.username a:first-letter, 
-.post-links-container .expand-links:hover, a.widget-link.now-date:hover,a.widget-link.start-date:hover, a.pmenu:hover,  
-.footer_social_nav a i.fa:hover, h3.suggested-topics-message a span:hover, .badge-notification.new-topic, 
-.discourse-tag.bullet::before:hover, .badge-wrapper.bullet:hover {color: #f56400 !important;}
-
 .names .user-title a.user-group:hover, .names span a:hover {color: #919191;}
 
 .topic-meta-data .post-info a:hover, .topic-body .reply-to-tab:hover, .cooked a  {border-bottom: 1px solid #e7edf3;}
@@ -264,9 +259,6 @@ a.addqa:hover {color: #fff;background: #f56400;padding: 6px 10px;font-weight: 50
 a.pren {color: #919191;font-weight: 300;font-size: 13px;}
 .categ a.badge-wrapper.bullet span.badge-category {color: #919191;font-weight: 300;font-size: 13px;}
 .categ a.badge-wrapper.bullet span.badge-category:hover, a.pren:hover {color: #f56400;}
-
-#topic-title .title-wrapper a.discourse-tag, #topic-title .title-wrapper .badge-wrapper.bullet span.badge-category,   
-.d-header .title-wrapper a.discourse-tag, .d-header .title-wrapper .badge-wrapper.bullet span.badge-category {color: #919191 !important;font-weight: 300;font-size: 13px; margin-right: 5px;}
 
 /*Вопросы*/
 #topic-title h1 a {font-weight:500;}
