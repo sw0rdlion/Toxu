@@ -26,7 +26,7 @@ a.dow-menu {font-size: 14px;color:#999;margin-right: 30px;}
     font-weight: 500;
     line-height: 1.2em;
     border-radius: 12px;
-    cursor: pointer;
+    cursor: pointer;     margin-right: 5px;
 }
 .badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg {
     border-radius: 10px;
@@ -251,7 +251,7 @@ a.track-link:hover, a.title:hover, a.badge-notification:hover { color: #f56400 !
 
 /*Категории*/
 .topic-list a.badge-wrapper.bullet .badge-category-parent-bg {display: none;}
-.badge-wrapper.bullet {margin-right: 1px;margin-left: 1px;}
+.badge-wrapper.bullet {margin-right: 5px;}
 .topic-body .contents .cooked {font-size: 1.1em;font-weight: 300; line-height: 1.46;font-family: Verdana,Geneva,sans-serif;}
 .topic-list .activity {text-align: center;}
 
