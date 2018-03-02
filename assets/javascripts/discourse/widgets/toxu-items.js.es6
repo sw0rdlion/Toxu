@@ -11,12 +11,7 @@ export default createWidget('toxu-items', {
     
     const trust_level = currentUser.get('trust_level');
     
-    if (trust_level === 0) { 
-    contents.push( new RawHtml({ html: `<div id="banner-nul">
-    <i class="fa fa-info" aria-hidden="true"></i> Прочтите про ваши возможности <a class="und" href="https://toxu.ru/stats">используя эту ссылку</a>.
-    </div>`}));
-    }  
-      
+       
     
     } else { 
  
