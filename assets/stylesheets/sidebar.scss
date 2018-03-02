@@ -2,7 +2,8 @@
 .cooked p img.emoji{border: none;}
 span.excerpt{background-color: #ffffca;display: inline-block;padding: 8px;}
 .create-account .user-fields {display: none;}
-#scroll-top{position:fixed; bottom:50px;padding:5px;border-radius:5px;z-index:9999;right:30px;color:#888;font-size:25px;display:none;}
+#scroll-top{position:fixed;opacity: 0.6;bottom:50px;padding:5px;border-radius:5px;z-index:9999;right:30px;color:#888;font-size:25px;display:none;}
+
 h3.sidebar-heading {display: none;}
 .d-header #site-logo {max-height: 35px;    margin-top: 2px;}
 .badge-wrapper .badge-category .d-icon, .topic-statuses .topic-status i, .catz .fa {color:#339900;}
