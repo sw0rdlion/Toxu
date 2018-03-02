@@ -9,7 +9,10 @@ h3.sidebar-heading {display: none;}
     margin-top: 2px;
 }
 
-a:hover{ color: #f56400 !important;}
+a.discourse-tag:hover, a.nastr:hover, a.nast-cat:hover, a.pmenu:hover, a.und:hover, a.dow-menu:hover, h3.suggested-topics-message a:hover, 
+.badge-wrapper .badge-category .category-name:hover, .sidebar .badge-wrapper.bullet span.badge-category:hover, 
+a.track-link:hover, a.title:hover, a.badge-notification:hover, .cat-cat a.category-title-link:hover,
+a.pren:hover, a.dropdown-header:hover, a.mention:hover, a.onebox:hover, .cooked a:hover { color: #f56400 !important;}
 
 /*Добавление ссылкок шапка*/
 span#top-navbar-links {display:block !important;margin:23px 0 0 0;}
@@ -20,8 +23,8 @@ a.dow-menu {font-size: 14px;color:#999;margin-right: 30px;}
 .d-header-icons .d-icon {font-size: 1.5511em;}
 .d-header-icons > li {margin-left: 15px;}
 .archetype-regular #top-navbar, .archetype-private_message #top-navbar, .discourse-tag.bullet::before {display: none;}
-
-.discourse-tag.bullet {    
+.badge-wrapper {   font-weight: 300;}
+.discourse-tag.bullet {    color: #667d99;
     position: relative;
     font-size: 13px;
     padding: 4px 8px;
