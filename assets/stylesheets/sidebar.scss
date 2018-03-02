@@ -8,7 +8,15 @@ h3.sidebar-heading {display: none;}
 .badge-wrapper .badge-category .d-icon, .topic-statuses .topic-status i, .catz .fa {color:#339900;}
 .select-kit.dropdown-select-box.period-chooser .period-chooser-header {
 h2.selected-name .date-section, h2.selected-name .top-date-string, .d-icon {color: #667d99;}}
-
+.blog-container { 
+display: none;
+position: fixed;
+width: 13%;
+float: left;
+background-color: #fff;
+border: 1px solid #e8e8e8;
+padding: 15px;
+}
 /*категория*/
 .category .category-logo {display: none;}
 .category-heading .category-logo{width:31px;}
