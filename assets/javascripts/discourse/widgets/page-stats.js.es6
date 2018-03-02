@@ -75,8 +75,14 @@ new RawHtml({ html: `<div class="id">
 	 
    <br><br>Вы можете:
 	  
-	  <br><ul><il>- Настроить дизайн под себя. У нас несколько вариантов дизайна.</il><br><il>- Выбрать собственную центральную страницу.</il><br>
-	  <il>- <a target="_blank" href="https://toxu.ru/u/${username}/preferences/profile">Полностью заполнить свой профиль.</a></il></ul>
+	  <br><ul><il>- Настроить дизайн под себя. У нас несколько вариантов дизайна.</il><br>
+<il>- Выбрать собственную центральную страницу.</il><br>
+
+<br>Хотите такую?<br>
+<img src="https://toxu.ru/uploads/default/optimized/2X/2/2c1a9d268d50a3c02e9770b57e49a6ee0094d5bd_1_690x243.gif" alt="Category"><br>
+
+
+	  <il>- Это этого <a target="_blank" href="https://toxu.ru/u/${username}/preferences/profile">заполнить свой профиль.</a></il></ul>
 
 <br>
 
