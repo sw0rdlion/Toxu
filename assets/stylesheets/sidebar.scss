@@ -3,7 +3,6 @@
 span.excerpt{background-color: #ffffca;display: inline-block;padding: 8px;}
 .create-account .user-fields {display: none;}
 #scroll-top{position:fixed; bottom:50px;padding:5px;border-radius:5px;z-index:9999;right:30px;color:#888;font-size:25px;display:none;}
-#scroll-top:hover{opacity:0.7;color:#f56400;}
 h3.sidebar-heading {display: none;}
 .d-header #site-logo {
     max-height: 35px;
@@ -56,9 +55,9 @@ tr[data-topic-id="178"], tr[data-topic-id="1640"], tr[data-topic-id="2514"], tr[
     background-color: #fff;
 }
 #banner-nul {font-size: 1.1em;  }
-.werng i.fa, #banner-nul i.fa {color: #f56400; font-size: 1.3em;}
+.werng i.fa, #banner-nul i.fa {font-size: 1.3em;}
 a.und {color: #07C;border-bottom: 1px solid #09C;}
-a.und:hover {color: #f56400;border-bottom: 1px solid #f56400;}
+a.und:hover {border-bottom: 1px solid #f56400;}
 .post-links-container ul li a[href] {color: #07C;}
 
 .names .user-title a.user-group:hover, .names span a:hover {color: #919191;}
@@ -351,7 +350,7 @@ a.mention, a.mention-group {
     font-weight: normal;
 } 
 a.mention:hover, a:hover {
-    color: #f56400; border-bottom: none;
+     border-bottom: none;
 } 
 
 .discourse-tag.box.bar:hover {
@@ -603,7 +602,6 @@ a.social-link:hover,a.social-link:visited {color: #fff;}
 #banner-content h1 {
     font-weight: 700;
     letter-spacing: 0;
-    color: #f56400;
     font-size: 34px;
     width: 60%;
     margin: 10px auto;
@@ -634,7 +632,7 @@ a.social-link:hover,a.social-link:visited {color: #fff;}
 #banner-content a.kn:hover {
 	background: rgba(0,0,0,0);
 	border: solid 1px #f56400;
-	color: #f56400;
+	
 }
 @media screen and (max-width : 1100px) { 
  #banner-content h1 {font-size: 30px;}   
@@ -688,14 +686,13 @@ a.social-link:hover,a.social-link:visited {color: #fff;}
 .cat-link .badge-notification[href] {
 float: right;
 margin-top: 1px;
-color: #f56400;
 background-color: #fff;
 font-size: 0.9em;
 } 
 .socv {color: #919191;}
 a.nastr {float:right;display:block;font-size:13px;margin-top:7px;opacity:0.6;}
 a.nast-cat {float:right;display:block;font-size:13px;opacity:0.6;}
-a.nastr:hover, a.nast-cat:hover {color: #f56400; opacity:1;}
+a.nastr:hover, a.nast-cat:hover {opacity:1;}
 a.menu-profile {display: inline-block;margin: 3px 1px 7px 0;}
 
 
