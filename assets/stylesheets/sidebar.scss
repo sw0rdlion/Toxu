@@ -51,7 +51,7 @@ a.dow-menu {font-size: 14px;color:#999;margin-right: 30px;}
 .d-header-icons > li {margin-left: 15px;}
 .archetype-regular #top-navbar, .archetype-private_message #top-navbar, .discourse-tag.bullet::before {display: none;}
 .badge-wrapper {   font-weight: 300;}
-.discourse-tag.bullet {    color: #667d99;
+.discourse-tag.bullet {    color: #667d99 !important;
     position: relative;
     font-size: 13px;
     padding: 4px 8px;
