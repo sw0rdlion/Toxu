@@ -13,8 +13,7 @@ export default createWidget('profile-t', {
       const trust_level = currentUser.get('trust_level');
      var str = currentUser.get('avatar_template');
     
-      console.log(currentUser);
-      
+         
       const ava = str.replace('{size}', '25');
       
 if (trust_level === 0) { var doverie = I18n.t("main.d0-you"); var dopp = '<div class="werng-mob"><div class="werng"><i class="fa fa-gift" aria-hidden="true"></i> Прочтите про ваши возможности <a class="und" href="https://toxu.ru/stats">используя эту ссылку</a></div></div>';}
