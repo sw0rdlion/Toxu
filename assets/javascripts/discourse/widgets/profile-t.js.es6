@@ -11,14 +11,12 @@ export default createWidget('profile-t', {
     if (currentUser) {
       const username = currentUser.get('username');
       const trust_level = currentUser.get('trust_level');
-      
+      const location = currentUser.get('location');
       const profile_view_count = currentUser.get('profile_view_count');
-      
+      const bio_excerpt = currentUser.get('bio_excerpt');
+      const date_of_birth = currentUser.get('date_of_birth');
       var str = currentUser.get('avatar_template');
-      
-      
-      
-      
+    
       const ava = str.replace('{size}', '25');
       
 if (trust_level === 0) { var doverie = I18n.t("main.d0-you"); var dopp = '<div class="werng-mob"><div class="werng"><i class="fa fa-gift" aria-hidden="true"></i> Прочтите про ваши возможности <a class="und" href="https://toxu.ru/stats">используя эту ссылку</a></div></div>';}
