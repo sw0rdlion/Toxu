@@ -11,7 +11,14 @@ export default createWidget('profile-t', {
     if (currentUser) {
       const username = currentUser.get('username');
       const trust_level = currentUser.get('trust_level');
+      
+      const profile_view_count = currentUser.get('profile_view_count');
+      
       var str = currentUser.get('avatar_template');
+      
+      
+      
+      
       const ava = str.replace('{size}', '25');
       
 if (trust_level === 0) { var doverie = I18n.t("main.d0-you"); var dopp = '<div class="werng-mob"><div class="werng"><i class="fa fa-gift" aria-hidden="true"></i> Прочтите про ваши возможности <a class="und" href="https://toxu.ru/stats">используя эту ссылку</a></div></div>';}
@@ -25,7 +32,7 @@ new RawHtml({ html: `<div>
 <div class="id"><a class="nastr" title="Настройка профиля"  href="https://toxu.ru/u/${username}/preferences/profile"><i class="fa fa-gear d-icon d-icon-gear" aria-hidden="true"></i></a></div>
 
 <a class="menu-profile pmenu" href="https://toxu.ru/u/${username}/summary"><img width="25" src="${ava}" alt="${username}" class="avatar"> - 
-@${username}</a><br>
+@${username}</a>    <sup color="#919191">${profile_view_count}</sup><br>
 ${dopp}
 <a class="pmenu" title="Мои вопросы и ответы" href="https://toxu.ru/posted">${I18n.t('main.qa-you')}</a> -  
 <a class="pmenu" title="Мои закладки" href="https://toxu.ru/bookmarks">${I18n.t('main.bookmark-you')}</a> - 
