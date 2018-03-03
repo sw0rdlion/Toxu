@@ -33,21 +33,41 @@ export default createWidget('page-stats', {
    }
   }); 
 
-  var g_id;
-  var my_gr_ob;    
+  var  rez;
+  var  shcala;
+  var  location;
+  var  bio_excerpt;
+  var  signature_url;
+  var  date_of_birth;  
+  
+  var my_loc; 
+  var my_bio;
+  var my_sig;
+  var my_bir;
+   
   $.ajax({
   url: "/u/"+ username +".json" ,
   dataType: 'json',
   async: false,
   success: function(data) {
+  
+  location = data.user.location;
+  bio_excerpt = data.user.bio_excerpt;
+  signature_url = data.user.custom_fields.signature_url;
+  date_of_birth = data.user.date_of_birth;
+   
+   if (location) {  my_loc = '25';} else { my_loc = '0';}
+   if (bio_excerpt) { my_bio = '25';} else { my_bio = '0';}
+   if (signature_url) { my_sig = '25';} else { my_sig = '0';}
+   if (date_of_birth) { my_bir = '25';} else { my_bir = '0';}
+   
+   rez = +my_loc + +my_bio  + +my_sig  + +my_bir;
+    if (rez === 100) { shcala = '';    } else { 
 
- var groups = data.user.groups;  
- for (var t = 0; t < groups.length; t++) { 
- g_id = groups[t].id;
- if (g_id === 57) { my_gr_ob = ' ';  } else     
- { my_gr_ob = '<hr> <a target="_blank" class="discourse-tag box bar" href="https://toxu.ru/groups/Comm">Группа «Общение»</a> <a target="_blank" href="https://toxu.ru/groups/Comm">- вступайте!</a> Это позволит вам ближе познакомиться с пользователями сайта в неформальной уютной обстановке.';  } 
+    shcala = ' Заполненность профиля: <span style="color: #f56400;">'+ rez +'% </span><br> <div class="progress-bar"><span class="progress-bar-fill" style="width:'+ rez +'%"></span></div> <small><a target="_blank" href="https://toxu.ru/u/'+ username +'/preferences/profile">Заполните профиль</a> и получите награду!<br>О себе, местоположение, день рождения и личные интересы.</small><br><br>   '; 
+    
+    }
  
- }
  }
  });
 
@@ -68,7 +88,7 @@ new RawHtml({ html: `<div class="id">
 <br>
 <i>"Бросание" кратких реплик - недопустимо!</i>
 </span>
- 
+  <br> ${shcala}
 	 <br> 
 <br>Ознакомьтесь с часто задаваемыми вопросами  <a target="_blank" href="https://toxu.ru/help"><b>в этом разделе.</b></a> 
 	  Это поможет вам приблизиться к следующему уровню доверия и откроет новые возможности на сайте.
@@ -103,6 +123,7 @@ contents.push(
 new RawHtml({ html: `<div class="id">
 <h1 class="t1">${username}</h1>
 Поздравляем, ваш уровень: <span style="color: #335599;"><b>Новичок!</b></span><br><br>
+${shcala}
 Теперь Вы можете задавать вопросы и отвечать во всех разделах, а при условии вступления в <a target="_blank" href="https://toxu.ru/groups">Группы</a>, и в дополнительные!
 Ознакомьтесь более подробно с главным нашим документом: <a target="_blank" href="https://toxu.ru/t/poleznye-i-bespoleznye-otvety/202">Политикой полезности.</a> 
 Это поможет вам приблизится к следующему уровню доверия и откроет новые возможности на сайте.
@@ -148,6 +169,7 @@ contents.push(
 new RawHtml({ html: `<div class="id">
 <h1 class="t1">${username}</h1>
 Поздравляем, ваш уровень: <span style="color: #4dc1c0;"><b>Участник!</b></span><br><br>
+${shcala}
 Теперь Вы можете писать во все разделы, а при условии вступления в <a target="_blank" href="https://toxu.ru/groups">Группы</a>, и в дополнительные!
 Вам стали доступны групповые и <a target="_blank" href="https://toxu.ru/u/${username}/messages">личные сообщения</a>, 
 <a target="_blank" href="https://toxu.ru/u/${username}/invited/pending">инвайт система</a>, приглашение пользователей в вопросы и некоторые другие возможности.
@@ -180,6 +202,7 @@ contents.push(
 new RawHtml({ html: `<div class="id">
 <h1 class="t1">${username}</h1>
 Поздравляем, ваш уровень: <span style="color: #f38844;"><b>Постоялец!</b></span><br><br>
+${shcala}
 Теперь Вы можете писать во все разделы, а при условии вступления в <a target="_blank" href="https://toxu.ru/groups">Группы</a>, и в дополнительные!
 Вам  стала доступна возможность <b>редактировать</b> вопросы, вносить и добавлять различные теги, менять категорию.<br>
 
@@ -210,6 +233,7 @@ contents.push(
 new RawHtml({ html: `<div class="id">
 <h1 class="t1">${username}</h1>
 Поздравляем, ваш уровень: <span style="color: #f56400;"><b>Лидер!</b></span><br><br>
+${shcala}
 Вам стал доступен раздел: <a target="_blank" href="https://toxu.ru/c/moder">Модераторский</a>. Ознакомьтесь с материалом в нем.
 Теперь вам доступны практически все возможности системы и вы можете принимать активное участие в развитии сайта.<br><br>
 <b>Смелее предлагайте</b> свои идеи, и мы сделаем ресурс лучше!<br>
