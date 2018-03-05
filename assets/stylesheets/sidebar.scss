@@ -672,7 +672,8 @@ a.social-link:hover,a.social-link:visited {color: #fff;}
  .sidebar-top {  max-width: 200px;}
 } 
 @media screen and (max-width : 1020px) { 
-    #banner-content p {font-size: 14px;} .sidebar-top {display: none;} .timeline-container {display: block;}
+#banner-content p {font-size: 14px;} .sidebar-top {display: none;}
+#suggested-topics .topics, #suggested-topics h3 {display: block;}	
 } 
 	
 .header-search-enabled #search-button  {display: none;}	
