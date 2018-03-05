@@ -137,7 +137,6 @@ h3.suggested-topics-message a, .footer-message.ember-view h3 a {background: #fff
 .f-copyright a img:hover {opacity: 0.7;}
 
 /*Social*/
-.share2{margin-top: 10px;}
 .soc-link {display: inline-block;font-size: 20px;color: #919191;margin-right: 14px;margin-left: 2px;}
 a.soc-link:hover {color:#f56400;opacity:1;}
 a.soc-link {color:#919191;opacity: 0.8;}
@@ -538,9 +537,8 @@ body[class*="navigation-categories"] .sidebar {display: none;visibility: hidden;
 body[class*="navigation-categories"] .list-container.has-sidebar {float: none;width: 100%;}
 
 html:not(.mobile-view) {
-h3.sidebar-sug { font-weight: 500;margin-bottom: 20px;border-bottom: 1px solid #e2e2e2;padding-bottom: 8px;
-font-size: 14px;    text-transform: uppercase;}
-.topic-list-item-sug { border-left: 1px solid #e7edf3;   margin-bottom: 15px;}
+h3.sidebar-sug {font-weight: 500;padding-bottom:5px;font-size: 14px;text-transform:uppercase;margin-top: 20px;}
+.topic-list-item-sug { border-left: 1px solid #e7edf3;margin-bottom: 15px;}
 .sug-topic {margin-left: 8px;}
 .sidebar-top {  max-width: 250px; position: fixed; right: 2%; float: right;margin-top: 26px;}
 
