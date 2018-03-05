@@ -579,17 +579,11 @@ html:not(.mobile-view) {
 h3.sidebar-sug { font-weight: 500;margin-bottom: 20px;border-bottom: 1px solid #e2e2e2;padding-bottom: 8px;
 font-size: 15px;}
 .topic-list-item-sug {    margin-bottom: 15px;}
-.sidebar-top {  max-width: 250px;  float: right;margin-top: 26px;}
-.container.posts {max-width: 830px;}
-.link-top-line a.title {font-size: 14px;}
 	
-/*.num-sug{opacity: 0.4;margin-top: 2px;display: block;text-align: left;float: left;width: 20px;height: 20px;font-size: 12px;}
-.num-sug-nunull{background: #ddd;padding: 5px;color: #000;}
-.num-sug-null{color: #FFF;background-color: #339900;padding: 5px;}	
-.link-top-line{margin-left: 34px;}*/
+.sidebar-top {  max-width: 250px; position: fixed; right: 2%; float: right;margin-top: 26px;}
 
+.link-top-line a.title {font-size: 14px;}
 .post-menu-area {    margin-bottom: 1px;    margin-top: 2px;}
-.regular.ember-view { float: left;   max-width: 790px; }
 .sug-topic .badge-notification.new-topic {margin-top: -3px;}
 	
 
@@ -669,7 +663,6 @@ a.social-link:hover,a.social-link:visited {color: #fff;}
 @media screen and (max-width : 1100px) { 
  #banner-content h1 {font-size: 30px;}   
  #banner-content p {font-size: 15px;}
- .sidebar-top {  max-width: 200px;}
 } 
 @media screen and (max-width : 1020px) { 
 #banner-content p {font-size: 14px;} .sidebar-top {display: none;}
