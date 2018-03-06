@@ -705,6 +705,6 @@ a.menu-profile {display: inline-block;margin: 3px 1px 7px 0;}
 }
 .archetype-private_message .timeline-container {display: block;}
 .archetype-private_message .sidebar-top  { display: none;}
-@media screen and (min-width : 1055px) {.container.posts {width: 790px;} .sidebar-top {max-width: 250px; position: fixed; right: 2%; float: right;}}
-@media screen and (max-width : 1055px) {.container.posts {width: 790px;} .sidebar-top {max-width: 200px; position: fixed; right: 1%; float: right;}}
+@media screen and (min-width : 1055px) {.container.posts {width: 790px;} .sidebar-top {max-width: 250px;top: 80px; position: fixed; right: 2%; float: right;}}
+@media screen and (max-width : 1055px) {.container.posts {width: 790px;} .sidebar-top {max-width: 200px;top: 80px; position: fixed; right: 1%; float: right;}}
 @media screen and (max-width : 980px) {.container.posts {width: 100%;}.sidebar-top {display: none;}}
