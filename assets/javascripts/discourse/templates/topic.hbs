@@ -1,31 +1,3 @@
-<noindex>
-<a class="cvet" href="https://toxu.ru{{unbound model.url}}" id="scroll-top" style="display: inline;"><i class="fa fa-arrow-up"></i></a>
-<div class="sidebar-top">
-     {{#if model.suggestedTopics.length}}
-     {{suggested-topics-sug topic=model}}
-     {{/if}}
-<h3 class="sidebar-sug">Поделиться</h3>     
-<div class="share2">
-<a rel="nofollow" class="soc-link" href="http://www.facebook.com/sharer.php?u=https://toxu.ru{{unbound model.url}}" target="_blank">
-<i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-
-<a rel="nofollow" class="soc-link" href="http://twitter.com/share?url=https://toxu.ru{{unbound model.url}}" target="_blank">
-<i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-
-<a rel="nofollow" class="soc-link" href="http://www.odnoklassniki.ru/dk?st.cmd=addShare&st.s=1&st._surl=https://toxu.ru{{unbound model.url}}" target="_blank">
-<i class="fa fa-odnoklassniki-square" aria-hidden="true"></i></a>
-
-<a rel="nofollow" class="soc-link" href="https://getpocket.com/edit?url=https://toxu.ru{{unbound model.url}}" target="_blank">
-<i class="fa fa-get-pocket" aria-hidden="true"></i></a>
-
-
-<a rel="nofollow" class="soc-link" href="https://vk.com/share.php?url=https://toxu.ru{{unbound model.url}}" target="_blank">
-<i class="fa fa-vk" aria-hidden="true"></i></a>
-
-</div>   
-     
-</div></noindex>
-
 {{#discourse-topic multiSelect=multiSelect enteredAt=enteredAt topic=model hasScrolled=hasScrolled}}
   {{#if model}}
     {{add-category-class category=model.category}}
@@ -95,6 +67,29 @@
         {{/if}}
       {{/topic-title}}
     {{/if}}
+
+
+
+<noindex><a class="cvet" href="https://toxu.ru{{unbound model.url}}" id="scroll-top" style="display: inline;"><i class="fa fa-arrow-up"></i></a>
+<div class="sidebar-top">
+     {{#if model.suggestedTopics.length}}
+     {{suggested-topics-sug topic=model}}
+     {{/if}}
+<h3 class="sidebar-sug">Поделиться</h3>     
+<div class="share2">
+<a rel="nofollow" class="soc-link" href="http://www.facebook.com/sharer.php?u=https://toxu.ru{{unbound model.url}}" target="_blank">
+<i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+<a rel="nofollow" class="soc-link" href="http://twitter.com/share?url=https://toxu.ru{{unbound model.url}}" target="_blank">
+<i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+<a rel="nofollow" class="soc-link" href="http://www.odnoklassniki.ru/dk?st.cmd=addShare&st.s=1&st._surl=https://toxu.ru{{unbound model.url}}" target="_blank">
+<i class="fa fa-odnoklassniki-square" aria-hidden="true"></i></a>
+<a rel="nofollow" class="soc-link" href="https://getpocket.com/edit?url=https://toxu.ru{{unbound model.url}}" target="_blank">
+<i class="fa fa-get-pocket" aria-hidden="true"></i></a>
+<a rel="nofollow" class="soc-link" href="https://vk.com/share.php?url=https://toxu.ru{{unbound model.url}}" target="_blank">
+<i class="fa fa-vk" aria-hidden="true"></i></a>
+</div></div></noindex>
+
+
 
     <div class="container posts">
       <div class='selected-posts {{unless multiSelect 'hidden'}}'>
