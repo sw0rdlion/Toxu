@@ -508,14 +508,13 @@ nav.post-controls button.reply.create:after {   content: "комм";}
 .archetype-private_message button.reply.create:after { content: " Ответить приватно";} 
 .archetype-private_message #topic-footer-buttons button.create,
 .archetype-private_message #reply-control .btn-primary {color: white; background-color: #306f30}
-.archetype-private_message .topic-body {
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+
+.archetype-private_message .boxed.onscreen-post {
     background-color: #fff;
-    margin-top: 10px; border-left: 9px solid #f0fff0;
-    padding-left: 20px;
-    border-radius: 2px;
-    padding-right: 20px; margin-left: 20px;
+    padding: 0 5px;
+    border-left: 9px solid #f0fff0;
 }
+.archetype-private_message .topic-body   { border-top: none;}
 .archetype-private_message .topic-avatar {border-top: none;}
 
 @media(max-width:900px) {
