@@ -541,7 +541,6 @@ html:not(.mobile-view) {
 h3.sidebar-sug {font-weight: 500;padding-bottom:5px;font-size: 14px;text-transform:uppercase;margin-top: 20px;}
 .topic-list-item-sug { border-left: 1px solid #e7edf3;margin-bottom: 15px;}
 .sug-topic {margin-left: 8px;}
-.sidebar-top {  max-width: 250px; position: fixed; right: 2%; float: right;}
 
 .link-top-line a.title {font-size: 14px;}
 .post-menu-area {    margin-bottom: 1px;    margin-top: 2px;}
@@ -623,7 +622,7 @@ a.social-link:hover,a.social-link:visited {color: #fff;}
  #banner-content p {font-size: 15px;}
 } 
 @media screen and (max-width : 1020px) { 
-#banner-content p {font-size: 14px;} .sidebar-top {display: none;}
+#banner-content p {font-size: 14px;} 
 #suggested-topics .topics, #suggested-topics h3 {display: block;}	
 } 
 	
