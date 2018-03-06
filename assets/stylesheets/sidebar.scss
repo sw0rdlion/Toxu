@@ -120,7 +120,7 @@ html:not(.mobile-view) {
 a.title  {font-size: 1em;}
 }}
 #suggested-topics .topics, #suggested-topics h3, .sug-topic .badge-notification.new-topic::before, 
-.archetype-private_message .sidebar-top, .link-top-line img, .timeline-container {display: none;}
+.link-top-line img, .timeline-container {display: none;}
 h3.suggested-topics-message, .footer-message.ember-view h3 {display: block !important;font-weight: 500;}
 h3.suggested-topics-message a, .footer-message.ember-view h3 a {background: #ffffca;padding: 5px;}
 
@@ -708,3 +708,5 @@ a.menu-profile {display: inline-block;margin: 3px 1px 7px 0;}
 }     
 }
 }
+.archetype-private_message .timeline-container {display: block;}
+.archetype-private_message .sidebar-top  { display: none;}
