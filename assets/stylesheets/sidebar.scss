@@ -43,7 +43,7 @@ a.category-title-link {font-size: 1.443em;}
 .stats {float: right;font-size: 20px;text-align: center;margin-top: 7px;line-height: 22px;}
 }
 .topic-list .badge-notification.new-topic, .werng-mob .werng i.fa, a.discourse-tag:hover, a.nastr:hover, a.nast-cat:hover, 
-a.pmenu:hover, a.und:hover, a.dow-menu:hover, h3.suggested-topics-message a:hover, .footer-message.ember-view h3 a:hover, 
+a.pmenu:hover, a.dow-menu:hover, h3.suggested-topics-message a:hover, .footer-message.ember-view h3 a:hover, 
 .badge-wrapper .badge-category .category-name:hover, .sidebar .badge-wrapper.bullet span.badge-category:hover, a.widget-link:hover, .telo a:hover, .topic-excerpt a:hover, 
 a.track-link:hover, a.title:hover, a.badge-notification:hover, .cat-cat a.category-title-link:hover,#banner-content h1, a.menu:hover, a.coop:hover,
 a.pren:hover, a.dropdown-header:hover, a.mention:hover, a.onebox:hover, .cooked a:hover, a.fancy-title:hover, a.cvet:hover {color:#f56400 !important;}
@@ -97,7 +97,7 @@ tr[data-topic-id="178"], tr[data-topic-id="1640"], tr[data-topic-id="2514"], tr[
 #banner-nul {font-size: 1.1em;  }
 .werng i.fa, #banner-nul i.fa {font-size: 1.3em;color:#f56400;}
 a.und {color: #f56400;border-bottom: 1px solid #f56400;}
-a.und:hover {border-bottom: 1px solid #fff;}
+a.und:hover {color: #e46004;border-bottom: 1px solid #e46004;}
 .post-links-container ul li a[href] {color: #07C;}
 
 .names .user-title a.user-group:hover, .names span a:hover {color: #919191;}
