@@ -181,7 +181,7 @@ ${shcala}
 В вопросах и ответах появилась кнопка: <b>Пригласить</b><br>
 <img class="img" src="https://toxu.ru/uploads/default/original/2X/e/ebaabc2e2a3092fd609c886b3b9beb221da11cb5.gif" alt="Пригласить" width="590" height="100">
 <br>До уровня: <b>Постоялец (3)</b> 
-<div class="wrapper-stats"><div class="progress-bar"><span class="progress-bar-fill" style="width: ${days_visited}%"></span></div>
+<div><div class="progress-bar"><span class="progress-bar-fill" style="width: ${days_visited}%"></span></div>
 <br>
 
 <h3 class="t3">Ссылка на мой профиль</h3>
