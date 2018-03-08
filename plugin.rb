@@ -49,4 +49,5 @@ User.register_custom_field_type('userbar_profile', :boolean)
   end
 end
 
+::ActionMailer::Base.prepend_view_path File.expand_path("../custom_views", __FILE__)
 register_asset "javascripts/discourse/templates/connectors/user-custom-preferences/userbar-preferences.hbs"
