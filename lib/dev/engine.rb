@@ -70,4 +70,14 @@ module DiscourseChess
   end
 end
 
+module DiscourseProfile
+  class Engine < ::Rails::Engine
+    isolate_namespace DiscourseProfile
 
+    config.after_initialize do
+		Discourse::Application.routes.append do
+			mount ::DiscourseProfile::Engine, at: "/"
+		end
+    end
+  end
+end
