@@ -15,6 +15,11 @@ Discourse::Application.routes.append do
   get '/help' => 'discourse_help/help#my_page'
   get '/stats' => 'discourse_stats/stats#my_page'
   get '/chess' => 'discourse_chess/chess#my_page'
+  
+  get '/profile' => 'profile#show'
+  get 'profile/:username' => 'profile#show', constraints: { username: RouteFormat.username }
+  
+  
 end
 
 load File.expand_path('../lib/dev/engine.rb', __FILE__)
