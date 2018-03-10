@@ -1,4 +1,17 @@
-h1.user {color:#f56400;}
+h1.user {color:#f56400;font-size: 4em;font-family: Georgia,Arial,sans-serif;}
+h3.user {    color: #666;    font-weight: 300;    font-size: 1.3em;}
+hr.user {
+    display: block;
+    height: 1px;
+    margin: 1em 0;
+   width: 200px;
+    border: 0;
+        border-top-width: 0px;
+        border-top-style: none;
+        border-top-color: currentcolor;
+    border-top: 2px solid #999;
+    padding: 0;
+}
 
 
 
