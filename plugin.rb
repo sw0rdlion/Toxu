@@ -9,7 +9,7 @@ register_asset "stylesheets/sidebar.scss"
 enabled_site_setting :userbar_enabled
 
 Discourse::Application.routes.append do
-  get '/dev' => 'discourse_dev/dev#my_page'
+  get '/dev' => 'discourse_dev/dev#index'
   get '/toxu' => 'discourse_toxu/toxu#my_page'
   get '/features' => 'discourse_features/features#my_page'
   get '/help' => 'discourse_help/help#my_page'
