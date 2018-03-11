@@ -1,15 +1,26 @@
 module DiscourseDev
+	
 	class DevController < ApplicationController
 
-		def my_page
-			render :json => { name: "Тут будут разные API данные и т.д. А еще одна новая, по ссылке ниже..." }
-      rescue StandardError => e
-        render_json_error e.message
-   
-		end
+#  requires_login only: [:live_post_counts]
 
-	end
+  skip_before_action :check_xhr, only: [:index]
+
+  def index
+ #  return redirect_to path('/login') if SiteSetting.login_required? && current_user.nil?
+
+    @dev = About.new
+    respond_to do |format|
+      format.html do
+        render :index
+      end
+     format.json do
+       render_serialized(@dev, AboutSerializer)
+     end
+    end
+  end
+
+
 end
-
-
-
+	
+end
