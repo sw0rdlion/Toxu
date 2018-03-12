@@ -383,6 +383,15 @@ body.category-other2 #create-topic, .cat-link.category-other2, .category-link.ca
 
 section.about.about.moderators{padding-top: 10px;}
 
+.category-blog { 
+.container.posts, .container, .topic-category {margin: 0 auto;}
+.topic-category {margin-bottom:15px;}
+.container  .title-wrapper {text-align:center;}
+.sidebar-top, #post_1 .topic-avatar, #post_1 .second.full-name, #post_1 .user-title, #post_1 .user-signature {display:none;}
+#post_1  .topic-body .contents .cooked { font-size: 1.3em;font-family: Verdana,Geneva,sans-serif;}
+#topic-title h1 a {font-family: Georgia,Geneva,sans-serif; font-size: 33px;}
+}
+
 
 /*Выделение закрытых категорий*/
 html:not(.mobile-view) a.nastr.sm{font-size:11px;}
