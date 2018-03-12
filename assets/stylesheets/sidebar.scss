@@ -383,16 +383,6 @@ body.category-other2 #create-topic, .cat-link.category-other2, .category-link.ca
 
 section.about.about.moderators{padding-top: 10px;}
 
-.category-toxu-blog .topic-list .views {width: 105px;display: block;}
-.category-toxu-blog .topic-list .posts.sortable.num, .category-toxu-blog .topic-list .num.posts-map.posts, .zadal, 
-.category-toxu-blog #suggested-topics, .category-toxu-blog .topic-avatar, .category-toxu-blog .topic-timeline, 
-.category-toxu-blog .cooked img  {display:block; margin:0 auto;}
-.category-toxu-blog #topic-title .title-wrapper {margin: 0 10% 0 10%;width: 80%;}
-.category-toxu-blog #topic-title .title-wrapper .badge-wrapper {float: inherit;}
-
-@media(min-width: 1120px) { .category-toxu-blog  .topic-body {margin: 0 10% 0 10%;width: 80%;}}
-
-
 
 /*Выделение закрытых категорий*/
 html:not(.mobile-view) a.nastr.sm{font-size:11px;}
