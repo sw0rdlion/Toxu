@@ -14,8 +14,9 @@ hr.user {
 }
 
 /*пункты li, ul, ol*/
-.cooked ul li:before, .d-editor-preview ul li:before {color: #2980B9;content: "•";padding-right: 8px;font-size: 1.2em;font-weight: bold;}
+.cooked ul li:before, .d-editor-preview ul li:before {color: #2980B9;content: "•";padding-right: 8px;font-weight: bold;}
 .cooked ul, .d-editor-preview ul {list-style-type: none;}
+.cooked ul li p {display:inline;}
 ol li::-moz-list-number {font-weight: bold;}
 .cooked ul, .d-editor-preview ul {margin: 0;padding-left: 24px;}
 
