@@ -14,10 +14,10 @@ hr.user {
 }
 
 /*пункты li, ul, ol*/
-.cooked ul li:before, .d-editor-preview ul li:before {color: #2980B9;content: "•";padding-right: 8px;font-weight: bold;}
+.cooked ul li:before, .d-editor-preview ul li:before {color: #2980B9;content: "•";padding-right: 8px;font-size: 1.3em;}
 .cooked ul, .d-editor-preview ul {list-style-type: none;}
 ol li::-moz-list-number {font-weight: bold;}
-
+.cooked ul, .d-editor-preview ul {margin: 0;padding-left: 24px;}
 
 .cooked p img, .lightbox-wrapper img {border: 1px solid #e9e9e9;}
 .cooked p img.emoji, h3.sidebar-heading, .create-account .user-fields, .category .category-logo {border: none;}
