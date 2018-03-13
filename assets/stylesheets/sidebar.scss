@@ -13,7 +13,10 @@ hr.user {
     padding: 0;
 }
 
-
+/*пункты li, ul, ol*/
+.cooked ul li, .d-editor-preview ul li {color: #3399cc;content: "•";padding-right: 8px;}
+.cooked ul, .d-editor-preview ul {list-style-type: none;}
+.cooked .poll-container ul li, .d-editor-preview .poll-container ul li {list-style-type: none; background-image: none;}
 
 .cooked p img, .lightbox-wrapper img {border: 1px solid #e9e9e9;}
 .cooked p img.emoji, h3.sidebar-heading, .create-account .user-fields, .category .category-logo {border: none;}
