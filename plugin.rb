@@ -17,7 +17,7 @@ Discourse::Application.routes.append do
   get '/chess' => 'discourse_chess/chess#my_page'
   
   get '/profile' => 'discourse_profile/profile#index'
-  get '/profile/:username' => 'discourse_profile/profile#index', constraints: { username: RouteFormat.username }
+  get '/profile/:username' => 'profile#show', constraints: { username: RouteFormat.username }
   
   
 end
