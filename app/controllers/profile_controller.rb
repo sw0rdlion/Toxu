@@ -11,6 +11,10 @@ class ProfileController < ApplicationController
       [{ user_profile: :card_image_badge }]
   )
     
+     
+     @ava = @user.avatar_template
+     @ava.sub! '{size}', '120'
+    
      path = SiteSetting.my_index ? :show : :no_show
      render path, content_type: 'text/html'
   end
