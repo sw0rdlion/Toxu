@@ -19,16 +19,16 @@ hr.user {
     width: 500px;
 }
 
-
+.new-str{ clear: both; }
 .prof-blog {float: left;margin-right: 30px;}
 
 .prof-num {
-    color: #f56400;
+    color: #f56400; text-align: center;
     font-size: 4em;
     font-family: Georgia,Arial,sans-serif;
 }
 
-.prof-txt {
+.prof-txt { text-align: center;
     font-size: 1.4em;
     color: #666;
     font-family: Georgia,Arial,sans-serif;
