@@ -14,6 +14,31 @@ hr.user {
     padding: 0;
 }
 
+
+.prof-glog-blog {
+    width: 500px;
+}
+
+
+.prof-blog {
+    float: left;
+}
+
+.prof-num {
+    color: #f56400;
+    font-size: 4em;
+    font-family: Georgia,Arial,sans-serif;
+}
+
+.prof-txt {
+    font-size: 1.4em;
+    color: #666;
+    font-family: Georgia,Arial,sans-serif;
+    font-weight: 300;
+}
+
+
+
 /*пункты li, ul, ol*/
 .cooked ul li:before, .d-editor-preview ul li:before {color: #2980B9;content: "•";padding-right: 8px;font-weight: bold;}
 .cooked ul, .d-editor-preview ul {list-style-type: none;}
