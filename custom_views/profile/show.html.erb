@@ -15,50 +15,54 @@
 <div id="main-outlet" class="wrap"><center>
  
 <h1 class="user"><%= @user.username %></h1>
- <h3 class="user">Это профиль будет тут <%= @user.name %></h3>
-    <hr class="user">
-  <br>
-<img src="https://toxu.ru/uploads/default/optimized/2X/7/70e1592eeacc8d7cd51a91ea97627404a0a4dbe9_1_690x400.gif" alt="Сообщество Toxu.ru">
-  
- <br>
-  <h3 class="user">Спасибо за посещение Toxu в 2017 году! В 2018 году будут большие перемены!</h3>
- 
-<br>  
-  
-  
- <img alt="<%= @user.name %>" src="<%= @ava %>" class="avatar" width="120" height="120">
-<br>
-<h2 class="user"><%= @user.name %></h2>
-  
-  
-<div class="prof-glog-blog">
+
+
+   <img alt="<%= @user.name %>" src="<%= @ava %>" class="avatar" width="120" height="120">
+  <br>   <br> 
+   
+   <h3 class="user"> <%= @user.name %></h3>
+   
+   <br>
+   
+   
+  <div class="prof-glog-blog">
 
 <div class="prof-blog">
-<div class="prof-num">38</div>
-<div class="prof-txt">сообщений</div>
+<div class="prof-num"><%= @user.trust_level %></div>
+<div class="prof-txt">доверие</div>
 </div>
 
 <div class="prof-blog">
-<div class="prof-num">38</div>
-<div class="prof-txt">сообщений</div>
+<div class="prof-num"> <%= @user.badge_count %> </div>
+<div class="prof-txt">наград</div>
 </div>
 
 
 <div class="prof-blog">
-<div class="prof-num">38</div>
-<div class="prof-txt">сообщений</div>
+<div class="prof-num"><%= @user.post_count %></div>
+<div class="prof-txt">постов</div>
 </div>
 
 </div>  
   
+   
+
+<div class="bord new-str"></div>
+  
   <br>
-  <hr class="user">
-<br>
+  
+<img src="https://toxu.ru/uploads/default/optimized/2X/7/70e1592eeacc8d7cd51a91ea97627404a0a4dbe9_1_690x400.gif" alt="Сообщество Toxu.ru">
+  
+ <br><br>
+  <h3 class="user">Спасибо за посещение Toxu в 2017 году! В 2018 году будут большие перемены!</h3>
+ 
+<br>   
+ 
+ <a rel="nofollow" class="btn-primary create btn btn-icon-text ember-view" href="https://toxu.ru/u/<%= @user.username %>/summary">Посмотреть полный профиль</a>
+ <br>  <br>  
+</center>
 
-  <%= @user.badge_count %> наград
-
-
-</center></div>
+</div>
    
    
 <div class="bottom_footer wrap" style="clear:both;"><div class="f-copyright">
