@@ -5,6 +5,8 @@
     <title><%= @user.username %> — на Toxu | профиль участника</title>
     <meta name="description" content="<%= @user.username %> профиль на Toxu.ru">
     <%= discourse_stylesheet_link_tag(mobile_view? ? :mobile : :desktop) %>
+    
+    <style type="text/css">body.crawler > header { width: 98%;}</style>
   </head>
   <body class="crawler">
    
