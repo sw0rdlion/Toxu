@@ -725,3 +725,24 @@ a.menu-profile {display: inline-block;margin: 3px 1px 7px 0;}
 @media screen and (min-width : 1055px) {.container.posts {width: 790px;} .sidebar-top {max-width: 250px;top: 80px; position: fixed; right: 2%; float: right;}}
 @media screen and (max-width : 1055px) {.container.posts {width: 790px;} .sidebar-top {max-width: 200px;top: 80px; position: fixed; right: 1%; float: right;}}
 @media screen and (max-width : 980px) {.container.posts {width: 100%;}.sidebar-top {display: none;}}
+
+/*add mobile*/
+html.mobile-view {
+.sidebar, .category-heading, #banner-content, .sidebar-top, #reply-control .d-editor-button-bar .quote.btn, #scroll-bottom, #scroll-top {display: none !important;}
+.category-communication img#site-logo.logo-big  {
+    background: url(https://toxu.ru/uploads/default/original/2X/7/74e72aed8c7d38b563a49e00aa83e0820cb3bbcb.png) no-repeat;
+    background-size: 35px 35px;
+    width: 35px;
+    height: 35px;
+    padding-left: 35px;
+}
+.archetype-private_message img#site-logo.logo-big, .user-messages-page img#site-logo.logo-big {
+    background: url(https://toxu.ru/uploads/default/original/2X/d/df3d3c3cd2994ae6095fe994b39c1a3838233df7.png) no-repeat;
+    background-size: 35px 35px;
+    width: 35px;
+    height: 35px;
+    padding-left: 35px;
+} 
+.topic-post.comment .topic-body .regular {margin-top: 1px;margin-left: -1px;}
+.timeline-container {display: block;}	
+}
