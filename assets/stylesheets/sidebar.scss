@@ -544,7 +544,7 @@ nav.post-controls button.reply.create:after {   content: "комм";}
 .contents.ember-view .topic-list .creator, #suggested-topics  .topic-list .creator {margin-left: 1px;}
 }
 @media(max-width:620px){ 
-#list-area .discourse-tag.box, #list-area .discourse-tags, #scroll-top, 
+#list-area .discourse-tag.box, #list-area .discourse-tags, #scroll-top, #scroll-bottom, 
 .topic-meta-data span.user-title, .topic-meta-data .user-signature {display: none;}
 }
 
