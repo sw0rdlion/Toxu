@@ -108,8 +108,9 @@ new RawHtml({ html: `<div class="id">
 
 <h3 class="t3">Ссылка на мой профиль</h3>
 <span class="excerpt"><small>https://toxu.ru/u/${username}/summary</small></span>
-<br><br>
-<i>В зависимости от сайта, ссылка будет выглядеть по разному.</i>
+<br>или<br>
+<span class="excerpt"><small>https://toxu.ru/profile/${username}</small></span>
+<i>В зависимости от сайта, ссылки будет выглядеть по разному. Второй вариант, это карточка профиля (урезанная версия).</i>
 <br><br>Или html (для html страниц)<br>
 <span class="excerpt"><small>&lt;a href="https://toxu.ru/u/${username}/summary" target="_blank"&gt;${name} (@${username}) — на Toxu.ru&lt;/a&gt;</small></span>
 <br><br>
@@ -157,6 +158,11 @@ class="gramota">+ Получить грамоту</a></center><br> <br>
 <br>
 
 <h3 class="t3">Ссылка на мой профиль</h3>
+<span class="excerpt"><small>https://toxu.ru/u/${username}/summary</small></span>
+<br>или<br>
+<span class="excerpt"><small>https://toxu.ru/profile/${username}</small></span>
+<i>В зависимости от сайта, ссылки будет выглядеть по разному. Второй вариант, это карточка профиля (урезанная версия).</i>
+<br><br>Или html (для html страниц)<br>
 <span class="excerpt"><small>&lt;a href="https://toxu.ru/u/${username}/summary" target="_blank"&gt;${name} (@${username}) — на Toxu.ru&lt;/a&gt;</small></span>
 <br><br>
 <i>Это будет выглядеть так:</i>
@@ -189,6 +195,11 @@ ${shcala}
 <br>
 
 <h3 class="t3">Ссылка на мой профиль</h3>
+<span class="excerpt"><small>https://toxu.ru/u/${username}/summary</small></span>
+<br>или<br>
+<span class="excerpt"><small>https://toxu.ru/profile/${username}</small></span>
+<i>В зависимости от сайта, ссылки будет выглядеть по разному. Второй вариант, это карточка профиля (урезанная версия).</i>
+<br><br>Или html (для html страниц)<br>
 <span class="excerpt"><small>&lt;a href="https://toxu.ru/u/${username}/summary" target="_blank"&gt;${name} (@${username}) — на Toxu.ru&lt;/a&gt;</small></span>
 <br><br>
 <i>Это будет выглядеть так:</i>
@@ -219,6 +230,11 @@ ${shcala}
  редактирования вопроса</a>.<br>
 
 <h3 class="t3">Ссылка на мой профиль</h3>
+<span class="excerpt"><small>https://toxu.ru/u/${username}/summary</small></span>
+<br>или<br>
+<span class="excerpt"><small>https://toxu.ru/profile/${username}</small></span>
+<i>В зависимости от сайта, ссылки будет выглядеть по разному. Второй вариант, это карточка профиля (урезанная версия).</i>
+<br><br>Или html (для html страниц)<br>
 <span class="excerpt"><small>&lt;a href="https://toxu.ru/u/${username}/summary" target="_blank"&gt;${name} (@${username}) — на Toxu.ru&lt;/a&gt;</small></span>
 <br><br>
 <i>Это будет выглядеть так:</i>
@@ -251,6 +267,11 @@ ${shcala}
 
 
 <h3 class="t3">Ссылка на мой профиль</h3>
+<span class="excerpt"><small>https://toxu.ru/u/${username}/summary</small></span>
+<br>или<br>
+<span class="excerpt"><small>https://toxu.ru/profile/${username}</small></span>
+<i>В зависимости от сайта, ссылки будет выглядеть по разному. Второй вариант, это карточка профиля (урезанная версия).</i>
+<br><br>Или html (для html страниц)<br>
 <span class="excerpt"><small>&lt;a href="https://toxu.ru/u/${username}/summary" target="_blank"&gt;${name} (@${username}) — на Toxu.ru&lt;/a&gt;</small></span>
 <br><br>
 <i>Это будет выглядеть так:</i>
