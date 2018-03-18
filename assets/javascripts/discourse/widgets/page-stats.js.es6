@@ -107,6 +107,10 @@ new RawHtml({ html: `<div class="id">
 <br>
 
 <h3 class="t3">Ссылка на мой профиль</h3>
+<span class="excerpt"><small>https://toxu.ru/u/${username}/summary</small></span>
+<br><br>
+<i>В зависимости от сайта, ссылка будет выглядеть по разному.</i>
+<br><br>Или html (для html страниц)<br>
 <span class="excerpt"><small>&lt;a href="https://toxu.ru/u/${username}/summary" target="_blank"&gt;${name} (@${username}) — на Toxu.ru&lt;/a&gt;</small></span>
 <br><br>
 <i>Это будет выглядеть так:</i>
