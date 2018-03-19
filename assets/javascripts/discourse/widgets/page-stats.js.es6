@@ -64,7 +64,7 @@ export default createWidget('page-stats', {
    rez = +my_loc + +my_bio  + +my_sig  + +my_bir;
     if (rez === 100) { shcala = '';    } else { 
 
-    shcala = ' Заполненность профиля: <span style="color: #f56400;">'+ rez +'% </span><br> <div class="progress-bar"><span class="progress-bar-fill" style="width:'+ rez +'%"></span></div> <small><a target="_blank" href="https://toxu.ru/u/'+ username +'/preferences/profile">Заполните профиль</a> и получите награду!<br>О себе, местоположение, день рождения и личные интересы.</small><br><br>   '; 
+    shcala = ' Заполненность профиля: <span style="color: #f56400;">'+ rez +'% </span><br> <div class="progress-bar"><span class="progress-bar-fill" style="width:'+ rez +'%"></span></div> <small><a target="_blank" href="https://toxu.ru/u/'+ username +'/preferences/profile">Заполните профиль</a> и получите награду!<br>О себе, местоположение, день рождения и личные интересы.</small>   '; 
     
     }
  
@@ -88,8 +88,8 @@ new RawHtml({ html: `<div class="id">
 <br>
 <i>"Бросание" кратких реплик - недопустимо!</i>
 </span>
-  <br> ${shcala}
-	 <br> 
+  <br><br> ${shcala}
+	 <br> <br>
 <br>Ознакомьтесь с часто задаваемыми вопросами  <a target="_blank" href="https://toxu.ru/help"><b>в этом разделе.</b></a> 
 	  Это поможет вам приблизиться к следующему уровню доверия и откроет новые возможности на сайте.
 	 
