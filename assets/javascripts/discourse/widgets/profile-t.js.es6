@@ -24,15 +24,10 @@ if (trust_level === 4) { var doverie = I18n.t("main.d4-you"); var dopp = '';}
       
 contents.push(
 new RawHtml({ html: `<div>  
-<div class="id"><a class="nastr" title="Настройка профиля"  href="https://toxu.ru/u/${username}/preferences/profile"><i class="fa fa-gear d-icon d-icon-gear" aria-hidden="true"></i></a></div>
 
-<a class="menu-profile pmenu" href="https://toxu.ru/u/${username}/summary"><img width="25" src="${ava}" alt="${username}" class="avatar"> - 
-@${username}</a>   <br>
 ${dopp}
-<a class="pmenu" title="Мои вопросы и ответы" href="https://toxu.ru/posted">${I18n.t('main.qa-you')}</a> -  
-<a class="pmenu" title="Мои закладки" href="https://toxu.ru/bookmarks">${I18n.t('main.bookmark-you')}</a> - 
-<a class="pmenu" title="Моя почта" href="https://toxu.ru/u/${username}/messages">${I18n.t('main.mail-you')}</a>
-<hr></div>`})
+
+</div>`})
  
    );
 } 
