@@ -20,7 +20,7 @@ if (trust_level === 0) { var doverie = I18n.t("main.d0-you"); var dopp = '<div c
 if (trust_level === 1) { var doverie = I18n.t("main.d1-you"); var dopp = '<div class="werng"><i class="fa fa-gift" aria-hidden="true"></i> У вас появились новые возможности. Прочитайте про них <a class="und" href="https://toxu.ru/stats">нажав на эту ссылку</a>.</div>';}
 if (trust_level === 2) { var doverie = I18n.t("main.d2-you"); var dopp = '<div class="werng"><i class="fa fa-gift" aria-hidden="true"></i> Ваш уровень доверие стал: <a class="und" href="https://toxu.ru/stats"><i>участник</i></a>, поздравляем!</div>';}
 if (trust_level === 3) { var doverie = I18n.t("main.d3-you"); var dopp = '<div class="werng"><i class="fa fa-gift" aria-hidden="true"></i> Поздравляем! Ваш уровень доверия - <a class="und" href="https://toxu.ru/stats"><i>постоялец</i></a>.</div>';}
-if (trust_level === 4) { var doverie = I18n.t("main.d4-you"); var dopp = '<div class="werng"><i class="fa fa-gift" aria-hidden="true"></i> О вашм уровне доверия - <a class="und" href="https://toxu.ru/stats"><i>лидер</i></a>.</div>';}
+if (trust_level === 4) { var doverie = I18n.t("main.d4-you"); var dopp = '<div class="werng"><i class="fa fa-gift" aria-hidden="true"></i> О уровне доверия - <a class="und" href="https://toxu.ru/stats"><i>лидер</i></a>.</div>';}
       
 contents.push(
 new RawHtml({ html: `<div>  
