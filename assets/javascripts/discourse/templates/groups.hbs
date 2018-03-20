@@ -1,4 +1,4 @@
- {{#d-section pageClass="groups"}}
+{{#d-section pageClass="groups"}}
   <h1>{{i18n "groups.index.title"}}</h1>
 
 <div class="groups-d">{{i18n "main.my-group"}} <a class="cvet" href='https://toxu.ru/t/gruppy-polzovatelej/296'>Почитать подробнее ...</a></div>
@@ -6,7 +6,13 @@
 
   {{text-field value=filterInput
       placeholderKey="groups.filter_name"
-      class="group-filter-name no-blur"}}
+      class="groups-name-filter no-blur"}}
+
+  {{combo-box value=type
+              content=types
+              clearable=true
+              none="groups.index.all_groups"
+              class="groups-type-filter"}}
 
   {{#if model}}
     {{#conditional-loading-spinner condition=model.loading}}
@@ -59,7 +65,7 @@
                         showLogin='showLogin'}}
 
                       {{d-button icon="ban"
-                          label=(if group.automatic 'groups.automatic_group' 'groups.closed_group')
+                          label=(if group.automatic 'groups.automatic_group' 'groups.close_group')
                           disabled=true}}
                     {{/group-membership-button}}
                   </td>
