@@ -133,7 +133,7 @@ ${shcala}
 Ознакомьтесь более подробно с главным нашим документом: <a target="_blank" href="https://toxu.ru/t/poleznye-i-bespoleznye-otvety/202">Политикой полезности.</a> 
 Это поможет вам приблизится к следующему уровню доверия и откроет новые возможности на сайте.
 <br><br>
-Вам доступны <a target="_blank" href="https://toxu.ru/u/'+ username +'/messages">личные сообщения</a>. 
+Вам доступны <a target="_blank" href="https://toxu.ru/u/${username}/messages">личные сообщения</a>. 
 
 <br>Воспользуйтесь личными сообщениями и <b>получите грамоту</b>, отправив <i>Боту</i> письмо. 
     <br><br><center>
