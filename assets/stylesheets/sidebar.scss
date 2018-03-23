@@ -742,5 +742,7 @@ html.mobile-view {
     padding-left: 35px;
 } 
 .topic-post.comment .topic-body .regular {margin-top: 1px;margin-left: -1px;}
-.timeline-container {display: block;}	
+.timeline-container {display: block;}
+.navigation-categories {th.latest, td.latest {display: none;}.category {width: 99%;}}
+
 }
