@@ -56,8 +56,11 @@
 <img src="https://toxu.ru/uploads/default/original/2X/f/f7d2594472e276b8551feb722f5c1ccffa37496a.png" alt="Сообщество Toxu.ru">
  </center> 
  <br><br>
-<h3 class="user">Последняя публикация <b>@<%= @user.username %></b> на Toxu - <%= @user.last_posted_at %>  
-<br>Последний визит на сайт - <%= @user.last_seen_at %>   </h3>
+<h3 class="user">Некоторые данные  </h3>
+Порядковый номер в системе: <b>id<%= @user.id %></b><br>
+Время регистрации: <%= @user.created_at %><br>
+Последняя публикация <b>@<%= @user.username %></b> на Toxu - <%= @user.last_posted_at %>  
+<br>Последний визит на сайт - <%= @user.last_seen_at %>  
  
 <br>   
  <center>
