@@ -54,12 +54,13 @@
   <br>
   
 <img src="https://toxu.ru/uploads/default/original/2X/f/f7d2594472e276b8551feb722f5c1ccffa37496a.png" alt="Сообщество Toxu.ru">
-  
+ </center> 
  <br><br>
-  <h3 class="user">Спасибо за посещение Toxu в 2017 году! В 2018 году будут большие перемены!</h3>
+<h3 class="user">Время регистрации <b>@<%= @user.username %></b> на Toxu - <%= @user.last_posted_at %>  
+<br>Последний визит на сайт - <%= @user.last_seen_at %>   </h3>
  
 <br>   
- 
+ <center>
  <a rel="nofollow" class="btn-primary create btn btn-icon-text ember-view" href="https://toxu.ru/u/<%= @user.username %>/summary">Посмотреть полный профиль</a>
  <br>  <br>  
 </center>
