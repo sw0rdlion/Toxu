@@ -141,6 +141,11 @@ tr[data-topic-id="263"], tr[data-topic-id="685"], tr[data-topic-id="684"], tr[da
 .quote-controls:hover, .quote-controls .d-icon:hover {color: #06e;}
 /*похожие*/
 .timeline-container {display: none;}
+html:not(.mobile-view) {
+#suggested-topics .suggested-topics-title, #suggested-topics .topics {display: none; }
+.archetype-private_message h3.suggested-topics-title, .archetype-private_message #suggested-topics .topics {display: block !important;}
+}
+
 
 /*сообщение удалено, приглушено*/
 .topic-post.del .topic-avatar, .topic-post.del .user-signature, .topic-post.del .toggle-like, .topic-post.del .reply, 
