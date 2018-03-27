@@ -140,15 +140,7 @@ tr[data-topic-id="263"], tr[data-topic-id="685"], tr[data-topic-id="684"], tr[da
 .quote-controls, .quote-controls .d-icon {color: #09e;}
 .quote-controls:hover, .quote-controls .d-icon:hover {color: #06e;}
 /*похожие*/
-html:not(.mobile-view) {
-#suggested-topics {
-.avahome, .topic-list .views, .topic-list .likes, .topic-list .creator {display: none; }
-a.title  {font-size: 1em;}
-}}
-#suggested-topics .topics, #suggested-topics .suggested-topics-title, #suggested-topics h3, .sug-topic .badge-notification.new-topic::before, 
-.link-top-line img, .timeline-container {display: none;}
-h3.suggested-topics-message, .archetype-private_message #suggested-topics .topics, .footer-message.ember-view h3 {display: block !important;font-weight: 500;}
-h3.suggested-topics-message a, .footer-message.ember-view h3 a {background: #ffffca;padding: 5px;}
+.timeline-container {display: none;}
 
 /*сообщение удалено, приглушено*/
 .topic-post.del .topic-avatar, .topic-post.del .user-signature, .topic-post.del .toggle-like, .topic-post.del .reply, 
