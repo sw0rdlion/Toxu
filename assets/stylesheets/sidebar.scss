@@ -303,7 +303,6 @@ a.pren {color: #919191;font-weight: 300;font-size: 13px;}
 }
 
 
-.topic-body {padding: 12px 11px 1px 11px;}
 .comment .cooked img:not(.thumbnail) {
     max-width: 650px;
     max-height: 480px;
@@ -532,8 +531,6 @@ nav.post-controls button.reply.create:after {   content: "комм";}
     padding: 0 5px;
     border-left: 9px solid #f0fff0;
 }
-.archetype-private_message .topic-body   { border-top: none;}
-.archetype-private_message .topic-avatar {border-top: none;}
 
 @media(max-width:900px) {
 .sidebar, .topic-list .views, .topic-list .likes, .topic-list .votes, .blog-container, 
