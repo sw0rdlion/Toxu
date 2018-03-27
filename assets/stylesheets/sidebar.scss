@@ -145,7 +145,8 @@ html:not(.mobile-view) {
 #suggested-topics .suggested-topics-title, #suggested-topics .topics {display: none; }
 .archetype-private_message h3.suggested-topics-title, .archetype-private_message #suggested-topics .topics {display: block !important;}
 }
-
+h3.suggested-topics-message, .archetype-private_message #suggested-topics .topics, .footer-message.ember-view h3 {display: block !important;font-weight: 500;}
+h3.suggested-topics-message a, .footer-message.ember-view h3 a {background: #ffffca;padding: 5px;}
 
 /*сообщение удалено, приглушено*/
 .topic-post.del .topic-avatar, .topic-post.del .user-signature, .topic-post.del .toggle-like, .topic-post.del .reply, 
