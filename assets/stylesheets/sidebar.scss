@@ -145,9 +145,9 @@ html:not(.mobile-view) {
 .avahome, .topic-list .views, .topic-list .likes, .topic-list .creator {display: none; }
 a.title  {font-size: 1em;}
 }}
-#suggested-topics .topics, #suggested-topics h3, .sug-topic .badge-notification.new-topic::before, 
+#suggested-topics .topics, #suggested-topics .suggested-topics-title, #suggested-topics h3, .sug-topic .badge-notification.new-topic::before, 
 .link-top-line img, .timeline-container {display: none;}
-h3.suggested-topics-message, .footer-message.ember-view h3 {display: block !important;font-weight: 500;}
+h3.suggested-topics-message, .archetype-private_message #suggested-topics .topics, .footer-message.ember-view h3 {display: block !important;font-weight: 500;}
 h3.suggested-topics-message a, .footer-message.ember-view h3 a {background: #ffffca;padding: 5px;}
 
 /*сообщение удалено, приглушено*/
