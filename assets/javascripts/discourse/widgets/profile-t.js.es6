@@ -24,12 +24,10 @@ contents.push(
 new RawHtml({ html: `<div>  
 
 ${dopp}
-
+<br>
 </div>`})
  
    );
-} else  {    
-contents.push( new RawHtml({ html: `<div class="qa-cat">Разделы</div>`}));
-}
+} 
 return contents;
 }});
