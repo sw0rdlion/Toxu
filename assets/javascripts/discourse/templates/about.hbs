@@ -1,6 +1,6 @@
 {{#d-section pageClass="about"}}
   <div class='container'>
-    <div class='contents clearfix body-page'>
+    <div class='contents clearfix'>
 
       <ul class="nav-pills">
         <li class="nav-item-about">{{#link-to 'about' class="active"}}{{i18n 'about.simple_title'}}{{/link-to}}</li>
@@ -13,10 +13,34 @@
         <li class="nav-item-privacy">{{#link-to 'privacy'}}{{i18n 'privacy'}}{{/link-to}}</li>
       </ul>
 
-      <section class='about description'>
-        <h1>{{i18n 'about.simple_title'}}</h1>
-        <p>{{model.description}}</p>
-      </section>
+<center><br>
+<h1 class="prof">{{i18n 'about.simple_title'}}</h1>
+<h2 class="user">Миссия Toxu — делиться знаниями.</h2>
+<div class="user-img"></div>
+
+<br>
+
+       
+<div class="prof-glog-blog new-str">
+
+<div class="prof-blog">
+<div class="prof-num">{{number model.stats.topic_count}}</div>
+<div class="prof-txt">вопросов</div>
+</div>
+
+<div class="prof-blog">
+<div class="prof-num">{{number model.stats.user_count}}</div>
+<div class="prof-txt">участников</div>
+</div>
+
+
+<div class="prof-blog">
+<div class="prof-num">{{number model.stats.post_count}}</div>
+<div class="prof-txt">ответов</div>
+</div>
+
+</div>
+      
 
 
 
@@ -42,7 +66,7 @@
             <p>{{{contactInfo}}}</p>
         </section>
       {{/if}}
-
+</center>
     </div>
   </div>
 {{/d-section}}
