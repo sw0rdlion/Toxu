@@ -1,0 +1,71 @@
+<% if crawler_layout? %>
+
+<% content_for :title do %><%=t "about" %> - <%= SiteSetting.title %><% end %>
+
+<section itemscope itemtype="https://schema.org/AboutPage">
+  <h1 itemprop="name">
+    О нас
+  </h1>
+
+  <div itemprop="text">
+   Миссия Toxu — делиться знаниями
+  </div>
+
+<div style="max-width:780px">
+
+<div class="prof-blog">
+<div class="prof-num-u">{{number model.stats.topic_count}}</div>
+<div class="prof-txt">вопросов</div>
+</div>
+
+<div class="prof-blog">
+<div class="prof-num-u">{{number model.stats.user_count}}</div>
+<div class="prof-txt">участников</div>
+</div>
+
+
+<div class="prof-blog">
+<div class="prof-num-u">{{number model.stats.post_count}}</div>
+<div class="prof-txt">ответов</div>
+</div>
+
+
+
+  <% if @about.moderators.count > 0 %>
+    <h2><%=t "js.about.our_moderators" %></h2>
+    <div class='moderators-list' itemscope itemtype='http://schema.org/ItemList'>
+      <% @about.moderators.each do |user| %>
+        <div itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+          <meta itemprop='url' content='<%= user_path(user) %>'>
+          <a href='<%= user_path(user) %>' itemprop='item'>
+            <span itemprop='image'>
+              <img width="45" height="45" class="avatar" src="<%= user.small_avatar_url %>">
+            </span>
+            <span itemprop='name'>
+              <%= user.username %>
+              <% if user.name.present? && SiteSetting.enable_names %>
+                - <%= user.name %>
+              <% end %>
+            </span>
+          </a>
+        </div>
+      <% end %>
+    </div>
+  <% end %>
+
+ 
+Если у вас возникли трудности при использовании сайта, или есть вопросы, пишите: <img alt="support toxu" src="https://toxu.ru/uploads/default/original/2X/1/1a13a0921ac5c3e52cc74d68529e2c92709eca12.png">
+<br><br>
+О всех ваших предложениях, дополнениях, пожеланиях вы можете аналогично писать на выше указанный e-mail.
+<br><br>
+<i>Если у вас возникли вопросы,</i> то возможно ответы уже есть на <a title="Помощь по сайту" href="https://toxu.ru/help">страница помощи.</a> 
+
+
+</section>
+
+
+<% end %>
+
+<% content_for :head do %>
+  <%= raw crawlable_meta_data(title: SiteSetting.title, description: SiteSetting.site_description) %>
+<% end %>
