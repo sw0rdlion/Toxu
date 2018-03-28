@@ -9,12 +9,10 @@ export default createWidget('profile-t', {
     const { currentUser } = this;
     let contents = []
     if (currentUser) {
-      const username = currentUser.get('username');
-      const trust_level = currentUser.get('trust_level');
-     var str = currentUser.get('avatar_template');
-    
-         
-      const ava = str.replace('{size}', '25');
+   //  const username = currentUser.get('username');
+   //  var str = currentUser.get('avatar_template');
+   //  const ava = str.replace('{size}', '25');
+    const trust_level = currentUser.get('trust_level');
       
 if (trust_level === 0) { var doverie = I18n.t("main.d0-you"); var dopp = '<div class="werng-mob"><div class="werng"><i class="fa fa-gift" aria-hidden="true"></i> У вас есть <a class="cvet" href="https://toxu.ru/stats">эти возможности!</a></div></div>';}
 if (trust_level === 1) { var doverie = I18n.t("main.d1-you"); var dopp = '<div class="werng"><i class="fa fa-gift" aria-hidden="true"></i> У вас появились <a class="cvet" href="https://toxu.ru/stats">новые возможности.</a> Поздравляем!</div>';}
@@ -30,6 +28,8 @@ ${dopp}
 </div>`})
  
    );
-} 
+} else  {    
+contents.push( new RawHtml({ html: `<div class="qa-cat">Разделы</div>`}));
+}
 return contents;
 }});
