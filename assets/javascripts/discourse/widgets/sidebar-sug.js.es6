@@ -15,16 +15,8 @@ export default createWidget('sidebar-sug', {
 	const { currentUser } = this; 
 	if (currentUser) {
 	
-  result.push( new RawHtml({ html: `<div> 
- 
-<noindex>
-<a class="cvet" href="https://toxu.ru{{unbound model.url}}" id="scroll-top" style="display: inline;"><i class="fa fa-arrow-up"></i></a>
-<a class="cvet" href="https://toxu.ru{{unbound model.url}}/500" id="scroll-bottom" style="display: inline;"><i class="fa fa-arrow-down"></i></a>
-<div class="sidebar-top">
-     {{#if model.suggestedTopics.length}}
-     {{suggested-topics-sug topic=model}}
-     {{/if}}
-<hr class="shar">     
+  result.push( new RawHtml({ html: `
+
 <div class="share2">
 <a rel="nofollow" class="soc-link" href="http://www.facebook.com/sharer.php?u=https://toxu.ru{{unbound model.url}}" target="_blank">
 <i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -34,9 +26,12 @@ export default createWidget('sidebar-sug', {
 <i class="fa fa-odnoklassniki" aria-hidden="true"></i></a>
 <a rel="nofollow" class="soc-link" href="https://vk.com/share.php?url=https://toxu.ru{{unbound model.url}}" target="_blank">
 <i class="fa fa-vk" aria-hidden="true"></i></a>
-</div></div></noindex>
+</div>
 
-  </div>`}))   	
+<a class="cvet" href="https://toxu.ru{{unbound model.url}}" id="scroll-top" style="display: inline;"><i class="fa fa-arrow-up"></i></a>
+<a class="cvet" href="https://toxu.ru{{unbound model.url}}/500" id="scroll-bottom" style="display: inline;"><i class="fa fa-arrow-down"></i></a>
+
+`}))   	
 		
 		
 	}
