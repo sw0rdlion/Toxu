@@ -33,8 +33,10 @@ export default createWidget('sidebar-items', {
 	result.push(self.attach('sidebar-cat'));
 	
 		
-result.push( new RawHtml({ html: `<div class="blog-container"><a class="pmenu" href="https://toxu.ru/latest?ascending=true&amp;order=posts"><i class="fa fa-question-circle-o" aria-hidden="true"></i>
- Вопросы без ответа</a></div>`}));
+result.push( new RawHtml({ html: `<div class="blog-container" style="display: block;"><center> 
+<a class="btn-primary create btn btn-icon-text ember-view" href="https://toxu.ru/latest?ascending=true&amp;order=posts">Вопросы без ответа</a>
+<br><br>
+<a href="#hone" class="cvet left"><i style="font-size:24px" class="fa fa-arrow-up"></i></a></center> </div>`}));
 		
 		
 	} else {
