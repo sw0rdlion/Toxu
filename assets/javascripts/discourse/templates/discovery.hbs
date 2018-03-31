@@ -27,7 +27,7 @@
     <div class="full-width">
       <div id="list-area">
         {{plugin-outlet name="discovery-list-container-top"
-                        args=(hash category=category)}}
+                        args=(hash category=category listLoading=loading)}}
         {{outlet "list-container"}}
       </div>
     </div>
@@ -42,5 +42,4 @@
   </div>
 {{/if}}
 
-<a class="cvet" href="#hone" id="scroll-top" class="left" style="display: inline;"><i class="fa fa-arrow-up"></i></a>
 {{plugin-outlet name="discovery-below"}}
