@@ -72,6 +72,18 @@
       {{/topic-title}}
     {{/if}}
 
+
+
+
+<noindex>
+<div class="sidebar-top">
+     {{#if model.suggestedTopics.length}}
+     {{suggested-topics-sug topic=model}}
+     {{/if}}
+<hr class="shar"> 
+{{mount-widget widget="sidebar-sug"}}
+</div></noindex>
+
 {{mount-widget widget="sidebar-sug"}}
 
     <div class="container posts">
