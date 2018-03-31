@@ -27,10 +27,10 @@ export default createWidget('sidebar-sug', {
 <a rel="nofollow" class="soc-link" href="https://vk.com/share.php?url=https://toxu.ru{{unbound model.url}}" target="_blank">
 <i class="fa fa-vk" aria-hidden="true"></i></a>
 </div>
-
+<div>
 <a class="cvet" href="https://toxu.ru{{unbound model.url}}" id="scroll-top" style="display: inline;"><i class="fa fa-arrow-up"></i></a>
 <a class="cvet" href="https://toxu.ru{{unbound model.url}}/500" id="scroll-bottom" style="display: inline;"><i class="fa fa-arrow-down"></i></a>
-
+</div>
 `}))   	
 		
 		
