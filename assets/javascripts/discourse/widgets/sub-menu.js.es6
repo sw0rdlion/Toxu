@@ -19,7 +19,17 @@ if (trust_level === 4) { var dopp = '<div class="werng-menu"> Об уровне 
       
 contents.push(
 new RawHtml({ html: `<div>  
+
+<div class="title">Мой профиль<span id="toxu"><a class="link" href="#">ред</a></span></div>
+
+
+<i class="fa fa-gear d-icon d-icon-gear" aria-hidden="true"></i> <a class="my-link" href="#">Тестирование</a>
+<i class="fa fa-gear d-icon d-icon-gear" aria-hidden="true"></i> <a class="my-link" href="#">Тестирование</a>
+<i class="fa fa-gear d-icon d-icon-gear" aria-hidden="true"></i> <a class="my-link" href="#">Тестирование</a>
+
+<br>
 ${dopp}
+
 <br><center>В стадии разработки... Будет персональная информация...</center>
 <ul id="sub-menu" style="color: #919191;">
 <li><a rel="nofollow" href="https://toxu.ru/u" class="sub-menu">Участники</a> </li>
