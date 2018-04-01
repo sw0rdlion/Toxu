@@ -97,7 +97,7 @@ contents.push(
 new RawHtml({ html: `
 
 <div class="blog-container"><center> 
-<a class="btn-primary create btn btn-icon-text ember-view" href="https://toxu.ru/latest?ascending=true&amp;order=posts">Вопросы без ответа</a>
+<a class="btn-primary create btn btn-icon-text ember-view" href="https://toxu.ru/latest?ascending=true&order=posts&status=open">Вопросы без ответа</a>
 <br><br><a href="#hone" class="soc-link"><i style="font-size:24px" class="fa fa-arrow-up"></i></a></center> </div>
 
 `}) );
