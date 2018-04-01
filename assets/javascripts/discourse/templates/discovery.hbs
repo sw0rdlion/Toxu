@@ -15,7 +15,8 @@
 
 
 <div class="container list-container {{if siteSettings.sidebar_enable "has-sidebar"}}">
-  <div class="row">
+ 
+ <div class="row">
     <div class="full-width">
       {{conditional-loading-spinner condition=loading}}
       <div id="header-list-area">
@@ -23,6 +24,7 @@
       </div>
     </div>
   </div>
+  
   <div class="row {{if loading "hidden"}}">
     <div class="full-width">
       <div id="list-area">
@@ -32,6 +34,9 @@
       </div>
     </div>
   </div>
+ 
+ <div class="sidebar-menu"></div>
+  
 </div>
 
 </div>
@@ -41,7 +46,5 @@
     {{mount-widget widget="sidebar-items"}}
   </div>
 {{/if}}
-  <div class="sidebar-menu">
-     
-  </div>
+
 {{plugin-outlet name="discovery-below"}}
