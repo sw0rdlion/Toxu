@@ -18,6 +18,8 @@ hr.user {display: block;height: 1px;margin: 1em 0;width: 200px;border: 0;
 .prof-num-u {color: #f56400; text-align: center; font-size: 3em;font-family: Georgia,Arial,sans-serif;}
 .prof-txt {text-align:center;font-size:1.4em;color:#666;font-family: Georgia,Arial,sans-serif;font-weight: 300;}
 
+.sidebar-menu {display: none;}
+
 /*пункты li, ul, ol*/
 .cooked ul li:before, .d-editor-preview ul li:before {color: #2980B9;content: "•";padding-right: 2px;font-weight: bold;}
 .cooked ul li, .d-editor-preview ul li {margin-bottom: 10px;}
