@@ -23,9 +23,9 @@ new RawHtml({ html: `<div>
 <div class="title">Мой профиль<span id="toxu"><a class="link" href="#">ред</a></span></div>
 
 
-<i class="fa fa-gear d-icon d-icon-gear" aria-hidden="true"></i> <a class="my-link" href="#">Тестирование</a>
-<i class="fa fa-gear d-icon d-icon-gear" aria-hidden="true"></i> <a class="my-link" href="#">Тестирование</a>
-<i class="fa fa-gear d-icon d-icon-gear" aria-hidden="true"></i> <a class="my-link" href="#">Тестирование</a>
+<div class="mn"><i class="fa fa-gear d-icon d-icon-gear" aria-hidden="true"></i> <a class="my-link" href="#">Тестирование</a></div>
+<div class="mn"><i class="fa fa-gear d-icon d-icon-gear" aria-hidden="true"></i> <a class="my-link" href="#">Тестирование</a></div>
+<div class="mn"><i class="fa fa-gear d-icon d-icon-gear" aria-hidden="true"></i> <a class="my-link" href="#">Тестирование</a></div>
 
 <br>
 ${dopp}
