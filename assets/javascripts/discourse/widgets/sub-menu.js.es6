@@ -18,7 +18,7 @@ contents.push(
 new RawHtml({ html: `<div>  
 
 <div class="title">Мой профиль<span id="toxu"><a class="link" target="_blank" href="https://toxu.ru/u/${username}/preferences/account">Ред.</a></span></div>
-<div class="mn"> <i class="fa fa-address-card-o"></i> Ваш уровень доверия - <i>посетитель</i>. Узнайте <a class="cvet" href="https://toxu.ru/stats">больше.</a><br><br></div>
+<div class="mn"> <i class="fa fa-address-card-o"></i> Ваш уровень доверия - <i>посетитель</i>. Узнайте <a class="cvet" href="https://toxu.ru/stats">больше.</a></div>
 <br>
 <div class="mn">В стадии разработки...</div>
 <div class="blog-container"><center> 
@@ -33,7 +33,7 @@ contents.push(
 new RawHtml({ html: `<div>  
 
 <div class="title">Мой профиль<span id="toxu"><a class="link" target="_blank" href="https://toxu.ru/u/${username}/preferences/account">Ред.</a></span></div>
-<div class="mn"> <i class="fa fa-address-card-o"></i> Ваш уровень доверия - <i>пользователь</i>. Узнайте <a class="cvet" href="https://toxu.ru/stats">больше.</a><br><br></div>
+<div class="mn"> <i class="fa fa-address-card-o"></i> Ваш уровень доверия - <i>пользователь</i>. Узнайте <a class="cvet" href="https://toxu.ru/stats">больше.</a></div>
 <div class="mn"><i class="fa fa-money" aria-hidden="true"></i> Посмотреть <a class="cvet" href="https://toxu.ru/${username}/budo/badges">мои награды.</a></div>
 <div class="mn">В стадии разработки...</div>
 <div class="blog-container"><center> 
@@ -49,7 +49,7 @@ contents.push(
 new RawHtml({ html: `<div>  
 
 <div class="title">Мой профиль<span id="toxu"><a class="link" target="_blank" href="https://toxu.ru/u/${username}/preferences/account">Ред.</a></span></div>
-<div class="mn"> <i class="fa fa-address-card-o"></i> Ваш уровень доверия - <i>участник</i>. Узнайте <a class="cvet" href="https://toxu.ru/stats">больше.</a><br><br></div>
+<div class="mn"> <i class="fa fa-address-card-o"></i> Ваш уровень доверия - <i>участник</i>. Узнайте <a class="cvet" href="https://toxu.ru/stats">больше.</a></div>
 <div class="mn"><i class="fa fa-money" aria-hidden="true"></i> Посмотреть <a class="cvet" href="https://toxu.ru/${username}/budo/badges">мои награды.</a></div>
 <div class="mn">В стадии разработки...</div>
 <div class="blog-container"><center> 
@@ -65,7 +65,7 @@ contents.push(
 new RawHtml({ html: `<div>  
 
 <div class="title">Мой профиль<span id="toxu"><a class="link" target="_blank" href="https://toxu.ru/u/${username}/preferences/account">Ред.</a></span></div>
-<div class="mn"> <i class="fa fa-address-card-o"></i> Ваш уровень доверия - <i>постоялец</i>. Узнайте <a class="cvet" href="https://toxu.ru/stats">больше.</a><br><br></div>
+<div class="mn"> <i class="fa fa-address-card-o"></i> Ваш уровень доверия - <i>постоялец</i>. Узнайте <a class="cvet" href="https://toxu.ru/stats">больше.</a></div>
 <div class="mn"><i class="fa fa-money" aria-hidden="true"></i> Посмотреть <a class="cvet" href="https://toxu.ru/${username}/budo/badges">мои награды.</a></div>
 <div class="mn">В стадии разработки...</div>
 <div class="blog-container"><center> 
