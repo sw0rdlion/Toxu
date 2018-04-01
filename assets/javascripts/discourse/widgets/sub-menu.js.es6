@@ -10,27 +10,25 @@ export default createWidget('sub-menu', {
     let contents = []
     if (currentUser) {
     const trust_level = currentUser.get('trust_level');
-      
-if (trust_level === 0) { var dopp = '<div class="werng-menu"> У вас есть <a class="cvet" href="https://toxu.ru/stats">эти возможности!</a></div>';}
-if (trust_level === 1) { var dopp = '<div class="werng-menu"> У вас появились <a class="cvet" href="https://toxu.ru/stats">новые возможности.</a> Поздравляем!</div>';}
-if (trust_level === 2) { var dopp = '<div class="werng-menu"> Ваш уровень доверия - <a class="cvet" href="https://toxu.ru/stats"><i>участник</i></a>, поздравляем!</div>';}
-if (trust_level === 3) { var dopp = '<div class="werng-menu">Ваш уровень доверия - <a class="cvet" href="https://toxu.ru/stats"><i>постоялец</i></a>.</div>';}
-if (trust_level === 4) { var dopp = '<div class="werng-menu"> Об уровне доверия - <a class="cvet" href="https://toxu.ru/stats"><i>лидер</i></a>.</div>';}
+    const username = currentUser.get('username');
+     
+if (trust_level === 0) { var dopp = '<i class="fa fa-address-card-o"></i> Ваш уровень доверия - <i>посетитель</i>. Узнайте <a class="cvet" href="https://toxu.ru/stats">больше.</a>';}
+if (trust_level === 1) { var dopp = '<i class="fa fa-address-card-o"></i> Ваш уровень доверия - <i>пользователь</i>. Узнайте <a class="cvet" href="https://toxu.ru/stats">больше.</a>';}
+if (trust_level === 2) { var dopp = '<i class="fa fa-address-card-o"></i> Ваш уровень доверия - <i>участник</i>. Узнайте <a class="cvet" href="https://toxu.ru/stats">больше.</a>';}
+if (trust_level === 3) { var dopp = '<i class="fa fa-address-card-o"></i> Ваш уровень доверия - <i>постоялец</i>. Узнайте <a class="cvet" href="https://toxu.ru/stats">больше.</a>';}
+if (trust_level === 4) { var dopp = '<i class="fa fa-address-card-o"></i> Ваш уровень доверия - <i>лидер</i>. Узнайте <a class="cvet" href="https://toxu.ru/stats">больше.</a>';}
       
 contents.push(
 new RawHtml({ html: `<div>  
 
-<div class="title">Мой профиль<span id="toxu"><a class="link" href="#">ред</a></span></div>
+<div class="title">Мой профиль<span id="toxu"><a class="link" target="_blank" href="https://toxu.ru/u/${username}/preferences/account">Ред.</a></span></div>
+<div class="mn"> ${dopp} <br><br></div>
 
+<div class="mn"><i class="fa fa-gear d-icon d-icon-gear"></i> <a class="my-link cvet" href="#">Тестирование</a></div>
+<div class="mn"><i class="fa fa-gear d-icon d-icon-gear"></i> <a class="my-link cvet" href="#">Тестирование</a></div>
+<div class="mn"><i class="fa fa-gear d-icon d-icon-gear"></i> <a class="my-link cvet" href="#">Тестирование</a></div>
 
-<div class="mn"><i class="fa fa-gear d-icon d-icon-gear" aria-hidden="true"></i> <a class="my-link cvet" href="#">Тестирование</a></div>
-<div class="mn"><i class="fa fa-gear d-icon d-icon-gear" aria-hidden="true"></i> <a class="my-link cvet" href="#">Тестирование</a></div>
-<div class="mn"><i class="fa fa-gear d-icon d-icon-gear" aria-hidden="true"></i> <a class="my-link cvet" href="#">Тестирование</a></div>
-
-<br>
-${dopp}
-
-<br><center>В стадии разработки... Будет персональная информация...</center>
+<br><br><center>В стадии разработки... Будет персональная информация...</center>
 <ul id="sub-menu" style="color: #919191;">
 <li><a rel="nofollow" href="https://toxu.ru/u" class="sub-menu">Участники</a> </li>
 <li><a rel="nofollow" href="https://toxu.ru/groups" class="sub-menu">Группы</a></li>
