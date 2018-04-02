@@ -82,7 +82,7 @@ new RawHtml({ html: `<div>
 <div class="title">Мой профиль<span id="toxu"><a class="link" target="_blank" href="https://toxu.ru/u/${username}/preferences/account">Ред.</a></span></div>
 <div class="mn"> <i class="fa fa-address-card-o"></i> Ваш уровень доверия - <i>лидер</i>. Узнайте <a class="cvet" href="https://toxu.ru/stats">больше.</a></div>
 <div class="mn"><i class="fa fa-money" aria-hidden="true"></i> Посмотреть <a class="cvet" href="https://toxu.ru/${username}/budo/badges">мои награды.</a></div>
-<div class="mn"><i class="fa fa-exchangey" aria-hidden="true"></i> У вас возник вопрос о самом сайте? <a href="https://toxu.ru/c/dev">dev</a> - это место, где можно говорить о таких вещах</div>
+<div class="werng">У вас возник вопрос о самом сайте? <a href="https://toxu.ru/c/dev">dev</a> - это место, где можно говорить о таких вещах.</div>
 <div class="blog-container"><center> 
 <a class="btn-primary create btn btn-icon-text ember-view" href="https://toxu.ru/latest?ascending=true&order=posts&status=open">Вопросы без ответа</a>
 <br><br>
