@@ -147,7 +147,10 @@ post-menu-area {margin-bottom: 1px;margin-top:2px;}
 .regular.contents a[rel~="nofollow"]::after {display: inline-block;content: ' \f08e ';font-family: FontAwesome;color: #999;
     font-size: 11px;margin-left: 3px;}
 
-
+/*ссылки шапка*/
+div#top-navbar {max-width: none;width: auto;z-index: 1040;position: fixed;top: 0;left: 27%;}
+span#top-navbar-links {display: block !important;margin: 23px 0 0 0;}
+a.dow-menu {font-size: 14px;color: #999;margin-right: 30px;}
 
 /*Social*/
 .share2 {margin-top: -5px;}
@@ -158,6 +161,24 @@ a.soc-link {color:#919191;opacity: 0.8;}
 .socv {color: #919191;margin-bottom: 5px;margin-top: 15px;}
 a.facebook, a.vk, a.twitter, a.discord, a.telegram, a.livejournal, a.ok {color: #bdbdbd;margin-right: 15px;}
 .soc {font-size: 12px;}
+
+/*Катерория Toxu-правила*/
+.custom-cat-header {
+	display: block;
+	margin-left: -9999px!important;
+	padding-left: 9999px!important;
+	margin-right: -9999px!important;
+	padding-right: 9999px!important;
+	text-align: center;
+	margin-top: -18px;
+}
+.custom-cat-header p {color: #fff; font-size:17px;padding-bottom: 10px;}
+.custom-cat-header h1 {display: inline-block;margin-top: 20px;color: #fff;border-radius: 5px;width: inherit;}
+body.category-toxu-regulations .custom-cat-header-toxu-regulations {display: block;background-color: #f56400;}
+body.category-toxu-regulations .category-heading, .custom-cat-header-toxu-regulations, 
+body.category-toxu-regulations .sidebar-top{display: none;}
+body.category-toxu-regulations .timeline-container {display: inline-block;}
+.category-toxu-regulations .avahome {display: inline-block !important;margin-top: 1px;}
 
 /*add mobile*/
 html.mobile-view {
