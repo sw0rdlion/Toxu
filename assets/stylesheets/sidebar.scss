@@ -79,8 +79,8 @@ a.addqa:hover {color: #fff;background: #f56400;padding: 6px 10px;font-weight: 50
 .category-science-history .cat-link.category-science, .category-occultism-christianity .cat-link.category-occultism,
 .category-toxu .cat-link.category-toxu, .category-toxu-regulations .cat-link.category-toxu, 
 .category-blog .cat-link.category-blog {.badge-wrapper.bullet span.badge-category { color: #f56400 !important;}}
-
-.badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg {border-radius: 10px;margin-bottom: 4px;}
+.badge-wrapper {font-weight: 300;}
+.badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg {border-radius: 10px;margin-bottom: 4px;opacity: 0.6;}
 
 
 /*комментарии*/
