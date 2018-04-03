@@ -26,7 +26,7 @@ hr.user {display: block;height: 1px;margin: 1em 0;width: 200px;border: 0;border-
 h1, h2, h3, h4, h5, h6 {font-weight: 300;}
 .timeline-container, #suggested-topics .loading-container, h3.suggested-topics-title {display: none !important;}
 .blog-container {display: none;position: fixed;width: 13%; top: 80px;float: left;background-color: #fff;border: 1px solid #e8e8e8;padding: 15px;}
-
+a:hover {color: #f56400;}
 
 /*верхнее меню*/
 .nav-pills>li.active>a, .nav-pills>li>a.active {color: #999;font-weight: 500;background-color: #fff;border-bottom: 3px solid #f56400;}
@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {font-weight: 300;}
 a.badge-notification{float: right;}
 .badge-notification {color: #919191 !important;font-size: 13px;background-color: #fff;}
 .badge-wrapper.bullet {font-weight: 300;font-size: 14px;}
-a:hover, .badge-wrapper.bullet:hover, .badge-wrapper.bullet span.badge-category:hover, a.cvet:hover {color: #f56400;}
+.badge-wrapper.bullet:hover, .badge-wrapper.bullet span.badge-category:hover, a.cvet:hover {color: #f56400;}
 .badge-wrapper.bullet span.badge-category {color: #919191;}
 .cat-link .topics-count {float: right;font-weight: normal;font-size: 12px;color: #888;margin-top: 2px;}
 }
@@ -136,9 +136,9 @@ h3.suggested-topics-message a, .footer-message.ember-view h3 a {background: #fff
 #scroll-bottom{position:fixed;opacity: 0.6;bottom:50px;padding:5px;border-radius:5px;z-index:9999;right:20px;color:#888;font-size:25px;display:none;}
 #scroll-top:hover, #scroll-bottom:hover {opacity: 1;}
 .topic-body .contents .cooked {font-weight: 300;line-height: 1.5;font-family: Verdana,Geneva,sans-serif;}
-
-
-
+.category-heading .category-logo {width: 31px;}
+.category-heading p {font-size: 1.24em;color: #39739d;background-color: #eff5fa;border-color: transparent;padding: .2em .3em;}
+.category-navigation ol {margin-top: 9px;margin-left: 8px;}
 
 /*Social*/
 .share2 {margin-top: -5px;}
