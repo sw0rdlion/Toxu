@@ -93,6 +93,9 @@ font-weight: 300;line-height: 1.2em;border-radius: 12px;cursor: pointer;margin-r
 }
 
 /*мелкие детали*/
+.topic-list th.posts:before {display: inline-block;content: '\f27b';font-family: FontAwesome;}
+.topic-list th.likes:before {display: inline-block;content: '\f08a';font-family: FontAwesome;}
+.topic-list th.views:before {display: inline-block;content: '\f06e';font-family: FontAwesome;}
 h3.suggested-topics-message a, .footer-message.ember-view h3 a {background: #ffffca;padding: 5px;}
 
 /*Social*/
