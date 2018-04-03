@@ -34,15 +34,16 @@ h1, h2, h3, h4, h5, h6 {font-weight: 300;}
 
 
 /*боковые категории*/
+.sidebar {
 .cat-link {margin-bottom: 4px;}
 .badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg, .qa-cat, .category-other2 {display: none;}
-.sidebar {a.badge-notification{float: right;}
+a.badge-notification{float: right;}
 .badge-notification {color: #919191 !important;font-size: 13px;background-color: #fff;}}
 .badge-wrapper.bullet {font-weight: 300;font-size: 14px;}
 a:hover, .badge-wrapper.bullet:hover, .badge-wrapper.bullet span.badge-category:hover, a.cvet:hover {color: #f56400;}
 .badge-wrapper.bullet span.badge-category {color: #919191;}
 .cat-link .topics-count {float: right;font-weight: normal;font-size: 12px;color: #888;margin-top: 2px;}
-
+}
 
 /* Задать вопрос без авторизации */
 .add-kn{float: right;margin-right: 145px;}
@@ -100,6 +101,7 @@ nav.post-controls button {font-size: 1em;}
 /*теги*/
 .discourse-tag.bullet {color: #919191 !important;position: relative;font-size: 13px;padding: 4px 8px;background: #f4f4fa;
 font-weight: 300;line-height: 1.2em;border-radius: 12px;cursor: pointer;margin-right: 3px;}
+.discourse-tag.bullet:before {display: none;}
 
 /*footer*/
 .bottom_footer {border-top:1px solid #E0E4E7;font-size:14px;margin-top:15px;color:#888}
@@ -107,6 +109,7 @@ font-weight: 300;line-height: 1.2em;border-radius: 12px;cursor: pointer;margin-r
 .f-copyright img {float: left;margin-top: 2px;margin-right: 8px;}
 .footer_social_nav ul li {float: left;position: relative;}
 .footer_social_nav {float: right;margin-top: -53px;}
+.footer_social_nav ul li+li {margin-left: 20px;}
 
 /*раздел категории*/
 .colon.cat-cat{  float: left;width: 66%;}
@@ -127,6 +130,13 @@ font-weight: 300;line-height: 1.2em;border-radius: 12px;cursor: pointer;margin-r
 .topic-list th.likes:before {display: inline-block;content: '\f08a';font-family: FontAwesome;}
 .topic-list th.views:before {display: inline-block;content: '\f06e';font-family: FontAwesome;}
 h3.suggested-topics-message a, .footer-message.ember-view h3 a {background: #ffffca;padding: 5px;}
+#scroll-top{position:fixed;opacity: 0.6;bottom:80px;padding:5px;border-radius:5px;z-index:9999;right:20px;color:#888;font-size:25px;display:none;}
+#scroll-bottom{position:fixed;opacity: 0.6;bottom:50px;padding:5px;border-radius:5px;z-index:9999;right:20px;color:#888;font-size:25px;display:none;}
+#scroll-top:hover, #scroll-bottom:hover {opacity: 1;}
+.topic-body .contents .cooked {font-weight: 300;line-height: 1.5;font-family: Verdana,Geneva,sans-serif;}
+
+
+
 
 /*Social*/
 .share2 {margin-top: -5px;}
