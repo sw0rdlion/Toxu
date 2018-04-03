@@ -87,7 +87,7 @@ a.addqa:hover {color: #fff;background: #f56400;padding: 6px 10px;font-weight: 50
 .topic-post.comment { 
 margin-left: 53px;	
 img.avatar { width: 20px; height: 20px;}
-a.reply-to-tab img.avatar, .user-signature, .names span.full-name, avatar-flair, button.share, .bookmarked, .unaccepted, .bookmark  .names .user-title, .topic-post.comment .names span.full-name {display: none;}
+a.reply-to-tab img.avatar, .user-signature, .names span.full-name, avatar-flair, button.share, .bookmarked, .unaccepted, .bookmark,  .names .user-title, .topic-post.comment .names span.full-name {display: none;}
 .topic-avatar { padding-top: 10px;}
 .topic-avatar { width: 20px;}
 .topic-body .regular {margin-top: 1px;margin-left: -23px;}
@@ -97,11 +97,21 @@ a.reply-to-tab img.avatar, .user-signature, .names span.full-name, avatar-flair,
 nav.post-controls button {font-size: 1em;}	
 }
 
-/*ПМ*/
+/*ПМ и комм*/
+.topic-post.post-hidden .names span.full-name, nav.post-controls button.reply.create span.d-button-label  {display: none;}
+.user-messages-page .no-no, .archetype-private_message .no-no {display: none;}
+.topic-post.post-hidden nav.post-controls button.reply.create:after {   content: "";}
+nav.post-controls button.reply.create:after {   content: "комм";}
+.topic-post.comment nav.post-controls button.reply.create:after {   content: "комм";}
+.topic-post nav.post-controls .create i.fa-reply {display: none;}
 .archetype-private_message {
 .sidebar-top {display:none;}   
 .timeline-container, #suggested-topics .loading-container.ember-view  {display:block !important;}
 #topic-footer-buttons button.create, #reply-control .btn-primary {color: white; background-color: #306f30}
+.topic-post button.btn-primary.create:after  {content: "комм приватно";}
+.private-message-map h3:after { content: " (приватно)";} 
+button.btn-primary.create span.d-button-label, li.extra-nav-item-outlet.votes {display: none;}
+button.btn-primary.create:after { content: " Ответить приватно";} 	
 }
 
 
