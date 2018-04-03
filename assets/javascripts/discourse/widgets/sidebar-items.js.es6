@@ -23,13 +23,6 @@ export default createWidget('sidebar-items', {
 	{ result.push(self.attach('profile-t')); }
 	
 		
-	 result.push( new RawHtml({ html: `<div> 
- 
-<a class="nast-cat" title="Настройка категорий" href="https://toxu.ru/u/${username}/preferences/categories"><i class="fa fa-gear d-icon d-icon-gear" aria-hidden="true"></i></a>
- 
-        </div>`}))   	
-		
-		
 	result.push(self.attach('sidebar-cat'));
 	
 		
@@ -46,7 +39,7 @@ result.push(self.attach('sidebar-cat'));
 
 result.push( new RawHtml({ html: `<div class="soc"><noindex>
 <br><br><a rel="nofollow"  href="https://toxu.ru/tags" class="discourse-tag box bar">Теги</a> <span class="vid">- по темам</span>
-<div class="socv ">Мы в социальных сетях</div>
+<div class="socv">Мы в социальных сетях</div>
 <a target="_blank" class="discord cvet" rel="nofollow" title="Discord" href="https://discord.gg/8P3TNjP"><i class="fa fa-comment" aria-hidden="true"></i></a>
 <a target="_blank" class="telegram cvet" rel="nofollow" title="Telegram" href="https://telegram.me/toxuru"><i class="fa fa-telegram" aria-hidden="true"></i></a>
 <a target="_blank" class="livejournal cvet" title="Livejournal" rel="nofollow" href="https://toxu.livejournal.com"><i class="fa fa-pencil" aria-hidden="true"></i></a>
