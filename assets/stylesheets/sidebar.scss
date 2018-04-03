@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {font-weight: 300;}
 .sidebar {a.badge-notification{float: right;}
 .badge-notification {color: #919191 !important;font-size: 13px;background-color: #fff;}}
 .badge-wrapper.bullet {font-weight: 300;font-size: 14px;}
-a:hover, .badge-wrapper.bullet:hover, .badge-wrapper.bullet span.badge-category:hover {color: #f56400;}
+a:hover, .badge-wrapper.bullet:hover, .badge-wrapper.bullet span.badge-category:hover, a.cvet:hover {color: #f56400;}
 .badge-wrapper.bullet span.badge-category {color: #919191;}
 
 
@@ -123,6 +123,9 @@ h3.suggested-topics-message a, .footer-message.ember-view h3 a {background: #fff
 .soc-link {display: inline-block;font-size: 18px;color: #919191;margin-right: 14px;margin-left: 2px;}
 a.soc-link:hover {color:#f56400;opacity:1;}
 a.soc-link {color:#919191;opacity: 0.8;}
+.socv {color: #919191;margin-bottom: 5px;margin-top: 15px;}
+a.facebook, a.vk, a.twitter, a.discord, a.telegram, a.livejournal, a.ok {color: #bdbdbd;margin-right: 15px;}
+.soc {font-size: 12px;}
 
 /*add mobile*/
 html.mobile-view {
