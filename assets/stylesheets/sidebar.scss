@@ -87,7 +87,7 @@ a.addqa:hover {color: #fff;background: #f56400;padding: 6px 10px;font-weight: 50
 .topic-post.comment { 
 margin-left: 53px;	
 img.avatar { width: 20px; height: 20px;}
-a.reply-to-tab img.avatar, .user-signature, .names span.full-name, avatar-flair, button.share, .bookmarked, .unaccepted, .bookmark,  .names .user-title, .topic-post.comment .names span.full-name {display: none;}
+a.reply-to-tab img.avatar, .user-signature, .names span.full-name, .avatar-flair, button.share, .bookmarked, .unaccepted, .bookmark,  .names .user-title, .topic-post.comment .names span.full-name {display: none;}
 .topic-avatar { padding-top: 10px;}
 .topic-avatar { width: 20px;}
 .topic-body .regular {margin-top: 1px;margin-left: -23px;}
@@ -119,6 +119,19 @@ button.btn-primary.create:after { content: " Ответить приватно";
 .discourse-tag.bullet {color: #919191 !important;position: relative;font-size: 13px;padding: 4px 8px;background: #f4f4fa;
 font-weight: 300;line-height: 1.2em;border-radius: 12px;cursor: pointer;margin-right: 3px;}
 .discourse-tag.bullet:before {display: none;}
+
+/*пункты li, ul, ol*/
+.cooked { 
+ul li:before, .d-editor-preview ul li:before {color: #2980B9;content: "•";padding-right: 2px;font-weight: bold;}
+ul li, .d-editor-preview ul li {margin-bottom: 10px;}
+ul, .d-editor-preview ul {list-style-type: none;}
+ul li p, .d-editor-preview ul li p {display:inline;}
+ul, .d-editor-preview ul {margin: 0;padding-left: 24px;}
+p img, .lightbox-wrapper img {border: 1px solid #e9e9e9;}
+p img.emoji, .create-account .user-fields, .category .category-logo {border: none;}
+}
+ol li::-moz-list-number {font-weight: bold;}
+
 
 /*footer*/
 .bottom_footer {border-top:1px solid #E0E4E7;font-size:14px;margin-top:15px;color:#888}
