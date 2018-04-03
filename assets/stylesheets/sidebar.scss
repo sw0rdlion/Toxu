@@ -146,6 +146,9 @@ h3.sidebar-sug {font-weight: 500;color:#919191;padding-bottom: 5px;font-size: 15
 post-menu-area {margin-bottom: 1px;margin-top:2px;}
 .regular.contents a[rel~="nofollow"]::after {display: inline-block;content: ' \f08e ';font-family: FontAwesome;color: #999;
     font-size: 11px;margin-left: 3px;}
+#create-topic {background: transparent;color: #f56400;}
+.topic-list > tbody {border-top: 1px solid #e9e9e9;}
+.user-signature, .names .user-title a, .names .user-title {position: relative;color: #919191;font-size: 13px;}
 
 /*ссылки шапка*/
 div#top-navbar {max-width: none;width: auto;z-index: 1040;position: fixed;top: 0;left: 27%;}
@@ -183,22 +186,6 @@ body.category-toxu-regulations .timeline-container {display: inline-block;}
 /*add mobile*/
 html.mobile-view {
 .sidebar, .category-heading, #banner-content, .sidebar-top, #reply-control .d-editor-button-bar .quote.btn, #scroll-bottom, #scroll-top {display: none !important;}
-.category-communication img#site-logo.logo-big  {
-    background: url(https://toxu.ru/uploads/default/original/2X/7/74e72aed8c7d38b563a49e00aa83e0820cb3bbcb.png) no-repeat;
-    background-size: 35px 35px;
-    width: 35px;
-    height: 35px;
-    padding-left: 35px;
-}
-.archetype-private_message img#site-logo.logo-big, .user-messages-page img#site-logo.logo-big {
-    background: url(https://toxu.ru/uploads/default/original/2X/d/df3d3c3cd2994ae6095fe994b39c1a3838233df7.png) no-repeat;
-    background-size: 35px 35px;
-    width: 35px;
-    height: 35px;
-    padding-left: 35px;
-} 
-.topic-post.comment .topic-body .regular {margin-top: 1px;margin-left: -1px;}
 .timeline-container {display: block;}
 .navigation-categories {th.latest, td.latest {display: none;}.category {width: 99%;}}
-
 }
