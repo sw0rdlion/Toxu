@@ -158,6 +158,7 @@ body[class*="navigation-categories"] #main-outlet .container.list-container.has-
 }
 
 /*мелкие детали*/
+.topic-list th.activity:before {display: inline-block;content: '\f017';font-family: FontAwesome;}
 .topic-list th.posts:before {display: inline-block;content: '\f27b';font-family: FontAwesome;}
 .topic-list th.likes:before {display: inline-block;content: '\f08a';font-family: FontAwesome;}
 .topic-list th.views:before {display: inline-block;content: '\f06e';font-family: FontAwesome;}
@@ -186,11 +187,6 @@ post-menu-area {margin-bottom: 1px;margin-top:2px;}
    &:visited {color: #07C;}
    &:hover {color: #f56400;}
 }
-
-/*ссылки шапка*/
-div#top-navbar {max-width: none;width: auto;z-index: 1040;position: fixed;top: 0;left: 27%;}
-span#top-navbar-links {display: block !important;margin: 23px 0 0 0;}
-a.dow-menu {font-size: 14px;color: #999;margin-right: 30px;}
 
 /*Social*/
 .share2 {margin-top: -5px;}
