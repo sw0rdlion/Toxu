@@ -145,16 +145,19 @@ ol li::-moz-list-number {font-weight: bold;}
 body[class*="navigation-categories"] #main-outlet .container.list-container.has-sidebar {width: 100%;float: left;}
 .colon.cat-cat{  float: left;width: 66%;}
 .colon.post{width: 27%;float: right;margin-left: 30px;}
+.categories-list .sidebar {display: none;}
 .cat-cat { 
 .category-logo {margin-top: 3px;margin-bottom: 0;border-radius: 50%;width: 46px;height:46px;}
 .avacat a {font-size: 13px;color: #777;text-decoration: underline;}
 .telohome {float: left;width: 90%;margin-left: 15px;}
 .topic-cat {display: inline-block;}
-.stats {font-size: 20px;text-align: center;line-height: 22px;}
+.stats {font-size: 20px;text-align: center;line-height: 22px;margin-bottom: 20px;}
 .stats small {text-transform: uppercase;color: #777;font-weight: 300;font-size: 12px;}
 .has-description {margin-bottom: 30px;float: left;width: 70%;}
 .category-description {max-width: 450px;font-size: 0.97rem;font-weight: 400;line-height: 1.2;color: #777;}
 .topics-count {float: right;font-weight: normal;font-size: 12px;color: #888;margin-top: 2px;}
+.avacat img {width: 24px;    height: 24px;}
+.category-title-link .category-name {    font-size: 20px;}
 }
 
 /*мелкие детали*/
@@ -162,6 +165,7 @@ body[class*="navigation-categories"] #main-outlet .container.list-container.has-
 .topic-list th.posts:before {display: inline-block;content: '\f27b';font-family: FontAwesome;}
 .topic-list th.likes:before {display: inline-block;content: '\f08a';font-family: FontAwesome;}
 .topic-list th.views:before {display: inline-block;content: '\f06e';font-family: FontAwesome;}
+.activity.sortable {text-align: center;}
 h3.suggested-topics-message a, .footer-message.ember-view h3 a {background: #ffffca;padding: 5px;}
 #scroll-top{position:fixed;opacity: 0.6;bottom:80px;padding:5px;border-radius:5px;z-index:9999;right:20px;color:#888;font-size:25px;display:none;}
 #scroll-bottom{position:fixed;opacity: 0.6;bottom:50px;padding:5px;border-radius:5px;z-index:9999;right:20px;color:#888;font-size:25px;display:none;}
