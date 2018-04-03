@@ -25,6 +25,8 @@ hr.user {display: block;height: 1px;margin: 1em 0;width: 200px;border: 0;border-
 .sidebar-top {max-width: 250px;top: 80px; position: fixed; right: 2%; float: right;}
 h1, h2, h3, h4, h5, h6 {font-weight: 300;}
 .timeline-container, #suggested-topics .loading-container, h3.suggested-topics-title {display: none !important;}
+.blog-container {display: none;position: fixed;width: 13%; top: 80px;float: left;background-color: #fff;border: 1px solid #e8e8e8;padding: 15px;}
+
 
 /*верхнее меню*/
 .nav-pills>li.active>a, .nav-pills>li>a.active {color: #999;font-weight: 500;background-color: #fff;border-bottom: 3px solid #f56400;}
@@ -33,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {font-weight: 300;}
 
 /*боковые категории*/
 .cat-link {margin-bottom: 4px;}
-.badge-wrapper.bullet .badge-category-bg, .qa-cat, .category-other2 {display: none;}
+.badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg, .qa-cat, .category-other2 {display: none;}
 .sidebar {a.badge-notification{float: right;}
 .badge-notification {color: #919191 !important;font-size: 13px;background-color: #fff;}}
 .badge-wrapper.bullet {font-weight: 300;font-size: 14px;}
