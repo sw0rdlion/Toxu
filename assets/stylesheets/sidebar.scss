@@ -119,6 +119,7 @@ nav.post-controls button.reply.create:after {   content: "комм";}
 .topic-post.comment nav.post-controls button.reply.create:after {   content: "комм";}
 .topic-post nav.post-controls .create i.fa-reply {display: none;}
 .archetype-private_message {
+.boxed.onscreen-post {background-color: #fff;padding: 0 5px;border-left: 9px solid #f0fff0;}
 .sidebar-top {display:none;}   
 .timeline-container, #suggested-topics .loading-container.ember-view  {display:block !important;}
 #topic-footer-buttons button.create, #reply-control .btn-primary {color: white; background-color: #306f30}
@@ -163,9 +164,10 @@ ol li::-moz-list-number {font-weight: bold;}
 .bottom_footer {border-top:1px solid #E0E4E7;font-size:14px;margin-top:15px;color:#888}
 .footer-copyright {float:left;}
 .f-copyright img {float: left;margin-top: 2px;margin-right: 8px;}
-.footer_social_nav ul li {float: left;position: relative;}
-.footer_social_nav {float: right;margin-top: -53px;}
-.footer_social_nav ul li+li {margin-left: 20px;}
+.footer_social_nav {
+float: right;margin-top: -53px;
+ul li {float: left;position: relative;}
+ul li+li {margin-left: 20px;}}
 
 /*раздел категории*/
 body[class*="navigation-categories"] #main-outlet .container.list-container.has-sidebar {width: 100%;float: left;}
@@ -188,10 +190,12 @@ body[class*="navigation-categories"] #main-outlet .container.list-container.has-
 }
 
 /*мелкие детали*/
-.topic-list th.activity:before {display: inline-block;content: '\f017';font-family: FontAwesome;}
-.topic-list th.posts:before {display: inline-block;content: '\f27b';font-family: FontAwesome;}
-.topic-list th.likes:before {display: inline-block;content: '\f08a';font-family: FontAwesome;}
-.topic-list th.views:before {display: inline-block;content: '\f06e';font-family: FontAwesome;}
+.topic-list {
+th.activity:before {display: inline-block;content: '\f017';font-family: FontAwesome;}
+th.posts:before {display: inline-block;content: '\f27b';font-family: FontAwesome;}
+th.likes:before {display: inline-block;content: '\f08a';font-family: FontAwesome;}
+th.views:before {display: inline-block;content: '\f06e';font-family: FontAwesome;}
+}
 .activity.sortable {text-align: center;}
 h3.suggested-topics-message a, .footer-message.ember-view h3 a {background: #ffffca;padding: 5px;}
 #scroll-top{position:fixed;opacity: 0.6;bottom:80px;padding:5px;border-radius:5px;z-index:9999;right:20px;color:#888;font-size:25px;display:none;}
@@ -235,23 +239,17 @@ a.facebook, a.vk, a.twitter, a.discord, a.telegram, a.livejournal, a.ok {color: 
 .soc {font-size: 12px;}
 
 /*Катерория Toxu-правила*/
-.custom-cat-header {
-	display: block;
-	margin-left: -9999px!important;
-	padding-left: 9999px!important;
-	margin-right: -9999px!important;
-	padding-right: 9999px!important;
-	text-align: center;
-	margin-top: -18px;
-}
+.custom-cat-header {display: block;margin-left: -9999px!important;padding-left: 9999px!important;margin-right: -9999px!important;
+	padding-right: 9999px!important;text-align: center;margin-top: -18px;}
 .custom-cat-header p {color: #fff; font-size:17px;padding-bottom: 10px;}
 .custom-cat-header h1 {display: inline-block;margin-top: 20px;color: #fff;border-radius: 5px;width: inherit;}
-body.category-toxu-regulations .custom-cat-header-toxu-regulations {display: block;background-color: #f56400;}
-body.category-toxu-regulations .category-heading, .custom-cat-header-toxu-regulations, 
-body.category-toxu-regulations .sidebar-top{display: none;}
-body.category-toxu-regulations .timeline-container {display: inline-block;}
-.category-toxu-regulations .avahome {display: inline-block !important;margin-top: 1px;}
-
+body.category-toxu-regulations {
+.custom-cat-header-toxu-regulations {display: block;background-color: #f56400;}
+.category-heading, .custom-cat-header-toxu-regulations, 
+.sidebar-top{display: none;}
+.timeline-container {display: inline-block;}
+.avahome {display: inline-block !important;margin-top: 1px;}
+}
 /*add mobile*/
 html.mobile-view {
 .sidebar, .user-signature, .category-heading, #banner-content, .sidebar-top, #reply-control .d-editor-button-bar .quote.btn, #scroll-bottom, #scroll-top {display: none !important;}
