@@ -36,7 +36,7 @@ hr.user {display: block;height: 1px;margin: 1em 0;width: 200px;border: 0;border-
 .list-container.has-sidebar {width: 74%;float:  right;}
 .sidebar-top {max-width: 250px;top: 80px; position: fixed; right: 2%; float: right;}
 h1, h2, h3, h4, h5, h6 {font-weight: 300;}
-.timeline-container, #suggested-topics .loading-container, h3.suggested-topics-title {display: none;}
+.timeline-container {display: none;}
 .blog-container {display: none;position: fixed;width: 13%; top: 80px;float: left;background-color: #fff;border: 1px solid #e8e8e8;padding: 15px;}
 a:hover {color: #f56400;}
 
