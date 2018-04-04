@@ -55,7 +55,7 @@ a.box.bar:hover, .discourse-tag.bullet:hover {color: #f56400;}
 .badge-notification {color: #919191 !important;font-size: 13px;background-color: #fff;}
 .badge-wrapper.bullet {font-weight: 300;font-size: 14px;}
 .badge-wrapper.bullet:hover, .badge-wrapper.bullet span.badge-category:hover, a.cvet:hover {color: #f56400;}
-.badge-wrapper.bullet span.badge-category {color: #919191;}
+.badge-wrapper.bullet span.badge-category, .nav-pills > li > a {color: #667d99;font-family: Roboto,sans-serif;}
 .cat-link .topics-count {float: right;font-weight: normal;font-size: 12px;color: #888;margin-top: 2px;}
 }
 
