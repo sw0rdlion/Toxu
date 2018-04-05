@@ -49,16 +49,17 @@ a:hover {color: #f56400;}
 /*боковые категории*/
 .sidebar {     
 .vid {color: #919191;}
-.cat-link {margin-bottom: 4px;}
 .badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg, .qa-cat, .category-other2 {display: none;}
 a.badge-notification{float: right;}
 a.box.bar:hover, .discourse-tag.bullet:hover {color: #f56400;}
 .badge-notification {color: #919191 !important;font-size: 13px;background-color: #fff;}
-.badge-wrapper.bullet {font-weight: 300;font-size: 14px;}
+.badge-wrapper.bullet {font-weight: 300;font-size: 14px;display: inline-block;}
 .badge-wrapper.bullet:hover, .badge-wrapper.bullet span.badge-category:hover, a.cvet:hover {color: #f56400;}
-.badge-wrapper.bullet span.badge-category, .nav-pills > li > a {color: #667d99;}
+.badge-wrapper.bullet span.badge-category {color: #667d99;}
 .cat-link .topics-count {float: right;font-weight: normal;font-size: 12px;color: #888;margin-top: 2px;}
 }
+
+.nav-pills > li > a {color: #667d99;}
 
 /* Задать вопрос без авторизации */
 .add-kn{float: right;margin-right: 145px;}
