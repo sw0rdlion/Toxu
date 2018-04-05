@@ -191,8 +191,8 @@ body[class*="navigation-categories"] #main-outlet .container.list-container.has-
 .avacat img {width: 24px;    height: 24px;}
 .category-title-link .category-name {    font-size: 20px;}
 }
-.navigation-categories.categories-list tr[data-category-id="4"], 
-.navigation-categories.categories-list tr[data-category-id="32"] {display: none;}
+.navigation-categories.categories-list div[data-category-id="4"], 
+.navigation-categories.categories-list div[data-category-id="32"] {display: none;}
 
 
 /*мелкие детали*/
