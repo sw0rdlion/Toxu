@@ -153,6 +153,7 @@ font-weight: 300;line-height: 1.2em;border-radius: 12px;cursor: pointer;margin-r
 
 /*пункты li, ul, ol*/
 .cooked { 
+ul {padding-left: 21px;}
 ul li {list-style-type: none;}
 ul li:before {color: #2980B9;content: "•";padding-right: 8px;font-weight: bold;}
 ol li::-moz-list-number {font-weight: bold;}
