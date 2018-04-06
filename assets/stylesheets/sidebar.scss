@@ -151,6 +151,14 @@ font-weight: 300;line-height: 1.2em;border-radius: 12px;cursor: pointer;margin-r
 .topic-status-info{margin: 0 auto;}
 }
 
+/*пункты li, ul, ol*/
+.cooked { 
+ul li {list-style-type: none;}
+ul li:before {color: #2980B9;content: "•";padding-right: 8px;font-weight: bold;}
+ol li::-moz-list-number {font-weight: bold;}
+img:not(.thumbnail) {max-width: 687px;}
+}
+
 /*footer*/
 .bottom_footer {border-top:1px solid #E0E4E7;font-size:14px;margin-top:15px;color:#888}
 .footer-copyright {float:left;}
