@@ -138,18 +138,6 @@ button.btn-primary.create:after { content: " Ответить приватно";
 font-weight: 300;line-height: 1.2em;border-radius: 12px;cursor: pointer;margin-right: 3px;}
 .discourse-tag.bullet:before {display: none;}
 
-/*пункты li, ul, ol*/
-.cooked { 
-ul li:before, .d-editor-preview ul li:before {color: #2980B9;content: "•";padding-right: 2px;font-weight: bold;}
-ul li, .d-editor-preview ul li {margin-bottom: 10px;}
-ul, .d-editor-preview ul {list-style-type: none;}
-ul li p, .d-editor-preview ul li p {display:inline;}
-ul, .d-editor-preview ul {margin: 0;padding-left: 24px;}
-p img, .lightbox-wrapper img {border: 1px solid #e9e9e9;}
-p img.emoji, .create-account .user-fields, .category .category-logo {border: none;}
-img:not(.thumbnail) {max-width: 688px;}
-}
-ol li::-moz-list-number {font-weight: bold;}
 
 /*блоги*/
 .category-blog { 
