@@ -141,7 +141,7 @@ font-weight: 300;line-height: 1.2em;border-radius: 12px;cursor: pointer;margin-r
 
 /*блоги*/
 .category-blog { 
-.container.posts, .container, .topic-category {margin: 0 auto;}
+.container.posts, .container, .topic-category, .title-wrapper {margin: 0 auto;}
 .topic-category {margin-bottom:15px;}
 .container  .title-wrapper {text-align:center;}
 .sidebar-top, #post_1 .topic-avatar, #post_1 .second.full-name, #post_1 .user-title, #post_1 .user-signature {display:none;}
