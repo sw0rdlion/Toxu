@@ -46,7 +46,7 @@ result.push( new RawHtml({ html: `<div class="soc"><noindex>
 <a target="_blank" class="facebook cvet" title="Facebook" rel="nofollow" href="https://www.facebook.com/toxu.ru"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 <a target="_blank" class="twitter cvet" title="Twitter" rel="nofollow" href="https://twitter.com/toxu_russian"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 <a target="_blank" class="vk cvet" title="ВКонтакте" rel="nofollow" href="https://vk.com/toxu_ru"><i class="fa fa-vk" aria-hidden="true"></i></a>
-<br></noindex></div> <div class="blog-container"><a class="pmenu" href="https://toxu.ru/latest?ascending=true&amp;order=posts"><i class="fa fa-question-circle-o" aria-hidden="true"></i>
+<br></noindex><br><center><a class="cvet" href="https://toxu.ru/privacy">Политика конфидициальности</a></center></div> <div class="blog-container"><a class="pmenu" href="https://toxu.ru/latest?ascending=true&amp;order=posts"><i class="fa fa-question-circle-o" aria-hidden="true"></i>
  Вопросы без ответа</a></div>`}));
 
 	}
