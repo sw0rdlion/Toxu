@@ -57,7 +57,7 @@ button {font-family: Helvetica,Arial,sans-serif;}
 /*боковые категории*/
 .sidebar {     
 .vid {color: #919191;}
-.badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg, .qa-cat, .category-other2 {display: none;}
+.badge-wrapper.bullet .badge-category-parent-bg, .qa-cat, .category-other2 {display: none;}
 a.badge-notification{float: right;}
 a.box.bar:hover, .discourse-tag.bullet:hover {color: #f56400;}
 .badge-notification {color: #919191 !important;font-size: 13px;background-color: #fff;}
@@ -103,7 +103,7 @@ a.addqa:hover {color: #fff;background: #f56400;padding: 6px 10px;font-weight: 50
 .category-toxu .cat-link.category-toxu, .category-toxu-regulations .cat-link.category-toxu, 
 .category-blog .cat-link.category-blog {.badge-wrapper.bullet span.badge-category { color: #f56400 !important;}}
 .badge-wrapper {font-weight: 300;}
-.badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg {border-radius: 10px;margin-bottom: 4px;opacity: 0.6;}
+.badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg {border-radius: 10px;opacity: 0.6;}
 .title-wrapper .badge-wrapper.bullet {margin-bottom: 3px;}
 
 /*комментарии*/
