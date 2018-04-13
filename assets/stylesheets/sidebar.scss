@@ -227,7 +227,7 @@ img.avatar:hover, .d-header #site-logo:hover {opacity: 0.8;}
 span.excerpt{background-color: #ffffca;display: inline-block;padding: 8px;font-size: 14px;}
 .groups-d { max-width: 1160px;margin-bottom: 25px;background-color: #ffffca;padding: 8px;line-height: 1.6;font-size: 16px;}
 .badge-notification.new-topic { color: #f56400;font-size: .9em;}
-
+.badge-notification.new-posts, .badge-notification.unread-posts {background-color: #f56400;}
 .main-link.clearfix .telohome .title-t a.title { 
  color: #09C;font-size: 1.08em; 
    &:visited {color: #07C;}
