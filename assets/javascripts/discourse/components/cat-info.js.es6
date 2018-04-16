@@ -4,7 +4,7 @@ export default Ember.Component.extend({
   tagName: '',
 
  @computed('src')
-  cdnSrc(src) {
+  catTxt(src) {
    
     return Discourse.getURLWithCDN(src);
 
