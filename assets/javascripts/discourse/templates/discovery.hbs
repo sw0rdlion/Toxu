@@ -13,7 +13,7 @@
   </div>
 </div>
 
-
+ {{cat-info src=category.categorization}}
 
 <div class="container list-container {{if siteSettings.sidebar_enable "has-sidebar"}}">
  
@@ -40,15 +40,7 @@
   
 </div>
 
-<div class="cat-info">
-   {{cat-info src=category.categorization}}
-</div>
 
-{{#if siteSettings.sidebar_enable}}
-  <div class="sidebar">
-    {{mount-widget widget="sidebar-items"}}
-  </div>
-{{/if}}
 
 
  <div class="sidebar-m">
