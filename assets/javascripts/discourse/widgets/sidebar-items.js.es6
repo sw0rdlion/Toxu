@@ -14,7 +14,6 @@ export default createWidget('sidebar-items', {
     const { currentUser } = this; 
   
 
-      result.push( new RawHtml({ html: `<div class="soc"><br> </div>`}));
       result.push(self.attach('sidebar-cat'));
 
       result.push( new RawHtml({ html: `<div class="soc"><noindex>
