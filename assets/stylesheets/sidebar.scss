@@ -12,7 +12,7 @@ hr.user {display: block;height: 1px;margin: 1em 0;width: 200px;border: 0;border-
 .bord {border-bottom: 2px solid #f56400;max-width: 800px;padding-top:10px;}
 .bord-2 {border-bottom: 1px solid #ddd;max-width: 600px;padding-top: 10px;}
 .bord-3 {border-bottom: 1px solid #ddd;max-width: 800px;padding-top: 10px;}
-.qa-cat{color: #919191;margin-top: -24px;margin-bottom: 12px;}
+.qa-cat{color: #919191;margin-bottom: 2px;}
 .new-str{ clear: both;}
 .prof-blog {float: left;width: 33%;}
 .prof-blog-2 {float: left;width: 19%;}
@@ -58,7 +58,7 @@ button {font-family: Helvetica,Arial,sans-serif;}
 /*боковые категории*/
 .sidebar {     
 .vid {color: #919191;}
-.badge-wrapper.bullet .badge-category-parent-bg, .qa-cat, .category-other2 {display: none;}
+.badge-wrapper.bullet .badge-category-parent-bg, .category-other2 {display: none;}
 a.badge-notification{float: right;}
 .badge-wrapper.bullet .badge-category-bg {margin-right: 10px;}
 a.box.bar:hover, .discourse-tag.bullet:hover {color: #f56400;}
