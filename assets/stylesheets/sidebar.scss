@@ -201,7 +201,7 @@ th.posts:before {display: inline-block;content: '\f27b';font-family: FontAwesome
 th.likes:before {display: inline-block;content: '\f08a';font-family: FontAwesome;}
 th.views:before {display: inline-block;content: '\f06e';font-family: FontAwesome;}
 }
-
+.topic-post.del { opacity: 0.3; .topic-body { max-width: 690px;} p { margin: 0; }}
 .activity.sortable {text-align: center;}
 h3.suggested-topics-message a, .footer-message.ember-view h3 a {background: #ffffca;padding: 5px;}
 #scroll-top{position:fixed;opacity: 0.6;bottom:80px;padding:5px;border-radius:5px;z-index:9999;right:20px;color:#888;font-size:25px;display:none;}
