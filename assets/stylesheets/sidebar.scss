@@ -265,11 +265,11 @@ body.category-toxu-regulations .timeline-container {display: inline-block;}
 
 @media screen and (min-width : 1055px) {.container.posts, #topic-title .title-wrapper {width: 790px;} .sidebar-top {max-width: 250px;top: 80px; position: fixed; right: 2%; float: right;}}
 @media screen and (max-width : 1055px) {.container.posts, #topic-title .title-wrapper {width: 790px;} .sidebar-top {max-width: 200px;top: 80px; position: fixed; right: 1%; float: right;}}
-@media screen and (max-width : 980px) {.container.posts, #topic-title .title-wrapper {width: 100%;}.sidebar-top {display: none;}}
+@media screen and (max-width : 980px) {.container.posts, #topic-title .title-wrapper {width: 100%;}.sidebar-top, .f-copyright img, .footer_social_nav {display: none;}}
 
 /*add mobile*/
 html.mobile-view {
-.sidebar, .user-signature, .category-heading, #banner-content, .f-copyright img, .footer_social_nav, .sidebar-top, #reply-control .d-editor-button-bar .quote.btn, #scroll-bottom, #scroll-top {display: none !important;}
+.sidebar, .user-signature, .category-heading, #banner-content, .sidebar-top, #reply-control .d-editor-button-bar .quote.btn, #scroll-bottom, #scroll-top {display: none !important;}
 .timeline-container {display: block;}
 .navigation-categories {th.latest, td.latest {display: none;}.category {width: 99%;}}
 .topic-post.comment .topic-avatar {padding-top: 0;}	
