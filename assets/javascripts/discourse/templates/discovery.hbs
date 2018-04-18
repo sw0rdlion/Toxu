@@ -19,10 +19,13 @@
       {{#if category.description}}
          <span class="dis-info-name">{{{dir-span category.name}}}</span>
          <span class="dis-info">{{{dir-span category.description}}} Вопросов: {{{dir-span category.topic_count}}}</span>
+<span class="dis-info-more"><a href="https://toxu.ru{{{dir-span category.topic_url}}}"><i class="fa fa-list" aria-hidden="true"></i> подробнее...</a></span>
+
       {{/if}}
     {{/if}}
  
      {{cat-info src=category.categorization}}
+     
 </div>
 
 <div class="container list-container {{if siteSettings.sidebar_enable "has-sidebar"}}">
