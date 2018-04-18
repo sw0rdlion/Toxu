@@ -17,8 +17,8 @@
     {{#if category.uploaded_logo.url}}
       {{cdn-img src=category.uploaded_logo.url class="category-logo"}}
       {{#if category.description}}
-         <span class="dis-info-name">{{{dir-span category.name}}} <sup>{{{dir-span category.topic_count}}}</sup></span>
-         <span class="dis-info">{{{dir-span category.description}}}</span>
+         <span class="dis-info-name">{{{dir-span category.name}}}</span>
+         <span class="dis-info">{{{dir-span category.description}}} Вопросов: {{{dir-span category.topic_count}}}</span>
       {{/if}}
     {{/if}}
  
