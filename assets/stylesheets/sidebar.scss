@@ -15,8 +15,8 @@ hr.user {display: block;height: 1px;margin: 1em 0;width: 200px;border: 0;border-
 .qa-cat{color: #919191;margin-bottom: 2px;}
 
 .qa-cat-info {color: #919191;margin-bottom: 12px;margin-top: 12px;font-size: 15px;clear: both;}
-.dis-info {color: #666;font-size: 13px;}
-.dis-info-name {color: #333;font-size: 15px;display: block;}
+.dis-info {color: #666;font-size: 13px;clear: both;display: block;}
+.dis-info-name {color: #333;font-size: 18px;display: block;margin-top: -5px;}
 
 .new-str{ clear: both;}
 .prof-blog {float: left;width: 33%;}
