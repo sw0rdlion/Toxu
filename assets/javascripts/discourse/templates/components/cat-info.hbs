@@ -1,21 +1,12 @@
-{{#if siteSettings.sidebar_enable}}
-<div class="sidebar">
-   
-  {{#if src}}
+{{#if src}}
 
-      <div class="cat-info">
-      {{{catTxt}}}
-      </div>
-
-  {{else}}    
-
-      {{mount-widget widget="profile-t"}}
-      {{mount-widget widget="sidebar-items"}}
-      
-  {{/if}}
-
-
-
-
+<div class="cat-info">
+{{{catTxt}}}
 </div>
-{{/if}}
+
+{{else}}    
+
+   {{mount-widget widget="profile-t"}}
+   {{mount-widget widget="sidebar-items"}}
+
+ {{/if}}
