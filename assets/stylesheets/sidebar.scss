@@ -97,22 +97,6 @@ a.addqa:hover {color: #fff;background: #f56400;padding: 6px 10px;font-weight: 50
 .werng i.fa, #banner-nul i.fa {font-size: 1.3em;color: #f56400;float: left;margin: -1px 5px 5px 0;}
 
 /*Навигация категории*/
-.category-moder .cat-link.category-moder, .category-test .cat-link.category-test,
-.category-adult .cat-link.category-adult, .category-other-dev .cat-link.category-other, 
-.category-toxu-community .cat-link.category-toxu, .category-goods .cat-link.category-goods, .category-other .cat-link.category-other, 
-.category-psychology .cat-link.category-psychology, .category-internet .cat-link.category-internet, 
-.category-occultism .cat-link.category-occultism, .category-health .cat-link.category-health, .category-dev .cat-link.category-dev,
-.category-society .cat-link.category-society, .category-education .cat-link.category-education, 
-.category-culture .cat-link.category-culture, .category-science .cat-link.category-science,
-.category-business .cat-link.category-business, .category-work .cat-link.category-work,
-.category-travel .cat-link.category-travel, .category-animals-plants .cat-link.category-animals-plants,
-.category-house .cat-link.category-house, .category-automobiles .cat-link.category-automobiles,
-.category-sport .cat-link.category-sport, .category-entertainment .cat-link.category-entertainment,
-.category-internet-sites .cat-link.category-internet, .category-internet-computers .cat-link.category-internet, 
-.category-internet-programming .cat-link.category-internet, .category-internet-discourse .cat-link.category-internet, 
-.category-science-history .cat-link.category-science, .category-occultism-christianity .cat-link.category-occultism,
-.category-toxu .cat-link.category-toxu, .category-toxu-regulations .cat-link.category-toxu, 
-.category-blog .cat-link.category-blog {.badge-wrapper.bullet span.badge-category { color: #f56400 !important;}}
 .badge-wrapper {font-weight: 300;}
 .badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg {border-radius: 10px;opacity: 0.8;}
 .title-wrapper .badge-wrapper.bullet {margin-bottom: 3px;}
@@ -269,8 +253,11 @@ body.category-toxu-regulations .timeline-container {display: inline-block;}
 
 /*add mobile*/
 html.mobile-view {
-.sidebar, .user-signature, .category-heading, #banner-content, .category-logo, .sidebar-top, #reply-control .d-editor-button-bar .quote.btn, #scroll-bottom, #scroll-top {display: none !important;}
+.sidebar, .user-signature, .category-heading, #banner-content, .category-logo, .sidebar-top, #reply-control .d-editor-button-bar .quote.btn, 
+ #scroll-bottom, #scroll-top, .category-list  .category-description {display: none !important;}
 .timeline-container {display: block;}
 .navigation-categories {th.latest, td.latest {display: none;}.category {width: 99%;}}
-.topic-post.comment .topic-avatar {padding-top: 0;}	
+.topic-post.comment .topic-avatar {padding-top: 0;}
+.list-container.has-sidebar {width: 100%;}
+
 }
