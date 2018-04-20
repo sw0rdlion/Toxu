@@ -5,8 +5,8 @@
 </div>
 
 {{else}}    
-
-   {{mount-widget widget="profile-t"}}
+   
+   {{#if currentUser.custom_fields.userbar_profile}}   {{else}}  {{mount-widget widget="profile-t"}}  {{/if}}
    {{mount-widget widget="sidebar-items"}}
 
  {{/if}}
