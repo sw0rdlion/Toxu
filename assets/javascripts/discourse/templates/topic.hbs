@@ -1,3 +1,5 @@
+<div class="container-tip">
+
 {{#discourse-topic multiSelect=multiSelect enteredAt=enteredAt topic=model hasScrolled=hasScrolled}}
   {{#if model}}
     {{add-category-class category=model.category}}
@@ -341,3 +343,4 @@
     {{quote-button quoteState=quoteState selectText=(action "selectText")}}
   {{/if}}
 {{/discourse-topic}}
+</div>
