@@ -77,32 +77,11 @@
 
 
 
-<noindex>
-<div class="sidebar-top">
+<noindex><div class="sidebar-top">
      {{#if model.suggestedTopics.length}}
-     {{suggested-topics-sug topic=model}}
+     {{suggested-topics-sug topic=model url=model.url}}
      {{/if}}
-<hr class="shar"> 
-
-<div class="share2">
-<a rel="nofollow" class="soc-link" href="http://www.facebook.com/sharer.php?u=https://toxu.ru{{unbound model.url}}" target="_blank">
-<i class="fa fa-facebook" aria-hidden="true"></i></a>
-<a rel="nofollow" class="soc-link" href="http://twitter.com/share?url=https://toxu.ru{{unbound model.url}}" target="_blank">
-<i class="fa fa-twitter" aria-hidden="true"></i></a>
-<a rel="nofollow" class="soc-link" href="http://www.odnoklassniki.ru/dk?st.cmd=addShare&st.s=1&st._surl=https://toxu.ru{{unbound model.url}}" target="_blank">
-<i class="fa fa-odnoklassniki" aria-hidden="true"></i></a>
-<a rel="nofollow" class="soc-link" href="https://vk.com/share.php?url=https://toxu.ru{{unbound model.url}}" target="_blank">
-<i class="fa fa-vk" aria-hidden="true"></i></a>
-</div>
-<div>
-<a class="cvet" href="https://toxu.ru{{unbound model.url}}" id="scroll-top" style="display: inline;"><i class="fa fa-arrow-up"></i></a>
-<a class="cvet" href="https://toxu.ru{{unbound model.url}}/500" id="scroll-bottom" style="display: inline;"><i class="fa fa-arrow-down"></i></a>
-</div>
-
-
 </div></noindex>
-
-{{mount-widget widget="sidebar-sug"}}
 
     <div class="container posts">
       <div class='selected-posts {{unless multiSelect 'hidden'}}'>
@@ -111,22 +90,6 @@
 
       {{#topic-navigation topic=model jumpToIndex=(action "jumpToIndex") as |info|}}
         {{#if info.renderTimeline}}
-          {{#if info.renderAdminMenuButton}}
-            {{topic-admin-menu-button
-              topic=model
-              fixed="true"
-              toggleMultiSelect=(action "toggleMultiSelect")
-              deleteTopic=(action "deleteTopic")
-              recoverTopic=(action "recoverTopic")
-              toggleClosed=(action "toggleClosed")
-              toggleArchived=(action "toggleArchived")
-              toggleVisibility=(action "toggleVisibility")
-              showTopicStatusUpdate=(action "topicRouteAction" "showTopicStatusUpdate")
-              showFeatureTopic=(action "topicRouteAction" "showFeatureTopic")
-              showChangeTimestamp=(action "topicRouteAction" "showChangeTimestamp")
-              convertToPublicTopic=(action "convertToPublicTopic")
-              convertToPrivateMessage=(action "convertToPrivateMessage")}}
-          {{/if}}
 
           {{topic-timeline
             topic=model
@@ -152,6 +115,34 @@
             showChangeTimestamp=(action "topicRouteAction" "showChangeTimestamp")
             convertToPublicTopic=(action "convertToPublicTopic")
             convertToPrivateMessage=(action "convertToPrivateMessage")}}
+            
+            
+            {{#topic-progress
+            prevEvent=info.prevEvent
+            topic=model
+            expanded=info.topicProgressExpanded
+            jumpToPost=(action "jumpToPost")}}
+            {{#if info.renderAdminMenuButton}}
+              {{topic-admin-menu-button
+                topic=model
+                openUpwards="true"
+                rightSide="true"
+                toggleMultiSelect=(action "toggleMultiSelect")
+                deleteTopic=(action "deleteTopic")
+                recoverTopic=(action "recoverTopic")
+                toggleClosed=(action "toggleClosed")
+                toggleArchived=(action "toggleArchived")
+                toggleVisibility=(action "toggleVisibility")
+                showTopicStatusUpdate=(action "topicRouteAction" "showTopicStatusUpdate")
+                showFeatureTopic=(action "topicRouteAction" "showFeatureTopic")
+                showChangeTimestamp=(action "topicRouteAction" "showChangeTimestamp")
+                convertToPublicTopic=(action "convertToPublicTopic")
+                convertToPrivateMessage=(action "convertToPrivateMessage")}}
+            {{/if}}
+          {{/topic-progress}}
+            
+            
+            
         {{else}}
           {{#topic-progress
             prevEvent=info.prevEvent
