@@ -45,7 +45,7 @@ hr.user {display: block;height: 1px;margin: 1em 0;width: 200px;border: 0;border-
 .container-bar {width: 30%;float: right;}
 .sidebar-top {margin-left: 66px;}
 .list-container.has-sidebar {width: 74%;float:  right;}
-.sidebar-top {max-width: 300px;top: 80px; position: fixed;}
+.sidebar-top {max-width: 300px;top: 181px; position: fixed;}
 h1, h2, h3, h4, h5, h6 {font-weight: 300;}
 .timeline-container {display: none;}
 .blog-container {display: none;position: fixed;width: 13%; top: 80px;float: left;background-color: #fff;border: 1px solid #e8e8e8;padding: 15px;}
@@ -211,7 +211,17 @@ h3.suggested-topics-message a, .footer-message.ember-view h3 a {background: #fff
 .cooked ol li::-moz-list-number {font-weight: bold;}
 .category-heading .category-logo {width: 31px;}
 .category-heading p {font-size: 1.24em;color: #39739d;background-color: #eff5fa;border-color: transparent;padding: .2em .3em;}
-h3.sidebar-sug {font-weight: 500;color:#919191;padding-bottom: 5px;font-size: 15px;margin-top: 20px;}
+
+h3.sidebar-sug {color: #333;
+font-weight: 500;
+position: relative;
+border-bottom: 1px solid #e2e2e2;
+margin-bottom: 16px;
+padding-bottom: 8px;
+font-size: 15px;
+letter-spacing: 0;
+text-transform: none;}
+
 .post-links-container ul li a[href] {color: #07C;}
 .post-links-container ul li a[href]:hover {color: #f56400;}
 post-menu-area {margin-bottom: 1px;margin-top:2px;}
