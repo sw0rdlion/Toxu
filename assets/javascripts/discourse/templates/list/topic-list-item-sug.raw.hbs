@@ -1,14 +1,8 @@
-<div class='sug-topic'>
+{{topic-link topic class="raw-link raw-topic-link"}}
 
-<div class='link-top-line'>
-    {{raw-plugin-outlet name="topic-list-before-status"}}
-    {{raw "topic-status" topic=topic}}
-    {{topic-link topic class="raw-link raw-topic-link"}}
-    {{raw-plugin-outlet name="topic-list-after-title"}}
-    
-    
+{{raw-plugin-outlet name="topic-list-before-status"}}
+{{raw-plugin-outlet name="topic-list-after-title"}}
+
     {{#if showTopicPostBadges}}
       {{raw "topic-post-badges" unread=topic.unread newPosts=topic.displayNewPosts unseen=topic.unseen url=topic.lastUnreadUrl}}
     {{/if}}
-  </div>
-</div>
