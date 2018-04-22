@@ -1,4 +1,5 @@
 <div class="container-tip">
+<div class="container-telo">
 
 {{#discourse-topic multiSelect=multiSelect enteredAt=enteredAt topic=model hasScrolled=hasScrolled}}
   {{#if model}}
@@ -74,16 +75,6 @@
       {{/topic-title}}
     {{/if}}
 
-
-
-
-<noindex><div class="sidebar-top">
-     {{#if model.suggestedTopics.length}}
-     {{suggested-topics-sug topic=model url=model.url}}
-     {{else}}
-     {{suggested-topics-sug topic=model url=model.url}}
-     {{/if}}
-</div></noindex>
 
     <div class="container posts">
       <div class='selected-posts {{unless multiSelect 'hidden'}}'>
@@ -336,4 +327,16 @@
     {{quote-button quoteState=quoteState selectText=(action "selectText")}}
   {{/if}}
 {{/discourse-topic}}
+</div>  
+<div class="container-bar">
+ 
+<noindex><div class="sidebar-top">
+     {{#if model.suggestedTopics.length}}
+     {{suggested-topics-sug topic=model url=model.url}}
+     {{else}}
+     {{suggested-topics-sug topic=model url=model.url}}
+     {{/if}}
+</div></noindex>
+  
+  </div>
 </div>
