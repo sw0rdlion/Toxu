@@ -41,13 +41,21 @@ hr.user {display: block;height: 1px;margin: 1em 0;width: 200px;border: 0;border-
 .sidebar-m {display: none;}
 .sidebar {width: 21%;float: left;padding: 12px 15px 12px 15px;}
 .cat-info {font-size: 13px;color: #666;}
-
+.container-telo {width: 70%;float: left;}
+.container-bar {width: 30%;float: right;}
+.sidebar-top {margin-left: 66px;}
 .list-container.has-sidebar {width: 74%;float:  right;}
-.sidebar-top {max-width: 250px;top: 80px; position: fixed; right: 2%; float: right;}
+.sidebar-top {max-width: 300px;top: 80px; position: fixed;}
 h1, h2, h3, h4, h5, h6 {font-weight: 300;}
 .timeline-container {display: none;}
 .blog-container {display: none;position: fixed;width: 13%; top: 80px;float: left;background-color: #fff;border: 1px solid #e8e8e8;padding: 15px;}
 a:hover {color: #f56400;}
+
+
+@media screen and (max-width : 1055px) {
+.container-telo {width: 100%;}
+.container-bar {display: none;}
+}
 
 /*верхнее меню*/
 .nav-pills>li.active>a, .nav-pills>li>a.active {color: #999;font-weight: 500;background-color: #fff;border-bottom: 2px solid #f56400;}
@@ -246,10 +254,6 @@ body.category-toxu-regulations .category-heading, .custom-cat-header-toxu-regula
 body.category-toxu-regulations .sidebar-top{display: none;}
 body.category-toxu-regulations .timeline-container {display: inline-block;}
 .category-toxu-regulations .avahome {display: inline-block !important;margin-top: 1px;}
-
-@media screen and (min-width : 1055px) {.container.posts, #topic-title .title-wrapper {width: 790px;} .sidebar-top {max-width: 250px;top: 80px; position: fixed; right: 2%; float: right;}}
-@media screen and (max-width : 1055px) {.container.posts, #topic-title .title-wrapper {width: 790px;} .sidebar-top {max-width: 200px;top: 80px; position: fixed; right: 1%; float: right;}}
-@media screen and (max-width : 980px) {.container.posts, #topic-title .title-wrapper {width: 100%;}.sidebar-top, .f-copyright img, .footer_social_nav {display: none;}}
 
 /*add mobile*/
 html.mobile-view {
