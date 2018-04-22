@@ -98,7 +98,7 @@ a.addqa:hover {color: #fff;background: #f56400;padding: 6px 10px;font-weight: 50
 @media screen and (max-width : 1020px) {.list-container.has-sidebar {width: 100%;}.sidebar {display:none;}}
 
 /*детали в колонках*/
-.topic-list-item-sug {border-left: 1px solid #e7edf3;margin-bottom: 15px;}
+.topic-list-item-sug {margin-bottom: 15px;}
 .user-profile.widget-container {color: #919191;}
 .werng, #banner-nul {padding: 10px 10px 10px 10px;border: solid 1px #ddd;border-radius: 3px;margin-bottom: 15px;margin-top: 7px;
                      font-size: 0.9em;max-width: 450px;background-color: #fff;}
@@ -211,7 +211,6 @@ h3.suggested-topics-message a, .footer-message.ember-view h3 a {background: #fff
 .cooked ol li::-moz-list-number {font-weight: bold;}
 .category-heading .category-logo {width: 31px;}
 .category-heading p {font-size: 1.24em;color: #39739d;background-color: #eff5fa;border-color: transparent;padding: .2em .3em;}
-.sug-topic {margin-left: 8px;}
 h3.sidebar-sug {font-weight: 500;color:#919191;padding-bottom: 5px;font-size: 15px;margin-top: 20px;}
 .post-links-container ul li a[href] {color: #07C;}
 .post-links-container ul li a[href]:hover {color: #f56400;}
