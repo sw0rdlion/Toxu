@@ -51,11 +51,14 @@ h1, h2, h3, h4, h5, h6 {font-weight: 300;}
 .blog-container {display: none;position: fixed;width: 13%; top: 80px;float: left;background-color: #fff;border: 1px solid #e8e8e8;padding: 15px;}
 a:hover {color: #f56400;}
 
-
+@media screen and (max-width : 1150px) {
+.topic-body {width: 660px;}
+}
 @media screen and (max-width : 1055px) {
 .container-telo {width: 100%;}
 .container-bar {display: none;}
 }
+
 
 /*верхнее меню*/
 .nav-pills>li.active>a, .nav-pills>li>a.active {color: #999;font-weight: 500;background-color: #fff;border-bottom: 2px solid #f56400;}
