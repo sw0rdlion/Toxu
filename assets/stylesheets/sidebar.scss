@@ -270,11 +270,11 @@ body.category-toxu-regulations .timeline-container {display: inline-block;}
 /*add mobile*/
 html.mobile-view {
 .sidebar, .user-signature, .category-heading, #banner-content, .category-logo, .sidebar-top, #reply-control .d-editor-button-bar .quote.btn, 
- #scroll-bottom, #scroll-top, .category-list  .category-description {display: none !important;}
+ #scroll-bottom, #scroll-top, .category-list  .category-description, .container-bar {display: none !important;}
 .timeline-container {display: block;}
 .navigation-categories {th.latest, td.latest {display: none;}.category {width: 99%;}}
 .topic-post.comment .topic-avatar {padding-top: 0;}
-.list-container.has-sidebar {width: 100%;}
+.list-container.has-sidebar, .container-telo {width: 100%;}
 .prof-num {font-size: 2em;}
 .prof-txt {font-size: 1em;}
 }
