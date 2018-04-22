@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {font-weight: 300;}
 a:hover {color: #f56400;}
 
 @media screen and (max-width : 1150px) {
-.topic-body {width: 660px;}
+.topic-body {max-width: 650px;}
 }
 @media screen and (max-width : 1055px) {
 .container-telo {width: 100%;}
