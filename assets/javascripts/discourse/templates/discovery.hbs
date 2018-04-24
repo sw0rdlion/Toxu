@@ -13,7 +13,7 @@
   </div>
 </div>
 
-<div class="sidebar">
+<div class="sidebar {{#if currentUser.custom_fields.userbar_cat}}{{else}} 1111{{/if}}"> 
     {{#if category.uploaded_logo.url}}
       {{cdn-img src=category.uploaded_logo.url class="category-logo"}}
       {{#if category.description}}
@@ -28,7 +28,7 @@
      
 </div>
 
-<div class="container list-container {{if siteSettings.sidebar_enable "has-sidebar"}}">
+<div class="container {{#if currentUser.custom_fields.userbar_cat}}{{else}} 1111{{/if}} list-container {{if siteSettings.sidebar_enable "has-sidebar"}}">
  
  <div class="row">
     <div class="full-width">
@@ -56,7 +56,7 @@
 
 
 
- <div class="sidebar-m">
+ <div class="sidebar-m {{#if currentUser.custom_fields.userbar_cat}}{{else}} 1111{{/if}}">
  {{mount-widget widget="sub-menu"}}
  </div>
 
