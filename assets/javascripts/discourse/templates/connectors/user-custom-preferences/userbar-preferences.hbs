@@ -1,14 +1,4 @@
 {{#if siteSettings.userbar_enabled}}
-  <!--div class="control-group signatures">
-    <label class="control-label">Enable Signatures</label>
-    <div class="controls">
-      <label class='checkbox-label'>
-        {{input type="checkbox" checked=model.custom_fields.userbar_cat}}
-          See user signatures below posts
-      </label>
-    </div>
-  </div-->
-
 
   <div class="control-group signatures">
     <label class="control-label">Юзербар</label>
@@ -21,4 +11,16 @@
       </label>
     </div>
   </div>
+  
+ <div class="control-group signatures">
+    <label class="control-label">Расположение колонки</label>
+   <div class="controls">
+      <label class='checkbox-label'>
+        {{input type="checkbox" checked=model.custom_fields.userbar_cat}}
+          Разположить её в правой части экрана.
+      </label>
+    </div>
+  </div>
+  
+  
 {{/if}}
