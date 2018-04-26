@@ -17,7 +17,7 @@ export default createWidget('sidebar-items', {
       result.push(self.attach('sidebar-cat'));
 
       result.push( new RawHtml({ html: `<div><div class="soc"><noindex>
-      <br><br><a rel="nofollow"  href="https://toxu.ru/tags" class="discourse-tag box bar">Теги</a> <span class="vid">- по темам</span>
+      <br><a rel="nofollow"  href="https://toxu.ru/tags" class="discourse-tag box bar">Теги</a> <span class="vid">- по темам</span>
       <br><br>
       <a target="_blank" class="livejournal cvet" title="Livejournal" rel="nofollow" href="https://toxu.livejournal.com"><i class="fa fa-pencil" aria-hidden="true"></i></a>
       <a target="_blank" class="facebook cvet" title="Facebook" rel="nofollow" href="https://www.facebook.com/toxu.ru"><i class="fa fa-facebook" aria-hidden="true"></i></a>
