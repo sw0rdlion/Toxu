@@ -151,7 +151,8 @@ button.btn-primary.create:after { content: " Ответить приватно";
 .discourse-tag.bullet {color: #919191 !important;position: relative;font-size: 13px;padding: 4px 8px;background: #f4f4fa;
 font-weight: 300;line-height: 1.2em;border-radius: 12px;cursor: pointer;margin-right: 3px;}
 .discourse-tag.bullet:before {display: none;}
-
+.tag.sbar{background-color:#88c676;color: #fff;padding: 2px 8px;border-radius: 12px;}
+.tag.sbar:hover{background-color: #74cf59;}
 
 /*блоги*/
 .category-blog { 
