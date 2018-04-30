@@ -36,19 +36,59 @@ a.ser{color: #666;margin-bottom: 2px;}
 @media screen and (max-width : 1100px) {#banner-content h1{font-size: 30px;}#banner-content p {font-size:14px;}} 
 
 /*логин и регистрация фон*/
-.login-modal.modal-body {display: flex;align-items: center;}
-.create-account table td.label {width: 142px;}
-.login-modal #login-buttons {width: 50%;  text-align: center;  border-right: 1px solid #eee;}
-.discourse-no-touch #login-form { margin: 0 auto;}
-.login-modal.in:before, .create-account.in:before {
-  content: "";
-  height: 100vh;
-  width: 100vw;
-  background: url(https://toxu.ru/uploads/default/original/2X/1/170b51aad7bbc5daffe301cff9f57d93516a3faa.jpg);
-  position: fixed;
-  z-index: -1;
+#discourse-modal {
+  &.login-modal,
+  &.create-account {
+    &:not(.hidden):before {
+      content: "";
+      height: 100vh;
+      width: 100vw;
+      // change background here
+      background: url(https://toxu.ru/uploads/default/original/2X/1/170b51aad7bbc5daffe301cff9f57d93516a3faa.jpg);
+      position: fixed;
+      z-index: -2;
+    }
+
+    &:not(.hidden):after {
+      content: "";
+      height: 100vh;
+      width: 100vw;
+      // control overlay here
+      background: rgba(black, 0.5);
+      position: fixed;
+      top: 0;
+      z-index: -1;
+    }
+
+    .modal-body {
+      display: flex;
+      align-items: center;
+    }
+  }
 }
-#credentials tr {display: flex;flex-direction: column;}
+
+#login-buttons {
+  width: 50%;
+  text-align: center;
+  border-right: 1px solid #eee;
+}
+
+.discourse-no-touch #login-form {
+  margin: 0 auto;
+}
+
+#credentials,
+.create-account form {
+  tr {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.create-account #login-buttons + div {
+  margin: 0 auto;
+}
+
 
 /*колонки*/
 .sidebar-m {display: none;}
