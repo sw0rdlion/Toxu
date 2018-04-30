@@ -35,6 +35,21 @@ a.ser{color: #666;margin-bottom: 2px;}
 #banner-content a.kn:hover {background: rgba(0,0,0,0);border: solid 1px #f56400;color: #f56400;}
 @media screen and (max-width : 1100px) {#banner-content h1{font-size: 30px;}#banner-content p {font-size:14px;}} 
 
+/*логин и регистрация фон*/
+.login-modal.modal-body {display: flex;align-items: center;}
+.create-account table td.label {width: 142px;}
+.login-modal #login-buttons {width: 50%;  text-align: center;  border-right: 1px solid #eee;}
+.discourse-no-touch #login-form { margin: 0 auto;}
+.login-modal.in:before, .create-account.in:before {
+  content: "";
+  height: 100vh;
+  width: 100vw;
+  background: url(https://toxu.ru/uploads/default/original/2X/1/170b51aad7bbc5daffe301cff9f57d93516a3faa.jpg);
+  position: fixed;
+  z-index: -1;
+}
+#credentials tr {display: flex;flex-direction: column;}
+
 /*колонки*/
 .sidebar-m {display: none;}
 .sidebar {width: 21%;float: left;padding: 12px 15px 12px 15px;}
