@@ -7,12 +7,6 @@
 
 <div class="blog-list">
 
-<div class="list-controls">
-  <div class="container">
-    {{outlet "navigation-bar"}}
-  </div>
-</div>
-
 <div class="sidebar {{if currentUser.custom_fields.userbar_cat "test"}}"> 
     {{#if category.uploaded_logo.url}}
       {{cdn-img src=category.uploaded_logo.url class="category-logo"}}
@@ -29,6 +23,13 @@
 </div>
 
 <div class="container list-container {{if siteSettings.sidebar_enable "has-sidebar"}} {{if currentUser.custom_fields.userbar_cat "test"}}">
+ 
+<div class="list-controls">
+  <div class="container">
+    {{outlet "navigation-bar"}}
+  </div>
+</div> 
+ 
  
  <div class="row">
     <div class="full-width">
