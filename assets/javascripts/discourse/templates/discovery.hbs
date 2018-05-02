@@ -11,7 +11,7 @@
 
 {{mount-widget widget="add-t"}}
 
-
+<div class="sidebar-fon"> 
     {{#if category.uploaded_logo.url}}
       {{cdn-img src=category.uploaded_logo.url class="category-logo"}}
       {{#if category.description}}
@@ -23,7 +23,7 @@
     {{/if}}
  
      {{cat-info src=category.categorization}}
-     
+</div>     
 </div>
 
 <div class="container list-container {{if siteSettings.sidebar_enable "has-sidebar"}} {{if currentUser.custom_fields.userbar_cat "test"}}">
