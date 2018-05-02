@@ -6,6 +6,10 @@
 
 {{else}}    
    
+<center><button id="create-topic" class="btn btn-default btn btn-icon-text ember-view">  <i class="fa fa-plus d-icon d-icon-plus"></i>
+<span class="d-button-label">Задать вопрос</span></button></center>
+   
+   
    {{#if currentUser.custom_fields.userbar_profile}}   {{else}}  {{mount-widget widget="profile-t"}}  {{/if}}
    {{mount-widget widget="sidebar-items"}}
 
