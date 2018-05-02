@@ -144,11 +144,20 @@ a.box.bar:hover, .discourse-tag.bullet:hover {color: #f56400;}
 .cat-link .topics-count {float: right;font-weight: normal;font-size: 12px;color: #888;margin-top: 6px;}
 .cat-link.category-blog {margin-bottom: 15px;}
 a.info{font-size: 17px;font-weight: 600;}
+	
+#create-topic {background: #e7672e;color: #fff;margin-bottom: 20px;width: 90%;}
+#create-topic:hover {background: #f56400;color:#fff;}	
+	
 }
 
 .nav-pills > li > a {color: #667d99;}
 
-@media screen and (max-width : 1020px) {.list-container.has-sidebar {width: 100%;}.sidebar {display:none;}}
+@media screen and (max-width : 1020px) {
+	.list-container.has-sidebar {width: 100%;}
+	.sidebar {display:none;} 
+	#create-topic {display: inline-block;} 
+
+}
 
 /*детали в колонках*/
 .topic-list-item-sug {margin-bottom: 15px;}
