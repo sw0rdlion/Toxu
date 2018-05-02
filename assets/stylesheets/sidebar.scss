@@ -93,7 +93,8 @@ a.ser{color: #666;margin-bottom: 2px;}
 
 /*колонки*/
 .sidebar-m {display: none;}
-.sidebar {width: 21%;float: left;padding: 12px 15px 12px 15px;}
+.sidebar {width: 23%;float: left;}
+.sidebar-fon {padding: 12px 15px 12px 15px;}
 .cat-info {font-size: 13px;color: #666;}
 .container-telo {width: 70%;float: left;}
 .container-bar {width: 30%;float: right;}
@@ -131,7 +132,8 @@ a:hover {color: #f56400;}
 
 
 /*боковые категории*/
-.sidebar {     
+.sidebar {    
+.add-t {margin-top: 6px;}
 .vid {color: #919191;}
 .badge-wrapper.bullet .badge-category-parent-bg, .category-other2 {display: none;}
 a.badge-notification{float: right;}
