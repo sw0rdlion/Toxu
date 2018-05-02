@@ -8,6 +8,10 @@
 <div class="blog-list">
 
 <div class="sidebar {{if currentUser.custom_fields.userbar_cat "test"}}"> 
+
+{{mount-widget widget="add-t"}}
+
+
     {{#if category.uploaded_logo.url}}
       {{cdn-img src=category.uploaded_logo.url class="category-logo"}}
       {{#if category.description}}
