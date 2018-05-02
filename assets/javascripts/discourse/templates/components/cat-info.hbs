@@ -1,40 +1,11 @@
 {{#if src}}
 
-{{#if Discourse.User.current}} 
-   
-<center><button id="create-topic" class="btn btn-default btn btn-icon-text ember-view">  
-<span class="d-button-label">Задать вопрос</span></button></center>
-   
-{{else}}  
-   
-<div class="add-qa"><a id="create-topic" href="https://toxu.ru/login" class="addqa" title="Задать вопрос"> 
-<span class="d-button-label">Задать вопрос</span></a></div>
-</div>
-   
-{{/if}}
-
-
 <div class="cat-info">
 {{{catTxt}}}
 </div>
 
 {{else}}    
-   
-{{#if Discourse.User.current}} 
-   
-<center><button id="create-topic" class="btn btn-default btn btn-icon-text ember-view">  
-<span class="d-button-label">Задать вопрос</span></button></center>
-   
-{{else}}  
-   
-<div class="add-qa"><a id="create-topic" href="https://toxu.ru/login" class="addqa" title="Задать вопрос"> 
-<span class="d-button-label">Задать вопрос</span></a></div>
-</div>
-   
-{{/if}}
-   
-   
-   {{#if currentUser.custom_fields.userbar_profile}}   {{else}}   {{/if}}
-   {{mount-widget widget="sidebar-items"}}
 
- {{/if}}
+{{mount-widget widget="sidebar-items"}}
+
+{{/if}}
