@@ -155,7 +155,7 @@ a.info{font-size: 17px;font-weight: 600;}
 @media screen and (max-width : 1020px) {
 	.list-container.has-sidebar {width: 100%;}
 	.sidebar {display:none;} 
-	#create-topic {display: inline-block;} 
+	#create-topic {display: inline-block !important;} 
 
 }
 
