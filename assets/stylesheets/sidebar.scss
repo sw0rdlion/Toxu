@@ -263,7 +263,7 @@ body[class*="navigation-categories"] #main-outlet .container.list-container.has-
 
 
 /*мелкие детали*/
-img.emoji.emoji-custom {width: auto;height: 100%;vertical-align: middle;}
+html:not(.mobile-view) img.emoji.emoji-custom {width: auto;height: 100%;vertical-align: middle;}
 .sidebar-fon, .btn, .sidebar-m, .sidebar #create-topic {border-radius: 4px;}
 .topic-list {
 th.activity:before {display: inline-block;content: '\f017';font-family: FontAwesome;}
