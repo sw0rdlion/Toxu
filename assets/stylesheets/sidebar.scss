@@ -189,9 +189,11 @@ nav.post-controls button {font-size: 1em;}
 }
 
 /*ПМ и комм*/
-.topic-post.post-hidden .names span.full-name, nav.post-controls button.reply.create span.d-button-label  {display: none;}
+.post-hidden {
+.topic-avatar, .like-button {display: none !important;}
+.topic-body .regular, p {margin: 0;}
+}
 .user-messages-page .no-no, .archetype-private_message .no-no {display: none;}
-.topic-post.post-hidden nav.post-controls button.reply.create:after {   content: "";}
 nav.post-controls button.reply.create:after {   content: "комм";}
 .topic-post.comment nav.post-controls button.reply.create:after {   content: "комм";}
 .topic-post nav.post-controls .create i.fa-reply {display: none;}
