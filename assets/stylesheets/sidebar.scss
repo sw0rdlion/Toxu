@@ -37,7 +37,6 @@ a.ser{color: #666;margin-bottom: 2px;}
 
 /*логин и регистрация фон*/
 html:not(.mobile-view) {
-img.emoji.emoji-custom {width: auto;height: 100%;vertical-align: middle;}
 .create-account table td.label {    width: 142px;}
 #discourse-modal {
   &.login-modal,
@@ -267,6 +266,7 @@ body[class*="navigation-categories"] #main-outlet .container.list-container.has-
 
 
 /*мелкие детали*/
+img.emoji.emoji-custom {width: auto;height: 100%;vertical-align: middle;}
 .sidebar-fon, .btn, .sidebar-m, .sidebar #create-topic {border-radius: 4px;}
 .topic-list {
 th.activity:before {display: inline-block;content: '\f017';font-family: FontAwesome;}
