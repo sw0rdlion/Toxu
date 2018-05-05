@@ -23,6 +23,16 @@ a.ser{color: #666;margin-bottom: 2px;}
 .prof-num-u {color: #f56400; text-align: center; font-size: 3em;font-family: Georgia,Arial,sans-serif;}
 .prof-txt {text-align:center;font-size:1.4em;color:#666;font-family: Georgia,Arial,sans-serif;font-weight: 300;}
 
+
+.d-editor-textarea-wrapper-info  {
+    display: block;
+    flex-direction: column;
+    background-color: #fff;
+    position: relative;
+    border: 1px solid #919191;
+    margin: 3px;
+}
+
 /* баннер */
 #banner-content {
     background: url(https://toxu.ru/uploads/default/original/2X/4/40a369bb0fbe0b72d259b0dbb0ffcc525c283ad7.jpg);
