@@ -190,7 +190,7 @@ nav.post-controls button {font-size: 1em;}
 }
 
 /*ПМ и комм*/
-.post-hidden {
+.post-hidden, .del {
 .topic-avatar, .like-button {display: none !important;}
 .topic-body .regular, p {margin: 0;}
 }
