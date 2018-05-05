@@ -190,14 +190,17 @@ a.info{font-size: 17px;font-weight: 600;}
 /*комментарии*/
 .topic-post.comment { 
 margin-left: 53px;	
-img.avatar { width: 20px; height: 20px;}
+.names span.first {    font-weight: normal;}
+.topic-body .reply-to-tab {    float: left;    margin: 0;}
+.topic-meta-data .post-info {    float: left;    margin-right: 10px;}
+img.avatar { width: 16px; height: 16px;}
 .cooked img:not(.thumbnail) {max-width: 660px !important;}
 .cooked  p {margin-bottom: 0px;}
 a.reply-to-tab img.avatar, .user-signature, .names span.full-name, .avatar-flair, button.share, .bookmarked, .unaccepted, .bookmark,  .names .user-title, .topic-post.comment .names span.full-name {display: none;}
 .topic-avatar { padding-top: 10px;}
 .topic-avatar { width: 20px;}
-.topic-body .regular {margin-top: 1px;margin-left: -23px;}
-.topic-body .contents .cooked {border-left: 3px solid #dae8f2;padding-left: 20px;font-size: 1.04em;font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;}
+.topic-body .regular {margin-top: 1px;margin-left: -30px;}
+.topic-body .contents .cooked {font-size: 1em;}
 .topic-body { max-width: 647px;font-size: 0.93em;}
 nav.post-controls button {font-size: 1em;}	
 }
