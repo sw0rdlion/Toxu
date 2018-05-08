@@ -248,7 +248,16 @@ font-weight: 300;line-height: 1.2em;border-radius: 12px;cursor: pointer;margin-r
 .container-telo {width: 100%;}
 }
 
+.cat-pods {
+    padding: 15px 15px 10px;
+    background-color: #FFF8DC;
+    border: 1px solid #E0DCBF;
+    margin-bottom: 20px;
+    color:#666;
+    .badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg {display: none;}
+    .badge-wrapper.bullet span.badge-category {color:#07c;font-size:14px;}
 
+}
 
 /*footer*/
 .bottom_footer {border-top:1px solid #E0E4E7;font-size:14px;margin-top:15px;color:#888}
