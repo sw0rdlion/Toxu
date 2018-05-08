@@ -274,11 +274,12 @@ body[class*="navigation-categories"] #main-outlet .container.list-container.has-
 .colon.post{width: 27%;float: right;margin-left: 30px;}
 .navigation-categories.categories-list .sidebar, .navigation-categories.categories-list .add-qa {display: none;}
 .cat-private {background-color: #eff5fa;color: #667d99;padding: 1px 0 1px 10px;margin-bottom: 5px;}
+
 .cat-cat { width: 100%;
 .category-logo {margin-top: 3px;margin-bottom: 0;border-radius: 50%;width: 46px;height:46px;}
 .avacat a {font-size: 13px;color: #777;text-decoration: underline;}
 .telohome {float: left;width: 90%;margin-left: 15px;}
-.topic-cat {display: inline-block;}
+.topic-cat {display: inline-block;margin-bottom: 20px}
 .stats {font-size: 20px;text-align: center;line-height: 22px;margin-bottom: 20px;}
 .stats small {text-transform: uppercase;color: #777;font-weight: 300;font-size: 12px;}
 .has-description {float: left;width: 70%;}
