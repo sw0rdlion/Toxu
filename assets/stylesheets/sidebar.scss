@@ -358,9 +358,10 @@ a.facebook, a.vk, a.twitter, a.discord, a.telegram, a.livejournal, a.ok {color: 
 	margin-right: -9999px!important;padding-right: 9999px!important;text-align: center;margin-top: -18px;}
 .custom-cat-header p {color: #fff; font-size:17px;padding-bottom: 10px;}
 .custom-cat-header h1 {display: inline-block;margin-top: 20px;color: #fff;border-radius: 5px;width: inherit;}
-body.category-toxu-regulations {
-overflow-x: hidden;
-.custom-cat-header-toxu-regulations {display: block !important;background-color: #f56400;}
+
+body.category-toxu-regulations { overflow-x: hidden;
+.custom-cat-header-toxu-regulations {display: block !important;	}
+.custom-cat-header-toxu-regulations {background-color: #f56400;}
 .category-heading, .sidebar-top{display: none;}
 .timeline-container {display: inline-block;}
 .avahome {display: inline-block !important;margin-top: 1px;}
