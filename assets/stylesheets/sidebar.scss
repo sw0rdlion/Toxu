@@ -248,15 +248,16 @@ font-weight: 300;line-height: 1.2em;border-radius: 12px;cursor: pointer;margin-r
 .container-telo {width: 100%;}
 }
 .sidebar-top .ser.cvet{text-decoration: underline;}
-.cat-pods { font-size: 13px;
+.cat-pods { 
     padding: 15px 13px 10px;
     background-color: #FFF8DC;
     border: 1px solid #E0DCBF;
     margin-bottom: 20px;
-    color:#666; .badge-wrapper, .badge-wrapper .badge-category {white-space: normal;}
-    .badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg {display: none;}
-    .badge-wrapper.bullet span.badge-category {color:#07c;font-size:14px;}
-    .badge-wrapper.bullet span.badge-category:hover {color:#f56400;}
+    color:#666; 
+   .badge-wrapper, .badge-wrapper .badge-category {white-space: normal;}
+   .badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg {display: block;margin-top: 15px;}
+   .badge-wrapper.bullet span.badge-category {color:#07c;font-size:14px;}
+   .badge-wrapper.bullet span.badge-category:hover {color:#f56400;}
 }
 
 /*footer*/
