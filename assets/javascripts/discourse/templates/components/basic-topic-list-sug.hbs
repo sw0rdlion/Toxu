@@ -35,13 +35,12 @@
 
 
   {{else}}
-    {{#unless loadingMore}}
-  <div class='cat-pods'>
+
+<div class='cat-pods'>
  В этом вопросе более 30 ответов. Вы можете продолжить чтение, или перейдите к последнему ответу. 
-  </div>
+</div>
 
 <center>  <a class="cvet" href="https://toxu.ru{{unbound url}}/500" id="scroll-bottom" style="display: inline;"><i class="fa fa-arrow-down"></i></a></center>
 
-    {{/unless}}
-  {{/if}}
+{{/if}}
 {{/conditional-loading-spinner}}
