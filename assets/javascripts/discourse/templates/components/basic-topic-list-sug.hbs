@@ -1,7 +1,10 @@
-{{#conditional-loading-spinner condition=loading}}
-{{#if topics}} 
-
 <h3 class="sidebar-sug">Рекомендованные</h3>
+{{#if topics}} {{else}} 
+{{#unless loadingMore}}
+<center><small style="color:#888">формируется список...<br><br></small></center>
+{{/unless}}
+{{/if}}
+
 {{topic-list-sug showParticipants=showParticipants
                  showPosters=showPosters
                  hideCategory=hideCategory
@@ -27,10 +30,9 @@
 <a class="cvet" href="https://toxu.ru{{unbound url}}" id="scroll-top" style="display: inline;"><i class="fa fa-arrow-up"></i></a>
 </div>
 
-{{else}}
+{{#if topics}} {{else}}
 {{#unless loadingMore}}
-<center><a class="cvet" href="https://toxu.ru{{unbound url}}/500" id="scroll-bottom" style="display: inline;"><small>к последнему ответу</small><br>
+<br><center><a class="cvet" href="https://toxu.ru{{unbound url}}/500" id="scroll-bottom" style="display: inline;"><small>к последнему ответу</small><br>
 <i class="fa fa-arrow-down"></i></a></center>
 {{/unless}}
 {{/if}}
-{{/conditional-loading-spinner}}
