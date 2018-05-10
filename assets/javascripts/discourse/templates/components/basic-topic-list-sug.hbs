@@ -1,12 +1,8 @@
 {{#conditional-loading-spinner condition=loading}}
-
-
 {{#if topics}} 
 
 <h3 class="sidebar-sug">Рекомендованные</h3>
-
-
-    {{topic-list-sug showParticipants=showParticipants
+{{topic-list-sug showParticipants=showParticipants
                  showPosters=showPosters
                  hideCategory=hideCategory
                  topics=topics
@@ -15,11 +11,8 @@
                  canBulkSelect=canBulkSelect
                  selected=selected
                  skipHeader=skipHeader}}
-                 
 <a href="https://toxu.ru/top" class="ser cvet">Посмотреть популярные вопросы...</a>
-
 <hr class="shar"> 
-
 <div class="share2">
 <a rel="nofollow" class="soc-link" href="http://www.facebook.com/sharer.php?u=https://toxu.ru{{unbound url}}" target="_blank">
 <i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -34,13 +27,10 @@
 <a class="cvet" href="https://toxu.ru{{unbound url}}" id="scroll-top" style="display: inline;"><i class="fa fa-arrow-up"></i></a>
 </div>
 
-
 {{else}}
 {{#unless loadingMore}}
-<div class='alert alert-info'>
-В этом вопросе более 30 ответов. Вы можете продолжить чтение, или перейдите к последнему ответу. 
-</div>
-<center><a class="cvet" href="https://toxu.ru{{unbound url}}/500" id="scroll-bottom" style="display: inline;"><i class="fa fa-arrow-down"></i></a></center>
+<center><a class="cvet" href="https://toxu.ru{{unbound url}}/500" id="scroll-bottom" style="display: inline;"><small>к последнему ответу</small><br>
+<i class="fa fa-arrow-down"></i></a></center>
 {{/unless}}
 {{/if}}
 {{/conditional-loading-spinner}}
