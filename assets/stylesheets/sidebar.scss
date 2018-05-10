@@ -262,13 +262,12 @@ font-weight: 300;line-height: 1.2em;border-radius: 12px;cursor: pointer;margin-r
 }
 
 /*footer*/
-.bottom_footer {border-top:1px solid #E0E4E7;font-size:14px;margin-top:15px;color:#888}
-.footer-copyright {float:left;}
-.f-copyright img {float: left;margin-top: 2px;margin-right: 8px;}
-.footer_social_nav {
-float: right;margin-top: -53px;
-ul li {float: left;position: relative;}
-ul li+li {margin-left: 20px;}}
+.footer-toxu {background-color:#fff;color:#666;width:100%;}
+.footer_column{font-size:13px;line-height: 18px;text-align:center;padding:20px;margin-top:50px;border-top: 1px solid #e2e2e2;}
+.footer_column a {color:#666;}
+.footer_column a:hover {color:#f56400;}
+.one{margin-bottom:10px;}
+.links{margin-left:16px;}
 
 /*раздел категории*/
 body[class*="navigation-categories"] #main-outlet .container.list-container.has-sidebar {width: 100%;float: left;}
