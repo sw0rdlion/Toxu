@@ -202,8 +202,9 @@ a.reply-to-tab img.avatar, .user-signature, .names span.full-name, .avatar-flair
 .topic-avatar { width: 20px;}
 .topic-body .regular {margin-top: 1px;}
 .topic-body { max-width: 657px;border-right: none;padding: 5px 11px 0 11px;}
-.topic-body .contents .cooked {font-size: 0.97em;}
+.topic-body .contents .cooked {font-size: 0.97em; }
 nav.post-controls button {font-size: 1em;}	
+.who-liked {margin-top: 1px;}
 }
 
 /*ПМ и комм*/
