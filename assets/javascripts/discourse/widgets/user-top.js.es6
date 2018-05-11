@@ -10,7 +10,7 @@ export default createWidget('user-top', {
     
   var id;
   var username;
-  var avatar_template;
+  var avatar;
   
   $.ajax({
   url: "/top/monthly.json",
@@ -23,13 +23,16 @@ export default createWidget('user-top', {
  for (var t = 0; t < users.length; t++) {
  id = users[t].id;
  username = users[t].username; 
- avatar_template = users[t].avatar_template; 
+ avatar = users[t].avatar_template; 
+   
+ const ava = avatar.replace('{size}', '75');  
+   
 
 contents.push( new RawHtml({ html: `<div class="prof-blog-2">
  
 <div class="prof-num"><a title="German" target="_blank" href="https://toxu.ru/profile/${username}">
 
-<img alt="${username}" src="${avatar_template}" width="64" height="64" class="avatar"></a></div>
+<img alt="${username}" src="${ava}" width="64" height="64" class="avatar"></a></div>
 
 <div class="prof-txt"><a title="${username}" target="_blank" href="https://toxu.ru/profile/${username}" class="cvet">${username}</a></div>
  
