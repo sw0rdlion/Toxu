@@ -24,11 +24,7 @@ export default createWidget('link-top', {
  title = topics[t].title;
  slug = topics[t].slug; 
 
- contents.push( new RawHtml({ html: ` </div> ${title}
-
-</div> `})
- 
- ); 
+ contents.push( new RawHtml({ html: ` <div class="topic-list-item-sug"><a href="/t/${slug}">${title}</a></div>`})); 
    
  }
  }
