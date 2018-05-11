@@ -23,6 +23,11 @@ a.ser{color: #666;margin-bottom: 2px;}
 .prof-num-u {color: #f56400; text-align: center; font-size: 3em;font-family: Georgia,Arial,sans-serif;}
 .prof-txt {text-align:center;font-size:1.4em;color:#666;font-family: Georgia,Arial,sans-serif;font-weight: 300;}
 
+@media (max-width: 850px){
+.prof-num, h1.prof {font-size: 2em;}
+.prof-txt, h3.user {font-size: 1em;}
+.prof-num img.avatar {width: 34px;height:34px;}  
+}
 
 .d-editor-textarea-wrapper-info  {
     display: block;
