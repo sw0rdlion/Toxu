@@ -7,8 +7,7 @@ class ProfileController < ApplicationController
   def show
     
   @user = fetch_user_from_params(
-      { include_inactive: current_user.try(:staff?) || (current_user && SiteSetting.show_inactive_accounts) },
-      [{ user_profile: :card_image_badge }]
+      { include_inactive: current_user.try(:staff?) || (current_user && SiteSetting.show_inactive_accounts) }
   )
     
      
