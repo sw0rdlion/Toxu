@@ -21,9 +21,9 @@ export default createWidget('link-top', {
  var topics = data.topic_list.topics;
  
  for (var t = 0; t < topics.length; t++) {
+ if(t >2) break;  
  title = topics[t].title;
  slug = topics[t].slug; 
-
  contents.push( new RawHtml({ html: ` <div class="topic-list-item-sug"><a href="/t/${slug}">${title}</a></div>`})); 
    
  }
