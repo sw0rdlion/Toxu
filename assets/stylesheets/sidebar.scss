@@ -265,6 +265,8 @@ font-weight: 300;line-height: 1.2em;border-radius: 12px;cursor: pointer;margin-r
     color:#666; 
    .topic-list-link-top {text-transform: uppercase;font-size: 11px;font-weight: bold;color: #9C988B;}
     hr.link{margin: 8px 0;}
+    .rss-link-top{display: inline-block;float:right;}
+    .topic-list-link-top{display: inline-block;}
    .badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg {display: none !important;}
    .badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg {display: block;margin-top: 15px;}
    .badge-wrapper.bullet span.badge-category {color:#07c;font-size:13px;}
