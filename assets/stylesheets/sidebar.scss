@@ -267,10 +267,11 @@ font-weight: 300;line-height: 1.2em;border-radius: 12px;cursor: pointer;margin-r
     hr.link{margin: 8px 0;}
     .rss-link-top{display: inline-block;float:right;}
     .topic-list-link-top{display: inline-block;}
+    .rss-link-top a  {color: #9C988B;}
    .badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg {display: none !important;}
    .badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg {display: block;margin-top: 15px;}
    .badge-wrapper.bullet span.badge-category {color:#07c;font-size:13px;}
-   .badge-wrapper.bullet span.badge-category:hover {color:#f56400;}
+   .badge-wrapper.bullet span.badge-category:hover, .rss-link-top a:hover {color:#f56400;}
 }
 
 /*footer*/
@@ -304,6 +305,7 @@ body[class*="navigation-categories"] #main-outlet .container.list-container.has-
 .topics-count {float: right;font-weight: normal;font-size: 12px;color: #888;margin-top: 2px;}
 .avacat img {width: 24px;    height: 24px;}
 .category-title-link .category-name {    font-size: 20px;}
+	
 }
 .navigation-categories.categories-list div[data-category-id="4"], 
 .navigation-categories.categories-list div[data-category-id="32"] {display: none;}
