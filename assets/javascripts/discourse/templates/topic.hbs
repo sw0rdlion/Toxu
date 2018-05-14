@@ -323,16 +323,19 @@
 
   {{share-popup topic=model replyAsNewTopic="replyAsNewTopic"}}
 
-  {{#if currentUser.enable_quoting}}
-    {{quote-button quoteState=quoteState selectText=(action "selectText")}}
-  {{/if}}
 {{/discourse-topic}}
 </div>  
+
 <div class="container-bar">
- 
-<noindex><div class="sidebar-top">
-{{suggested-topics-sug topic=model url=model.url}} 
-</div></noindex>
+    <noindex>
+    <div class="sidebar-top">
+    {{suggested-topics-sug topic=model url=model.url}} 
+    </div>
+    </noindex>
+</div>
   
-  </div>
+  {{#if currentUser.enable_quoting}}
+  {{quote-button quoteState=quoteState selectText=(action "selectText")}}
+  {{/if}}
+  
 </div>
