@@ -362,7 +362,7 @@ img.avatar:hover, .d-header #site-logo:hover {opacity: 0.8;}
 span.excerpt{background-color: #fff7e5;display: inline-block;padding: 8px;font-size: 14px;}
 .groups-d { max-width: 1160px;margin-bottom: 25px;background-color: #fff7e5;padding: 8px;line-height: 1.6;font-size: 16px;}
 .menu-panel ul.menu-links li a:hover, .menu-panel ul.menu-links li a:focus, .menu-panel ul li.heading a:hover, .menu-panel ul li.heading a:focus, 
-h3.suggested-topics-message a, .highlight-strong, .footer-message.ember-view h3 a, .topic-post blockquote, aside.quote .title, 
+h3.suggested-topics-message a, .highlight-strong, .footer-message.ember-view h3 a, blockquote, aside.quote .title, 
 .moderator .clearfix > .topic-meta-data > .names span.user-title, .moderator .nav-pills > .topic-meta-data > .names span.user-title, .moderator .container > .topic-meta-data > .names span.user-title, .moderator .wrap > .topic-meta-data > .names span.user-title{
     background-color: #FFF8DC;
 }
