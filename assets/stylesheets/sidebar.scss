@@ -145,7 +145,7 @@ a:hover {color: #f56400;}
 /*new css кнопки*/
 .btn {background: #e7edf3;}
 .btn-danger {color: #fff; background: #e45735;}
-.btn:hover, .btn:focus {background: #d7dfea;color: #222;}
+.btn:hover, .btn:focus {background: #d7dfea;}
 .btn-primary {background: #0095ff;}
 .btn-primary:hover, .btn-primary:active {background: #1b95d2;color: #fff;}
 
@@ -208,7 +208,7 @@ a.reply-to-tab img.avatar, .user-signature, .names span.full-name, .avatar-flair
 .topic-avatar { padding-top: 3px;}
 .topic-avatar { width: 20px;}
 .topic-body .regular {margin-top: 1px;}
-.topic-body { max-width: 657px;border-right: none;padding: 5px 11px 0 11px;}
+.topic-body { max-width: 657px;border-right: none;padding: 5px 11px 0 6px;}
 .topic-body .contents .cooked {font-size: 0.97em; }
 nav.post-controls button {font-size: 1em;}	
 nav.post-controls {    margin-top: -10px;}
