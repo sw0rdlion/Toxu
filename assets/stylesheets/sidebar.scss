@@ -205,7 +205,7 @@ background: #fdfdfd url(https://toxu.ru/uploads/default/original/2X/5/57dc9ca1e3
 img.avatar {border-radius: 5%;}
 .sidebar-top  {display:none;}   
 .topic-post {margin-bottom: 10px;} 
-.topic-body, .topic-avatar {border-top: none;}
+.topic-body, .topic-avatar, .topic-status-info {border-top: none;}
 .timeline-container, #suggested-topics .loading-container.ember-view  {display:block !important;}
 #topic-footer-buttons button.create, #reply-control .btn-primary {color: white; background-color: #306f30}
 .topic-post button.btn-primary.create:after  {content: "комм приватно";}
