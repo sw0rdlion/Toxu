@@ -123,7 +123,7 @@ a.badge-notification{float: right;}
 a.box.bar:hover, .discourse-tag.bullet:hover {color: #f56400;}
 .badge-wrapper.bullet .badge-category-bg:hover {opacity: 1;}
 .badge-notification {color: #f56400 !important;margin-top: 5px;font-size: 13px;background-color: #fff;}
-.badge-wrapper.bullet {font-weight: 300;font-size:13px;padding: 4px 0 4px 0;}
+.badge-wrapper.bullet {padding: 4px 0 4px 0;}
 .badge-wrapper.bullet:hover, .badge-wrapper.bullet span.badge-category:hover, a.cvet:hover {color: #f56400;}
 .cat-link .topics-count {float: right;font-weight: normal;font-size: 12px;color: #888;margin-top: 6px;}
 .cat-link.category-blog {margin-bottom: 15px;}
@@ -154,7 +154,7 @@ a.info{font-size: 16px;}
 .werng i.fa, #banner-nul i.fa {font-size: 1.3em;color: #f56400;float: left;margin: -1px 5px 5px 0;}
 
 /*Навигация категории*/
-.badge-wrapper {font-weight: 300;}
+.badge-wrapper {font-size: 13px;font-weight: 400;}
 .badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg {border-radius: 10px;opacity: 0.6;}
 .title-wrapper .badge-wrapper.bullet {margin-bottom: 3px;}
 
