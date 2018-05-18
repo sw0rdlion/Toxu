@@ -203,6 +203,7 @@ nav.post-controls button.reply.create:after {   content: "комм";}
 background: #fdfdfd url(https://toxu.ru/uploads/default/original/2X/5/57dc9ca1e3af5339abacf4a04fce90a5cb8cb7d8.png) repeat;
 .boxed.onscreen-post {background-color: #fff;padding: 5px;}
 img.avatar {border-radius: 5%;}
+.d-header-icons .icon img.avatar {border-radius: 50%;}
 .sidebar-top  {display:none;}   
 .topic-post {margin-bottom: 10px;} 
 .topic-body, .topic-avatar, .topic-status-info {border-top: none;}
