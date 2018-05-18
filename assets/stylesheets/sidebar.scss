@@ -188,9 +188,12 @@ nav.post-controls {    margin-top: -10px;}
 
 /*ПМ и комм*/
 .post-hidden, .del {
-.topic-avatar, .like-button {display: none !important;}
-.topic-body .regular, p {margin: 0;}
+.topic-avatar, .like-button, .share, .reply {display: none !important;}
+nav.post-controls {font-size: 12px;}
+.topic-body .regular, p, a.expand-hidden {margin: 0;font-size: 14px;}
+.topic-meta-data .post-info {    float: left;}	
 }
+
 .user-messages-page .no-no, .archetype-private_message .no-no, nav.post-controls button.reply.create span.d-button-label {display: none;}
 nav.post-controls button.reply.create:after {   content: "комм";}
 .topic-post.comment nav.post-controls button.reply.create:after {   content: "комм";}
