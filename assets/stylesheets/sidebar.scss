@@ -198,6 +198,7 @@ nav.post-controls button.reply.create:after {   content: "комм";}
 .archetype-private_message {
 background: #fdfdfd url(https://toxu.ru/uploads/default/original/2X/5/57dc9ca1e3af5339abacf4a04fce90a5cb8cb7d8.png) repeat;
 .boxed.onscreen-post {background-color: #fff;padding: 5px;}
+img.avatar {border-radius: 5%;}
 .sidebar-top, .topic-body, .topic-avatar {display:none;}   
 .timeline-container, #suggested-topics .loading-container.ember-view  {display:block !important;}
 #topic-footer-buttons button.create, #reply-control .btn-primary {color: white; background-color: #306f30}
