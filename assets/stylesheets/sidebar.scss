@@ -231,7 +231,7 @@ h2.tag-show-heading a {margin-top: -6px;}
 
 /*блоги*/
 .category-blog { 
-.container.posts, .container, .topic-category, .title-wrapper {margin: 0 auto;}
+.container.posts, .container, .topic-category, .container .title-wrapper {margin: 0 auto;}
 .topic-category {margin-bottom:15px;}
 .container  .title-wrapper {text-align:center;}
 .sidebar-top, #post_1 .topic-avatar, #post_1 .second.full-name, #post_1 .user-title, #post_1 .user-signature {display:none;}
