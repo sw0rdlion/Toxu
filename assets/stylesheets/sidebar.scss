@@ -79,7 +79,7 @@ a.ser{color: #666;margin-bottom: 2px;}
 @media screen and (max-width : 1100px) {#banner-content h1{font-size: 30px;}#banner-content p {font-size:14px;}} 
 
 /*колонки*/
-.sidebar-m {display: none;}
+.sidebar-m, li.nav-item-guidelines {display: none;}
 .sidebar {width: 23%;float: left;}
 .sidebar-fon {padding: 12px 15px 12px 15px;}
 .cat-info {font-size: 13px;color: #666;}
@@ -89,7 +89,6 @@ a.ser{color: #666;margin-bottom: 2px;}
 .list-container.has-sidebar {width: 74%;float:  right;}
 .sidebar-top {max-width: 285px;position: fixed;}
 h1, h2, h3, h4, h5, h6 {font-weight: 400;}
-.timeline-container, li.nav-item-guidelines {display: none;}
 .blog-container {display: none;position: fixed;width: 13%; top: 80px;float: left;background-color: #fff;border: 1px solid #e8e8e8;padding: 15px;}
 a:hover {color: #f56400;}
 
@@ -207,7 +206,7 @@ img.avatar {border-radius: 5%;}
 .sidebar-top  {display:none;}   
 .topic-post {margin-bottom: 10px;} 
 .topic-body, .topic-avatar, .topic-status-info {border-top: none;}
-.timeline-container, #suggested-topics .loading-container.ember-view  {display:block !important;}
+#suggested-topics .loading-container.ember-view  {display:block !important;}
 #topic-footer-buttons button.create, #reply-control .btn-primary {color: white; background-color: #306f30}
 .topic-post button.btn-primary.create:after  {content: "комм приватно";}
 .private-message-map h3:after { content: " (приватно)";} 
@@ -375,7 +374,6 @@ body.category-toxu-regulations { overflow-x: hidden;
 .custom-cat-header p {color: #fff; font-size:17px;padding-bottom: 10px;}
 .custom-cat-header h1 {display: inline-block;margin-top: 20px;color: #fff;border-radius: 5px;width: inherit;}	
 .category-heading, .sidebar-top{display: none;}
-.timeline-container {display: inline-block;}
 .avahome {display: inline-block !important;margin-top: 1px;}
 }
 
@@ -383,7 +381,6 @@ body.category-toxu-regulations { overflow-x: hidden;
 html.mobile-view {
 .sidebar, .user-signature, .category-heading, #banner-content, .category-logo, .sidebar-top, #reply-control .d-editor-button-bar .quote.btn, 
  #scroll-bottom, #scroll-top, .category-list  .category-description, .container-bar {display: none !important;}
-.timeline-container {display: block;}
 .navigation-categories {th.latest, td.latest {display: none;}.category {width: 99%;}}
 .topic-post.comment .topic-avatar {padding-top: 0;}
 .list-container.has-sidebar, .container-telo {width: 100%;}
